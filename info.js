@@ -153,13 +153,16 @@ module.exports = function( grunt ) {
       notes: 'only used with canvg'
     },
     'seedrandom-2.2': {
-      text: '',
-      usage: [],
+      text: 'seedrandom.js version 2.2.\n' +
+            'Copyright 2013 David Bau, all rights reserved.\n' +
+            'LICENSE (BSD)',
+      usage: ['sim'],
       notes: ''
     },
     'stats.min.js': {
-      text: '',
-      usage: [],
+      text: 'stats.js - Copyright (c) 2009-2012 Mr.doob\n' +
+            'MIT License, http://github.com/mrdoob/stats.js',
+      usage: ['development'],
       notes: ''
     }
   };
