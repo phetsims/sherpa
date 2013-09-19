@@ -1,0 +1,9 @@
+From https://github.com/phiggins42/has.js/
+##############
+License
+
+Tentatively, has.js is available under the Academic Free License, New BSD License, and the MIT License. Providing this common code under multiple licenses requires us to have all contributors agree to a CLA.
+
+#############
+
+No copyright holders listed
