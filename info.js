@@ -66,15 +66,18 @@ module.exports = function( grunt ) {
       usage: ['development'],
       notes: ''
     },
+    'font-awesome': {
+      text: 'Font Awesome 3.2.1 · Created and Maintained by Dave Gandy\nFont Awesome licensed under SIL OFL 1.1\nhttp://scripts.sil.org/OFL',
+      usage: ['sim'],
+      notes: ''
+    },
     'has.js': {
-      text: 'License\n' +
-            '\n' +
-            'Tentatively, has.js is available under the Academic Free License, New BSD License, and the MIT License. Providing this common code under multiple licenses requires us to have all contributors agree to a CLA.',
+      text: 'has.js, Tentatively, has.js is available under the Academic Free License, New BSD License, and the MIT License. Providing this common code under multiple licenses requires us to have all contributors agree to a CLA.',
       usage: ['sim'],
       notes: ''
     },
     'i18n-2.0.4': {
-      text: '@license RequireJS i18n 2.0.4 Copyright (c) 2010-2012, The Dojo Foundation All Rights Reserved.\n' +
+      text: 'RequireJS i18n 2.0.4 Copyright (c) 2010-2012, The Dojo Foundation All Rights Reserved.\n' +
             'Available via the MIT or new BSD license.\n' +
             'see: http://github.com/requirejs/i18n for details',
       usage: ['sim'],
@@ -93,9 +96,7 @@ module.exports = function( grunt ) {
             'http://sizzlejs.com/\n' +
             '\n' +
             'Copyright 2005, 2013 jQuery Foundation, Inc. and other contributors\nReleased under the MIT license\n' +
-            'http://jquery.org/license\n' +
-            '\n' +
-            'Date: 2013-07-03T13:30Z',
+            'http://jquery.org/license',
       usage: ['sim']
     },
     'jshint-2.1.2': {
@@ -155,7 +156,7 @@ module.exports = function( grunt ) {
     'seedrandom-2.2': {
       text: 'seedrandom.js version 2.2.\n' +
             'Copyright 2013 David Bau, all rights reserved.\n' +
-            'LICENSE (BSD)',
+            'LICENSE (BSD), https://github.com/davidbau/seedrandom/blob/master/seedrandom.js',
       usage: ['sim'],
       notes: ''
     },
