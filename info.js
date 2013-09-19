@@ -1,20 +1,6 @@
 //License info for all of the projects
 module.exports = function( grunt ) {
   var licenseInfo = {
-    'almond-0.2.6.js': {
-      text: 'almond 0.2.6 Copyright (c) 2011-2012, The Dojo Foundation All Rights Reserved.\n' +
-            'Available via the MIT or new BSD license.\n' +
-            'see: http://github.com/jrburke/almond for details',
-      usage: ['sim']
-    },
-    'benchmark-1.0.0.js': {
-      text: 'Benchmark.js v1.0.0 <http://benchmarkjs.com/>\n' +
-            'Copyright 2010-2012 Mathias Bynens <http://mths.be/>\n' +
-            'Based on JSLitmus.js, copyright Robert Kieffer <http://broofa.com/>\n' +
-            'Modified by John-David Dalton <http://allyoucanleet.com/>\n' +
-            'Available under MIT license <http://mths.be/mit>',
-      usage: ['development']
-    },
     'syntaxhighlighter-3.0.83': {
       text: 'SyntaxHighlighter\n' +
             'http://alexgorbatchev.com/SyntaxHighlighter\n' +
@@ -32,6 +18,20 @@ module.exports = function( grunt ) {
             'Dual licensed under the MIT and GPL licenses.',
       usage: ['docs']
     },
+    'almond-0.2.6': {
+      text: 'almond 0.2.6 Copyright (c) 2011-2012, The Dojo Foundation All Rights Reserved.\n' +
+            'Available via the MIT or new BSD license.\n' +
+            'see: http://github.com/jrburke/almond for details',
+      usage: ['sim']
+    },
+    'benchmark-1.0.0': {
+      text: 'Benchmark.js v1.0.0 <http://benchmarkjs.com/>\n' +
+            'Copyright 2010-2012 Mathias Bynens <http://mths.be/>\n' +
+            'Based on JSLitmus.js, copyright Robert Kieffer <http://broofa.com/>\n' +
+            'Modified by John-David Dalton <http://allyoucanleet.com/>\n' +
+            'Available under MIT license <http://mths.be/mit>',
+      usage: ['development']
+    },
     'bootstrap-2.2.2': {
       text: 'Bootstrap v2.2.2\n' +
             '\n' +
@@ -40,16 +40,30 @@ module.exports = function( grunt ) {
             'http://www.apache.org/licenses/LICENSE-2.0\n' +
             '\n' +
             'Designed and built with all the love in the world @twitter by @mdo and @fat.',
-      usage: ['docs']
+      usage: ['docs'],
+      notes: ''
     },
     'canvg-1.2': {
-      text: '',
+      text: 'canvg.js - Javascript SVG parser and renderer on Canvas\n' +
+            'MIT Licensed\n' +
+            'Gabe Lerner (gabelerner@gmail.com)\n' +
+            'http://code.google.com/p/canvg/\n' +
+            '\n' +
+            'Requires: rgbcolor.js - http://www.phpied.com/rgb-color-parser-in-javascript/',
       usage: ['development'],
-      notes: 'used in scenery unit tests'
+      notes: 'used in scenery unit tests, may be used in sims later on if we convert SVG=>canvas'
     },
     'easeljs-0.5.0.min.js': {
-      text: '',
-      usage: [],
+      text: 'EaselJS\n' +
+            'Visit http://createjs.com/ for documentation, updates and examples.\n' +
+            '\n' +
+            'Copyright (c) 2011 gskinner.com, inc.\n' +
+            '\n' +
+            'Distributed under the terms of the MIT license.\n' +
+            'http://www.opensource.org/licenses/mit-license.html\n' +
+            '\n' +
+            'This notice shall be included in all copies or substantial portions of the Software.',
+      usage: ['development'],
       notes: ''
     },
     'has.js': {
