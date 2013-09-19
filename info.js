@@ -67,18 +67,22 @@ module.exports = function( grunt ) {
       notes: ''
     },
     'has.js': {
-      text: '',
-      usage: [],
+      text: 'License\n' +
+            '\n' +
+            'Tentatively, has.js is available under the Academic Free License, New BSD License, and the MIT License. Providing this common code under multiple licenses requires us to have all contributors agree to a CLA.',
+      usage: ['sim'],
       notes: ''
     },
     'i18n-2.0.4': {
-      text: '',
-      usage: [],
+      text: '@license RequireJS i18n 2.0.4 Copyright (c) 2010-2012, The Dojo Foundation All Rights Reserved.\n' +
+            'Available via the MIT or new BSD license.\n' +
+            'see: http://github.com/requirejs/i18n for details',
+      usage: ['sim'],
       notes: ''
     },
-    'jquery.mobile-1.3.1.min.css': {
-      text: '',
-      usage: [],
+    'jquery.mobile-1.3.1': {
+      text: 'jQuery Mobile 1.3.1 | Git HEAD hash: 74b4bec <> 2013-04-08T19:41:28Z | (c) 2010, 2013 jQuery Foundation, Inc. | jquery.org/license',
+      usage: ['development'],
       notes: ''
     },
     'jquery-2.0.3': {
@@ -95,41 +99,58 @@ module.exports = function( grunt ) {
       usage: ['sim']
     },
     'jshint-2.1.2': {
-      text: '',
-      usage: [],
+      text: 'Copyright 2012 Anton Kovalyov (http://jshint.com) MIT License, https://github.com/jshint/jshint/blob/master/LICENSE',
+      usage: ['development'],
       notes: ''},
     'lodash-2.0.0': {
-      text: '',
-      usage: [],
+      text: 'Lo-Dash 2.0.0 (Custom Build) <http://lodash.com/>\nBuild: `lodash modern -o ./dist/lodash.js`\nCopyright 2012-2013 The Dojo Foundation <http://dojofoundation.org/>\nBased on Underscore.js 1.5.2 <http://underscorejs.org/LICENSE>\nCopyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors\nAvailable under MIT license <http://lodash.com/license>',
+      usage: ['sim'],
       notes: ''},
     'numeric-1.2.6': {
-      text: '',
-      usage: [],
+      text: 'Numeric Javascript\n' +
+            'Copyright (C) 2011 by Sébastien Loisel MIT License, https://github.com/sloisel/numeric/blob/master/license.txt',
+      usage: ['sim'],
       notes: ''},
     'PxLoader': {
-      text: '',
-      usage: [],
+      text: 'PxLoader\n' +
+            'Copyright (c) 2012 Pixel Lab\n' +
+            'MIT License\n' +
+            'https://github.com/thinkpixellab/PxLoader',
+      usage: ['sim'],
       notes: ''
     },
     'qhint': {
-      text: '',
-      usage: [],
+      text: 'qHint 1.0 | http://gyoshev.mit-license.org',
+      usage: ['development'],
       notes: ''
     },
     'qunit-1.12.0': {
-      text: '',
-      usage: [],
+      text: 'QUnit v1.12.0 - A JavaScript Unit Testing Framework\n' +
+            '\n' +
+            'http://qunitjs.com\n' +
+            '\n' +
+            'Copyright 2013 jQuery Foundation and other contributors\n' +
+            'Released under the MIT license.\n' +
+            'https://jquery.org/license/',
+      usage: ['development'],
       notes: ''
     },
     'require-2.1.8': {
-      text: '',
+      text: 'RequireJS 2.1.8 Copyright (c) 2010-2012, The Dojo Foundation All Rights Reserved.\n' +
+            'Available via the MIT or new BSD license.\n' +
+            'see: http://github.com/jrburke/requirejs for details',
       usage: [],
       notes: ''
     },
     'rgbcolor': {
-      text: '',
-      usage: [],
-      notes: ''
+      text: 'rgbcolor\n' +
+            '- packaged with canvg-1.2\n' +
+            'A class to parse color values\n' +
+            '@author Stoyan Stefanov <sstoo@gmail.com>\n' +
+            '@link   http://www.phpied.com/rgb-color-parser-in-javascript/\n' +
+            '@license Use it if you like it',
+      usage: ['development'],
+      notes: 'only used with canvg'
     },
     'seedrandom-2.2': {
       text: '',
