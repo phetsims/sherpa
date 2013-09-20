@@ -71,8 +71,9 @@ module.exports = function( grunt ) {
       usage: ['sim'],
       notes: ''
     },
-    'has.js': {
-      text: 'has.js, Tentatively, has.js is available under the Academic Free License, New BSD License, and the MIT License. Providing this common code under multiple licenses requires us to have all contributors agree to a CLA.',
+    'has': {
+      text: 'has.js, Tentatively, has.js is available under the Academic Free License, New BSD License, and the MIT License.\n' +
+            'https://github.com/phiggins42/has.js/',
       usage: ['sim'],
       notes: ''
     },
@@ -160,7 +161,7 @@ module.exports = function( grunt ) {
       usage: ['sim'],
       notes: ''
     },
-    'stats.min.js': {
+    'stats.min': {
       text: 'stats.js - Copyright (c) 2009-2012 Mr.doob\n' +
             'MIT License, http://github.com/mrdoob/stats.js',
       usage: ['development'],
