@@ -1,4 +1,11 @@
-//License info for all of the projects
+/**
+ * License info for all of the projects
+ * The license text is taken directly from a published .js file where available
+ *
+ * Below, `selectedLicense` indicates which license PhET has selected to use for a library available under multiple licenses.
+ *
+ * @author Sam Reid
+ */
 module.exports = function( grunt ) {
   var licenseInfo = {
     'syntaxhighlighter-3.0.83': {
@@ -16,13 +23,15 @@ module.exports = function( grunt ) {
             '\n' +
             '@license\n' +
             'Dual licensed under the MIT and GPL licenses.',
-      usage: ['docs']
+      usage: ['docs'],
+      selectedLicense: 'MIT'
     },
     'almond-0.2.6': {
       text: 'almond 0.2.6 Copyright (c) 2011-2012, The Dojo Foundation All Rights Reserved.\n' +
             'Available via the MIT or new BSD license.\n' +
             'see: http://github.com/jrburke/almond for details',
-      usage: ['sim']
+      usage: ['sim'],
+      selectedLicense: 'MIT'
     },
     'benchmark-1.0.0': {
       text: 'Benchmark.js v1.0.0 <http://benchmarkjs.com/>\n' +
@@ -67,7 +76,9 @@ module.exports = function( grunt ) {
       notes: ''
     },
     'font-awesome': {
-      text: 'Font Awesome 3.2.1 · Created and Maintained by Dave Gandy\nFont Awesome licensed under SIL OFL 1.1\nhttp://scripts.sil.org/OFL',
+      text: 'Font Awesome 3.2.1 · Created and Maintained by Dave Gandy\n' +
+            'Font Awesome licensed under SIL OFL 1.1\n' +
+            'http://scripts.sil.org/OFL',
       usage: ['sim'],
       notes: ''
     },
@@ -75,14 +86,16 @@ module.exports = function( grunt ) {
       text: 'has.js, Tentatively, has.js is available under the Academic Free License, New BSD License, and the MIT License.\n' +
             'https://github.com/phiggins42/has.js/',
       usage: ['sim'],
-      notes: ''
+      notes: '',
+      selectedLicense: 'MIT'
     },
     'i18n-2.0.4': {
       text: 'RequireJS i18n 2.0.4 Copyright (c) 2010-2012, The Dojo Foundation All Rights Reserved.\n' +
             'Available via the MIT or new BSD license.\n' +
             'see: http://github.com/requirejs/i18n for details',
       usage: ['sim'],
-      notes: ''
+      notes: '',
+      selectedLicense: 'MIT'
     },
     'jquery.mobile-1.3.1': {
       text: 'jQuery Mobile 1.3.1 | Git HEAD hash: 74b4bec <> 2013-04-08T19:41:28Z | (c) 2010, 2013 jQuery Foundation, Inc. | jquery.org/license',
@@ -105,7 +118,11 @@ module.exports = function( grunt ) {
       usage: ['development'],
       notes: ''},
     'lodash-2.0.0': {
-      text: 'Lo-Dash 2.0.0 (Custom Build) <http://lodash.com/>\nBuild: `lodash modern -o ./dist/lodash.js`\nCopyright 2012-2013 The Dojo Foundation <http://dojofoundation.org/>\nBased on Underscore.js 1.5.2 <http://underscorejs.org/LICENSE>\nCopyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors\nAvailable under MIT license <http://lodash.com/license>',
+      text: 'Lo-Dash 2.0.0 (Custom Build) <http://lodash.com/>\n' +
+            'Build: `lodash modern -o ./dist/lodash.js`\n' +
+            'Copyright 2012-2013 The Dojo Foundation <http://dojofoundation.org/>\nBased on Underscore.js 1.5.2 <http://underscorejs.org/LICENSE>\n' +
+            'Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors\n' +
+            'Available under MIT license <http://lodash.com/license>',
       usage: ['sim'],
       notes: ''},
     'numeric-1.2.6': {
@@ -142,7 +159,8 @@ module.exports = function( grunt ) {
             'Available via the MIT or new BSD license.\n' +
             'see: http://github.com/jrburke/requirejs for details',
       usage: [],
-      notes: ''
+      notes: '',
+      selectedLicense: 'MIT'
     },
     'rgbcolor': {
       text: 'rgbcolor\n' +
