@@ -130,14 +130,6 @@ module.exports = function( grunt ) {
             'Copyright (C) 2011 by Sébastien Loisel MIT License, https://github.com/sloisel/numeric/blob/master/license.txt',
       usage: ['sim'],
       notes: ''},
-    'PxLoader': {
-      text: 'PxLoader\n' +
-            'Copyright (c) 2012 Pixel Lab\n' +
-            'MIT License\n' +
-            'https://github.com/thinkpixellab/PxLoader',
-      usage: ['sim'],
-      notes: ''
-    },
     'qhint': {
       text: 'qHint 1.0 | http://gyoshev.mit-license.org',
       usage: ['development'],
