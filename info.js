@@ -33,6 +33,13 @@ module.exports = function( grunt ) {
       usage: ['sim'],
       selectedLicense: 'MIT'
     },
+    'base64binary': {
+      text: 'base64binary Copyright (c) 2011, Daniel Guerrero\n' +
+            'Available via BSD license.\n' +
+            'see: https://github.com/danguer/blog-examples/blob/master/js/base64-binary.js for details',
+      usage: ['sim'],
+      selectedLicense: 'MIT'
+    },
     'benchmark-1.0.0': {
       text: 'Benchmark.js v1.0.0 <http://benchmarkjs.com/>\n' +
             'Copyright 2010-2012 Mathias Bynens <http://mths.be/>\n' +
