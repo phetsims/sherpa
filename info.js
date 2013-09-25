@@ -130,6 +130,14 @@ module.exports = function( grunt ) {
             'Copyright (C) 2011 by Sébastien Loisel MIT License, https://github.com/sloisel/numeric/blob/master/license.txt',
       usage: ['sim'],
       notes: ''},
+    'pegjs': {
+      text: 'pegjs\n' +
+            'Copyright (c) 2010-2012 David Majda\n' +
+            'MIT License\n' +
+            'http://pegjs.majda.cz/',
+      usage: ['sim'],
+      notes: ''
+    },
     'qhint': {
       text: 'qHint 1.0 | http://gyoshev.mit-license.org',
       usage: ['development'],
@@ -150,6 +158,14 @@ module.exports = function( grunt ) {
       text: 'RequireJS 2.1.8 Copyright (c) 2010-2012, The Dojo Foundation All Rights Reserved.\n' +
             'Available via the MIT or new BSD license.\n' +
             'see: http://github.com/jrburke/requirejs for details',
+      usage: [],
+      notes: '',
+      selectedLicense: 'MIT'
+    },
+    'require-i18n': {
+      text: 'RequireJS 2.1.8 Copyright (c) 2010-2012, The Dojo Foundation All Rights Reserved.\n' +
+            'Available via the MIT or new BSD license.\n' +
+            'see: https://github.com/requirejs/i18n for details',
       usage: [],
       notes: '',
       selectedLicense: 'MIT'
