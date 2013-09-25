@@ -89,7 +89,8 @@ module.exports = function( grunt ) {
       notes: ''
     },
     'has': {
-      text: 'has.js, Tentatively, has.js is available under the Academic Free License, New BSD License, and the MIT License.\n' +
+      text: 'has.js Copyright (c) 2010-2013, The Dojo Foundation All Rights Reserved.\n' +
+            'Tentatively, has.js is available under the Academic Free License, New BSD License, and the MIT License.\n' +
             'https://github.com/phiggins42/has.js/',
       usage: ['sim'],
       notes: '',
