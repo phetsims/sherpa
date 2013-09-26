@@ -82,7 +82,7 @@ module.exports = function( grunt ) {
       notes: ''
     },
     'font-awesome': {
-      text: 'Font Awesome 3.2.1 · Created and Maintained by Dave Gandy\n' +
+      text: 'Font Awesome by Dave Gandy - http://fontawesome.io\n' +
             'Font Awesome licensed under SIL OFL 1.1\n' +
             'http://scripts.sil.org/OFL',
       usage: ['sim'],
