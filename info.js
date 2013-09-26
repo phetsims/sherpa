@@ -89,7 +89,7 @@ module.exports = function( grunt ) {
       notes: ''
     },
     'has': {
-      text: 'has.js Copyright (c) 2010-2013, The Dojo Foundation All Rights Reserved.\n' +
+      text: 'has.js Copyright (c) 2010-2013 John David Dalton, Brad Dougherty, Bryan Forbes, Ryan Grove, Andrée Hansson, Peter Higgins, Paul Irish, Weston Ruter, Rick Waldron, Juriy Zaytsev\n' +
             'Tentatively, has.js is available under the Academic Free License, New BSD License, and the MIT License.\n' +
             'https://github.com/phiggins42/has.js/',
       usage: ['sim'],
