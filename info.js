@@ -96,14 +96,6 @@ module.exports = function( grunt ) {
       notes: '',
       selectedLicense: 'MIT'
     },
-    'i18n-2.0.4': {
-      text: 'RequireJS i18n 2.0.4 Copyright (c) 2010-2012, The Dojo Foundation All Rights Reserved.\n' +
-            'Available via the MIT or new BSD license.\n' +
-            'see: http://github.com/requirejs/i18n for details',
-      usage: ['sim'],
-      notes: '',
-      selectedLicense: 'MIT'
-    },
     'jquery.mobile-1.3.1': {
       text: 'jQuery Mobile 1.3.1 | Git HEAD hash: 74b4bec <> 2013-04-08T19:41:28Z | (c) 2010, 2013 jQuery Foundation, Inc. | jquery.org/license',
       usage: ['development'],
