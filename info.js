@@ -117,7 +117,7 @@ module.exports = function( grunt ) {
       text: 'Copyright 2012 Anton Kovalyov (http://jshint.com) MIT License, https://github.com/jshint/jshint/blob/master/LICENSE',
       usage: ['development'],
       notes: ''},
-    'lodash-2.0.0': {
+    'lodash-2.4.1': {
       text: 'Lo-Dash 2.0.0 (Custom Build) <http://lodash.com/>\n' +
             'Build: `lodash modern -o ./dist/lodash.js`\n' +
             'Copyright 2012-2013 The Dojo Foundation <http://dojofoundation.org/>\nBased on Underscore.js 1.5.2 <http://underscorejs.org/LICENSE>\n' +
