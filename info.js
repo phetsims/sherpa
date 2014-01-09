@@ -26,8 +26,8 @@ module.exports = function( grunt ) {
       usage: ['docs'],
       selectedLicense: 'MIT'
     },
-    'almond-0.2.6': {
-      text: 'almond 0.2.6 Copyright (c) 2011-2012, The Dojo Foundation All Rights Reserved.\n' +
+    'almond-0.2.9': {
+      text: 'almond 0.2.9 Copyright (c) 2011-2014, The Dojo Foundation All Rights Reserved.\n' +
             'Available via the MIT or new BSD license.\n' +
             'see: http://github.com/jrburke/almond for details',
       usage: ['sim'],
