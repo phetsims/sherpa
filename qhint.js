@@ -1,4 +1,4 @@
-/*! qHint 1.0 | http://gyoshev.mit-license.org */
+/*! qHint 1.1 | http://gyoshev.mit-license.org */
 (function() {
     var qHint =
         window.jsHintTest =
@@ -26,22 +26,9 @@
             };
 
     qHint.validateFile = function (source, options, globals) {
-        var i, len, err,
-            result,
-            showUnused, unused, unvar;
+        var i, len, err;
 
-        if (options && options.unused) {
-            showUnused = true;
-            delete options.unused;
-        }
-
-        result = JSHINT(source, options, globals);
-
-        if (showUnused) {
-            unused = JSHINT.data().unused;
-        }
-
-        if (result && !unused) {
+        if (JSHINT(source, options, globals)) {
             ok(true);
             return;
         }
@@ -55,14 +42,6 @@
             ok(false, err.reason +
                 " on line " + err.line +
                 ", character " + err.character);
-        }
-
-        if (unused) {
-            for (i = 0, len = unused.length; i < len; i++) {
-                unvar = unused[i];
-                ok(false, "unused variable " + unvar.name +
-                          " on line " + unvar.line);
-            }
         }
     };
 
