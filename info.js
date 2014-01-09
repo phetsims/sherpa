@@ -113,6 +113,10 @@ module.exports = function( grunt ) {
       text: 'Copyright 2012 Anton Kovalyov (http://jshint.com) MIT License, https://github.com/jshint/jshint/blob/master/LICENSE',
       usage: ['development'],
       notes: ''},
+    'jshint-2.4.1': {
+      text: 'Copyright 2012 Anton Kovalyov (http://jshint.com) MIT License, https://github.com/jshint/jshint/blob/master/LICENSE',
+      usage: ['development'],
+      notes: ''},
     'lodash-2.0.0': {
       text: 'Lo-Dash 2.0.0 (Custom Build) <http://lodash.com/>\n' +
             'Build: `lodash modern -o ./dist/lodash.js`\n' +
@@ -135,7 +139,7 @@ module.exports = function( grunt ) {
       notes: ''
     },
     'qhint': {
-      text: 'qHint 1.0 | http://gyoshev.mit-license.org',
+      text: 'qHint 1.1 | http://gyoshev.mit-license.org',
       usage: ['development'],
       notes: ''
     },
