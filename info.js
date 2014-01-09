@@ -109,12 +109,8 @@ module.exports = function( grunt ) {
             'http://jquery.org/license',
       usage: ['sim']
     },
-    'jshint-2.1.2': {
-      text: 'Copyright 2012 Anton Kovalyov (http://jshint.com) MIT License, https://github.com/jshint/jshint/blob/master/LICENSE',
-      usage: ['development'],
-      notes: ''},
     'jshint-2.4.1': {
-      text: 'Copyright 2012 Anton Kovalyov (http://jshint.com) MIT License, https://github.com/jshint/jshint/blob/master/LICENSE',
+      text: 'Copyright 2013 Anton Kovalyov (http://jshint.com) MIT License, https://github.com/jshint/jshint/blob/master/LICENSE',
       usage: ['development'],
       notes: ''},
     'lodash-2.4.1': {
