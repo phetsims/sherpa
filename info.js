@@ -196,6 +196,14 @@ module.exports = function( grunt ) {
       usage: ['sim'],
       notes: '',
       selectedLicense: 'MIT'
+    },
+    'Tween-r12': {
+      text: 'tween.js - http://github.com/sole/tween.js\n' +
+            'The MIT License\n' +
+            'Copyright (c) 2010-2012 Tween.js authors.\n' +
+            'Easing equations Copyright (c) 2001 Robert Penner http://robertpenner.com/easing/ under BSD license, see http://robertpenner.com/easing_terms_of_use.html',
+      usage: ['sim'],
+      notes: ''
     }
   };
   return licenseInfo;
