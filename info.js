@@ -121,12 +121,12 @@ module.exports = function( grunt ) {
       usage: ['development'],
       notes: ''
     },
-    'qunit-1.12.0': {
-      text: 'QUnit v1.12.0 - A JavaScript Unit Testing Framework\n' +
+    'qunit-1.14.0': {
+      text: 'QUnit v1.14.0 - A JavaScript Unit Testing Framework\n' +
             '\n' +
             'http://qunitjs.com\n' +
             '\n' +
-            'Copyright 2013 jQuery Foundation and other contributors\n' +
+            'Copyright 2014 jQuery Foundation and other contributors\n' +
             'Released under the MIT license.\n' +
             'https://jquery.org/license/',
       usage: ['development'],
