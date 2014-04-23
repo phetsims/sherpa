@@ -58,7 +58,7 @@ module.exports = function( grunt ) {
       usage: ['docs'],
       notes: ''
     },
-    'canvg-1.2': {
+    'canvg-1.3': {
       text: 'canvg.js - Javascript SVG parser and renderer on Canvas\n' +
             'MIT Licensed\n' +
             'Gabe Lerner (gabelerner@gmail.com)\n' +
@@ -150,7 +150,7 @@ module.exports = function( grunt ) {
     },
     'rgbcolor': {
       text: 'rgbcolor\n' +
-            '- packaged with canvg-1.2\n' +
+            '- packaged with canvg-1.3\n' +
             'A class to parse color values\n' +
             '@author Stoyan Stefanov <sstoo@gmail.com>\n' +
             '@link   http://www.phpied.com/rgb-color-parser-in-javascript/\n' +
