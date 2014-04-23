@@ -101,8 +101,8 @@ module.exports = function( grunt ) {
       usage: ['development'],
       notes: ''
     },
-    'jquery-2.0.3': {
-      text: 'jQuery JavaScript Library v2.0.n (includes Sizzle.js) Copyright 2005, 2013 jQuery Foundation, Inc. and other contributors\n' +
+    'jquery-2.1.0': {
+      text: 'jQuery JavaScript Library v2.1.0 (includes Sizzle.js) Copyright 2005, 2014 jQuery Foundation, Inc. and other contributors\n' +
             'http://jquery.com/\n' +
             'http://sizzlejs.com/\n' +
             'Released under the MIT license\n' +
