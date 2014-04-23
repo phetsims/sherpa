@@ -132,7 +132,7 @@ module.exports = function( grunt ) {
       usage: ['development'],
       notes: ''
     },
-    'require-2.1.10': {
+    'require-2.1.11': {
       text: 'RequireJS 2.1.10 Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved.\n' +
             'Available via the MIT or new BSD license.\n' +
             'see: http://github.com/jrburke/requirejs for details',
