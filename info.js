@@ -68,19 +68,6 @@ module.exports = function( grunt ) {
       usage: ['development'],
       notes: 'used in scenery unit tests, may be used in sims later on if we convert SVG=>canvas'
     },
-    'easeljs-0.5.0.min.js': {
-      text: 'EaselJS\n' +
-            'Visit http://createjs.com/ for documentation, updates and examples.\n' +
-            '\n' +
-            'Copyright (c) 2011 gskinner.com, inc.\n' +
-            '\n' +
-            'Distributed under the terms of the MIT license.\n' +
-            'http://www.opensource.org/licenses/mit-license.html\n' +
-            '\n' +
-            'This notice shall be included in all copies or substantial portions of the Software.',
-      usage: ['development'],
-      notes: ''
-    },
     'font-awesome': {
       text: 'Font Awesome by Dave Gandy - http://fontawesome.io\n' +
             'Font Awesome licensed under SIL OFL 1.1\n' +
@@ -95,11 +82,6 @@ module.exports = function( grunt ) {
       usage: ['sim'],
       notes: '',
       selectedLicense: 'MIT'
-    },
-    'jquery.mobile-1.3.1': {
-      text: 'jQuery Mobile 1.3.1 | Git HEAD hash: 74b4bec <> 2013-04-08T19:41:28Z | (c) 2010, 2013 jQuery Foundation, Inc. | jquery.org/license',
-      usage: ['development'],
-      notes: ''
     },
     'jquery-2.1.0': {
       text: 'jQuery JavaScript Library v2.1.0 (includes Sizzle.js) Copyright 2005, 2014 jQuery Foundation, Inc. and other contributors\n' +
