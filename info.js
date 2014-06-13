@@ -68,6 +68,14 @@ module.exports = function( grunt ) {
       usage: ['development'],
       notes: 'used in scenery unit tests, may be used in sims later on if we convert SVG=>canvas'
     },
+    'FileSaver': {
+      text: 'FileSaver.js by Eli Grey (http://eligrey.com)\n' +
+            'https://github.com/eligrey/FileSaver.js/\n' +
+            'Released under the X11/MIT license',
+      usage: ['sim'],
+      notes: 'Used for saving screenshot images',
+      selectedLicense: 'MIT'
+    },
     'font-awesome': {
       text: 'Font Awesome by Dave Gandy - http://fontawesome.io\n' +
             'Font Awesome licensed under SIL OFL 1.1\n' +
