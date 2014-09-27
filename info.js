@@ -127,7 +127,7 @@ module.exports = function( grunt ) {
     'pixi-1.6.1': {
       text: 'pixi.js - v1.6.0\n' +
             'Copyright (c) 2012-2014, Mat Groves\n' +
-            'http://goodboydigital.com/\n'+
+            'http://goodboydigital.com/\n' +
             'MIT License\n' +
             'http://pegjs.majda.cz/',
       usage: ['sim'],
@@ -202,6 +202,14 @@ module.exports = function( grunt ) {
             'Copyright (c) 2010-2012 Tween.js authors.\n' +
             'Easing equations Copyright (c) 2001 Robert Penner http://robertpenner.com/easing/ under BSD license, see http://robertpenner.com/easing_terms_of_use.html',
       usage: ['sim'],
+      notes: ''
+    },
+    'webgl-debug-2012': {
+      text: 'webgl-debug, Various functions for helping debug WebGL apps.\n' +
+            'The MIT License\n' +
+            'Copyright (c) 2012 The Khronos Group Inc.\n' +
+            'https://www.khronos.org/registry/webgl/sdk/debug/webgl-debug.js',
+      usage: ['development'],
       notes: ''
     }
   };
