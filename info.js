@@ -193,6 +193,12 @@ module.exports = function( grunt ) {
       notes: '',
       selectedLicense: 'MIT'
     },
+    'typedarray': {
+      text: 'Copyright &copy; 2010 Linden Research, Inc., Copyright &copy; 2014 Joshua Bell',
+      usage: ['sim'],
+      notes: 'Typed array polyfill',
+      selectedLicense: 'MIT'
+    },
     'Tween-r12': {
       text: 'tween.js - http://github.com/sole/tween.js\n' +
             'The MIT License\n' +
