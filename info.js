@@ -183,8 +183,8 @@ module.exports = function( grunt ) {
       usage: ['sim'],
       notes: ''
     },
-    'stats.min': {
-      text: 'stats.js - Copyright (c) 2009-2012 Mr.doob\n' +
+    'stats-r12': {
+      text: 'stats.js - Copyright (c) 2009-2014 Mr.doob\n' +
             'MIT License, http://github.com/mrdoob/stats.js',
       usage: ['development'],
       notes: ''
