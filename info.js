@@ -189,6 +189,14 @@ module.exports = function( grunt ) {
       usage: ['development'],
       notes: ''
     },
+    'text': {
+      text: 'RequireJS text 2.0.5 Copyright (c) 2010-2012, The Dojo Foundation All Rights Reserved.\n' +
+            'Available via the MIT or new BSD license.\n' +
+            'http://github.com/requirejs/text for details',
+      usage: ['sim'],
+      notes: '',
+      selectedLicense: 'MIT'
+    },
     'text-2.0.12': {
       text: 'RequireJS text 2.0.12 Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved.\n' +
             'Available via the MIT or new BSD license.\n' +
