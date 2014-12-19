@@ -120,17 +120,31 @@ module.exports = function( grunt ) {
             'Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors\n' +
             'Available under MIT license <http://lodash.com/license>',
       usage: ['sim'],
-      notes: ''},
+      notes: ''
+    },
     'numeric-1.2.6': {
       text: 'Numeric Javascript\n' +
             'Copyright (C) 2011 by Sébastien Loisel MIT License, https://github.com/sloisel/numeric/blob/master/license.txt',
       usage: ['sim'],
-      notes: ''},
+      notes: ''
+    },
     'pegjs': {
       text: 'pegjs\n' +
             'Copyright (c) 2010-2012 David Majda\n' +
             'MIT License\n' +
             'http://pegjs.majda.cz/',
+      usage: ['sim'],
+      notes: ''
+    },
+    'poly2tri-1.3.5.min': {
+      text: [
+        'Poly2Tri',
+        'Copyright (c) 2009-2014, Poly2Tri Contributors',
+        'http://code.google.com/p/poly2tri/',
+        '',
+        'poly2tri.js (JavaScript port)',
+        'Copyright (c) 2009-2014, Poly2Tri Contributors',
+        'https://github.com/r3mi/poly2tri.js'].join( '\n' ),
       usage: ['sim'],
       notes: ''
     },
