@@ -58,16 +58,6 @@ module.exports = function( grunt ) {
       usage: ['docs'],
       notes: ''
     },
-    'box2d.min': {
-      text: 'Box2D r29\n' +
-            '\n' +
-            'Copyright (c) 2006-2007 Erin Catto http://www.gphysics.com\n' +
-            'Licensed under the zlib License\n' +
-            'https://box2dweb.googlecode.com/svn/trunk/Box2D.js',
-      usage: ['sim'],
-      notes: 'Only for Sugar and Salt Solutions as of Nov 26, 2014' +
-             'Use the subversion version because it doesnt seem to be in any release cycle'
-    },
     'canvg-1.3': {
       text: 'canvg.js - Javascript SVG parser and renderer on Canvas\n' +
             'MIT Licensed\n' +
