@@ -91,6 +91,12 @@ module.exports = function( grunt ) {
       notes: '',
       selectedLicense: 'MIT'
     },
+    'howler': {
+      text: 'howler.js Copyright (c) 2013-2014 James Simpson and GoldFire Studios, Inc.',
+      usage: ['development'],
+      notes: 'used in vibe/experiments/',
+      selectedLicense: 'MIT'
+    },
     'jquery-2.1.0': {
       text: 'jQuery JavaScript Library v2.1.0 (includes Sizzle.js) Copyright 2005, 2014 jQuery Foundation, Inc. and other contributors\n' +
             'http://jquery.com/\n' +
