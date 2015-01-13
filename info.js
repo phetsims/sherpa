@@ -91,7 +91,7 @@ module.exports = function( grunt ) {
       notes: '',
       selectedLicense: 'MIT'
     },
-    'howler': {
+    'howler-1.1.11': {
       text: 'howler.js Copyright (c) 2013-2014 James Simpson and GoldFire Studios, Inc.',
       usage: ['development'],
       notes: 'used in vibe/experiments/',
