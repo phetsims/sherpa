@@ -100,7 +100,7 @@ module.exports = function( grunt ) {
     'iframe-phone-7680a25185.js': {
       text: 'iframe-phone.js Copyright (c) 2014 Concord Consortium',
       usage: ['development'],
-      notes: 'used in codap experiments',
+      notes: 'used in codap experiments.  No version was listed, so I used the GitHub git SHA',
       selectedLicense: 'MIT'
     },
     'jquery-2.1.0': {
