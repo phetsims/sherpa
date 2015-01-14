@@ -97,6 +97,12 @@ module.exports = function( grunt ) {
       notes: 'used in vibe/experiments/',
       selectedLicense: 'MIT'
     },
+    'iframe-phone-7680a25185.js': {
+      text: 'iframe-phone.js Copyright (c) 2014 Concord Consortium',
+      usage: ['development'],
+      notes: 'used in codap experiments',
+      selectedLicense: 'MIT'
+    },
     'jquery-2.1.0': {
       text: 'jQuery JavaScript Library v2.1.0 (includes Sizzle.js) Copyright 2005, 2014 jQuery Foundation, Inc. and other contributors\n' +
             'http://jquery.com/\n' +
