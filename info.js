@@ -138,6 +138,14 @@ module.exports = function( grunt ) {
       usage: ['sim'],
       notes: ''
     },
+    'pixi-2.2.3-dev':{
+      text: 'pixi.js - v2.2.3\n'+
+            'Copyright (c) 2012-2014, Mat Groves\n'+
+            'http://goodboydigital.com/\n',
+      usage: ['sim'],
+      notes: '',
+      selectedLicense: 'MIT'
+    },
     'poly2tri-1.3.5.min': {
       text: [
         'Poly2Tri',
