@@ -114,7 +114,13 @@ module.exports = function( grunt ) {
     'jshint-2.5.0': {
       text: 'Copyright 2012 Anton Kovalyov (http://jshint.com) MIT License, https://github.com/jshint/jshint/blob/master/LICENSE',
       usage: ['development'],
-      notes: ''},
+      notes: ''
+    },
+    'liberation-sans-regular-subset-numeric-degrees': {
+      text: 'Licensed under SIL OFL 1.1\nhttp://scripts.sil.org/OFL',
+      usage: ['sim'],
+      notes: ''
+    },
     'lodash-2.4.1': {
       text: 'Lo-Dash 2.0.0 (Custom Build) <http://lodash.com/>\n' +
             'Build: `lodash modern -o ./dist/lodash.js`\n' +
