@@ -1,6 +1,6 @@
 /*
  * canvg.js - Javascript SVG parser and renderer on Canvas
- * MIT Licensed 
+ * MIT Licensed
  * Gabe Lerner (gabelerner@gmail.com)
  * http://code.google.com/p/canvg/
  *
@@ -12,20 +12,20 @@
   // target: canvas element or the id of a canvas element
   // s: svg string, url to svg file, or xml document
   // opts: optional hash of options
-  //		 ignoreMouse: true => ignore mouse events
-  //		 ignoreAnimation: true => ignore animations
-  //		 ignoreDimensions: true => does not try to resize canvas
-  //		 ignoreClear: true => does not clear canvas
-  //		 offsetX: int => draws at a x offset
-  //		 offsetY: int => draws at a y offset
-  //		 scaleWidth: int => scales horizontally to width
-  //		 scaleHeight: int => scales vertically to height
-  //		 renderCallback: function => will call the function after the first render is completed
-  //		 forceRedraw: function => will call the function on every frame, if it returns true, will redraw
+  //     ignoreMouse: true => ignore mouse events
+  //     ignoreAnimation: true => ignore animations
+  //     ignoreDimensions: true => does not try to resize canvas
+  //     ignoreClear: true => does not clear canvas
+  //     offsetX: int => draws at a x offset
+  //     offsetY: int => draws at a y offset
+  //     scaleWidth: int => scales horizontally to width
+  //     scaleHeight: int => scales vertically to height
+  //     renderCallback: function => will call the function after the first render is completed
+  //     forceRedraw: function => will call the function on every frame, if it returns true, will redraw
   this.canvg = function (target, s, opts) {
     // no parameters
     if (target == null && s == null && opts == null) {
-      var svgTags = document.getElementsByTagName('svg');
+      var svgTags = document.querySelectorAll('svg');
       for (var i=0; i<svgTags.length; i++) {
         var svgTag = svgTags[i];
         var c = document.createElement('canvas');
@@ -39,7 +39,6 @@
       }
       return;
     }
-    opts = opts || {};
 
     if (typeof target == 'string') {
       target = document.getElementById(target);
@@ -47,10 +46,9 @@
 
     // store class on canvas
     if (target.svg != null) target.svg.stop();
-    var svg = build();
+    var svg = build(opts || {});
     // on i.e. 8 for flash canvas, we can't assign the property so check for it
     if (!(target.childNodes.length == 1 && target.childNodes[0].nodeName == 'OBJECT')) target.svg = svg;
-    svg.opts = opts;
 
     var ctx = target.getContext('2d');
     if (typeof(s.documentElement) != 'undefined') {
@@ -67,16 +65,21 @@
     }
   }
 
-  function build() {
-    var svg = { };
+  function build(opts) {
+    var svg = { opts: opts };
 
     svg.FRAMERATE = 30;
     svg.MAX_VIRTUAL_PIXELS = 30000;
 
+    svg.log = function(msg) {};
+    if (svg.opts['log'] == true && typeof(console) != 'undefined') {
+      svg.log = function(msg) { console.log(msg); };
+    };
+
     // globals
     svg.init = function(ctx) {
       var uniqueId = 0;
-      svg.UniqueId = function () { uniqueId++; return 'canvg' + uniqueId;	};
+      svg.UniqueId = function () { uniqueId++; return 'canvg' + uniqueId; };
       svg.Definitions = {};
       svg.Styles = {};
       svg.Animations = [];
@@ -120,16 +123,23 @@
       if(window.XMLHttpRequest){AJAX=new XMLHttpRequest();}
       else{AJAX=new ActiveXObject('Microsoft.XMLHTTP');}
       if(AJAX){
-        AJAX.open('GET',url,false);
-        AJAX.send(null);
-        return AJAX.responseText;
+         AJAX.open('GET',url,false);
+         AJAX.send(null);
+         return AJAX.responseText;
       }
       return null;
     }
 
     // parse xml
     svg.parseXml = function(xml) {
-      if (window.DOMParser)
+      if (typeof(Windows) != 'undefined' && typeof(Windows.Data) != 'undefined' && typeof(Windows.Data.Xml) != 'undefined') {
+        var xmlDoc = new Windows.Data.Xml.Dom.XmlDocument();
+        var settings = new Windows.Data.Xml.Dom.XmlLoadSettings();
+        settings.prohibitDtd = false;
+        xmlDoc.loadXml(xml, settings);
+        return xmlDoc;
+      }
+      else if (window.DOMParser)
       {
         var parser = new DOMParser();
         return parser.parseFromString(xml, 'text/xml');
@@ -148,139 +158,159 @@
       this.name = name;
       this.value = value;
     }
-    svg.Property.prototype.getValue = function() {
-      return this.value;
-    }
-
-    svg.Property.prototype.hasValue = function() {
-      return (this.value != null && this.value !== '');
-    }
-
-    // return the numerical value of the property
-    svg.Property.prototype.numValue = function() {
-      if (!this.hasValue()) return 0;
-
-      var n = parseFloat(this.value);
-      if ((this.value + '').match(/%$/)) {
-        n = n / 100.0;
+      svg.Property.prototype.getValue = function() {
+        return this.value;
       }
-      return n;
-    }
 
-    svg.Property.prototype.valueOrDefault = function(def) {
-      if (this.hasValue()) return this.value;
-      return def;
-    }
+      svg.Property.prototype.hasValue = function() {
+        return (this.value != null && this.value !== '');
+      }
 
-    svg.Property.prototype.numValueOrDefault = function(def) {
-      if (this.hasValue()) return this.numValue();
-      return def;
-    }
+      // return the numerical value of the property
+      svg.Property.prototype.numValue = function() {
+        if (!this.hasValue()) return 0;
 
-    // color extensions
-    // augment the current color value with the opacity
-    svg.Property.prototype.addOpacity = function(opacity) {
-      var newValue = this.value;
-      if (opacity != null && opacity != '' && typeof(this.value)=='string') { // can only add opacity to colors, not patterns
-        var color = new RGBColor(this.value);
-        if (color.ok) {
-          newValue = 'rgba(' + color.r + ', ' + color.g + ', ' + color.b + ', ' + opacity + ')';
+        var n = parseFloat(this.value);
+        if ((this.value + '').match(/%$/)) {
+          n = n / 100.0;
         }
-      }
-      return new svg.Property(this.name, newValue);
-    }
-
-    // definition extensions
-    // get the definition from the definitions table
-    svg.Property.prototype.getDefinition = function() {
-      var name = this.value.match(/#([^\)'"]+)/);
-      if (name) { name = name[1]; }
-      if (!name) { name = this.value; }
-      return svg.Definitions[name];
-    }
-
-    svg.Property.prototype.isUrlDefinition = function() {
-      return this.value.indexOf('url(') == 0
-    }
-
-    svg.Property.prototype.getFillStyleDefinition = function(e, opacityProp) {
-      var def = this.getDefinition();
-
-      // gradient
-      if (def != null && def.createGradient) {
-        return def.createGradient(svg.ctx, e, opacityProp);
+        return n;
       }
 
-      // pattern
-      if (def != null && def.createPattern) {
-        if (def.getHrefAttribute().hasValue()) {
-          var pt = def.attribute('patternTransform');
-          def = def.getHrefAttribute().getDefinition();
-          if (pt.hasValue()) { def.attribute('patternTransform', true).value = pt.value; }
+      svg.Property.prototype.valueOrDefault = function(def) {
+        if (this.hasValue()) return this.value;
+        return def;
+      }
+
+      svg.Property.prototype.numValueOrDefault = function(def) {
+        if (this.hasValue()) return this.numValue();
+        return def;
+      }
+
+      // color extensions
+        // augment the current color value with the opacity
+        svg.Property.prototype.addOpacity = function(opacityProp) {
+          var newValue = this.value;
+          if (opacityProp.value != null && opacityProp.value != '' && typeof(this.value)=='string') { // can only add opacity to colors, not patterns
+            var color = new RGBColor(this.value);
+            if (color.ok) {
+              newValue = 'rgba(' + color.r + ', ' + color.g + ', ' + color.b + ', ' + opacityProp.numValue() + ')';
+            }
+          }
+          return new svg.Property(this.name, newValue);
         }
-        return def.createPattern(svg.ctx, e);
-      }
 
-      return null;
-    }
+      // definition extensions
+        // get the definition from the definitions table
+        svg.Property.prototype.getDefinition = function() {
+          var name = this.value.match(/#([^\)'"]+)/);
+          if (name) { name = name[1]; }
+          if (!name) { name = this.value; }
+          return svg.Definitions[name];
+        }
 
-    // length extensions
-    svg.Property.prototype.getDPI = function(viewPort) {
-      return 96.0; // TODO: compute?
-    }
+        svg.Property.prototype.isUrlDefinition = function() {
+          return this.value.indexOf('url(') == 0
+        }
 
-    svg.Property.prototype.getEM = function(viewPort) {
-      var em = 12;
+        svg.Property.prototype.getFillStyleDefinition = function(e, opacityProp) {
+          var def = this.getDefinition();
 
-      var fontSize = new svg.Property('fontSize', svg.Font.Parse(svg.ctx.font).fontSize);
-      if (fontSize.hasValue()) em = fontSize.toPixels(viewPort);
+          // gradient
+          if (def != null && def.createGradient) {
+            return def.createGradient(svg.ctx, e, opacityProp);
+          }
 
-      return em;
-    }
+          // pattern
+          if (def != null && def.createPattern) {
+            if (def.getHrefAttribute().hasValue()) {
+              var pt = def.attribute('patternTransform');
+              def = def.getHrefAttribute().getDefinition();
+              if (pt.hasValue()) { def.attribute('patternTransform', true).value = pt.value; }
+            }
+            return def.createPattern(svg.ctx, e);
+          }
 
-    svg.Property.prototype.getUnits = function() {
-      var s = this.value+'';
-      return s.replace(/[0-9\.\-]/g,'');
-    }
+          return null;
+        }
 
-    // get the length as pixels
-    svg.Property.prototype.toPixels = function(viewPort, processPercent) {
-      if (!this.hasValue()) return 0;
-      var s = this.value+'';
-      if (s.match(/em$/)) return this.numValue() * this.getEM(viewPort);
-      if (s.match(/ex$/)) return this.numValue() * this.getEM(viewPort) / 2.0;
-      if (s.match(/px$/)) return this.numValue();
-      if (s.match(/pt$/)) return this.numValue() * this.getDPI(viewPort) * (1.0 / 72.0);
-      if (s.match(/pc$/)) return this.numValue() * 15;
-      if (s.match(/cm$/)) return this.numValue() * this.getDPI(viewPort) / 2.54;
-      if (s.match(/mm$/)) return this.numValue() * this.getDPI(viewPort) / 25.4;
-      if (s.match(/in$/)) return this.numValue() * this.getDPI(viewPort);
-      if (s.match(/%$/)) return this.numValue() * svg.ViewPort.ComputeSize(viewPort);
-      var n = this.numValue();
-      if (processPercent && n < 1.0) return n * svg.ViewPort.ComputeSize(viewPort);
-      return n;
-    }
+      // length extensions
+        svg.Property.prototype.getDPI = function(viewPort) {
+          return 96.0; // TODO: compute?
+        }
 
-    // time extensions
-    // get the time as milliseconds
-    svg.Property.prototype.toMilliseconds = function() {
-      if (!this.hasValue()) return 0;
-      var s = this.value+'';
-      if (s.match(/s$/)) return this.numValue() * 1000;
-      if (s.match(/ms$/)) return this.numValue();
-      return this.numValue();
-    }
+        svg.Property.prototype.getEM = function(viewPort) {
+          var em = 12;
 
-    // angle extensions
-    // get the angle as radians
-    svg.Property.prototype.toRadians = function() {
-      if (!this.hasValue()) return 0;
-      var s = this.value+'';
-      if (s.match(/deg$/)) return this.numValue() * (Math.PI / 180.0);
-      if (s.match(/grad$/)) return this.numValue() * (Math.PI / 200.0);
-      if (s.match(/rad$/)) return this.numValue();
-      return this.numValue() * (Math.PI / 180.0);
-    }
+          var fontSize = new svg.Property('fontSize', svg.Font.Parse(svg.ctx.font).fontSize);
+          if (fontSize.hasValue()) em = fontSize.toPixels(viewPort);
+
+          return em;
+        }
+
+        svg.Property.prototype.getUnits = function() {
+          var s = this.value+'';
+          return s.replace(/[0-9\.\-]/g,'');
+        }
+
+        // get the length as pixels
+        svg.Property.prototype.toPixels = function(viewPort, processPercent) {
+          if (!this.hasValue()) return 0;
+          var s = this.value+'';
+          if (s.match(/em$/)) return this.numValue() * this.getEM(viewPort);
+          if (s.match(/ex$/)) return this.numValue() * this.getEM(viewPort) / 2.0;
+          if (s.match(/px$/)) return this.numValue();
+          if (s.match(/pt$/)) return this.numValue() * this.getDPI(viewPort) * (1.0 / 72.0);
+          if (s.match(/pc$/)) return this.numValue() * 15;
+          if (s.match(/cm$/)) return this.numValue() * this.getDPI(viewPort) / 2.54;
+          if (s.match(/mm$/)) return this.numValue() * this.getDPI(viewPort) / 25.4;
+          if (s.match(/in$/)) return this.numValue() * this.getDPI(viewPort);
+          if (s.match(/%$/)) return this.numValue() * svg.ViewPort.ComputeSize(viewPort);
+          var n = this.numValue();
+          if (processPercent && n < 1.0) return n * svg.ViewPort.ComputeSize(viewPort);
+          return n;
+        }
+
+      // time extensions
+        // get the time as milliseconds
+        svg.Property.prototype.toMilliseconds = function() {
+          if (!this.hasValue()) return 0;
+          var s = this.value+'';
+          if (s.match(/s$/)) return this.numValue() * 1000;
+          if (s.match(/ms$/)) return this.numValue();
+          return this.numValue();
+        }
+
+      // angle extensions
+        // get the angle as radians
+        svg.Property.prototype.toRadians = function() {
+          if (!this.hasValue()) return 0;
+          var s = this.value+'';
+          if (s.match(/deg$/)) return this.numValue() * (Math.PI / 180.0);
+          if (s.match(/grad$/)) return this.numValue() * (Math.PI / 200.0);
+          if (s.match(/rad$/)) return this.numValue();
+          return this.numValue() * (Math.PI / 180.0);
+        }
+
+      // text extensions
+        // get the text baseline
+        var textBaselineMapping = {
+          'baseline': 'alphabetic',
+          'before-edge': 'top',
+          'text-before-edge': 'top',
+          'middle': 'middle',
+          'central': 'middle',
+          'after-edge': 'bottom',
+          'text-after-edge': 'bottom',
+          'ideographic': 'ideographic',
+          'alphabetic': 'alphabetic',
+          'hanging': 'hanging',
+          'mathematical': 'alphabetic'
+        };
+        svg.Property.prototype.toTextBaseline = function () {
+          if (!this.hasValue()) return null;
+          return textBaselineMapping[this.value];
+        }
 
     // fonts
     svg.Font = new (function() {
@@ -308,8 +338,8 @@
         var ff = '';
         for (var i=0; i<d.length; i++) {
           if (!set.fontStyle && that.Styles.indexOf(d[i]) != -1) { if (d[i] != 'inherit') f.fontStyle = d[i]; set.fontStyle = true; }
-          else if (!set.fontVariant && that.Variants.indexOf(d[i]) != -1) { if (d[i] != 'inherit') f.fontVariant = d[i]; set.fontStyle = set.fontVariant = true;	}
-          else if (!set.fontWeight && that.Weights.indexOf(d[i]) != -1) {	if (d[i] != 'inherit') f.fontWeight = d[i]; set.fontStyle = set.fontVariant = set.fontWeight = true; }
+          else if (!set.fontVariant && that.Variants.indexOf(d[i]) != -1) { if (d[i] != 'inherit') f.fontVariant = d[i]; set.fontStyle = set.fontVariant = true;  }
+          else if (!set.fontWeight && that.Weights.indexOf(d[i]) != -1) { if (d[i] != 'inherit') f.fontWeight = d[i]; set.fontStyle = set.fontVariant = set.fontWeight = true; }
           else if (!set.fontSize) { if (d[i] != 'inherit') f.fontSize = d[i].split('/')[0]; set.fontStyle = set.fontVariant = set.fontWeight = set.fontSize = true; }
           else { if (d[i] != 'inherit') ff += d[i]; }
         } if (ff != '') f.fontFamily = ff;
@@ -329,16 +359,16 @@
       this.x = x;
       this.y = y;
     }
-    svg.Point.prototype.angleTo = function(p) {
-      return Math.atan2(p.y - this.y, p.x - this.x);
-    }
+      svg.Point.prototype.angleTo = function(p) {
+        return Math.atan2(p.y - this.y, p.x - this.x);
+      }
 
-    svg.Point.prototype.applyTransform = function(v) {
-      var xp = this.x * v[0] + this.y * v[2] + v[4];
-      var yp = this.x * v[1] + this.y * v[3] + v[5];
-      this.x = xp;
-      this.y = yp;
-    }
+      svg.Point.prototype.applyTransform = function(v) {
+        var xp = this.x * v[0] + this.y * v[2] + v[4];
+        var yp = this.x * v[1] + this.y * v[3] + v[5];
+        this.x = xp;
+        this.y = yp;
+      }
 
     svg.CreatePoint = function(s) {
       var a = svg.ToNumberArray(s);
@@ -397,7 +427,7 @@
         var cp1y = p0y + 2/3 * (p1y - p0y); // CP1 = QP0 + 2/3 *(QP1-QP0)
         var cp2x = cp1x + 1/3 * (p2x - p0x); // CP2 = CP1 + 1/3 *(QP2-QP0)
         var cp2y = cp1y + 1/3 * (p2y - p0y); // CP2 = CP1 + 1/3 *(QP2-QP0)
-        this.addBezierCurve(p0x, p0y, cp1x, cp2x, cp1y,	cp2y, p2x, p2y);
+        this.addBezierCurve(p0x, p0y, cp1x, cp2x, cp1y, cp2y, p2x, p2y);
       }
 
       this.addBezierCurve = function(p0x, p0y, p1x, p1y, p2x, p2y, p3x, p3y) {
@@ -409,9 +439,9 @@
         for (i=0; i<=1; i++) {
           var f = function(t) {
             return Math.pow(1-t, 3) * p0[i]
-                     + 3 * Math.pow(1-t, 2) * t * p1[i]
-                     + 3 * (1-t) * Math.pow(t, 2) * p2[i]
-              + Math.pow(t, 3) * p3[i];
+            + 3 * Math.pow(1-t, 2) * t * p1[i]
+            + 3 * (1-t) * Math.pow(t, 2) * p2[i]
+            + Math.pow(t, 3) * p3[i];
           }
 
           var b = 6 * p0[i] - 12 * p1[i] + 6 * p2[i];
@@ -512,6 +542,26 @@
         this.apply = function(ctx) {
           ctx.transform(this.m[0], this.m[1], this.m[2], this.m[3], this.m[4], this.m[5]);
         }
+        this.unapply = function(ctx) {
+          var a = this.m[0];
+          var b = this.m[2];
+          var c = this.m[4];
+          var d = this.m[1];
+          var e = this.m[3];
+          var f = this.m[5];
+          var g = 0.0;
+          var h = 0.0;
+          var i = 1.0;
+          var det = 1 / (a*(e*i-f*h)-b*(d*i-f*g)+c*(d*h-e*g));
+          ctx.transform(
+            det*(e*i-f*h),
+            det*(f*g-d*i),
+            det*(c*h-b*i),
+            det*(a*i-c*g),
+            det*(b*f-c*e),
+            det*(c*d-a*f)
+          );
+        }
         this.applyToPoint = function(p) {
           p.applyTransform(this.m);
         }
@@ -558,7 +608,7 @@
         }
       }
 
-      var data = svg.trim(svg.compressSpaces(v)).replace(/\)(\s?,\s?)/g,') ').split(/\s(?=[a-z])/);
+      var data = svg.trim(svg.compressSpaces(v)).replace(/\)([a-zA-Z])/g, ') $1').replace(/\)(\s?,\s?)/g,') ').split(/\s(?=[a-z])/);
       for (var i=0; i<data.length; i++) {
         var type = svg.trim(data[i].split('(')[0]);
         var s = data[i].split('(')[1].replace(')','');
@@ -635,7 +685,7 @@
       }
 
       // get or create style, crawls up node tree
-      this.style = function(name, createIfNotExists) {
+      this.style = function(name, createIfNotExists, skipAncestors) {
         var s = this.styles[name];
         if (s != null) return s;
 
@@ -645,11 +695,13 @@
           return a;
         }
 
-        var p = this.parent;
-        if (p != null) {
-          var ps = p.style(name);
-          if (ps != null && ps.hasValue()) {
-            return ps;
+        if (skipAncestors != true) {
+          var p = this.parent;
+          if (p != null) {
+            var ps = p.style(name);
+            if (ps != null && ps.hasValue()) {
+              return ps;
+            }
           }
         }
 
@@ -663,7 +715,7 @@
         if (this.style('display').value == 'none') return;
 
         // don't render visibility=hidden
-        if (this.attribute('visibility').value == 'hidden') return;
+        if (this.style('visibility').value == 'hidden') return;
 
         ctx.save();
         if (this.attribute('mask').hasValue()) { // mask
@@ -703,22 +755,10 @@
         var child = childNode;
         if (create) child = svg.CreateElement(childNode);
         child.parent = this;
-        this.children.push(child);
+        if (child.type != 'title') { this.children.push(child); }
       }
 
       if (node != null && node.nodeType == 1) { //ELEMENT_NODE
-        // add children
-        for (var i=0; i<node.childNodes.length; i++) {
-          var childNode = node.childNodes[i];
-          if (childNode.nodeType == 1) this.addChild(childNode, true); //ELEMENT_NODE
-          if (this.captureTextNodes && childNode.nodeType == 3) {
-            var text = childNode.nodeValue || childNode.text || '';
-            if (svg.trim(svg.compressSpaces(text)) != '') {
-              this.addChild(new svg.Element.tspan(childNode), false); // TEXT_NODE
-            }
-          }
-        }
-
         // add attributes
         for (var i=0; i<node.attributes.length; i++) {
           var attribute = node.attributes[i];
@@ -781,6 +821,18 @@
             svg.Definitions[this.attribute('id').value] = this;
           }
         }
+
+        // add children
+        for (var i=0; i<node.childNodes.length; i++) {
+          var childNode = node.childNodes[i];
+          if (childNode.nodeType == 1) this.addChild(childNode, true); //ELEMENT_NODE
+          if (this.captureTextNodes && (childNode.nodeType == 3 || childNode.nodeType == 4)) {
+            var text = childNode.nodeValue || childNode.text || '';
+            if (svg.trim(svg.compressSpaces(text)) != '') {
+              this.addChild(new svg.Element.tspan(childNode), false); // TEXT_NODE
+            }
+          }
+        }
       }
     }
 
@@ -797,11 +849,11 @@
         else if (this.style('fill').hasValue()) {
           var fillStyle = this.style('fill');
           if (fillStyle.value == 'currentColor') fillStyle.value = this.style('color').value;
-          ctx.fillStyle = (fillStyle.value == 'none' ? 'rgba(0,0,0,0)' : fillStyle.value);
+          if (fillStyle.value != 'inherit') ctx.fillStyle = (fillStyle.value == 'none' ? 'rgba(0,0,0,0)' : fillStyle.value);
         }
         if (this.style('fill-opacity').hasValue()) {
           var fillStyle = new svg.Property('fill', ctx.fillStyle);
-          fillStyle = fillStyle.addOpacity(this.style('fill-opacity').value);
+          fillStyle = fillStyle.addOpacity(this.style('fill-opacity'));
           ctx.fillStyle = fillStyle.value;
         }
 
@@ -813,25 +865,25 @@
         else if (this.style('stroke').hasValue()) {
           var strokeStyle = this.style('stroke');
           if (strokeStyle.value == 'currentColor') strokeStyle.value = this.style('color').value;
-          ctx.strokeStyle = (strokeStyle.value == 'none' ? 'rgba(0,0,0,0)' : strokeStyle.value);
+          if (strokeStyle.value != 'inherit') ctx.strokeStyle = (strokeStyle.value == 'none' ? 'rgba(0,0,0,0)' : strokeStyle.value);
         }
         if (this.style('stroke-opacity').hasValue()) {
           var strokeStyle = new svg.Property('stroke', ctx.strokeStyle);
-          strokeStyle = strokeStyle.addOpacity(this.style('stroke-opacity').value);
+          strokeStyle = strokeStyle.addOpacity(this.style('stroke-opacity'));
           ctx.strokeStyle = strokeStyle.value;
         }
         if (this.style('stroke-width').hasValue()) {
           var newLineWidth = this.style('stroke-width').toPixels();
           ctx.lineWidth = newLineWidth == 0 ? 0.001 : newLineWidth; // browsers don't respect 0
-        }
+          }
         if (this.style('stroke-linecap').hasValue()) ctx.lineCap = this.style('stroke-linecap').value;
         if (this.style('stroke-linejoin').hasValue()) ctx.lineJoin = this.style('stroke-linejoin').value;
         if (this.style('stroke-miterlimit').hasValue()) ctx.miterLimit = this.style('stroke-miterlimit').value;
-        if (this.style('stroke-dasharray').hasValue()) {
+        if (this.style('stroke-dasharray').hasValue() && this.style('stroke-dasharray').value != 'none') {
           var gaps = svg.ToNumberArray(this.style('stroke-dasharray').value);
           if (typeof(ctx.setLineDash) != 'undefined') { ctx.setLineDash(gaps); }
           else if (typeof(ctx.webkitLineDash) != 'undefined') { ctx.webkitLineDash = gaps; }
-          else if (typeof(ctx.mozDash ) != 'undefined') { ctx.mozDash  = gaps; }
+          else if (typeof(ctx.mozDash) != 'undefined' && !(gaps.length==1 && gaps[0]==0)) { ctx.mozDash = gaps; }
 
           var offset = this.style('stroke-dashoffset').numValueOrDefault(1);
           if (typeof(ctx.lineDashOffset) != 'undefined') { ctx.lineDashOffset = offset; }
@@ -856,8 +908,8 @@
         }
 
         // clip
-        if (this.style('clip-path').hasValue()) {
-          var clip = this.style('clip-path').getDefinition();
+        if (this.style('clip-path', false, true).hasValue()) {
+          var clip = this.style('clip-path', false, true).getDefinition();
           if (clip != null) clip.apply(ctx);
         }
 
@@ -882,7 +934,7 @@
         this.path(ctx);
         svg.Mouse.checkPath(this, ctx);
         if (ctx.fillStyle != '') {
-          if (this.attribute('fill-rule').hasValue()) { ctx.fill(this.attribute('fill-rule').value); }
+          if (this.style('fill-rule').valueOrDefault('inherit') != 'inherit') { ctx.fill(this.style('fill-rule').value); }
           else { ctx.fill(); }
         }
         if (ctx.strokeStyle != '') ctx.stroke();
@@ -929,11 +981,14 @@
 
       this.baseSetContext = this.setContext;
       this.setContext = function(ctx) {
-        // initial values
+        // initial values and defaults
         ctx.strokeStyle = 'rgba(0,0,0,0)';
         ctx.lineCap = 'butt';
         ctx.lineJoin = 'miter';
         ctx.miterLimit = 4;
+        if (typeof(ctx.font) != 'undefined' && typeof(window.getComputedStyle) != 'undefined') {
+          ctx.font = window.getComputedStyle(ctx.canvas).getPropertyValue('font');
+        }
 
         this.baseSetContext(ctx);
 
@@ -958,13 +1013,15 @@
             y = -this.attribute('refY').toPixels('y');
           }
 
-          ctx.beginPath();
-          ctx.moveTo(x, y);
-          ctx.lineTo(width, y);
-          ctx.lineTo(width, height);
-          ctx.lineTo(x, height);
-          ctx.closePath();
-          ctx.clip();
+          if (this.attribute('overflow').valueOrDefault('hidden') != 'visible') {
+            ctx.beginPath();
+            ctx.moveTo(x, y);
+            ctx.lineTo(width, y);
+            ctx.lineTo(width, height);
+            ctx.lineTo(x, height);
+            ctx.closePath();
+            ctx.clip();
+          }
         }
         svg.ViewPort.SetCurrent(width, height);
 
@@ -977,15 +1034,15 @@
           height = viewBox[3];
 
           svg.AspectRatio(ctx,
-            this.attribute('preserveAspectRatio').value,
-            svg.ViewPort.width(),
-            width,
-            svg.ViewPort.height(),
-            height,
-            minX,
-            minY,
-            this.attribute('refX').value,
-            this.attribute('refY').value);
+                  this.attribute('preserveAspectRatio').value,
+                  svg.ViewPort.width(),
+                  width,
+                  svg.ViewPort.height(),
+                  height,
+                  minX,
+                  minY,
+                  this.attribute('refX').value,
+                  this.attribute('refY').value);
 
           svg.ViewPort.RemoveCurrent();
           svg.ViewPort.SetCurrent(viewBox[2], viewBox[3]);
@@ -1248,8 +1305,8 @@
         this.getReflectedControlPoint = function() {
           if (this.previousCommand.toLowerCase() != 'c' &&
               this.previousCommand.toLowerCase() != 's' &&
-              this.previousCommand.toLowerCase() != 'q' &&
-              this.previousCommand.toLowerCase() != 't' ){
+            this.previousCommand.toLowerCase() != 'q' &&
+            this.previousCommand.toLowerCase() != 't' ){
             return this.current;
           }
 
@@ -1304,178 +1361,178 @@
         while (!pp.isEnd()) {
           pp.nextCommand();
           switch (pp.command) {
-            case 'M':
-            case 'm':
+          case 'M':
+          case 'm':
+            var p = pp.getAsCurrentPoint();
+            pp.addMarker(p);
+            bb.addPoint(p.x, p.y);
+            if (ctx != null) ctx.moveTo(p.x, p.y);
+            pp.start = pp.current;
+            while (!pp.isCommandOrEnd()) {
               var p = pp.getAsCurrentPoint();
-              pp.addMarker(p);
+              pp.addMarker(p, pp.start);
               bb.addPoint(p.x, p.y);
-              if (ctx != null) ctx.moveTo(p.x, p.y);
-              pp.start = pp.current;
-              while (!pp.isCommandOrEnd()) {
-                var p = pp.getAsCurrentPoint();
-                pp.addMarker(p, pp.start);
-                bb.addPoint(p.x, p.y);
-                if (ctx != null) ctx.lineTo(p.x, p.y);
-              }
-              break;
-            case 'L':
-            case 'l':
-              while (!pp.isCommandOrEnd()) {
-                var c = pp.current;
-                var p = pp.getAsCurrentPoint();
-                pp.addMarker(p, c);
-                bb.addPoint(p.x, p.y);
-                if (ctx != null) ctx.lineTo(p.x, p.y);
-              }
-              break;
-            case 'H':
-            case 'h':
-              while (!pp.isCommandOrEnd()) {
-                var newP = new svg.Point((pp.isRelativeCommand() ? pp.current.x : 0) + pp.getScalar(), pp.current.y);
-                pp.addMarker(newP, pp.current);
-                pp.current = newP;
-                bb.addPoint(pp.current.x, pp.current.y);
-                if (ctx != null) ctx.lineTo(pp.current.x, pp.current.y);
-              }
-              break;
-            case 'V':
-            case 'v':
-              while (!pp.isCommandOrEnd()) {
-                var newP = new svg.Point(pp.current.x, (pp.isRelativeCommand() ? pp.current.y : 0) + pp.getScalar());
-                pp.addMarker(newP, pp.current);
-                pp.current = newP;
-                bb.addPoint(pp.current.x, pp.current.y);
-                if (ctx != null) ctx.lineTo(pp.current.x, pp.current.y);
-              }
-              break;
-            case 'C':
-            case 'c':
-              while (!pp.isCommandOrEnd()) {
+              if (ctx != null) ctx.lineTo(p.x, p.y);
+            }
+            break;
+          case 'L':
+          case 'l':
+            while (!pp.isCommandOrEnd()) {
+              var c = pp.current;
+              var p = pp.getAsCurrentPoint();
+              pp.addMarker(p, c);
+              bb.addPoint(p.x, p.y);
+              if (ctx != null) ctx.lineTo(p.x, p.y);
+            }
+            break;
+          case 'H':
+          case 'h':
+            while (!pp.isCommandOrEnd()) {
+              var newP = new svg.Point((pp.isRelativeCommand() ? pp.current.x : 0) + pp.getScalar(), pp.current.y);
+              pp.addMarker(newP, pp.current);
+              pp.current = newP;
+              bb.addPoint(pp.current.x, pp.current.y);
+              if (ctx != null) ctx.lineTo(pp.current.x, pp.current.y);
+            }
+            break;
+          case 'V':
+          case 'v':
+            while (!pp.isCommandOrEnd()) {
+              var newP = new svg.Point(pp.current.x, (pp.isRelativeCommand() ? pp.current.y : 0) + pp.getScalar());
+              pp.addMarker(newP, pp.current);
+              pp.current = newP;
+              bb.addPoint(pp.current.x, pp.current.y);
+              if (ctx != null) ctx.lineTo(pp.current.x, pp.current.y);
+            }
+            break;
+          case 'C':
+          case 'c':
+            while (!pp.isCommandOrEnd()) {
+              var curr = pp.current;
+              var p1 = pp.getPoint();
+              var cntrl = pp.getAsControlPoint();
+              var cp = pp.getAsCurrentPoint();
+              pp.addMarker(cp, cntrl, p1);
+              bb.addBezierCurve(curr.x, curr.y, p1.x, p1.y, cntrl.x, cntrl.y, cp.x, cp.y);
+              if (ctx != null) ctx.bezierCurveTo(p1.x, p1.y, cntrl.x, cntrl.y, cp.x, cp.y);
+            }
+            break;
+          case 'S':
+          case 's':
+            while (!pp.isCommandOrEnd()) {
+              var curr = pp.current;
+              var p1 = pp.getReflectedControlPoint();
+              var cntrl = pp.getAsControlPoint();
+              var cp = pp.getAsCurrentPoint();
+              pp.addMarker(cp, cntrl, p1);
+              bb.addBezierCurve(curr.x, curr.y, p1.x, p1.y, cntrl.x, cntrl.y, cp.x, cp.y);
+              if (ctx != null) ctx.bezierCurveTo(p1.x, p1.y, cntrl.x, cntrl.y, cp.x, cp.y);
+            }
+            break;
+          case 'Q':
+          case 'q':
+            while (!pp.isCommandOrEnd()) {
+              var curr = pp.current;
+              var cntrl = pp.getAsControlPoint();
+              var cp = pp.getAsCurrentPoint();
+              pp.addMarker(cp, cntrl, cntrl);
+              bb.addQuadraticCurve(curr.x, curr.y, cntrl.x, cntrl.y, cp.x, cp.y);
+              if (ctx != null) ctx.quadraticCurveTo(cntrl.x, cntrl.y, cp.x, cp.y);
+            }
+            break;
+          case 'T':
+          case 't':
+            while (!pp.isCommandOrEnd()) {
+              var curr = pp.current;
+              var cntrl = pp.getReflectedControlPoint();
+              pp.control = cntrl;
+              var cp = pp.getAsCurrentPoint();
+              pp.addMarker(cp, cntrl, cntrl);
+              bb.addQuadraticCurve(curr.x, curr.y, cntrl.x, cntrl.y, cp.x, cp.y);
+              if (ctx != null) ctx.quadraticCurveTo(cntrl.x, cntrl.y, cp.x, cp.y);
+            }
+            break;
+          case 'A':
+          case 'a':
+            while (!pp.isCommandOrEnd()) {
                 var curr = pp.current;
-                var p1 = pp.getPoint();
-                var cntrl = pp.getAsControlPoint();
-                var cp = pp.getAsCurrentPoint();
-                pp.addMarker(cp, cntrl, p1);
-                bb.addBezierCurve(curr.x, curr.y, p1.x, p1.y, cntrl.x, cntrl.y, cp.x, cp.y);
-                if (ctx != null) ctx.bezierCurveTo(p1.x, p1.y, cntrl.x, cntrl.y, cp.x, cp.y);
-              }
-              break;
-            case 'S':
-            case 's':
-              while (!pp.isCommandOrEnd()) {
-                var curr = pp.current;
-                var p1 = pp.getReflectedControlPoint();
-                var cntrl = pp.getAsControlPoint();
-                var cp = pp.getAsCurrentPoint();
-                pp.addMarker(cp, cntrl, p1);
-                bb.addBezierCurve(curr.x, curr.y, p1.x, p1.y, cntrl.x, cntrl.y, cp.x, cp.y);
-                if (ctx != null) ctx.bezierCurveTo(p1.x, p1.y, cntrl.x, cntrl.y, cp.x, cp.y);
-              }
-              break;
-            case 'Q':
-            case 'q':
-              while (!pp.isCommandOrEnd()) {
-                var curr = pp.current;
-                var cntrl = pp.getAsControlPoint();
-                var cp = pp.getAsCurrentPoint();
-                pp.addMarker(cp, cntrl, cntrl);
-                bb.addQuadraticCurve(curr.x, curr.y, cntrl.x, cntrl.y, cp.x, cp.y);
-                if (ctx != null) ctx.quadraticCurveTo(cntrl.x, cntrl.y, cp.x, cp.y);
-              }
-              break;
-            case 'T':
-            case 't':
-              while (!pp.isCommandOrEnd()) {
-                var curr = pp.current;
-                var cntrl = pp.getReflectedControlPoint();
-                pp.control = cntrl;
-                var cp = pp.getAsCurrentPoint();
-                pp.addMarker(cp, cntrl, cntrl);
-                bb.addQuadraticCurve(curr.x, curr.y, cntrl.x, cntrl.y, cp.x, cp.y);
-                if (ctx != null) ctx.quadraticCurveTo(cntrl.x, cntrl.y, cp.x, cp.y);
-              }
-              break;
-            case 'A':
-            case 'a':
-              while (!pp.isCommandOrEnd()) {
-                var curr = pp.current;
-                var rx = pp.getScalar();
-                var ry = pp.getScalar();
-                var xAxisRotation = pp.getScalar() * (Math.PI / 180.0);
-                var largeArcFlag = pp.getScalar();
-                var sweepFlag = pp.getScalar();
-                var cp = pp.getAsCurrentPoint();
+              var rx = pp.getScalar();
+              var ry = pp.getScalar();
+              var xAxisRotation = pp.getScalar() * (Math.PI / 180.0);
+              var largeArcFlag = pp.getScalar();
+              var sweepFlag = pp.getScalar();
+              var cp = pp.getAsCurrentPoint();
 
-                // Conversion from endpoint to center parameterization
-                // http://www.w3.org/TR/SVG11/implnote.html#ArcImplementationNotes
-                // x1', y1'
-                var currp = new svg.Point(
-                    Math.cos(xAxisRotation) * (curr.x - cp.x) / 2.0 + Math.sin(xAxisRotation) * (curr.y - cp.y) / 2.0,
-                    -Math.sin(xAxisRotation) * (curr.x - cp.x) / 2.0 + Math.cos(xAxisRotation) * (curr.y - cp.y) / 2.0
-                );
-                // adjust radii
-                var l = Math.pow(currp.x,2)/Math.pow(rx,2)+Math.pow(currp.y,2)/Math.pow(ry,2);
-                if (l > 1) {
-                  rx *= Math.sqrt(l);
-                  ry *= Math.sqrt(l);
-                }
-                // cx', cy'
-                var s = (largeArcFlag == sweepFlag ? -1 : 1) * Math.sqrt(
-                    ((Math.pow(rx,2)*Math.pow(ry,2))-(Math.pow(rx,2)*Math.pow(currp.y,2))-(Math.pow(ry,2)*Math.pow(currp.x,2))) /
-                    (Math.pow(rx,2)*Math.pow(currp.y,2)+Math.pow(ry,2)*Math.pow(currp.x,2))
-                );
-                if (isNaN(s)) s = 0;
-                var cpp = new svg.Point(s * rx * currp.y / ry, s * -ry * currp.x / rx);
-                // cx, cy
-                var centp = new svg.Point(
-                    (curr.x + cp.x) / 2.0 + Math.cos(xAxisRotation) * cpp.x - Math.sin(xAxisRotation) * cpp.y,
-                    (curr.y + cp.y) / 2.0 + Math.sin(xAxisRotation) * cpp.x + Math.cos(xAxisRotation) * cpp.y
-                );
-                // vector magnitude
-                var m = function(v) { return Math.sqrt(Math.pow(v[0],2) + Math.pow(v[1],2)); }
-                // ratio between two vectors
-                var r = function(u, v) { return (u[0]*v[0]+u[1]*v[1]) / (m(u)*m(v)) }
-                // angle between two vectors
-                var a = function(u, v) { return (u[0]*v[1] < u[1]*v[0] ? -1 : 1) * Math.acos(r(u,v)); }
-                // initial angle
-                var a1 = a([1,0], [(currp.x-cpp.x)/rx,(currp.y-cpp.y)/ry]);
-                // angle delta
-                var u = [(currp.x-cpp.x)/rx,(currp.y-cpp.y)/ry];
-                var v = [(-currp.x-cpp.x)/rx,(-currp.y-cpp.y)/ry];
-                var ad = a(u, v);
-                if (r(u,v) <= -1) ad = Math.PI;
-                if (r(u,v) >= 1) ad = 0;
-
-                // for markers
-                var dir = 1 - sweepFlag ? 1.0 : -1.0;
-                var ah = a1 + dir * (ad / 2.0);
-                var halfWay = new svg.Point(
-                    centp.x + rx * Math.cos(ah),
-                    centp.y + ry * Math.sin(ah)
-                );
-                pp.addMarkerAngle(halfWay, ah - dir * Math.PI / 2);
-                pp.addMarkerAngle(cp, ah - dir * Math.PI);
-
-                bb.addPoint(cp.x, cp.y); // TODO: this is too naive, make it better
-                if (ctx != null) {
-                  var r = rx > ry ? rx : ry;
-                  var sx = rx > ry ? 1 : rx / ry;
-                  var sy = rx > ry ? ry / rx : 1;
-
-                  ctx.translate(centp.x, centp.y);
-                  ctx.rotate(xAxisRotation);
-                  ctx.scale(sx, sy);
-                  ctx.arc(0, 0, r, a1, a1 + ad, 1 - sweepFlag);
-                  ctx.scale(1/sx, 1/sy);
-                  ctx.rotate(-xAxisRotation);
-                  ctx.translate(-centp.x, -centp.y);
-                }
+              // Conversion from endpoint to center parameterization
+              // http://www.w3.org/TR/SVG11/implnote.html#ArcImplementationNotes
+              // x1', y1'
+              var currp = new svg.Point(
+                Math.cos(xAxisRotation) * (curr.x - cp.x) / 2.0 + Math.sin(xAxisRotation) * (curr.y - cp.y) / 2.0,
+                -Math.sin(xAxisRotation) * (curr.x - cp.x) / 2.0 + Math.cos(xAxisRotation) * (curr.y - cp.y) / 2.0
+              );
+              // adjust radii
+              var l = Math.pow(currp.x,2)/Math.pow(rx,2)+Math.pow(currp.y,2)/Math.pow(ry,2);
+              if (l > 1) {
+                rx *= Math.sqrt(l);
+                ry *= Math.sqrt(l);
               }
-              break;
-            case 'Z':
-            case 'z':
-              if (ctx != null) ctx.closePath();
-              pp.current = pp.start;
+              // cx', cy'
+              var s = (largeArcFlag == sweepFlag ? -1 : 1) * Math.sqrt(
+                ((Math.pow(rx,2)*Math.pow(ry,2))-(Math.pow(rx,2)*Math.pow(currp.y,2))-(Math.pow(ry,2)*Math.pow(currp.x,2))) /
+                (Math.pow(rx,2)*Math.pow(currp.y,2)+Math.pow(ry,2)*Math.pow(currp.x,2))
+              );
+              if (isNaN(s)) s = 0;
+              var cpp = new svg.Point(s * rx * currp.y / ry, s * -ry * currp.x / rx);
+              // cx, cy
+              var centp = new svg.Point(
+                (curr.x + cp.x) / 2.0 + Math.cos(xAxisRotation) * cpp.x - Math.sin(xAxisRotation) * cpp.y,
+                (curr.y + cp.y) / 2.0 + Math.sin(xAxisRotation) * cpp.x + Math.cos(xAxisRotation) * cpp.y
+              );
+              // vector magnitude
+              var m = function(v) { return Math.sqrt(Math.pow(v[0],2) + Math.pow(v[1],2)); }
+              // ratio between two vectors
+              var r = function(u, v) { return (u[0]*v[0]+u[1]*v[1]) / (m(u)*m(v)) }
+              // angle between two vectors
+              var a = function(u, v) { return (u[0]*v[1] < u[1]*v[0] ? -1 : 1) * Math.acos(r(u,v)); }
+              // initial angle
+              var a1 = a([1,0], [(currp.x-cpp.x)/rx,(currp.y-cpp.y)/ry]);
+              // angle delta
+              var u = [(currp.x-cpp.x)/rx,(currp.y-cpp.y)/ry];
+              var v = [(-currp.x-cpp.x)/rx,(-currp.y-cpp.y)/ry];
+              var ad = a(u, v);
+              if (r(u,v) <= -1) ad = Math.PI;
+              if (r(u,v) >= 1) ad = 0;
+
+              // for markers
+              var dir = 1 - sweepFlag ? 1.0 : -1.0;
+              var ah = a1 + dir * (ad / 2.0);
+              var halfWay = new svg.Point(
+                centp.x + rx * Math.cos(ah),
+                centp.y + ry * Math.sin(ah)
+              );
+              pp.addMarkerAngle(halfWay, ah - dir * Math.PI / 2);
+              pp.addMarkerAngle(cp, ah - dir * Math.PI);
+
+              bb.addPoint(cp.x, cp.y); // TODO: this is too naive, make it better
+              if (ctx != null) {
+                var r = rx > ry ? rx : ry;
+                var sx = rx > ry ? 1 : rx / ry;
+                var sy = rx > ry ? ry / rx : 1;
+
+                ctx.translate(centp.x, centp.y);
+                ctx.rotate(xAxisRotation);
+                ctx.scale(sx, sy);
+                ctx.arc(0, 0, r, a1, a1 + ad, 1 - sweepFlag);
+                ctx.scale(1/sx, 1/sy);
+                ctx.rotate(-xAxisRotation);
+                ctx.translate(-centp.x, -centp.y);
+              }
+            }
+            break;
+          case 'Z':
+          case 'z':
+            if (ctx != null) ctx.closePath();
+            pp.current = pp.start;
           }
         }
 
@@ -1603,7 +1660,7 @@
         var addParentOpacity = function (color) {
           if (parentOpacityProp.hasValue()) {
             var p = new svg.Property('color', color);
-            return p.addOpacity(parentOpacityProp.value).value;
+            return p.addOpacity(parentOpacityProp).value;
           }
           return color;
         };
@@ -1655,17 +1712,17 @@
       this.base(node);
 
       this.getGradient = function(ctx, element) {
-        var bb = element.getBoundingBox();
+        var bb = this.gradientUnits == 'objectBoundingBox' ? element.getBoundingBox() : null;
 
         if (!this.attribute('x1').hasValue()
-              && !this.attribute('y1').hasValue()
-              && !this.attribute('x2').hasValue()
-          && !this.attribute('y2').hasValue()) {
+         && !this.attribute('y1').hasValue()
+         && !this.attribute('x2').hasValue()
+         && !this.attribute('y2').hasValue()) {
           this.attribute('x1', true).value = 0;
           this.attribute('y1', true).value = 0;
           this.attribute('x2', true).value = 1;
           this.attribute('y2', true).value = 0;
-        }
+         }
 
         var x1 = (this.gradientUnits == 'objectBoundingBox'
           ? bb.x() + bb.width() * this.attribute('x1').numValue()
@@ -1709,13 +1766,13 @@
         var fy = cy;
         if (this.attribute('fx').hasValue()) {
           fx = (this.gradientUnits == 'objectBoundingBox'
-            ? bb.x() + bb.width() * this.attribute('fx').numValue()
-            : this.attribute('fx').toPixels('x'));
+          ? bb.x() + bb.width() * this.attribute('fx').numValue()
+          : this.attribute('fx').toPixels('x'));
         }
         if (this.attribute('fy').hasValue()) {
           fy = (this.gradientUnits == 'objectBoundingBox'
-            ? bb.y() + bb.height() * this.attribute('fy').numValue()
-            : this.attribute('fy').toPixels('y'));
+          ? bb.y() + bb.height() * this.attribute('fy').numValue()
+          : this.attribute('fy').toPixels('y'));
         }
 
         var r = (this.gradientUnits == 'objectBoundingBox'
@@ -1737,7 +1794,7 @@
       if (this.offset > 1) this.offset = 1;
 
       var stopColor = this.style('stop-color');
-      if (this.style('stop-opacity').hasValue()) stopColor = stopColor.addOpacity(this.style('stop-opacity').value);
+      if (this.style('stop-opacity').hasValue()) stopColor = stopColor.addOpacity(this.style('stop-opacity'));
       this.color = stopColor.value;
     }
     svg.Element.stop.prototype = new svg.Element.ElementBase;
@@ -1783,17 +1840,20 @@
         if (this.duration > this.maxDuration) {
           // loop for indefinitely repeating animations
           if (this.attribute('repeatCount').value == 'indefinite'
-            || this.attribute('repeatDur').value == 'indefinite') {
+           || this.attribute('repeatDur').value == 'indefinite') {
             this.duration = 0.0
+          }
+          else if (this.attribute('fill').valueOrDefault('remove') == 'freeze' && !this.frozen) {
+            this.frozen = true;
+            this.parent.animationFrozen = true;
+            this.parent.animationFrozenValue = this.getProperty().value;
           }
           else if (this.attribute('fill').valueOrDefault('remove') == 'remove' && !this.removed) {
             this.removed = true;
-            this.getProperty().value = this.initialValue;
+            this.getProperty().value = this.parent.animationFrozen ? this.parent.animationFrozenValue : this.initialValue;
             return true;
           }
-          else {
-            return false; // no updates made
-          }
+          return false;
         }
         this.duration = this.duration + delta;
 
@@ -1972,13 +2032,17 @@
       this.baseSetContext = this.setContext;
       this.setContext = function(ctx) {
         this.baseSetContext(ctx);
-        if (this.style('dominant-baseline').hasValue()) ctx.textBaseline = this.style('dominant-baseline').value;
-        if (this.style('alignment-baseline').hasValue()) ctx.textBaseline = this.style('alignment-baseline').value;
+
+        var textBaseline = this.style('dominant-baseline').toTextBaseline();
+        if (textBaseline == null) textBaseline = this.style('alignment-baseline').toTextBaseline();
+        if (textBaseline != null) ctx.textBaseline = textBaseline;
       }
 
       this.getBoundingBox = function () {
-        // TODO: implement
-        return new svg.BoundingBox(this.attribute('x').toPixels('x'), this.attribute('y').toPixels('y'), 0, 0);
+        var x = this.attribute('x').toPixels('x');
+        var y = this.attribute('y').toPixels('y');
+        var fontSize = this.parent.style('font-size').numValueOrDefault(svg.Font.Parse(svg.ctx.font).fontSize);
+        return new svg.BoundingBox(x, y - fontSize, x + Math.floor(fontSize * 2.0 / 3.0) * this.children[0].getText().length, y);
       }
 
       this.renderChildren = function(ctx) {
@@ -2008,6 +2072,7 @@
         var child = parent.children[i];
         if (child.attribute('x').hasValue()) {
           child.x = child.attribute('x').toPixels('x') + this.getAnchorDelta(ctx, parent, i);
+          if (child.attribute('dx').hasValue()) child.x += child.attribute('dx').toPixels('x');
         }
         else {
           if (this.attribute('dx').hasValue()) this.x += this.attribute('dx').toPixels('x');
@@ -2018,6 +2083,7 @@
 
         if (child.attribute('y').hasValue()) {
           child.y = child.attribute('y').toPixels('y');
+          if (child.attribute('dy').hasValue()) child.y += child.attribute('dy').toPixels('y');
         }
         else {
           if (this.attribute('dy').hasValue()) this.y += this.attribute('dy').toPixels('y');
@@ -2167,7 +2233,7 @@
       this.base = svg.Element.TextElementBase;
       this.base(node);
 
-      this.hasText = true;
+      this.hasText = node.childNodes.length > 0;
       for (var i=0; i<node.childNodes.length; i++) {
         if (node.childNodes[i].nodeType != 3) this.hasText = false;
       }
@@ -2186,7 +2252,7 @@
           var fontSize = new svg.Property('fontSize', svg.Font.Parse(svg.ctx.font).fontSize);
           svg.Mouse.checkBoundingBox(this, new svg.BoundingBox(this.x, this.y - fontSize.toPixels('y'), this.x + this.measureText(ctx), this.y));
         }
-        else {
+        else if (this.children.length > 0) {
           // render as temporary group
           var g = new svg.Element.g();
           g.children = this.children;
@@ -2211,15 +2277,17 @@
       this.base(node);
 
       var href = this.getHrefAttribute().value;
+      if (href == '') { return; }
       var isSvg = href.match(/\.svg$/)
 
       svg.Images.push(this);
       this.loaded = false;
       if (!isSvg) {
         this.img = document.createElement('img');
+        if (svg.opts['useCORS'] == true) { this.img.crossOrigin = 'Anonymous'; }
         var self = this;
         this.img.onload = function() { self.loaded = true; }
-        this.img.onerror = function() { if (typeof(console) != 'undefined') { console.log('ERROR: image "' + href + '" not found'); self.loaded = true; } }
+        this.img.onerror = function() { svg.log('ERROR: image "' + href + '" not found'); self.loaded = true; }
         this.img.src = href;
       }
       else {
@@ -2242,13 +2310,13 @@
         else {
           ctx.translate(x, y);
           svg.AspectRatio(ctx,
-            this.attribute('preserveAspectRatio').value,
-            width,
-            this.img.width,
-            height,
-            this.img.height,
-            0,
-            0);
+                  this.attribute('preserveAspectRatio').value,
+                  width,
+                  this.img.width,
+                  height,
+                  this.img.height,
+                  0,
+                  0);
           ctx.drawImage(this.img, 0, 0);
         }
         ctx.restore();
@@ -2284,30 +2352,9 @@
       this.base = svg.Element.RenderedElementBase;
       this.base(node);
 
-      this.baseSetContext = this.setContext;
-      this.setContext = function(ctx) {
-        this.baseSetContext(ctx);
-
-        // viewbox
-        if (this.attribute('viewBox').hasValue()) {
-          var viewBox = svg.ToNumberArray(this.attribute('viewBox').value);
-          var minX = viewBox[0];
-          var minY = viewBox[1];
-          width = viewBox[2];
-          height = viewBox[3];
-
-          svg.AspectRatio(ctx,
-            this.attribute('preserveAspectRatio').value,
-            this.attribute('width').toPixels('x'),
-            width,
-            this.attribute('height').toPixels('y'),
-            height,
-            minX,
-            minY);
-
-          svg.ViewPort.SetCurrent(viewBox[2], viewBox[3]);
-        }
-      }
+      this.render = function(ctx) {
+        // NO RENDER
+      };
     }
     svg.Element.symbol.prototype = new svg.Element.RenderedElementBase;
 
@@ -2378,31 +2425,37 @@
         if (this.attribute('y').hasValue()) ctx.translate(0, this.attribute('y').toPixels('y'));
       }
 
-      this.getDefinition = function() {
-        var element = this.getHrefAttribute().getDefinition();
-        if (this.attribute('width').hasValue()) element.attribute('width', true).value = this.attribute('width').value;
-        if (this.attribute('height').hasValue()) element.attribute('height', true).value = this.attribute('height').value;
-        return element;
-      }
+      var element = this.getHrefAttribute().getDefinition();
 
       this.path = function(ctx) {
-        var element = this.getDefinition();
         if (element != null) element.path(ctx);
       }
 
       this.getBoundingBox = function() {
-        var element = this.getDefinition();
         if (element != null) return element.getBoundingBox();
       }
 
       this.renderChildren = function(ctx) {
-        var element = this.getDefinition();
         if (element != null) {
-          // temporarily detach from parent and render
-          var oldParent = element.parent;
-          element.parent = null;
-          element.render(ctx);
-          element.parent = oldParent;
+          var tempSvg = element;
+          if (element.type == 'symbol') {
+            // render me using a temporary svg element in symbol cases (http://www.w3.org/TR/SVG/struct.html#UseElement)
+            tempSvg = new svg.Element.svg();
+            tempSvg.type = 'svg';
+            tempSvg.attributes['viewBox'] = new svg.Property('viewBox', element.attribute('viewBox').value);
+            tempSvg.attributes['preserveAspectRatio'] = new svg.Property('preserveAspectRatio', element.attribute('preserveAspectRatio').value);
+            tempSvg.attributes['overflow'] = new svg.Property('overflow', element.attribute('overflow').value);
+            tempSvg.children = element.children;
+          }
+          if (tempSvg.type == 'svg') {
+            // if symbol or svg, inherit width/height from me
+            if (this.attribute('width').hasValue()) tempSvg.attributes['width'] = new svg.Property('width', this.attribute('width').value);
+            if (this.attribute('height').hasValue()) tempSvg.attributes['height'] = new svg.Property('height', this.attribute('height').value);
+          }
+          var oldParent = tempSvg.parent;
+          tempSvg.parent = null;
+          tempSvg.render(ctx);
+          tempSvg.parent = oldParent;
         }
       }
     }
@@ -2428,30 +2481,30 @@
           var x = Math.floor(bb.x1);
           var y = Math.floor(bb.y1);
           var width = Math.floor(bb.width());
-          var	height = Math.floor(bb.height());
+          var height = Math.floor(bb.height());
         }
 
         // temporarily remove mask to avoid recursion
         var mask = element.attribute('mask').value;
         element.attribute('mask').value = '';
 
-        var cMask = document.createElement('canvas');
-        cMask.width = x + width;
-        cMask.height = y + height;
-        var maskCtx = cMask.getContext('2d');
-        this.renderChildren(maskCtx);
+          var cMask = document.createElement('canvas');
+          cMask.width = x + width;
+          cMask.height = y + height;
+          var maskCtx = cMask.getContext('2d');
+          this.renderChildren(maskCtx);
 
-        var c = document.createElement('canvas');
-        c.width = x + width;
-        c.height = y + height;
-        var tempCtx = c.getContext('2d');
-        element.render(tempCtx);
-        tempCtx.globalCompositeOperation = 'destination-in';
-        tempCtx.fillStyle = maskCtx.createPattern(cMask, 'no-repeat');
-        tempCtx.fillRect(0, 0, x + width, y + height);
+          var c = document.createElement('canvas');
+          c.width = x + width;
+          c.height = y + height;
+          var tempCtx = c.getContext('2d');
+          element.render(tempCtx);
+          tempCtx.globalCompositeOperation = 'destination-in';
+          tempCtx.fillStyle = maskCtx.createPattern(cMask, 'no-repeat');
+          tempCtx.fillRect(0, 0, x + width, y + height);
 
-        ctx.fillStyle = tempCtx.createPattern(c, 'no-repeat');
-        ctx.fillRect(0, 0, x + width, y + height);
+          ctx.fillStyle = tempCtx.createPattern(c, 'no-repeat');
+          ctx.fillRect(0, 0, x + width, y + height);
 
         // reassign mask
         element.attribute('mask').value = mask;
@@ -2469,6 +2522,13 @@
       this.base(node);
 
       this.apply = function(ctx) {
+        var oldBeginPath = CanvasRenderingContext2D.prototype.beginPath;
+        CanvasRenderingContext2D.prototype.beginPath = function () { };
+
+        var oldClosePath = CanvasRenderingContext2D.prototype.closePath;
+        CanvasRenderingContext2D.prototype.closePath = function () { };
+
+        oldBeginPath.call(ctx);
         for (var i=0; i<this.children.length; i++) {
           var child = this.children[i];
           if (typeof(child.path) != 'undefined') {
@@ -2478,10 +2538,15 @@
               transform.apply(ctx);
             }
             child.path(ctx);
-            ctx.clip();
+            CanvasRenderingContext2D.prototype.closePath = oldClosePath;
             if (transform) { transform.unapply(ctx); }
           }
         }
+        oldClosePath.call(ctx);
+        ctx.clip();
+
+        CanvasRenderingContext2D.prototype.beginPath = oldBeginPath;
+        CanvasRenderingContext2D.prototype.closePath = oldClosePath;
       }
 
       this.render = function(ctx) {
@@ -2501,7 +2566,7 @@
         var x = Math.floor(bb.x1);
         var y = Math.floor(bb.y1);
         var width = Math.floor(bb.width());
-        var	height = Math.floor(bb.height());
+        var height = Math.floor(bb.height());
 
         // temporarily remove filter to avoid recursion
         var filter = element.style('filter').value;
@@ -2549,9 +2614,47 @@
     }
     svg.Element.feMorphology.prototype = new svg.Element.ElementBase;
 
+    svg.Element.feComposite = function(node) {
+      this.base = svg.Element.ElementBase;
+      this.base(node);
+
+      this.apply = function(ctx, x, y, width, height) {
+        // TODO: implement
+      }
+    }
+    svg.Element.feComposite.prototype = new svg.Element.ElementBase;
+
     svg.Element.feColorMatrix = function(node) {
       this.base = svg.Element.ElementBase;
       this.base(node);
+
+      var matrix = svg.ToNumberArray(this.attribute('values').value);
+      switch (this.attribute('type').valueOrDefault('matrix')) { // http://www.w3.org/TR/SVG/filters.html#feColorMatrixElement
+        case 'saturate':
+          var s = matrix[0];
+          matrix = [0.213+0.787*s,0.715-0.715*s,0.072-0.072*s,0,0,
+                0.213-0.213*s,0.715+0.285*s,0.072-0.072*s,0,0,
+                0.213-0.213*s,0.715-0.715*s,0.072+0.928*s,0,0,
+                0,0,0,1,0,
+                0,0,0,0,1];
+          break;
+        case 'hueRotate':
+          var a = matrix[0] * Math.PI / 180.0;
+          var c = function (m1,m2,m3) { return m1 + Math.cos(a)*m2 + Math.sin(a)*m3; };
+          matrix = [c(0.213,0.787,-0.213),c(0.715,-0.715,-0.715),c(0.072,-0.072,0.928),0,0,
+                c(0.213,-0.213,0.143),c(0.715,0.285,0.140),c(0.072,-0.072,-0.283),0,0,
+                c(0.213,-0.213,-0.787),c(0.715,-0.715,0.715),c(0.072,0.928,0.072),0,0,
+                0,0,0,1,0,
+                0,0,0,0,1];
+          break;
+        case 'luminanceToAlpha':
+          matrix = [0,0,0,0,0,
+                0,0,0,0,0,
+                0,0,0,0,0,
+                0.2125,0.7154,0.0721,0,0,
+                0,0,0,0,1];
+          break;
+      }
 
       function imGet(img, x, y, width, height, rgba) {
         return img[y*width*4 + x*4 + rgba];
@@ -2561,8 +2664,12 @@
         img[y*width*4 + x*4 + rgba] = val;
       }
 
+      function m(i, v) {
+        var mi = matrix[i];
+        return mi * (mi < 0 ? v - 255 : v);
+      }
+
       this.apply = function(ctx, x, y, width, height) {
-        // only supporting grayscale for now per Issue 195, need to extend to all matrix
         // assuming x==0 && y==0 for now
         var srcData = ctx.getImageData(0, 0, width, height);
         for (var y = 0; y < height; y++) {
@@ -2570,10 +2677,11 @@
             var r = imGet(srcData.data, x, y, width, height, 0);
             var g = imGet(srcData.data, x, y, width, height, 1);
             var b = imGet(srcData.data, x, y, width, height, 2);
-            var gray = (r + g + b) / 3;
-            imSet(srcData.data, x, y, width, height, 0, gray);
-            imSet(srcData.data, x, y, width, height, 1, gray);
-            imSet(srcData.data, x, y, width, height, 2, gray);
+            var a = imGet(srcData.data, x, y, width, height, 3);
+            imSet(srcData.data, x, y, width, height, 0, m(0,r)+m(1,g)+m(2,b)+m(3,a)+m(4,1));
+            imSet(srcData.data, x, y, width, height, 1, m(5,r)+m(6,g)+m(7,b)+m(8,a)+m(9,1));
+            imSet(srcData.data, x, y, width, height, 2, m(10,r)+m(11,g)+m(12,b)+m(13,a)+m(14,1));
+            imSet(srcData.data, x, y, width, height, 3, m(15,r)+m(16,g)+m(17,b)+m(18,a)+m(19,1));
           }
         }
         ctx.clearRect(0, 0, width, height);
@@ -2591,7 +2699,7 @@
 
       this.apply = function(ctx, x, y, width, height) {
         if (typeof(stackBlurCanvasRGBA) == 'undefined') {
-          if (typeof(console) != 'undefined') { console.log('ERROR: StackBlur.js must be included for blur to work'); }
+          svg.log('ERROR: StackBlur.js must be included for blur to work');
           return;
         }
 
@@ -2616,7 +2724,7 @@
     svg.Element.desc.prototype = new svg.Element.ElementBase;
 
     svg.Element.MISSING = function(node) {
-      if (typeof(console) != 'undefined') { console.log('ERROR: Element \'' + node.nodeName + '\' not yet implemented.'); }
+      svg.log('ERROR: Element \'' + node.nodeName + '\' not yet implemented.');
     }
     svg.Element.MISSING.prototype = new svg.Element.ElementBase;
 
@@ -2703,17 +2811,25 @@
 
         if (svg.opts['offsetX'] != null) e.attribute('x', true).value = svg.opts['offsetX'];
         if (svg.opts['offsetY'] != null) e.attribute('y', true).value = svg.opts['offsetY'];
-        if (svg.opts['scaleWidth'] != null && svg.opts['scaleHeight'] != null) {
-          var xRatio = 1, yRatio = 1, viewBox = svg.ToNumberArray(e.attribute('viewBox').value);
-          if (e.attribute('width').hasValue()) xRatio = e.attribute('width').toPixels('x') / svg.opts['scaleWidth'];
-          else if (!isNaN(viewBox[2])) xRatio = viewBox[2] / svg.opts['scaleWidth'];
-          if (e.attribute('height').hasValue()) yRatio = e.attribute('height').toPixels('y') / svg.opts['scaleHeight'];
-          else if (!isNaN(viewBox[3])) yRatio = viewBox[3] / svg.opts['scaleHeight'];
+        if (svg.opts['scaleWidth'] != null || svg.opts['scaleHeight'] != null) {
+          var xRatio = null, yRatio = null, viewBox = svg.ToNumberArray(e.attribute('viewBox').value);
+
+          if (svg.opts['scaleWidth'] != null) {
+            if (e.attribute('width').hasValue()) xRatio = e.attribute('width').toPixels('x') / svg.opts['scaleWidth'];
+            else if (!isNaN(viewBox[2])) xRatio = viewBox[2] / svg.opts['scaleWidth'];
+          }
+
+          if (svg.opts['scaleHeight'] != null) {
+            if (e.attribute('height').hasValue()) yRatio = e.attribute('height').toPixels('y') / svg.opts['scaleHeight'];
+            else if (!isNaN(viewBox[3])) yRatio = viewBox[3] / svg.opts['scaleHeight'];
+          }
+
+          if (xRatio == null) { xRatio = yRatio; }
+          if (yRatio == null) { yRatio = xRatio; }
 
           e.attribute('width', true).value = svg.opts['scaleWidth'];
           e.attribute('height', true).value = svg.opts['scaleHeight'];
-          e.attribute('viewBox', true).value = '0 0 ' + (cWidth * xRatio) + ' ' + (cHeight * yRatio);
-          e.attribute('preserveAspectRatio', true).value = 'none';
+          e.attribute('transform', true).value += ' scale('+(1.0/xRatio)+','+(1.0/yRatio)+')';
         }
 
         // clear and render

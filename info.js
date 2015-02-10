@@ -66,7 +66,7 @@ module.exports = function( grunt ) {
             '\n' +
             'Requires: rgbcolor.js - http://www.phpied.com/rgb-color-parser-in-javascript/',
       usage: ['development'],
-      notes: 'used in scenery unit tests, may be used in sims later on if we convert SVG=>canvas'
+      notes: 'Used in scenery unit tests, may be used in sims later on if we convert SVG=>canvas. Downloaded 2/9/2015 from https://github.com/gabelerner/canvg'
     },
     'FileSaver': {
       text: 'FileSaver.js by Eli Grey (http://eligrey.com)\n' +
