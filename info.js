@@ -235,7 +235,7 @@ module.exports = function( grunt ) {
       notes: '',
       selectedLicense: 'MIT'
     },
-    'three-r70': {
+    'three-r68': {
       text: 'Copyright &copy; 2010-2014 three.js authors',
       usage: ['sim'],
       notes: '',
