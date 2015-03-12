@@ -98,6 +98,12 @@ module.exports = function( grunt ) {
       usage: [ 'development' ],
       notes: ''
     },
+    'jsondiffpatch-0.1.31': {
+      text: 'Copyright (c) 2014 BenjamÌn Eidelman twitter.com/beneidel',
+      usage: [ 'sim' ],
+      notes: 'Only used for together.js enhanced simulation data features',
+      selectedLicense: 'MIT'
+    },
     'liberation-sans-regular-subset-numeric-degrees': {
       text: 'Licensed under SIL OFL 1.1\nhttp://scripts.sil.org/OFL',
       usage: [ 'sim' ],
