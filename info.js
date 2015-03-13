@@ -132,8 +132,8 @@ module.exports = function( grunt ) {
       usage: [ 'sim' ],
       notes: ''
     },
-    'pixi-2.2.3-dev': {
-      text: 'pixi.js - v2.2.3\n' +
+    'pixi-v3.0.0-rc1-dev': {
+      text: 'pixi.js - v3.0.0-rc1\n' +
             'Copyright (c) 2012-2014, Mat Groves\n' +
             'http://goodboydigital.com/\n',
       usage: [ 'sim' ],
