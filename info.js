@@ -42,7 +42,7 @@ module.exports = function( grunt ) {
       usage: [ 'development' ],
       notes: 'Used in scenery unit tests, may be used in sims later on if we convert SVG=>canvas. Downloaded 2/9/2015 from https://github.com/gabelerner/canvg'
     },
-    'FileSaver': {
+    'FileSaver-b8054a2': {
       text: 'FileSaver.js by Eli Grey (http://eligrey.com)\n' +
             'https://github.com/eligrey/FileSaver.js/\n' +
             'Released under the X11/MIT license',
