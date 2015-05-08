@@ -125,8 +125,8 @@ module.exports = function( grunt ) {
       usage: [ 'sim' ],
       notes: ''
     },
-    'pegjs': {
-      text: 'pegjs\n' +
+    'pegjs-0.7.0': {
+      text: 'PEG.js 0.7.0 - Parser Generator for JavaScript\n' +
             'Copyright (C) 2010-2012 David Majda\n' +
             'MIT License\n' +
             'http://pegjs.majda.cz/',
