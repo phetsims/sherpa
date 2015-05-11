@@ -179,7 +179,7 @@
     "usage": ["sim"],
     "notes": ""
   },
-  "qhint": {
+  "qhint-1.1": {
     "text": [
       "qHint 1.1 | http://gyoshev.mit-license.org "
     ],
