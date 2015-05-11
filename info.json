@@ -1,0 +1,312 @@
+{
+  "almond-0.2.9": {
+    "text": [
+      "almond 0.2.9",
+      "Copyright (c) 2011-2014, The Dojo Foundation All Rights Reserved.",
+      "Available via the MIT or new BSD license.",
+      "see: http://github.com/jrburke/almond for details"
+    ],
+    "usage": ["sim"],
+    "selectedLicense": "MIT"
+  },
+  "benchmark-1.0.0": {
+    "text": [
+      "Benchmark.js v1.0.0, http://benchmarkjs.com",
+      "Copyright 2010-2012 Mathias Bynens http://mths.be",
+      "Based on JSLitmus.js, copyright Robert Kieffer http://broofa.com",
+      "Modified by John-David Dalton http://allyoucanleet.com",
+      "Available under MIT license http://mths.be/mit"
+    ],
+    "usage": ["development"]
+  },
+  "bootstrap-2.2.2": {
+    "text": [
+      "Bootstrap v2.2.2",
+      "Copyright 2012 Twitter, Inc",
+      "Licensed under the Apache License v2.0",
+      "http://www.apache.org/licenses/LICENSE-2.0",
+      "Designed and built with all the love in the world @twitter by @mdo and @fat."
+    ],
+    "usage": ["docs"],
+    "notes": ""
+  },
+  "canvg-1.3": {
+    "text": [
+      "canvg.js - Javascript SVG parser and renderer on Canvas",
+      "MIT Licensed",
+      "Gabe Lerner (gabelerner@gmail.com)",
+      "http://code.google.com/p/canvg/",
+      "Requires: rgbcolor.js - http://www.phpied.com/rgb-color-parser-in-javascript/"
+    ],
+    "usage": ["development"],
+    "notes": "Used in scenery unit tests, may be used in sims later on if we convert SVG to Canvas. Downloaded 2/9/2015 from https://github.com/gabelerner/canvg"
+  },
+  "FileSaver-b8054a2": {
+    "text": [
+      "FileSaver.js by Eli Grey (http://eligrey.com)",
+      "https://github.com/eligrey/FileSaver.js/",
+      "Released under the X11/MIT license"
+    ],
+    "usage": ["sim"],
+    "notes": "Used for saving screenshot images",
+    "selectedLicense": "MIT"
+  },
+  "font-awesome": {
+    "text": [
+      "Font Awesome, by Dave Gandy - http://fontawesome.io",
+      "Font Awesome licensed under SIL OFL 1.1",
+      "http://scripts.sil.org/OFL"
+    ],
+    "usage": ["sim"],
+    "notes": ""
+  },
+  "has": {
+    "text": [
+      "has.js",
+      "Copyright (c) 2010-2013 John David Dalton, Brad Dougherty, Bryan Forbes, Ryan Grove, Andrée Hansson, Peter Higgins, Paul Irish, Weston Ruter, Rick Waldron, Juriy Zaytsev",
+      "Tentatively, has.js is available under the Academic Free License, New BSD License, and the MIT License.",
+      "https://github.com/phiggins42/has.js/"
+    ],
+    "usage": ["sim"],
+    "notes": "",
+    "selectedLicense": "MIT"
+  },
+  "howler-1.1.11": {
+    "text": [
+      "howler.js",
+      "Copyright (c) 2013-2014 James Simpson and GoldFire Studios, Inc."
+    ],
+    "usage": ["development"],
+    "notes": "used in vibe/experiments/",
+    "selectedLicense": "MIT"
+  },
+  "iframe-phone-7680a25185": {
+    "text": [
+      "iframe-phone.js",
+      "Copyright (c) 2014 Concord Consortium"
+    ],
+    "usage": ["development"],
+    "notes": "used in codap experiments.  No version was listed, so I used the GitHub git SHA",
+    "selectedLicense": "MIT"
+  },
+  "jquery-2.1.0": {
+    "text": [
+      "jQuery JavaScript Library v2.1.0 (includes Sizzle.js)",
+      "Copyright 2005, 2014 jQuery Foundation, Inc. and other contributors",
+      "http://jquery.com/",
+      "http://sizzlejs.com",
+      "Released under the MIT license",
+      "http://jquery.org/license"
+    ],
+    "usage": ["sim"],
+    "notes": ""
+  },
+  "jshint-2.5.0": {
+    "text": [
+      "jshint 2.5.0",
+      "Copyright 2012 Anton Kovalyov (http://jshint.com) MIT License, https://github.com/jshint/jshint/blob/master/LICENSE"
+    ],
+    "usage": ["development"],
+    "notes": ""
+  },
+  "jsondiffpatch-0.1.31": {
+    "text": [
+      "jsondiffpatch 0.1.31",
+      "Copyright (c) 2014 BenjamÌn Eidelman, twitter.com/beneidel"
+    ],
+    "usage": ["sim"],
+    "notes": "Only used for together.js enhanced simulation data features",
+    "selectedLicense": "MIT"
+  },
+  "liberation-sans-regular-subset-numeric-degrees": {
+    "text": [
+      "Liberation Sans regular",
+      "Licensed under SIL OFL 1.1",
+      "http://scripts.sil.org/OFL"
+    ],
+    "usage": ["sim"],
+    "notes": ""
+  },
+  "lodash-2.4.1": {
+    "text": [
+      "Lo-Dash 2.0.0 (Custom Build) http://lodash.com",
+      "Build: lodash modern -o ./dist/lodash.js",
+      "Copyright 2012-2013 The Dojo Foundation, http://dojofoundation.org>",
+      "Based on Underscore.js 1.5.2, http://underscorejs.org/LICENSE",
+      "Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors",
+      "Available under MIT license, http://lodash.com/license"
+    ],
+    "usage": ["sim"],
+    "notes": ""
+  },
+  "numeric-1.2.6": {
+    "text": [
+      "Numeric Javascript 1.2.6",
+      "Copyright (C) 2011 by Sébastien Loisel MIT License, https://github.com/sloisel/numeric/blob/master/license.txt"
+    ],
+    "usage": ["sim"],
+    "notes": ""
+  },
+  "pegjs-0.7.0": {
+    "text": [
+      "PEG.js 0.7.0 - Parser Generator for JavaScript",
+      "Copyright (C) 2010-2012 David Majda",
+      "MIT License",
+      "http://pegjs.majda.cz"
+    ],
+    "usage": ["sim"],
+    "notes": ""
+  },
+  "pixi-v3.0.0-rc1-dev": {
+    "text": [
+      "pixi.js v3.0.0-rc1",
+      "Copyright (c) 2012-2014, Mat Groves",
+      "http://goodboydigital.com"
+    ],
+    "usage": ["sim"],
+    "notes": "",
+    "selectedLicense": "MIT"
+  },
+  "poly2tri-1.3.5.min": {
+    "text": [
+      "Poly2Tri 1.3.5",
+      "Copyright (c) 2009-2014, Poly2Tri Contributors",
+      "http://code.google.com/p/poly2tri",
+      "poly2tri.js (JavaScript port)",
+      "Copyright (c) 2009-2014, Poly2Tri Contributors",
+      "https://github.com/r3mi/poly2tri.js"
+    ],
+    "usage": ["sim"],
+    "notes": ""
+  },
+  "qhint": {
+    "text": [
+      "qHint 1.1 | http://gyoshev.mit-license.org "
+    ],
+    "usage": ["development"],
+    "notes": ""
+  },
+  "qunit-1.14.0": {
+    "text": [
+      "QUnit v1.14.0 - A JavaScript Unit Testing Framework",
+      "http://qunitjs.com",
+      "Copyright 2014 jQuery Foundation and other contributors",
+      "Released under the MIT license.",
+      "https://jquery.org/license"
+    ],
+    "usage": ["development"],
+    "notes": ""
+  },
+  "require-2.1.11": {
+    "text": [
+      "RequireJS 2.1.11",
+      "Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved.",
+      "Available via the MIT or new BSD license.",
+      "see: http://github.com/jrburke/requirejs for details"
+    ],
+    "usage": [],
+    "notes": "",
+    "selectedLicense": "MIT"
+  },
+  "require-i18n": {
+    "text": [
+      "RequireJS requirejs-i18n - AMD loader for localization string resources",
+      "Copyright (c) 2010-2012, The Dojo Foundation All Rights Reserved.",
+      "Available via the MIT or new BSD license.",
+      "see: https://github.com/requirejs/i18n for details"
+    ],
+    "usage": [],
+    "notes": "",
+    "selectedLicense": "MIT"
+  },
+  "rgbcolor": {
+    "text": [
+      "rgbcolor - A class to parse color values (packaged with canvg-1.3)",
+      "@author Stoyan Stefanov, sstoo@gmail.com",
+      "@link   http://www.phpied.com/rgb-color-parser-in-javascript/",
+      "@license Use it if you like it"
+    ],
+    "usage": ["development"],
+    "notes": "only used with canvg"
+  },
+  "seedrandom-2.2": {
+    "text": [
+      "seedrandom.js 2.2.",
+      "Copyright 2013 David Bau, all rights reserved.",
+      "LICENSE (BSD), https://github.com/davidbau/seedrandom/blob/master/seedrandom.js"
+    ],
+    "usage": ["sim"],
+    "notes": ""
+  },
+  "stats-r12": {
+    "text": [
+      "stats.js r12",
+      "Copyright (c) 2009-2014 Mr.doob",
+      "MIT License, http://github.com/mrdoob/stats.js"
+    ],
+    "usage": ["development"],
+    "notes": ""
+  },
+  "syntaxhighlighter-3.0.83": {
+    "text": [
+      "SyntaxHighlighter 3.0.83",
+      "http://alexgorbatchev.com/SyntaxHighlighter",
+      "SyntaxHighlighter is donationware. If you are using it, please donate.",
+      "http://alexgorbatchev.com/SyntaxHighlighter/donate.html",
+      "@version 3.0.83 (July 02 2010)",
+      "@copyright Copyright (C) 2004-2010 Alex Gorbatchev",
+      "@license Dual licensed under the MIT and GPL licenses"
+    ],
+    "usage": ["docs"],
+    "selectedLicense": "MIT"
+  },
+  "text-2.0.12": {
+    "text": [
+      "RequireJS text 2.0.12",
+      "Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved.",
+      "Available via the MIT or new BSD license.",
+      "http://github.com/requirejs/text for details"
+    ],
+    "usage": ["sim"],
+    "notes": "",
+    "selectedLicense": "MIT"
+  },
+  "three-r68": {
+    "text": [
+      "Three.js r68",
+      "Copyright &copy; 2010-2014 three.js authors"
+    ],
+    "usage": ["sim"],
+    "notes": "",
+    "selectedLicense": "MIT"
+  },
+  "typedarray": {
+    "text": [
+      "typedarray",
+      "Copyright &copy; 2010 Linden Research, Inc., Copyright &copy; 2014 Joshua Bell"
+    ],
+    "usage": ["sim"],
+    "notes": "Typed array polyfill",
+    "selectedLicense": "MIT"
+  },
+  "Tween-r12": {
+    "text": [
+      "Tween.js r12 - http://github.com/sole/tween.js",
+      "The MIT License",
+      "Copyright (c) 2010-2012 Tween.js authors.",
+      "Easing equations Copyright (c) 2001 Robert Penner under BSD license, see http://robertpenner.com/easing_terms_of_use.html"
+    ],
+    "usage": ["sim"],
+    "notes": ""
+  },
+  "webgl-debug-2012": {
+    "text": [
+      "webgl-debug, various functions for helping debug WebGL apps.",
+      "The MIT License",
+      "Copyright (c) 2012 The Khronos Group Inc.",
+      "https://www.khronos.org/registry/webgl/sdk/debug/webgl-debug.js"
+    ],
+    "usage": ["development"],
+    "notes": ""
+  }
+}
