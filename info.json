@@ -267,6 +267,14 @@
     "license": "The MIT License",
     "usage": ["sim"]
   },
+  "Tween-r12": {
+    "text": [
+      "Tween.js r12 - http://github.com/sole/tween.js",
+      "Copyright (c) 2010-2012 Tween.js authors."
+    ],
+    "license": "The MIT License. Easing equations Copyright (c) 2001 Robert Penner under BSD license, see http://robertpenner.com/easing_terms_of_use.html",
+    "usage": ["sim"]
+  },
   "typedarray-44f09cf": {
     "text": [
       "typedarray",
@@ -276,13 +284,5 @@
     "license": "The MIT License",
     "usage": ["sim"],
     "notes": "Typed array polyfill"
-  },
-  "Tween-r12": {
-    "text": [
-      "Tween.js r12 - http://github.com/sole/tween.js",
-      "Copyright (c) 2010-2012 Tween.js authors."
-    ],
-    "license": "The MIT License. Easing equations Copyright (c) 2001 Robert Penner under BSD license, see http://robertpenner.com/easing_terms_of_use.html",
-    "usage": ["sim"]
   }
 }
