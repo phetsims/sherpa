@@ -51,10 +51,10 @@
   },
   "font-awesome": {
     "text": [
-      "Font Awesome, by Dave Gandy - http://fontawesome.io",
-      "http://scripts.sil.org/OFL"
+      "Font Awesome, by Dave Gandy",
+      "http://fontawesome.io"
     ],
-    "license": "Licensed under SIL OFL 1.1",
+    "license": "Licensed under SIL OFL 1.1, http://scripts.sil.org/OFL",
     "usage": ["sim"]
   },
   "has-70898c7": {
@@ -174,7 +174,8 @@
   },
   "qhint-1.1": {
     "text": [
-      "qHint 1.1"
+      "qHint 1.1",
+      "https://github.com/gyoshev/qhint"
     ],
     "license": "The MIT License, http://gyoshev.mit-license.org",
     "usage": ["development"]
@@ -193,7 +194,7 @@
     "text": [
       "RequireJS 2.1.11",
       "Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved.",
-      "see: http://github.com/jrburke/requirejs for details"
+      "http://github.com/jrburke/requirejs"
     ],
     "license": "Available via the MIT or new BSD license.",
     "selectedLicense": "The MIT License",
@@ -203,7 +204,7 @@
     "text": [
       "RequireJS requirejs-i18n - AMD loader for localization string resources",
       "Copyright (c) 2010-2012, The Dojo Foundation All Rights Reserved.",
-      "see: https://github.com/requirejs/i18n for details"
+      "https://github.com/requirejs/i18n"
     ],
     "license": "Available via the MIT or new BSD license.",
     "selectedLicense": "The MIT License",
@@ -252,7 +253,7 @@
     "text": [
       "RequireJS text 2.0.12",
       "Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved.",
-      "http://github.com/requirejs/text for details"
+      "http://github.com/requirejs/text"
     ],
     "license": "Available via the MIT or new BSD license.",
     "selectedLicense": "The MIT License",
@@ -261,7 +262,8 @@
   "three-r68": {
     "text": [
       "Three.js r68",
-      "Copyright &copy; 2010-2014 three.js authors"
+      "Copyright &copy; 2010-2014 three.js authors",
+      "http://threejs.org/"
     ],
     "license": "The MIT License",
     "usage": ["sim"]
