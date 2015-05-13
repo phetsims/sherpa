@@ -280,10 +280,11 @@
     "notes": "",
     "selectedLicense": "MIT"
   },
-  "typedarray": {
+  "typedarray-44f09cf": {
     "text": [
       "typedarray",
-      "Copyright &copy; 2010 Linden Research, Inc., Copyright &copy; 2014 Joshua Bell"
+      "Copyright &copy; 2010 Linden Research, Inc., Copyright &copy; 2014 Joshua Bell",
+      "https://github.com/inexorabletash/polyfill"
     ],
     "usage": ["sim"],
     "notes": "Typed array polyfill",
