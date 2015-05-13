@@ -23,10 +23,9 @@
     "text": [
       "Bootstrap v2.2.2",
       "Copyright 2012 Twitter, Inc",
-      "http://www.apache.org/licenses/LICENSE-2.0",
       "Designed and built with all the love in the world @twitter by @mdo and @fat."
     ],
-    "license": "Licensed under the Apache License v2.0",
+    "license": "Apache 2.0, https://github.com/twbs/bootstrap/blob/v2.2.2/LICENSE",
     "usage": ["docs"]
   },
   "canvg-1.3": {
