@@ -49,9 +49,9 @@
     "usage": ["sim"],
     "notes": "Used for saving screenshot images"
   },
-  "font-awesome": {
+  "font-awesome-4.3.0": {
     "text": [
-      "Font Awesome, by Dave Gandy",
+      "Font Awesome 4.3.0, by Dave Gandy",
       "http://fontawesome.io"
     ],
     "license": "Licensed under SIL OFL 1.1, http://scripts.sil.org/OFL",
