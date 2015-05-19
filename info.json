@@ -200,16 +200,6 @@
     "selectedLicense": "The MIT License",
     "usage": ["sim"]
   },
-  "require-i18n": {
-    "text": [
-      "RequireJS requirejs-i18n - AMD loader for localization string resources",
-      "Copyright (c) 2010-2012, The Dojo Foundation All Rights Reserved.",
-      "https://github.com/requirejs/i18n"
-    ],
-    "license": "Available via the MIT or new BSD license.",
-    "selectedLicense": "The MIT License",
-    "usage": ["sim"]
-  },
   "rgbcolor": {
     "text": [
       "rgbcolor - A class to parse color values (packaged with canvg-1.3)",
