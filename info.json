@@ -100,11 +100,12 @@
   },
   "jquery-2.1.0": {
     "text": [
-      "jQuery JavaScript Library v2.1.0 (includes Sizzle.js)",
-      "Copyright 2005, 2014 jQuery Foundation, Inc. and other contributors"
+      "jQuery JavaScript Library v2.1.0",
+      "Copyright 2005, 2014 jQuery Foundation, Inc. and other contributors",
+      "(includes Sizzle.js, http://sizzlejs.com)"
     ],
     "license": "The MIT License, http://jquery.org/license",
-    "url": "http://jquery.com, http://sizzlejs.com",
+    "url": "http://jquery.com",
     "usage": ["sim"]
   },
   "jshint-2.5.0": {
