@@ -213,6 +213,16 @@
     "url": "http://requirejs.org/",
     "usage": ["sim"]
   },
+  "reveal-3.1.0": {
+    "text": [
+      "Reveal.js - The HTML5 Presentation Framework",
+      "Hakim El Hattab / @hakimel"
+    ],
+    "license": "The MIT License, https://github.com/hakimel/reveal.js/blob/master/LICENSE",
+    "url": "http://lab.hakim.se/reveal-js/#/",
+    "usage": ["documentation"],
+    "notes": "Used for slideshows, possibly in http://phetsims.github.io/tech-slides/#/"
+  },
   "seedrandom-2.2": {
     "text": [
       "seedrandom.js 2.2.",
