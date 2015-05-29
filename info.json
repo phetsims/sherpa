@@ -7,7 +7,8 @@
     "license": "Available via the MIT or new BSD license.",
     "selectedLicense": "The MIT License",
     "projectURL": "https://github.com/jrburke/almond",
-    "usage": ["sim"]
+    "usage": ["sim"],
+    "notes": "Allows a RequireJS-based simulation to run in its compiled (smaller, faster) form"
   },
   "benchmark-1.0.0": {
     "text": [
@@ -19,7 +20,8 @@
     "license": "The MIT License",
     "licenseURL": "https://github.com/bestiejs/benchmark.js/blob/master/LICENSE.txt",
     "projectURL": "http://benchmarkjs.com",
-    "usage": ["development"]
+    "usage": ["development"],
+    "notes": "used for Scenery tests only"
   },
   "bootstrap-2.2.2": {
     "text": [
@@ -30,7 +32,8 @@
     "license": "Apache 2.0",
     "licenseURL": "https://github.com/twbs/bootstrap/blob/v2.2.2/LICENSE",
     "projectURL": "http://getbootstrap.com/2.3.2/index.html",
-    "usage": ["docs"]
+    "usage": ["docs"],
+    "notes": "In documentation only, supports webpages for Scenery/Kite/Dot docs"
   },
   "canvg-1.3": {
     "text": [
@@ -71,7 +74,8 @@
     "license": "Licensed under SIL OFL 1.1",
     "licenseURL": "http://scripts.sil.org/OFL",
     "projectURL": "http://fontawesome.io",
-    "usage": ["sim"]
+    "usage": ["sim"],
+    "notes": "Provides shapes like the home icon and check box icons, used in FontAwesomeNode"
   },
   "has-70898c7": {
     "text": [
@@ -81,7 +85,8 @@
     "license": "Tentatively, has.js is available under the Academic Free License, New BSD License, and the MIT License.",
     "selectedLicense": "The MIT License",
     "projectURL": "https://github.com/phiggins42/has.js/",
-    "usage": ["sim"]
+    "usage": ["sim"],
+    "notes": "Allows sims to detect which features are enabled on their platform, and for us to set global parameters for sim runs."
   },
   "howler-1.1.11": {
     "text": [
@@ -92,7 +97,7 @@
     "licenseURL": "https://github.com/goldfire/howler.js/blob/master/LICENSE.md",
     "projectURL": "https://github.com/goldfire/howler.js/",
     "usage": ["development"],
-    "notes": "used in vibe/experiments/"
+    "notes": "used in experimental audio code, vibe/experiments/"
   },
   "iframe-phone-7680a25185": {
     "text": [
@@ -103,7 +108,7 @@
     "licenseURL": "https://github.com/concord-consortium/iframe-phone/blob/master/LICENSE",
     "projectURL": "https://github.com/concord-consortium/iframe-phone",
     "usage": ["development"],
-    "notes": "used in codap experiments. No version was listed, so I used the GitHub git SHA"
+    "notes": "used in CODAP interoperability experiments"
   },
   "jquery-2.1.0": {
     "text": [
@@ -114,7 +119,8 @@
     "license": "The MIT License",
     "licenseURL": "http://jquery.org/license",
     "projectURL": "http://jquery.com",
-    "usage": ["sim"]
+    "usage": ["sim"],
+    "notes": "Facilitates interaction with browser DOM elements, mainly used in Scenery"
   },
   "jshint-2.5.0": {
     "text": [
@@ -124,7 +130,8 @@
     "license": "The MIT License",
     "licenseURL": "https://github.com/jshint/jshint/blob/master/LICENSE",
     "projectURL": "http://www.jshint.com/",
-    "usage": ["development"]
+    "usage": ["development"],
+    "notes": "Helps us enforce stylistic patterns in our Javascript code"
   },
   "jsondiffpatch-0.1.31": {
     "text": [
@@ -135,7 +142,7 @@
     "licenseURL": "https://github.com/benjamine/jsondiffpatch/blob/master/MIT-LICENSE.txt",
     "projectURL": "https://github.com/benjamine/jsondiffpatch",
     "usage": ["sim"],
-    "notes": "Only used for together.js enhanced simulation data features"
+    "notes": "Computes state diffs for record/playback in together.js sims"
   },
   "liberation-sans-regular-subset-numeric-degrees": {
     "text": [
@@ -145,7 +152,8 @@
     ],
     "license": "Licensed under SIL OFL 1.1",
     "licenseURL": "http://scripts.sil.org/OFL",
-    "usage": ["sim"]
+    "usage": ["sim"],
+    "notes": "For the 3D text in bond angles (faster updates than SVG text)"
   },
   "lodash-2.4.1": {
     "text": [
@@ -158,7 +166,8 @@
     "license": "The MIT License",
     "licenseURL": "http://lodash.com/license",
     "projectURL": "http://lodash.com",
-    "usage": ["sim"]
+    "usage": ["sim"],
+    "notes": "Adds common data structure operations such as sorting, grouping, etc."
   },
   "numeric-1.2.6": {
     "text": [
@@ -168,7 +177,8 @@
     "license": "The MIT License",
     "licenseURL": "https://github.com/sloisel/numeric/blob/master/license.txt",
     "projectURL": "http://www.numericjs.com",
-    "usage": ["sim"]
+    "usage": ["sim"],
+    "notes": "Provides numeric functions such as optimization algorithms"
   },
   "pegjs-0.7.0": {
     "text": [
@@ -177,7 +187,8 @@
     ],
     "license": "The MIT License, https://github.com/dmajda/pegjs/blob/master/LICENSE",
     "projectURL": "http://pegjs.majda.cz",
-    "usage": ["sim"]
+    "usage": ["sim"],
+    "notes": "SVG path parsing in Kite"
   },
   "pixi-v3.0.0-rc1-dev": {
     "text": [
@@ -202,7 +213,8 @@
     "license": "Revised BSD License",
     "licenseURL": "https://github.com/r3mi/poly2tri.js/blob/master/LICENSE.txt",
     "projectURL": "https://github.com/r3mi/poly2tri.js",
-    "usage": ["sim"]
+    "usage": ["sim"],
+    "notes": "anticipated use in scenery WebGL"
   },
   "qhint-1.1": {
     "text": [
@@ -211,7 +223,8 @@
     "license": "The MIT License",
     "licenseURL": "http://gyoshev.mit-license.org",
     "projectURL": "https://github.com/gyoshev/qhint",
-    "usage": ["development"]
+    "usage": ["development"],
+    "notes": "Allows us to run code style jshint tests in qunit's unit tests"
   },
   "qunit-1.14.0": {
     "text": [
@@ -221,7 +234,8 @@
     "license": "The MIT License",
     "licenseURL": "https://jquery.org/license",
     "projectURL": "http://qunitjs.com",
-    "usage": ["development"]
+    "usage": ["development"],
+    "notes": "Allows us to easily test our code to help us make sure nothing gets broken as development continues."
   },
   "requirejs-2.1.11": {
     "text": [
@@ -231,7 +245,8 @@
     "license": "Available via the MIT or new BSD license.",
     "selectedLicense": "The MIT License",
     "projectURL": "http://requirejs.org/",
-    "usage": ["sim"]
+    "usage": ["sim"],
+    "notes": "Manages code and dependencies to make it easier to develop simulations and test them quickly"
   },
   "requirejs-text-2.0.12": {
     "text": [
@@ -241,7 +256,8 @@
     "license": "Available via the MIT or new BSD license.",
     "selectedLicense": "The MIT License",
     "projectURL": "http://github.com/requirejs/text",
-    "usage": ["sim"]
+    "usage": ["sim"],
+    "notes": "Loads strings to be displayed in the sim, including internationalized strings."
   },
   "reveal-3.1.0": {
     "text": [
@@ -262,7 +278,8 @@
     "license": "BSD License",
     "licenseURL": "https://github.com/davidbau/seedrandom/blob/master/seedrandom.js",
     "projectURL": "https://github.com/davidbau/seedrandom",
-    "usage": ["sim"]
+    "usage": ["sim"],
+    "notes": "Provides reproducible sequences of random numbers"
   },
   "stats-r12": {
     "text": [
@@ -285,7 +302,8 @@
     "selectedLicense": "The MIT License",
     "licenseURL": "http://alexgorbatchev.com/SyntaxHighlighter/about.html",
     "projectURL": "http://alexgorbatchev.com/SyntaxHighlighter/",
-    "usage": ["docs"]
+    "usage": ["docs"],
+    "notes": "provides code highlighting in Scenery/Kite/Dot documentation"
   },
   "three-r68": {
     "text": [
@@ -295,7 +313,8 @@
     "license": "The MIT License",
     "licenseURL": "https://github.com/mrdoob/three.js/blob/master/LICENSE",
     "projectURL": "http://threejs.org",
-    "usage": ["sim"]
+    "usage": ["sim"],
+    "notes": "For the 3D view (WebGL and Canvas)"
   },
   "Tween-r12": {
     "text": [
@@ -305,7 +324,8 @@
     "license": "The MIT License. Easing equations Copyright (c) 2001 Robert Penner under BSD license",
     "licenseURL": "see http://robertpenner.com/easing_terms_of_use.html",
     "projectURL": "https://github.com/sole/tween.js/",
-    "usage": ["sim"]
+    "usage": ["sim"],
+    "notes": "Used to smoothly animate the speedometer and accelerometer to the left and back in Forces and Motion Basics."
   },
   "typedarray-44f09cf": {
     "text": [
