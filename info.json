@@ -45,7 +45,7 @@
       "rgbcolor - A class to parse color values (packaged with canvg-1.3)",
       "Stoyan Stefanov (sstoo@gmail.com)"
     ],
-    "license": "@license Use it if you like it",
+    "license": "@license Use it if you like it, http://www.phpied.com/files/rgbcolor/rgbcolor.js",
     "url": "http://www.phpied.com/rgb-color-parser-in-javascript/",
     "usage": ["development"],
     "notes": "required by canvg"
@@ -54,7 +54,7 @@
     "text": [
       "FileSaver.js by Eli Grey (http://eligrey.com)"
     ],
-    "license": "Released under the X11/MIT License",
+    "license": "Released under the X11/MIT License, https://github.com/eligrey/FileSaver.js/blob/master/LICENSE.md",
     "selectedLicense": "The MIT License",
     "url": "https://github.com/eligrey/FileSaver.js",
     "usage": ["sim"],
@@ -83,7 +83,7 @@
       "howler.js",
       "Copyright (c) 2013-2014 James Simpson and GoldFire Studios, Inc."
     ],
-    "license": "The MIT License",
+    "license": "The MIT License, https://github.com/goldfire/howler.js/blob/master/LICENSE.md",
     "url": "https://github.com/goldfire/howler.js/",
     "usage": ["development"],
     "notes": "used in vibe/experiments/"
@@ -93,7 +93,7 @@
       "iframe-phone.js",
       "Copyright (c) 2014 Concord Consortium"
     ],
-    "license": "The MIT License",
+    "license": "The MIT License, https://github.com/concord-consortium/iframe-phone/blob/master/LICENSE",
     "url": "https://github.com/concord-consortium/iframe-phone",
     "usage": ["development"],
     "notes": "used in codap experiments. No version was listed, so I used the GitHub git SHA"
@@ -122,7 +122,7 @@
       "jsondiffpatch 0.1.31",
       "Copyright (c) 2014 BenjamÌn Eidelman, twitter.com/beneidel"
     ],
-    "license": "The MIT License",
+    "license": "The MIT License, https://github.com/benjamine/jsondiffpatch/blob/master/MIT-LICENSE.txt",
     "url": "https://github.com/benjamine/jsondiffpatch",
     "usage": ["sim"],
     "notes": "Only used for together.js enhanced simulation data features"
@@ -130,7 +130,8 @@
   "liberation-sans-regular-subset-numeric-degrees": {
     "text": [
       "Liberation Sans regular",
-      "http://scripts.sil.org/OFL"
+      "http://scripts.sil.org/OFL",
+      "http://en.wikipedia.org/wiki/Liberation_fonts"
     ],
     "license": "Licensed under SIL OFL 1.1, http://scripts.sil.org/OFL",
     "usage": ["sim"]
@@ -161,7 +162,7 @@
       "PEG.js 0.7.0 - Parser Generator for JavaScript",
       "Copyright (C) 2010-2012 David Majda"
     ],
-    "license": "The MIT License",
+    "license": "The MIT License, https://github.com/dmajda/pegjs/blob/master/LICENSE",
     "url": "http://pegjs.majda.cz",
     "usage": ["sim"]
   },
@@ -170,7 +171,7 @@
       "pixi.js v3.0.0-rc1",
       "Copyright (c) 2012-2014, Mat Groves"
     ],
-    "license": "The MIT License",
+    "license": "The MIT License, https://github.com/GoodBoyDigital/pixi.js/blob/master/LICENSE",
     "url": "http://www.pixijs.com/",
     "usage": ["sim"]
   },
@@ -260,7 +261,7 @@
       "@copyright Copyright (C) 2004-2010 Alex Gorbatchev"
     ],
     "license": "@license Dual licensed under the MIT and GPL licenses",
-    "selectedLicense": "The MIT License",
+    "selectedLicense": "The MIT License, http://alexgorbatchev.com/SyntaxHighlighter/about.html",
     "url": "http://alexgorbatchev.com/SyntaxHighlighter/",
     "usage": ["docs"]
   },
@@ -269,7 +270,7 @@
       "Three.js r68",
       "Copyright &copy; 2010-2014 three.js authors"
     ],
-    "license": "The MIT License",
+    "license": "The MIT License, https://github.com/mrdoob/three.js/blob/master/LICENSE",
     "url": "http://threejs.org",
     "usage": ["sim"]
   },
@@ -287,7 +288,7 @@
       "typedarray",
       "Copyright &copy; 2010 Linden Research, Inc., Copyright &copy; 2014 Joshua Bell"
     ],
-    "license": "The MIT License",
+    "license": "The MIT License, https://github.com/substack/typedarray/blob/master/LICENSE",
     "url": "https://github.com/substack/typedarray",
     "usage": ["sim"],
     "notes": "Typed array polyfill"
