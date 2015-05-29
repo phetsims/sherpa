@@ -5,7 +5,7 @@
       "Copyright (c) 2011-2014, The Dojo Foundation All Rights Reserved."
     ],
     "license": "Available via the MIT or new BSD license.",
-    "selectedLicense": "MIT",
+    "selectedLicense": "The MIT License",
     "url": "https://github.com/jrburke/almond",
     "usage": ["sim"]
   },
@@ -16,7 +16,7 @@
       "Based on JSLitmus.js, copyright Robert Kieffer http://broofa.com",
       "Modified by John-David Dalton http://allyoucanleet.com"
     ],
-    "license": "The MIT license, https://github.com/bestiejs/benchmark.js/blob/master/LICENSE.txt",
+    "license": "The MIT License, https://github.com/bestiejs/benchmark.js/blob/master/LICENSE.txt",
     "url": "http://benchmarkjs.com",
     "usage": ["development"]
   },
@@ -54,8 +54,8 @@
     "text": [
       "FileSaver.js by Eli Grey (http://eligrey.com)"
     ],
-    "license": "Released under the X11/MIT license",
-    "selectedLicense": "MIT",
+    "license": "Released under the X11/MIT License",
+    "selectedLicense": "The MIT License",
     "url": "https://github.com/eligrey/FileSaver.js",
     "usage": ["sim"],
     "notes": "Used for saving screenshot images"
@@ -132,7 +132,7 @@
       "Liberation Sans regular",
       "http://scripts.sil.org/OFL"
     ],
-    "license": "Licensed under SIL OFL 1.1",
+    "license": "Licensed under SIL OFL 1.1, http://scripts.sil.org/OFL",
     "usage": ["sim"]
   },
   "lodash-2.4.1": {
@@ -143,7 +143,7 @@
       "Based on Underscore.js 1.5.2, http://underscorejs.org/LICENSE",
       "Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors"
     ],
-    "license": "The MIT license, http://lodash.com/license",
+    "license": "The MIT License, http://lodash.com/license",
     "url": "http://lodash.com",
     "usage": ["sim"]
   },
@@ -152,7 +152,7 @@
       "Numeric Javascript 1.2.6",
       "Copyright (C) 2011 by Sébastien Loisel"
     ],
-    "license": "MIT License, https://github.com/sloisel/numeric/blob/master/license.txt",
+    "license": "The MIT License, https://github.com/sloisel/numeric/blob/master/license.txt",
     "url": "http://www.numericjs.com",
     "usage": ["sim"]
   },
@@ -204,7 +204,7 @@
     "url": "http://qunitjs.com",
     "usage": ["development"]
   },
-  "require-2.1.11": {
+  "requirejs-2.1.11": {
     "text": [
       "RequireJS 2.1.11",
       "Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved."
@@ -212,6 +212,16 @@
     "license": "Available via the MIT or new BSD license.",
     "selectedLicense": "The MIT License",
     "url": "http://requirejs.org/",
+    "usage": ["sim"]
+  },
+  "requirejs-text-2.0.12": {
+    "text": [
+      "RequireJS text 2.0.12",
+      "Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved."
+    ],
+    "license": "Available via the MIT or new BSD license.",
+    "selectedLicense": "The MIT License",
+    "url": "http://github.com/requirejs/text",
     "usage": ["sim"]
   },
   "reveal-3.1.0": {
@@ -253,16 +263,6 @@
     "selectedLicense": "The MIT License",
     "url": "http://alexgorbatchev.com/SyntaxHighlighter/",
     "usage": ["docs"]
-  },
-  "text-2.0.12": {
-    "text": [
-      "RequireJS text 2.0.12",
-      "Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved."
-    ],
-    "license": "Available via the MIT or new BSD license.",
-    "selectedLicense": "The MIT License",
-    "url": "http://github.com/requirejs/text",
-    "usage": ["sim"]
   },
   "three-r68": {
     "text": [
