@@ -264,6 +264,17 @@
     "projectURL": "http://alexgorbatchev.com/SyntaxHighlighter/",
     "notes": "provides code highlighting in Scenery/Kite/Dot documentation"
   },
+  "text-2.0.12": {
+    "text": [
+      "RequireJS text 2.0.12",
+      "Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved."
+    ],
+    "license": "Available via the MIT or new BSD license.",
+    "selectedLicense": "The MIT License",
+    "projectURL": "http://github.com/requirejs/text",
+    "usage": ["sim"],
+    "notes": "Loads strings to be displayed in the sim, including internationalized strings."
+  },
   "three-r68": {
     "text": [
       "Three.js r68",
