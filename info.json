@@ -214,16 +214,6 @@
     "projectURL": "http://requirejs.org/",
     "notes": "Manages code and dependencies to make it easier to develop simulations and test them quickly"
   },
-  "reveal-3.1.0": {
-    "text": [
-      "Reveal.js - The HTML5 Presentation Framework",
-      "Hakim El Hattab / @hakimel"
-    ],
-    "license": "The MIT License",
-    "licenseURL": "https://github.com/hakimel/reveal.js/blob/master/LICENSE",
-    "projectURL": "http://lab.hakim.se/reveal-js/#/",
-    "notes": "Used for slideshows, possibly in http://phetsims.github.io/tech-slides/#/"
-  },
   "seedrandom-2.2": {
     "text": [
       "seedrandom.js 2.2.",
