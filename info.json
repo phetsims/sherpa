@@ -68,15 +68,6 @@
     "projectURL": "http://fontawesome.io",
     "notes": "Provides shapes like the home icon and check box icons, used in FontAwesomeNode"
   },
-  "has-70898c7": {
-    "text": [
-      "has.js",
-      "Copyright (c) 2010-2013 John David Dalton, Brad Dougherty, Bryan Forbes, Ryan Grove, Andrée Hansson, Peter Higgins, Paul Irish, Weston Ruter, Rick Waldron, Juriy Zaytsev"
-    ],
-    "license": "Tentatively available under The MIT License.",
-    "projectURL": "https://github.com/phiggins42/has.js/",
-    "notes": "Allows sims to detect which features are enabled on their platform, and for us to set global parameters for sim runs."
-  },
   "howler-1.1.11": {
     "text": [
       "howler.js",
