@@ -59,13 +59,13 @@
     "projectURL": "https://github.com/eligrey/FileSaver.js",
     "notes": "Used for saving screenshot images"
   },
-  "font-awesome-4.3.0": {
+  "fontawesome-webfont-3.0.2": {
     "text": [
-      "Font Awesome 4.3.0, by Dave Gandy"
+      "Font Awesome 3.0.2, by Dave Gandy"
     ],
-    "license": "SIL OFL 1.1",
-    "licenseURL": "http://scripts.sil.org/OFL",
-    "projectURL": "http://fontawesome.io",
+    "license": "CC BY 3.0 License",
+    "licenseURL": "https://creativecommons.org/licenses/by/3.0/legalcode",
+    "projectURL": "https://github.com/FortAwesome/Font-Awesome/tree/v3.0.2",
     "notes": "Provides shapes like the home icon and check box icons, used in FontAwesomeNode"
   },
   "howler-1.1.11": {
