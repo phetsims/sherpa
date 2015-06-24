@@ -1,5 +1,5 @@
 Library|Website|License|License URL (if different than project website)|Text|How is it used in sims?
------|-----|-----|-----|-----|-----
+------|------|------|------|------|------
 almond-0.2.9|https://github.com/jrburke/almond|The MIT License||almond 0.2.9<br>Copyright (c) 2011-2014, The Dojo Foundation All Rights Reserved.|Allows a RequireJS-based simulation to run in its compiled (smaller, faster) form
 benchmark-1.0.0|http://benchmarkjs.com|The MIT License|https://github.com/bestiejs/benchmark.js/blob/master/LICENSE.txt|Benchmark.js v1.0.0, http://benchmarkjs.com<br>Copyright 2010-2012 Mathias Bynens http://mths.be<br>Based on JSLitmus.js, copyright Robert Kieffer http://broofa.com<br>Modified by John-David Dalton http://allyoucanleet.com|used for Scenery tests only
 bootstrap-2.2.2|http://getbootstrap.com/2.3.2/index.html|Apache 2.0|https://github.com/twbs/bootstrap/blob/v2.2.2/LICENSE|Bootstrap v2.2.2<br>Copyright 2012 Twitter, Inc<br>Designed and built with all the love in the world @twitter by @mdo and @fat.|In documentation only, supports webpages for Scenery/Kite/Dot docs
