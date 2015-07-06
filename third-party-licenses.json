@@ -1,5 +1,5 @@
 {
-  "almond-0.2.9": {
+  "almond-0.2.9.js": {
     "text": [
       "almond 0.2.9",
       "Copyright (c) 2011-2014, The Dojo Foundation All Rights Reserved."
@@ -8,7 +8,7 @@
     "projectURL": "https://github.com/jrburke/almond",
     "notes": "Allows a RequireJS-based simulation to run in its compiled (smaller, faster) form"
   },
-  "benchmark-1.0.0": {
+  "benchmark-1.0.0.js": {
     "text": [
       "Benchmark.js v1.0.0, http://benchmarkjs.com",
       "Copyright 2010-2012 Mathias Bynens http://mths.be",
@@ -20,7 +20,7 @@
     "projectURL": "http://benchmarkjs.com",
     "notes": "used for Scenery tests only"
   },
-  "bootstrap-2.2.2": {
+  "bootstrap-2.2.2.js": {
     "text": [
       "Bootstrap v2.2.2",
       "Copyright 2012 Twitter, Inc",
@@ -31,7 +31,7 @@
     "projectURL": "http://getbootstrap.com/2.3.2/index.html",
     "notes": "In documentation only, supports webpages for Scenery/Kite/Dot docs"
   },
-  "canvg-1.3": {
+  "canvg-1.3.js": {
     "text": [
       "canvg.js - Javascript SVG parser and renderer on Canvas",
       "Gabe Lerner (gabelerner@gmail.com)"
@@ -40,7 +40,7 @@
     "projectURL": "https://code.google.com/p/canvg/",
     "notes": "Used in scenery unit tests, may be used in sims later on if we convert SVG to Canvas. Downloaded 2/9/2015 from https://github.com/gabelerner/canvg"
   },
-  "canvg-rgbcolor-1.3": {
+  "canvg-rgbcolor-1.3.js": {
     "text": [
       "rgbcolor - A class to parse color values (packaged with canvg-1.3)",
       "Stoyan Stefanov (sstoo@gmail.com)"
@@ -50,7 +50,7 @@
     "projectURL": "http://www.phpied.com/rgb-color-parser-in-javascript/",
     "notes": "required by canvg"
   },
-  "FileSaver-b8054a2": {
+  "FileSaver-b8054a2.js": {
     "text": [
       "FileSaver.js by Eli Grey (http://eligrey.com)"
     ],
@@ -59,7 +59,7 @@
     "projectURL": "https://github.com/eligrey/FileSaver.js",
     "notes": "Used for saving screenshot images"
   },
-  "fontawesome-webfont-3.0.2": {
+  "fontawesome-webfont-3.0.2.svg": {
     "text": [
       "Font Awesome 3.0.2, by Dave Gandy"
     ],
@@ -68,7 +68,7 @@
     "projectURL": "https://github.com/FortAwesome/Font-Awesome/tree/v3.0.2",
     "notes": "Provides shapes like the home icon and check box icons, used in FontAwesomeNode"
   },
-  "howler-1.1.11": {
+  "howler-1.1.11.js": {
     "text": [
       "howler.js",
       "Copyright (c) 2013-2014 James Simpson and GoldFire Studios, Inc."
@@ -78,7 +78,7 @@
     "projectURL": "https://github.com/goldfire/howler.js/",
     "notes": "used in experimental audio code, vibe/experiments/"
   },
-  "iframe-phone-7680a25185": {
+  "iframe-phone-7680a25185.js": {
     "text": [
       "iframe-phone.js",
       "Copyright (c) 2014 Concord Consortium"
@@ -88,7 +88,7 @@
     "projectURL": "https://github.com/concord-consortium/iframe-phone",
     "notes": "used in CODAP interoperability experiments"
   },
-  "jama-1.0.2": {
+  "jama-1.0.2.js": {
     "text": [
       "JAMA, a basic linear algebra package for Java."
     ],
@@ -96,7 +96,7 @@
     "projectURL": "http://math.nist.gov/javanumerics/jama/",
     "notes": "A derived work (certain ported and modified files) is used in Dot, mainly for matrix decompositions. Used in assorted simulations."
   },
-  "jquery-2.1.0": {
+  "jquery-2.1.0.js": {
     "text": [
       "jQuery JavaScript Library v2.1.0",
       "Copyright 2005, 2014 jQuery Foundation, Inc. and other contributors",
@@ -107,7 +107,7 @@
     "projectURL": "http://jquery.com",
     "notes": "Facilitates interaction with browser DOM elements, mainly used in Scenery"
   },
-  "jshint-2.5.0": {
+  "jshint-2.5.0.js": {
     "text": [
       "jshint 2.5.0",
       "Copyright 2012 Anton Kovalyov"
@@ -117,7 +117,7 @@
     "projectURL": "http://www.jshint.com/",
     "notes": "Helps us enforce stylistic patterns in our Javascript code"
   },
-  "jsondiffpatch-0.1.31": {
+  "jsondiffpatch-0.1.31.js": {
     "text": [
       "jsondiffpatch 0.1.31",
       "Copyright (c) 2014 BenjamÌn Eidelman, twitter.com/beneidel"
@@ -127,7 +127,7 @@
     "projectURL": "https://github.com/benjamine/jsondiffpatch",
     "notes": "Computes state diffs for record/playback in together.js sims"
   },
-  "liberation-sans-regular-subset-numeric-degrees": {
+  "liberation-sans-regular-subset-numeric-degrees.js": {
     "text": [
       "Liberation Sans regular",
       "http://scripts.sil.org/OFL",
@@ -137,7 +137,7 @@
     "licenseURL": "http://scripts.sil.org/OFL",
     "notes": "For the 3D text in bond angles (faster updates than SVG text)"
   },
-  "lodash-2.4.1": {
+  "lodash-2.4.1.js": {
     "text": [
       "Lo-Dash 2.4.1 (Custom Build)",
       "Build: lodash modern -o ./dist/lodash.js",
@@ -150,7 +150,7 @@
     "projectURL": "http://lodash.com",
     "notes": "Adds common data structure operations such as sorting, grouping, etc."
   },
-  "numeric-1.2.6": {
+  "numeric-1.2.6.js": {
     "text": [
       "Numeric Javascript 1.2.6",
       "Copyright (C) 2011 by Sébastien Loisel"
@@ -160,7 +160,7 @@
     "projectURL": "http://www.numericjs.com",
     "notes": "Provides numeric functions such as optimization algorithms"
   },
-  "pegjs-0.7.0": {
+  "pegjs-0.7.0.js": {
     "text": [
       "PEG.js 0.7.0 - Parser Generator for JavaScript",
       "Copyright (C) 2010-2012 David Majda"
@@ -170,7 +170,7 @@
     "projectURL": "http://pegjs.majda.cz",
     "notes": "SVG path parsing in Kite"
   },
-  "pixi-v3.0.0-rc1-dev": {
+  "pixi-v3.0.0-rc1-dev.js": {
     "text": [
       "pixi.js v3.0.0-rc1",
       "Copyright (c) 2012-2014, Mat Groves"
@@ -180,7 +180,7 @@
     "projectURL": "http://www.pixijs.com/",
     "deprecated": true
   },
-  "poly2tri-1.3.5.min": {
+  "poly2tri-1.3.5.min.js": {
     "text": [
       "Poly2Tri 1.3.5",
       "Copyright (c) 2009-2014, Poly2Tri Contributors",
@@ -194,7 +194,7 @@
     "projectURL": "https://github.com/r3mi/poly2tri.js",
     "notes": "anticipated use in scenery WebGL"
   },
-  "qhint-1.1": {
+  "qhint-1.1.js": {
     "text": [
       "qHint 1.1"
     ],
@@ -203,7 +203,7 @@
     "projectURL": "https://github.com/gyoshev/qhint",
     "notes": "Allows us to run code style jshint tests in qunit's unit tests"
   },
-  "qunit-1.14.0": {
+  "qunit-1.14.0.js": {
     "text": [
       "QUnit v1.14.0 - A JavaScript Unit Testing Framework",
       "Copyright 2014 jQuery Foundation and other contributors"
@@ -213,7 +213,7 @@
     "projectURL": "http://qunitjs.com",
     "notes": "Allows us to easily test our code to help us make sure nothing gets broken as development continues."
   },
-  "requirejs-2.1.11": {
+  "requirejs-2.1.11.js": {
     "text": [
       "RequireJS 2.1.11",
       "Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved."
@@ -222,7 +222,7 @@
     "projectURL": "http://requirejs.org/",
     "notes": "Manages code and dependencies to make it easier to develop simulations and test them quickly"
   },
-  "seedrandom-2.2": {
+  "seedrandom-2.2.js": {
     "text": [
       "seedrandom.js 2.2.",
       "Copyright 2013 David Bau, all rights reserved."
@@ -232,7 +232,7 @@
     "projectURL": "https://github.com/davidbau/seedrandom",
     "notes": "Provides reproducible sequences of random numbers"
   },
-  "stats-r12": {
+  "stats-r12.js": {
     "text": [
       "stats.js r12",
       "Copyright (c) 2009-2014 Mr.doob"
@@ -241,7 +241,7 @@
     "licenseURL": "http://github.com/mrdoob/stats.js",
     "notes": "Used in Scenery tests and examples, for showing a FPS monitor in the corner of the window"
   },
-  "syntaxhighlighter-3.0.83": {
+  "syntaxhighlighter-3.0.83.js": {
     "text": [
       "SyntaxHighlighter 3.0.83",
       "SyntaxHighlighter is donationware. If you are using it, please donate.",
@@ -254,7 +254,7 @@
     "projectURL": "http://alexgorbatchev.com/SyntaxHighlighter/",
     "notes": "provides code highlighting in Scenery/Kite/Dot documentation"
   },
-  "text-2.0.12": {
+  "text-2.0.12.js": {
     "text": [
       "RequireJS text 2.0.12",
       "Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved."
@@ -265,7 +265,7 @@
     "usage": ["sim"],
     "notes": "Loads strings to be displayed in the sim, including internationalized strings."
   },
-  "three-r68": {
+  "three-r68.js": {
     "text": [
       "Three.js r68",
       "Copyright &copy; 2010-2014 three.js authors"
@@ -275,7 +275,7 @@
     "projectURL": "http://threejs.org",
     "notes": "For the 3D view (WebGL and Canvas)"
   },
-  "Tween-r12": {
+  "Tween-r12.js": {
     "text": [
       "Tween.js r12",
       "Copyright (c) 2010-2012 Tween.js authors."
@@ -285,7 +285,7 @@
     "projectURL": "https://github.com/sole/tween.js/",
     "notes": "Used to smoothly animate the speedometer and accelerometer to the left and back in Forces and Motion Basics."
   },
-  "typedarray-44f09cf": {
+  "typedarray-44f09cf.js": {
     "text": [
       "typedarray",
       "Copyright &copy; 2010 Linden Research, Inc., Copyright &copy; 2014 Joshua Bell"
