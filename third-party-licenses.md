@@ -10,13 +10,13 @@
 
 **FileSaver-b8054a2.js**<br>FileSaver.js by Eli Grey (http://eligrey.com)<br>https://github.com/eligrey/FileSaver.js<br>The MIT License  https://github.com/eligrey/FileSaver.js/blob/master/LICENSE.md<br>Used for saving screenshot images
 
-**fontawesome-webfont-3.0.2.svg**<br>Font Awesome 3.0.2, by Dave Gandy<br>https://github.com/FortAwesome/Font-Awesome/tree/v3.0.2<br>CC BY 3.0 License  https://creativecommons.org/licenses/by/3.0/legalcode<br>Provides shapes like the home icon and check box icons, used in FontAwesomeNode
+**fontawesome-webfont-3.0.2.svg**<br>Font Awesome 3.0.2, by Dave Gandy<br>https://github.com/FortAwesome/Font-Awesome/tree/v3.0.2<br>SIL OPEN FONT LICENSE Version 1.1  https://creativecommons.org/licenses/by/3.0/legalcode<br>Provides shapes like the home icon and check box icons, used in FontAwesomeNode
 
 **howler-1.1.11.js**<br>howler.js<br>Copyright (c) 2013-2014 James Simpson and GoldFire Studios, Inc.<br>https://github.com/goldfire/howler.js/<br>The MIT License  https://github.com/goldfire/howler.js/blob/master/LICENSE.md<br>used in experimental audio code, vibe/experiments/
 
 **iframe-phone-7680a25185.js**<br>iframe-phone.js<br>Copyright (c) 2014 Concord Consortium<br>https://github.com/concord-consortium/iframe-phone<br>The MIT License  https://github.com/concord-consortium/iframe-phone/blob/master/LICENSE<br>used in CODAP interoperability experiments
 
-**jama-1.0.2.js**<br>JAMA, a basic linear algebra package for Java.<br>http://math.nist.gov/javanumerics/jama/<br>Public Domain  undefined<br>A derived work (certain ported and modified files) is used in Dot, mainly for matrix decompositions. Used in assorted simulations.
+**jama-1.0.2**<br>JAMA, a basic linear algebra package for Java.<br>http://math.nist.gov/javanumerics/jama/<br>Public Domain  undefined<br>A derived work (certain ported and modified files) is used in Dot, mainly for matrix decompositions. Used in assorted simulations.
 
 **jquery-2.1.0.js**<br>jQuery JavaScript Library v2.1.0<br>Copyright 2005, 2014 jQuery Foundation, Inc. and other contributors<br>(includes Sizzle.js, http://sizzlejs.com)<br>http://jquery.com<br>The MIT License  http://jquery.org/license<br>Facilitates interaction with browser DOM elements, mainly used in Scenery
 
