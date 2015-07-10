@@ -1,10 +1,10 @@
-**almond-0.2.9.js**<br>almond 0.2.9<br>Copyright (c) 2011-2014, The Dojo Foundation All Rights Reserved.<br>https://github.com/jrburke/almond<br>License: The MIT License<br>License URL: undefined<br>Notes: Allows a RequireJS-based simulation to run in its compiled (smaller, faster) form
+**almond-0.2.9.js**<br>almond 0.2.9<br>Copyright (c) 2011-2014, The Dojo Foundation All Rights Reserved.<br>https://github.com/jrburke/almond<br>License: The MIT License<br>License URL: https://github.com/jrburke/almond/blob/0.2.9/LICENSE<br>Notes: Allows a RequireJS-based simulation to run in its compiled (smaller, faster) form
 
 **benchmark-1.0.0.js**<br>Benchmark.js v1.0.0, http://benchmarkjs.com<br>Copyright 2010-2012 Mathias Bynens http://mths.be<br>Based on JSLitmus.js, copyright Robert Kieffer http://broofa.com<br>Modified by John-David Dalton http://allyoucanleet.com<br>http://benchmarkjs.com<br>License: The MIT License<br>License URL: https://github.com/bestiejs/benchmark.js/blob/master/LICENSE.txt<br>Notes: Used only in Scenery tests
 
 **bootstrap-2.2.2.js**<br>Bootstrap v2.2.2<br>Copyright 2012 Twitter, Inc<br>Designed and built with all the love in the world @twitter by @mdo and @fat.<br>http://getbootstrap.com/2.3.2/index.html<br>License: Apache 2.0<br>License URL: https://github.com/twbs/bootstrap/blob/v2.2.2/LICENSE<br>Notes: In documentation only, supports webpages for Scenery/Kite/Dot docs
 
-**canvg-1.3.js**<br>canvg.js - Javascript SVG parser and renderer on Canvas<br>Gabe Lerner (gabelerner@gmail.com)<br>https://code.google.com/p/canvg/<br>License: The MIT License<br>License URL: undefined<br>Notes: Used in scenery unit tests, may be used in sims later on if we convert SVG to Canvas. Downloaded 2/9/2015 from https://github.com/gabelerner/canvg
+**canvg-1.3.js**<br>canvg.js - Javascript SVG parser and renderer on Canvas<br>Gabe Lerner (gabelerner@gmail.com)<br>https://code.google.com/p/canvg/<br>License: The MIT License<br>License URL: https://github.com/gabelerner/canvg/blob/master/MIT-LICENSE.txt<br>Notes: Used in scenery unit tests, may be used in sims later on if we convert SVG to Canvas. Downloaded 2/9/2015 from https://github.com/gabelerner/canvg
 
 **canvg-rgbcolor-1.3.js**<br>rgbcolor - A class to parse color values (packaged with canvg-1.3)<br>Stoyan Stefanov (sstoo@gmail.com)<br>http://www.phpied.com/rgb-color-parser-in-javascript/<br>License: Use it if you like it<br>License URL: http://www.phpied.com/files/rgbcolor/rgbcolor.js<br>Notes: Required by canvg, see above
 
@@ -14,7 +14,7 @@
 
 **iframe-phone-1.1.3.js**<br>iframe-phone.js<br>Copyright (c) 2012 Concord Consortium<br>https://github.com/concord-consortium/iframe-phone/tree/v1.1.3<br>License: The MIT License<br>License URL: https://github.com/concord-consortium/iframe-phone/blob/v1.1.3/LICENSE<br>Notes: Used in CODAP interoperability experiments
 
-**jama-1.0.2**<br>JAMA, a basic linear algebra package for Java.<br>http://math.nist.gov/javanumerics/jama/<br>License: Public Domain<br>License URL: undefined<br>Notes: A derived work (certain ported and modified files) is used in Dot, mainly for matrix decompositions. Used in assorted simulations.
+**jama-1.0.2**<br>JAMA, a basic linear algebra package for Java.<br>http://math.nist.gov/javanumerics/jama/<br>License: Public Domain<br>License URL: http://math.nist.gov/javanumerics/jama/<br>Notes: A derived work (certain ported and modified files) is used in Dot, mainly for matrix decompositions. Used in assorted simulations.
 
 **jquery-2.1.0.js**<br>jQuery JavaScript Library v2.1.0<br>Copyright 2005, 2014 jQuery Foundation, Inc. and other contributors<br>(includes Sizzle.js, http://sizzlejs.com)<br>http://jquery.com<br>License: The MIT License<br>License URL: http://jquery.org/license<br>Notes: Facilitates interaction with browser DOM elements, mainly used in Scenery
 
@@ -38,7 +38,7 @@
 
 **qunit-1.14.0.js**<br>QUnit v1.14.0 - A JavaScript Unit Testing Framework<br>Copyright 2014 jQuery Foundation and other contributors<br>http://qunitjs.com<br>License: The MIT License<br>License URL: https://jquery.org/license<br>Notes: Allows us to easily test our code to help us make sure nothing gets broken as development continues.
 
-**requirejs-2.1.11.js**<br>RequireJS 2.1.11<br>Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved.<br>http://requirejs.org/<br>License: The MIT License<br>License URL: undefined<br>Notes: Manages code and dependencies to make it easier to develop simulations and test them quickly
+**requirejs-2.1.11.js**<br>RequireJS 2.1.11<br>Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved.<br>http://requirejs.org/<br>License: The MIT License<br>License URL: https://raw.githubusercontent.com/jrburke/requirejs/2.1.11/LICENSE<br>Notes: Manages code and dependencies to make it easier to develop simulations and test them quickly
 
 **seedrandom-2.2.js**<br>seedrandom.js 2.2.<br>Copyright 2013 David Bau, all rights reserved.<br>https://github.com/davidbau/seedrandom<br>License: BSD License<br>License URL: https://github.com/davidbau/seedrandom/blob/master/seedrandom.js<br>Notes: Provides reproducible sequences of random numbers
 
@@ -46,7 +46,7 @@
 
 **syntaxhighlighter-3.0.83.js**<br>SyntaxHighlighter 3.0.83<br>SyntaxHighlighter is donationware. If you are using it, please donate.<br>http://alexgorbatchev.com/SyntaxHighlighter/donate.html<br>@version 3.0.83 (July 02 2010)<br>@copyright Copyright (C) 2004-2010 Alex Gorbatchev<br>http://alexgorbatchev.com/SyntaxHighlighter/<br>License: The MIT License<br>License URL: http://alexgorbatchev.com/SyntaxHighlighter/about.html<br>Notes: Provides code highlighting in Scenery/Kite/Dot documentation
 
-**text-2.0.12.js**<br>RequireJS text 2.0.12<br>Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved.<br>http://github.com/requirejs/text<br>License: Available via the MIT or new BSD license.<br>License URL: undefined<br>Notes: Loads strings to be displayed in the sim, including internationalized strings.
+**text-2.0.12.js**<br>RequireJS text 2.0.12<br>Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved.<br>http://github.com/requirejs/text<br>License: Available via the MIT or new BSD license.<br>License URL: https://github.com/requirejs/text/blob/master/LICENSE<br>Notes: Loads strings to be displayed in the sim, including internationalized strings.
 
 **three-r68.js**<br>Three.js r68<br>Copyright &copy; 2010-2014 three.js authors<br>http://threejs.org<br>License: The MIT License<br>License URL: https://github.com/mrdoob/three.js/blob/master/LICENSE<br>Notes: For the 3D view (WebGL and Canvas)
 
