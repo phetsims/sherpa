@@ -56,12 +56,21 @@
 
 Licenses Used:
 The MIT License
+
 Apache 2.0
+
 Use it if you like it
+
 SIL OPEN FONT LICENSE Version 1.1
+
 Public Domain
+
 SIL OFL 1.1
+
 Revised BSD License
+
 BSD License
+
 Available via the MIT or new BSD license.
+
 The MIT License. Easing equations Copyright (c) 2001 Robert Penner under BSD license
