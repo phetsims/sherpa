@@ -123,8 +123,9 @@
   "liberation-sans-regular-subset-numeric-degrees.js": {
     "text": [
       "Liberation Sans regular",
-      "http://en.wikipedia.org/wiki/Liberation_fonts"
+      "Developed by Steve Matteson of Ascender Corporation as Ascender Sans and Ascender Serif"
     ],
+    "projectURL": "http://en.wikipedia.org/wiki/Liberation_fonts",
     "license": "SIL Open Font License, Version 1.1",
     "licenseURL": "http://scripts.sil.org/OFL",
     "notes": "For the 3D text in bond angles (faster updates than SVG text)"
