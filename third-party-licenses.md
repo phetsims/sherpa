@@ -10,7 +10,7 @@
 
 **FileSaver-b8054a2.js**<br>FileSaver.js by Eli Grey (http://eligrey.com)<br>https://github.com/eligrey/FileSaver.js<br>License: The MIT License<br>License URL: https://github.com/eligrey/FileSaver.js/blob/master/LICENSE.md<br>Notes: Used for saving screenshot images
 
-**fontawesome-webfont-3.0.2.svg**<br>Font Awesome 3.0.2, by Dave Gandy<br>https://github.com/FortAwesome/Font-Awesome/tree/v3.0.2<br>License: SIL OPEN FONT LICENSE Version 1.1<br>License URL: http://fortawesome.github.io/Font-Awesome/3.2.1/license/<br>Notes: Provides shapes like the home icon and check box icons, used in FontAwesomeNode
+**fontawesome-webfont-3.0.2.svg**<br>Font Awesome 3.0.2, by Dave Gandy<br>https://github.com/FortAwesome/Font-Awesome/tree/v3.0.2<br>License: SIL Open Font License, Version 1.1<br>License URL: http://fortawesome.github.io/Font-Awesome/3.2.1/license/<br>Notes: Provides shapes like the home icon and check box icons, used in FontAwesomeNode
 
 **iframe-phone-1.1.3.js**<br>iframe-phone.js<br>Copyright (c) 2012 Concord Consortium<br>https://github.com/concord-consortium/iframe-phone/tree/v1.1.3<br>License: The MIT License<br>License URL: https://github.com/concord-consortium/iframe-phone/blob/v1.1.3/LICENSE<br>Notes: Used in CODAP interoperability experiments
 
@@ -22,7 +22,7 @@
 
 **jsondiffpatch-0.1.31.js**<br>jsondiffpatch 0.1.31<br>Copyright (c) 2014 BenjamÌn Eidelman, twitter.com/beneidel<br>https://github.com/benjamine/jsondiffpatch<br>License: The MIT License<br>License URL: https://github.com/benjamine/jsondiffpatch/blob/master/MIT-LICENSE.txt<br>Notes: Computes state diffs for record/playback in together.js sims
 
-**liberation-sans-regular-subset-numeric-degrees.js**<br>Liberation Sans regular<br>http://scripts.sil.org/OFL<br>http://en.wikipedia.org/wiki/Liberation_fonts<br><br>License: SIL OPEN FONT LICENSE Version 1.1<br>License URL: http://scripts.sil.org/OFL<br>Notes: For the 3D text in bond angles (faster updates than SVG text)
+**liberation-sans-regular-subset-numeric-degrees.js**<br>Liberation Sans regular<br>http://en.wikipedia.org/wiki/Liberation_fonts<br><br>License: SIL Open Font License, Version 1.1<br>License URL: http://scripts.sil.org/OFL<br>Notes: For the 3D text in bond angles (faster updates than SVG text)
 
 **lodash-2.4.1.js**<br>Lo-Dash 2.4.1 (Custom Build)<br>Build: lodash modern -o ./dist/lodash.js<br>Copyright 2012-2013 The Dojo Foundation, http://dojofoundation.org><br>Based on Underscore.js 1.5.2, http://underscorejs.org/LICENSE<br>Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors<br>http://lodash.com<br>License: The MIT License<br>License URL: http://lodash.com/license<br>Notes: Adds common data structure operations such as sorting, grouping, etc.
 
@@ -54,4 +54,4 @@
 
 **typedarray-44f09cf.js**<br>typedarray<br>Copyright &copy; 2010 Linden Research, Inc., Copyright &copy; 2014 Joshua Bell<br>https://github.com/substack/typedarray<br>License: The MIT License<br>License URL: https://github.com/substack/typedarray/blob/master/LICENSE<br>Notes: Typed array polyfill
 
-**Licenses Used:**<br>The MIT License<br>Apache 2.0<br>Use it if you like it<br>SIL OPEN FONT LICENSE Version 1.1<br>Public Domain<br>Revised BSD License<br>BSD License
+**Licenses Used:**<br>The MIT License<br>Apache 2.0<br>Use it if you like it<br>SIL Open Font License, Version 1.1<br>Public Domain<br>Revised BSD License<br>BSD License
