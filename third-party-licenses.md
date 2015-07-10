@@ -32,7 +32,7 @@
 
 **pixi-v3.0.0-rc1-dev.js**<br>pixi.js v3.0.0-rc1<br>Copyright (c) 2012-2014, Mat Groves<br>http://www.pixijs.com/<br>License: The MIT License<br>License URL: https://github.com/GoodBoyDigital/pixi.js/blob/master/LICENSE<br>Notes: Experimental renderer for Scenery, not used in production
 
-**poly2tri-1.3.5.min.js**<br>Poly2Tri 1.3.5<br>Copyright (c) 2009-2014, Poly2Tri Contributors<br>http://code.google.com/p/poly2tri<br>poly2tri.js (JavaScript port)<br>Copyright (c) 2009-2014, Poly2Tri Contributors<br>https://github.com/r3mi/poly2tri.js<br>https://github.com/r3mi/poly2tri.js<br>License: Revised BSD License<br>License URL: https://github.com/r3mi/poly2tri.js/blob/master/LICENSE.txt<br>Notes: Used for rendering in Scenery's WebGL renderer
+**poly2tri-1.3.5.min.js**<br>Poly2Tri 1.3.5<br>Copyright (c) 2009-2014, Poly2Tri Contributors<br>https://github.com/r3mi/poly2tri.js<br>License: Revised BSD License<br>License URL: https://github.com/r3mi/poly2tri.js/blob/master/LICENSE.txt<br>Notes: Used for rendering in Scenery's WebGL renderer
 
 **qhint-1.1.js**<br>qHint 1.1<br>https://github.com/gyoshev/qhint<br>License: The MIT License<br>License URL: http://gyoshev.mit-license.org<br>Notes: Allows us to run code style jshint tests in qunit's unit tests
 
