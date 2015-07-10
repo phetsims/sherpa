@@ -54,5 +54,4 @@
 
 **typedarray-44f09cf.js**<br>typedarray<br>Copyright &copy; 2010 Linden Research, Inc., Copyright &copy; 2014 Joshua Bell<br>https://github.com/substack/typedarray<br>License: The MIT License<br>License URL: https://github.com/substack/typedarray/blob/master/LICENSE<br>Notes: Typed array polyfill
 
-Licenses Used:
-The MIT License<br>Apache 2.0<br>Use it if you like it<br>SIL OPEN FONT LICENSE Version 1.1<br>Public Domain<br>SIL OFL 1.1<br>Revised BSD License<br>BSD License<br>Available via the MIT or new BSD license.<br>The MIT License. Easing equations Copyright (c) 2001 Robert Penner under BSD license
+Licenses Used:<br>The MIT License<br>Apache 2.0<br>Use it if you like it<br>SIL OPEN FONT LICENSE Version 1.1<br>Public Domain<br>SIL OFL 1.1<br>Revised BSD License<br>BSD License<br>Available via the MIT or new BSD license.<br>The MIT License. Easing equations Copyright (c) 2001 Robert Penner under BSD license
