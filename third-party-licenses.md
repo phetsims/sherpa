@@ -22,7 +22,7 @@
 
 **jsondiffpatch-0.1.31.js**<br>jsondiffpatch 0.1.31<br>Copyright (c) 2014 BenjamÌn Eidelman, twitter.com/beneidel<br>https://github.com/benjamine/jsondiffpatch<br>License: The MIT License<br>License URL: https://github.com/benjamine/jsondiffpatch/blob/master/MIT-LICENSE.txt<br>Notes: Computes state diffs for record/playback in together.js sims
 
-**liberation-sans-regular-subset-numeric-degrees.js**<br>Liberation Sans regular<br>http://scripts.sil.org/OFL<br>http://en.wikipedia.org/wiki/Liberation_fonts<br><br>License: SIL OFL 1.1<br>License URL: http://scripts.sil.org/OFL<br>Notes: For the 3D text in bond angles (faster updates than SVG text)
+**liberation-sans-regular-subset-numeric-degrees.js**<br>Liberation Sans regular<br>http://scripts.sil.org/OFL<br>http://en.wikipedia.org/wiki/Liberation_fonts<br><br>License: SIL OPEN FONT LICENSE Version 1.1<br>License URL: http://scripts.sil.org/OFL<br>Notes: For the 3D text in bond angles (faster updates than SVG text)
 
 **lodash-2.4.1.js**<br>Lo-Dash 2.4.1 (Custom Build)<br>Build: lodash modern -o ./dist/lodash.js<br>Copyright 2012-2013 The Dojo Foundation, http://dojofoundation.org><br>Based on Underscore.js 1.5.2, http://underscorejs.org/LICENSE<br>Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors<br>http://lodash.com<br>License: The MIT License<br>License URL: http://lodash.com/license<br>Notes: Adds common data structure operations such as sorting, grouping, etc.
 
@@ -46,12 +46,12 @@
 
 **syntaxhighlighter-3.0.83.js**<br>SyntaxHighlighter 3.0.83<br>SyntaxHighlighter is donationware. If you are using it, please donate.<br>http://alexgorbatchev.com/SyntaxHighlighter/donate.html<br>@version 3.0.83 (July 02 2010)<br>@copyright Copyright (C) 2004-2010 Alex Gorbatchev<br>http://alexgorbatchev.com/SyntaxHighlighter/<br>License: The MIT License<br>License URL: http://alexgorbatchev.com/SyntaxHighlighter/about.html<br>Notes: Provides code highlighting in Scenery/Kite/Dot documentation
 
-**text-2.0.12.js**<br>RequireJS text 2.0.12<br>Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved.<br>http://github.com/requirejs/text<br>License: Available via the MIT or new BSD license.<br>License URL: https://github.com/requirejs/text/blob/master/LICENSE<br>Notes: Loads strings to be displayed in the sim, including internationalized strings.
+**text-2.0.12.js**<br>RequireJS text 2.0.12<br>Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved.<br>http://github.com/requirejs/text<br>License: The MIT License<br>License URL: https://github.com/requirejs/text/blob/master/LICENSE<br>Notes: Loads strings to be displayed in the sim, including internationalized strings.
 
 **three-r68.js**<br>Three.js r68<br>Copyright &copy; 2010-2014 three.js authors<br>http://threejs.org<br>License: The MIT License<br>License URL: https://github.com/mrdoob/three.js/blob/master/LICENSE<br>Notes: For the 3D view (WebGL and Canvas)
 
-**Tween-r12.js**<br>Tween.js r12<br>Copyright (c) 2010-2012 Tween.js authors.<br>https://github.com/sole/tween.js/<br>License: The MIT License. Easing equations Copyright (c) 2001 Robert Penner under BSD license<br>License URL: see http://robertpenner.com/easing_terms_of_use.html<br>Notes: Used to smoothly animate the speedometer and accelerometer to the left and back in Forces and Motion Basics.
+**Tween-r12.js**<br>Tween.js r12<br>Copyright (c) 2010-2012 Tween.js authors.<br>Easing equations Copyright (c) 2001 Robert Penner under BSD license<br>https://github.com/sole/tween.js/<br>License: The MIT License<br>License URL: see http://robertpenner.com/easing_terms_of_use.html<br>Notes: Used to smoothly animate the speedometer and accelerometer to the left and back in Forces and Motion Basics.
 
 **typedarray-44f09cf.js**<br>typedarray<br>Copyright &copy; 2010 Linden Research, Inc., Copyright &copy; 2014 Joshua Bell<br>https://github.com/substack/typedarray<br>License: The MIT License<br>License URL: https://github.com/substack/typedarray/blob/master/LICENSE<br>Notes: Typed array polyfill
 
-**Licenses Used:**<br>The MIT License<br>Apache 2.0<br>Use it if you like it<br>SIL OPEN FONT LICENSE Version 1.1<br>Public Domain<br>SIL OFL 1.1<br>Revised BSD License<br>BSD License<br>Available via the MIT or new BSD license.<br>The MIT License. Easing equations Copyright (c) 2001 Robert Penner under BSD license
+**Licenses Used:**<br>The MIT License<br>Apache 2.0<br>Use it if you like it<br>SIL OPEN FONT LICENSE Version 1.1<br>Public Domain<br>Revised BSD License<br>BSD License
