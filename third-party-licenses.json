@@ -5,6 +5,7 @@
       "Copyright (c) 2011-2014, The Dojo Foundation All Rights Reserved."
     ],
     "license": "The MIT License",
+    "licenseURL": "https://github.com/jrburke/almond/blob/0.2.9/LICENSE",
     "projectURL": "https://github.com/jrburke/almond",
     "notes": "Allows a RequireJS-based simulation to run in its compiled (smaller, faster) form"
   },
@@ -18,7 +19,7 @@
     "license": "The MIT License",
     "licenseURL": "https://github.com/bestiejs/benchmark.js/blob/master/LICENSE.txt",
     "projectURL": "http://benchmarkjs.com",
-    "notes": "used for Scenery tests only"
+    "notes": "Used only in Scenery tests"
   },
   "bootstrap-2.2.2.js": {
     "text": [
@@ -37,6 +38,7 @@
       "Gabe Lerner (gabelerner@gmail.com)"
     ],
     "license": "The MIT License",
+    "licenseURL": "https://github.com/gabelerner/canvg/blob/master/MIT-LICENSE.txt",
     "projectURL": "https://code.google.com/p/canvg/",
     "notes": "Used in scenery unit tests, may be used in sims later on if we convert SVG to Canvas. Downloaded 2/9/2015 from https://github.com/gabelerner/canvg"
   },
@@ -48,7 +50,7 @@
     "license": "Use it if you like it",
     "licenseURL": "http://www.phpied.com/files/rgbcolor/rgbcolor.js",
     "projectURL": "http://www.phpied.com/rgb-color-parser-in-javascript/",
-    "notes": "required by canvg"
+    "notes": "Required by canvg, see above"
   },
   "FileSaver-b8054a2.js": {
     "text": [
@@ -76,13 +78,14 @@
     "license": "The MIT License",
     "licenseURL": "https://github.com/concord-consortium/iframe-phone/blob/v1.1.3/LICENSE",
     "projectURL": "https://github.com/concord-consortium/iframe-phone/tree/v1.1.3",
-    "notes": "used in CODAP interoperability experiments"
+    "notes": "Used in CODAP interoperability experiments"
   },
   "jama-1.0.2": {
     "text": [
       "JAMA, a basic linear algebra package for Java."
     ],
     "license": "Public Domain",
+    "licenseURL": "http://math.nist.gov/javanumerics/jama/",
     "projectURL": "http://math.nist.gov/javanumerics/jama/",
     "notes": "A derived work (certain ported and modified files) is used in Dot, mainly for matrix decompositions. Used in assorted simulations."
   },
@@ -168,7 +171,7 @@
     "license": "The MIT License",
     "licenseURL": "https://github.com/GoodBoyDigital/pixi.js/blob/master/LICENSE",
     "projectURL": "http://www.pixijs.com/",
-    "deprecated": true
+    "notes": "Experimental renderer for Scenery, not used in production"
   },
   "poly2tri-1.3.5.min.js": {
     "text": [
@@ -182,7 +185,7 @@
     "license": "Revised BSD License",
     "licenseURL": "https://github.com/r3mi/poly2tri.js/blob/master/LICENSE.txt",
     "projectURL": "https://github.com/r3mi/poly2tri.js",
-    "notes": "anticipated use in scenery WebGL"
+    "notes": "Used for rendering in Scenery's WebGL renderer"
   },
   "qhint-1.1.js": {
     "text": [
@@ -209,6 +212,7 @@
       "Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved."
     ],
     "license": "The MIT License",
+    "licenseURL": "https://raw.githubusercontent.com/jrburke/requirejs/2.1.11/LICENSE",
     "projectURL": "http://requirejs.org/",
     "notes": "Manages code and dependencies to make it easier to develop simulations and test them quickly"
   },
@@ -242,7 +246,7 @@
     "license": "The MIT License",
     "licenseURL": "http://alexgorbatchev.com/SyntaxHighlighter/about.html",
     "projectURL": "http://alexgorbatchev.com/SyntaxHighlighter/",
-    "notes": "provides code highlighting in Scenery/Kite/Dot documentation"
+    "notes": "Provides code highlighting in Scenery/Kite/Dot documentation"
   },
   "text-2.0.12.js": {
     "text": [
@@ -250,9 +254,8 @@
       "Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved."
     ],
     "license": "Available via the MIT or new BSD license.",
-    "selectedLicense": "The MIT License",
+    "licenseURL": "https://github.com/requirejs/text/blob/master/LICENSE",
     "projectURL": "http://github.com/requirejs/text",
-    "usage": ["sim"],
     "notes": "Loads strings to be displayed in the sim, including internationalized strings."
   },
   "three-r68.js": {
