@@ -22,7 +22,7 @@
 
 **jsondiffpatch-0.1.31.js**<br>jsondiffpatch 0.1.31<br>Copyright (c) 2014 BenjamÌn Eidelman, twitter.com/beneidel<br>https://github.com/benjamine/jsondiffpatch<br>License: The MIT License<br>License URL: https://github.com/benjamine/jsondiffpatch/blob/master/MIT-LICENSE.txt<br>Notes: Computes state diffs for record/playback in together.js sims
 
-**liberation-sans-regular-subset-numeric-degrees.js**<br>Liberation Sans regular<br>http://en.wikipedia.org/wiki/Liberation_fonts<br><br>License: SIL Open Font License, Version 1.1<br>License URL: http://scripts.sil.org/OFL<br>Notes: For the 3D text in bond angles (faster updates than SVG text)
+**liberation-sans-regular-subset-numeric-degrees.js**<br>Liberation Sans regular<br>Developed by Steve Matteson of Ascender Corporation as Ascender Sans and Ascender Serif, http://en.wikipedia.org/wiki/Liberation_fonts<br><br>License: SIL Open Font License, Version 1.1<br>License URL: http://scripts.sil.org/OFL<br>Notes: For the 3D text in bond angles (faster updates than SVG text)
 
 **lodash-2.4.1.js**<br>Lo-Dash 2.4.1 (Custom Build)<br>Build: lodash modern -o ./dist/lodash.js<br>Copyright 2012-2013 The Dojo Foundation, http://dojofoundation.org><br>Based on Underscore.js 1.5.2, http://underscorejs.org/LICENSE<br>Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors<br>http://lodash.com<br>License: The MIT License<br>License URL: http://lodash.com/license<br>Notes: Adds common data structure operations such as sorting, grouping, etc.
 
