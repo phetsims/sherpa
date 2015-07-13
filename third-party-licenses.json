@@ -1,24 +1,22 @@
 {
   "almond-0.2.9.js": {
     "text": [
-      "almond 0.2.9",
       "Copyright (c) 2011-2014, The Dojo Foundation All Rights Reserved."
     ],
+    "projectURL": "https://github.com/jrburke/almond",
     "license": "The MIT License",
     "licenseURL": "https://github.com/jrburke/almond/blob/0.2.9/LICENSE",
-    "projectURL": "https://github.com/jrburke/almond",
     "notes": "Allows a RequireJS-based simulation to run in its compiled (smaller, faster) form"
   },
   "benchmark-1.0.0.js": {
     "text": [
-      "Benchmark.js v1.0.0, http://benchmarkjs.com",
       "Copyright 2010-2012 Mathias Bynens http://mths.be",
       "Based on JSLitmus.js, copyright Robert Kieffer http://broofa.com",
       "Modified by John-David Dalton http://allyoucanleet.com"
     ],
+    "projectURL": "http://benchmarkjs.com",
     "license": "The MIT License",
     "licenseURL": "https://github.com/bestiejs/benchmark.js/blob/master/LICENSE.txt",
-    "projectURL": "http://benchmarkjs.com",
     "notes": "Used only in Scenery tests"
   },
   "bootstrap-2.2.2.js": {
