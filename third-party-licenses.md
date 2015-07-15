@@ -40,7 +40,7 @@
 
 **requirejs-2.1.11.js**<br>Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved.<br>http://requirejs.org/<br>License: The MIT License<br>License URL: https://raw.githubusercontent.com/jrburke/requirejs/2.1.11/LICENSE<br>Notes: Manages code and dependencies to make it easier to develop simulations and test them quickly
 
-**seedrandom-2.2.js**<br>Copyright (c) 2013 David Bau, all rights reserved.<br>https://github.com/davidbau/seedrandom<br>License: BSD License<br>License URL: https://github.com/davidbau/seedrandom/blob/master/seedrandom.js<br>Notes: Provides reproducible sequences of random numbers
+**seedrandom-2.2.js**<br>Copyright (c) 2013 David Bau, all rights reserved.<br>https://github.com/davidbau/seedrandom<br>License: Revised BSD License<br>License URL: https://github.com/davidbau/seedrandom/blob/master/seedrandom.js<br>Notes: Provides reproducible sequences of random numbers
 
 **stats-r12.js**<br>Copyright (c) 2009-2014 Mr.doob<br><br>License: The MIT License<br>License URL: http://github.com/mrdoob/stats.js<br>Notes: Used in Scenery tests and examples, for showing a FPS monitor in the corner of the window
 
@@ -50,8 +50,8 @@
 
 **three-r68.js**<br>Copyright (c) 2010-2014 three.js authors<br>http://threejs.org<br>License: The MIT License<br>License URL: https://github.com/mrdoob/three.js/blob/master/LICENSE<br>Notes: For the 3D view (WebGL and Canvas)
 
-**Tween-r12.js**<br>Copyright (c) 2010-2012 Tween.js authors.<br>Easing equations Copyright (c) 2001 Robert Penner under BSD license<br>https://github.com/tweenjs/tween.js/<br>License: The MIT License<br>License URL: see http://robertpenner.com/easing_terms_of_use.html<br>Notes: Used to smoothly animate the speedometer and accelerometer to the left and back in Forces and Motion Basics.
+**Tween-r12.js**<br>Copyright (c) 2010-2012 Tween.js authors.<br>Easing equations Copyright (c) 2001 Robert Penner under the Revised BSD license<br>https://github.com/tweenjs/tween.js/<br>License: The MIT License<br>License URL: https://github.com/tweenjs/tween.js/blob/master/LICENSE<br>Notes: Used to smoothly animate the speedometer and accelerometer to the left and back in Forces and Motion Basics.
 
 **typedarray-44f09cf.js**<br>Copyright (c) 2010 Linden Research, Inc., Copyright (c) 2014 Joshua Bell<br>https://github.com/substack/typedarray<br>License: The MIT License<br>License URL: https://github.com/substack/typedarray/blob/master/LICENSE<br>Notes: Typed array polyfill
 
-**Licenses Used:**<br>The MIT License<br>Apache 2.0<br>Use it if you like it<br>SIL Open Font License, Version 1.1<br>Public Domain<br>Revised BSD License<br>BSD License
+**Licenses Used:**<br>The MIT License<br>Apache 2.0<br>Use it if you like it<br>SIL Open Font License, Version 1.1<br>Public Domain<br>Revised BSD License
