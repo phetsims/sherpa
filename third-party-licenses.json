@@ -198,7 +198,7 @@
     "text": [
       "Copyright (c) 2013 David Bau, all rights reserved."
     ],
-    "license": "BSD License",
+    "license": "Revised BSD License",
     "licenseURL": "https://github.com/davidbau/seedrandom/blob/master/seedrandom.js",
     "projectURL": "https://github.com/davidbau/seedrandom",
     "notes": "Provides reproducible sequences of random numbers"
@@ -241,10 +241,10 @@
   "Tween-r12.js": {
     "text": [
       "Copyright (c) 2010-2012 Tween.js authors.",
-      "Easing equations Copyright (c) 2001 Robert Penner under BSD license"
+      "Easing equations Copyright (c) 2001 Robert Penner under the Revised BSD license"
     ],
     "license": "The MIT License",
-    "licenseURL": "see http://robertpenner.com/easing_terms_of_use.html",
+    "licenseURL": "https://github.com/tweenjs/tween.js/blob/master/LICENSE",
     "projectURL": "https://github.com/tweenjs/tween.js/",
     "notes": "Used to smoothly animate the speedometer and accelerometer to the left and back in Forces and Motion Basics."
   },
