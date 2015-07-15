@@ -240,13 +240,21 @@
   },
   "Tween-r12.js": {
     "text": [
-      "Copyright (c) 2010-2012 Tween.js authors.",
-      "Easing equations Copyright (c) 2001 Robert Penner under the Revised BSD license"
+      "Copyright (c) 2010-2012 Tween.js authors."
     ],
     "license": "The MIT License",
     "licenseURL": "https://github.com/tweenjs/tween.js/blob/master/LICENSE",
     "projectURL": "https://github.com/tweenjs/tween.js/",
-    "notes": "Used to smoothly animate the speedometer and accelerometer to the left and back in Forces and Motion Basics."
+    "notes": "Used to animate some graphics.  Requires easing-equations-1.0.js"
+  },
+  "easing-equations": {
+    "text": [
+      "Copyright (c) 2001 Robert Penner. All rights reserved"
+    ],
+    "license": "Revised BSD",
+    "licenseURL": "http://robertpenner.com/easing_terms_of_use.html",
+    "projectURL": "http://robertpenner.com/easing/",
+    "notes": "Easing equations used in Tween.js, used to animate some graphics"
   },
   "typedarray-44f09cf.js": {
     "text": [
