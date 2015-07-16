@@ -246,7 +246,7 @@
     "license": "The MIT License",
     "licenseURL": "https://github.com/tweenjs/tween.js/blob/master/LICENSE",
     "projectURL": "https://github.com/tweenjs/tween.js/",
-    "notes": "Used to animate some graphics.  Requires easing-equations-1.0.js"
+    "notes": "Used to animate some graphics.  Requires easing-equations"
   },
   "easing-equations": {
     "text": [
