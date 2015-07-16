@@ -264,6 +264,6 @@
     "license": "The MIT License",
     "licenseURL": "https://github.com/substack/typedarray/blob/master/LICENSE",
     "projectURL": "https://github.com/substack/typedarray",
-    "notes": "Typed array polyfill"
+    "notes": "Typed array polyfill for optimization in matrices and/or 3D applications"
   }
 }
