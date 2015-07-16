@@ -123,9 +123,12 @@
     ],
     "license": "The MIT License",
     "projectURL": "http://www.numericjs.com",
-    "notes": "Provides numeric functions such as optimization algorithms"
+    "notes": "Provides numeric functions such as optimization algorithms",
+    "dependencies": [
+      "numeric-quadratic-programming-1.2.6"
+    ]
   },
-  "numeric-quadratic-programming": {
+  "numeric-quadratic-programming-1.2.6": {
     "text": [
       "Copyright (c) 2011 Alberto Santini <albertosantini@gmail.com>"
     ],
@@ -227,9 +230,12 @@
     ],
     "license": "The MIT License",
     "projectURL": "https://github.com/tweenjs/tween.js/",
-    "notes": "Used to animate some graphics.  Requires easing-equations"
+    "notes": "Used to animate some graphics",
+    "dependencies": [
+      "easing-equations-r12"
+    ]
   },
-  "easing-equations": {
+  "easing-equations-r12": {
     "text": [
       "Copyright (c) 2001 Robert Penner. All rights reserved"
     ],
