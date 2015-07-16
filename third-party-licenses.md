@@ -26,7 +26,7 @@
 
 **lodash-2.4.1.js**<br>Copyright (c) 2012-2013 The Dojo Foundation, http://dojofoundation.org><br>Based on Underscore.js 1.5.2, http://underscorejs.org/LICENSE<br>Copyright (c) 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors<br>http://lodash.com<br>License: [The MIT License](licenses/lodash-2.4.1.js.txt)<br>Notes: Adds common data structure operations such as sorting, grouping, etc.
 
-**numeric-1.2.6.js**<br>Copyright (c) 2011 by Sébastien Loisel<br>http://www.numericjs.com<br>License: [The MIT License](licenses/numeric-1.2.6.js.txt)<br>Notes: Provides numeric functions such as optimization algorithms<br>Dependencies: easing-equations-r12
+**numeric-1.2.6.js**<br>Copyright (c) 2011 by Sébastien Loisel<br>http://www.numericjs.com<br>License: [The MIT License](licenses/numeric-1.2.6.js.txt)<br>Notes: Provides numeric functions such as optimization algorithms<br>Dependencies: **easing-equations-r12**
 
 **numeric-quadratic-programming-1.2.6**<br>Copyright (c) 2011 Alberto Santini <albertosantini@gmail.com><br>http://www.numericjs.com<br>License: [The MIT License](licenses/numeric-quadratic-programming-1.2.6.txt)<br>Notes: Implementation of the quadratic programming modules in numeric.js, not used by PhET software
 
@@ -52,7 +52,7 @@
 
 **three-r68.js**<br>Copyright (c) 2010-2014 three.js authors<br>http://threejs.org<br>License: [The MIT License](licenses/three-r68.js.txt)<br>Notes: For the 3D view (WebGL and Canvas)
 
-**Tween-r12.js**<br>Copyright (c) 2010-2012 Tween.js authors.<br>https://github.com/tweenjs/tween.js/<br>License: [The MIT License](licenses/Tween-r12.js.txt)<br>Notes: Used to animate some graphics<br>Dependencies: easing-equations-r12
+**Tween-r12.js**<br>Copyright (c) 2010-2012 Tween.js authors.<br>https://github.com/tweenjs/tween.js/<br>License: [The MIT License](licenses/Tween-r12.js.txt)<br>Notes: Used to animate some graphics<br>Dependencies: **easing-equations-r12**
 
 **easing-equations-r12**<br>Copyright (c) 2001 Robert Penner. All rights reserved<br>http://robertpenner.com/easing/<br>License: [Revised BSD License](licenses/easing-equations-r12.txt)<br>Notes: Easing equations used in Tween.js, used to animate some graphics
 
