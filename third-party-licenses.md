@@ -1,6 +1,6 @@
 **almond-0.2.9.js**<br>Copyright (c) 2011-2014, The Dojo Foundation All Rights Reserved.<br>https://github.com/jrburke/almond<br>License: The MIT License<br>License URL: https://github.com/jrburke/almond/blob/0.2.9/LICENSE<br>Notes: Allows a RequireJS-based simulation to run in its compiled (smaller, faster) form
 
-**benchmark-1.0.0.js**<br>Copyright (c) 2010-2012 Mathias Bynens http://mths.be<br>Based on JSLitmus.js Copyright (c) Robert Kieffer http://broofa.com<br>Modified by John-David Dalton http://allyoucanleet.com<br>http://benchmarkjs.com<br>License: The MIT License<br>License URL: https://github.com/bestiejs/benchmark.js/blob/master/LICENSE.txt<br>Notes: Used only in Scenery tests
+**benchmark-1.0.0.js**<br>Copyright (c) 2010-2012 Mathias Bynens http://mths.be<br>Based on JSLitmus.js Copyright (c) Robert Kieffer http://broofa.com<br>Modified by John-David Dalton http://allyoucanleet.com<br>http://benchmarkjs.com<br>License: The MIT License<br>License URL: https://github.com/bestiejs/benchmark.js/blob/master/LICENSE<br>Notes: Used only in Scenery tests
 
 **bootstrap-2.2.2.js**<br>Copyright (c) 2012 Twitter, Inc<br>Designed and built with all the love in the world @twitter by @mdo and @fat.<br>http://getbootstrap.com/2.3.2/index.html<br>License: Apache 2.0<br>License URL: https://github.com/twbs/bootstrap/blob/v2.2.2/LICENSE<br>Notes: In documentation only, supports webpages for Scenery/Kite/Dot docs
 
@@ -22,7 +22,7 @@
 
 **jsondiffpatch-0.1.31.js**<br>Copyright (c) 2014 BenjamÌn Eidelman, twitter.com/beneidel<br>https://github.com/benjamine/jsondiffpatch<br>License: The MIT License<br>License URL: https://github.com/benjamine/jsondiffpatch/blob/master/MIT-LICENSE.txt<br>Notes: Computes state diffs for record/playback in together.js sims
 
-**liberation-sans-regular-subset-numeric-degrees.js**<br>Developed by Steve Matteson of Ascender Corporation as Ascender Sans and Ascender Serif<br>http://en.wikipedia.org/wiki/Liberation_fonts<br>License: SIL Open Font License, Version 1.1<br>License URL: http://scripts.sil.org/OFL<br>Notes: For the 3D text in bond angles (faster updates than SVG text)
+**liberation-sans-regular-subset-numeric-degrees.js**<br>Developed by Steve Matteson of Ascender Corporation as Ascender Sans and Ascender Serif<br>http://en.wikipedia.org/wiki/Liberation_fonts<br>License: SIL Open Font License, Version 1.1<br>License URL: https://en.wikipedia.org/wiki/Liberation_fonts<br>Notes: For the 3D text in bond angles (faster updates than SVG text)
 
 **lodash-2.4.1.js**<br>Copyright (c) 2012-2013 The Dojo Foundation, http://dojofoundation.org><br>Based on Underscore.js 1.5.2, http://underscorejs.org/LICENSE<br>Copyright (c) 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors<br>http://lodash.com<br>License: The MIT License<br>License URL: http://lodash.com/license<br>Notes: Adds common data structure operations such as sorting, grouping, etc.
 
@@ -36,13 +36,13 @@
 
 **qhint-1.1.js**<br>Copyright (c) 2013 Alex Gyoshev, http://gyoshev.mit-license.org/<br>https://github.com/gyoshev/qhint<br>License: The MIT License<br>License URL: http://gyoshev.mit-license.org<br>Notes: Allows us to run code style jshint tests in qunit's unit tests
 
-**qunit-1.14.0.js**<br>Copyright (c) 2014 jQuery Foundation and other contributors<br>http://qunitjs.com<br>License: The MIT License<br>License URL: https://jquery.org/license<br>Notes: A JavaScript Unit Testing Framework. Allows us to easily test our code to help us make sure nothing gets broken as development continues.
+**qunit-1.14.0.js**<br>Copyright (c) 2014 jQuery Foundation and other contributors<br>https://qunitjs.com/<br>License: The MIT License<br>License URL: https://qunitjs.com/<br>Notes: A JavaScript Unit Testing Framework. Allows us to easily test our code to help us make sure nothing gets broken as development continues.
 
 **requirejs-2.1.11.js**<br>Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved.<br>http://requirejs.org/<br>License: The MIT License<br>License URL: https://raw.githubusercontent.com/jrburke/requirejs/2.1.11/LICENSE<br>Notes: Manages code and dependencies to make it easier to develop simulations and test them quickly
 
 **seedrandom-2.2.js**<br>Copyright (c) 2013 David Bau, all rights reserved.<br>https://github.com/davidbau/seedrandom<br>License: Revised BSD License<br>License URL: https://github.com/davidbau/seedrandom/blob/master/seedrandom.js<br>Notes: Provides reproducible sequences of random numbers
 
-**stats-r12.js**<br>Copyright (c) 2009-2014 Mr.doob<br><br>License: The MIT License<br>License URL: http://github.com/mrdoob/stats.js<br>Notes: Used in Scenery tests and examples, for showing a FPS monitor in the corner of the window
+**stats-r12.js**<br>Copyright (c) 2009-2014 Mr.doob<br><br>License: The MIT License<br>License URL: https://github.com/mrdoob/stats.js/blob/master/LICENSE<br>Notes: Used in Scenery tests and examples, for showing a FPS monitor in the corner of the window
 
 **syntaxhighlighter-3.0.83.js**<br>Copyright (c) 2004-2010 Alex Gorbatchev<br>http://alexgorbatchev.com/SyntaxHighlighter/<br>License: The MIT License<br>License URL: http://alexgorbatchev.com/SyntaxHighlighter/about.html<br>Notes: Provides code highlighting in Scenery/Kite/Dot documentation
 
