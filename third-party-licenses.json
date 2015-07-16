@@ -5,7 +5,6 @@
     ],
     "projectURL": "https://github.com/jrburke/almond",
     "license": "The MIT License",
-    "licenseURL": "https://github.com/jrburke/almond/blob/0.2.9/LICENSE",
     "notes": "Allows a RequireJS-based simulation to run in its compiled (smaller, faster) form"
   },
   "benchmark-1.0.0.js": {
@@ -16,7 +15,6 @@
     ],
     "projectURL": "http://benchmarkjs.com",
     "license": "The MIT License",
-    "licenseURL": "https://github.com/bestiejs/benchmark.js/blob/master/LICENSE",
     "notes": "Used only in Scenery tests"
   },
   "bootstrap-2.2.2.js": {
@@ -25,7 +23,6 @@
       "Designed and built with all the love in the world @twitter by @mdo and @fat."
     ],
     "license": "Apache 2.0",
-    "licenseURL": "https://github.com/twbs/bootstrap/blob/v2.2.2/LICENSE",
     "projectURL": "http://getbootstrap.com/2.2.2/index.html",
     "notes": "In documentation only, supports webpages for Scenery/Kite/Dot docs"
   },
@@ -34,7 +31,6 @@
       "Copyright (c) 2010-2011 Gabe Lerner (gabelerner@gmail.com)"
     ],
     "license": "The MIT License",
-    "licenseURL": "https://github.com/gabelerner/canvg/blob/master/MIT-LICENSE.txt",
     "projectURL": "https://code.google.com/p/canvg/",
     "notes": "Javascript SVG parser and renderer on Canvas.  Used in scenery unit tests, may be used in sims later on if we convert SVG to Canvas. Downloaded 2/9/2015 from https://github.com/gabelerner/canvg"
   },
@@ -43,7 +39,6 @@
       "Stoyan Stefanov (sstoo@gmail.com)"
     ],
     "license": "Use it if you like it",
-    "licenseURL": "http://www.phpied.com/files/rgbcolor/rgbcolor.js",
     "projectURL": "http://www.phpied.com/rgb-color-parser-in-javascript/",
     "notes": "A class to parse color values (packaged with canvg-1.3), required by canvg, see above"
   },
@@ -52,7 +47,6 @@
       "Copyright (c) 2015 Eli Grey. (http://eligrey.com)"
     ],
     "license": "The MIT License",
-    "licenseURL": "https://github.com/eligrey/FileSaver.js/blob/master/LICENSE.md",
     "projectURL": "https://github.com/eligrey/FileSaver.js",
     "notes": "Used for saving screenshot images"
   },
@@ -61,7 +55,6 @@
       "by Dave Gandy"
     ],
     "license": "SIL Open Font License, Version 1.1",
-    "licenseURL": "http://fortawesome.github.io/Font-Awesome/3.2.1/license/",
     "projectURL": "https://github.com/FortAwesome/Font-Awesome/tree/v3.0.2",
     "notes": "Provides shapes like the home icon and check box icons, used in FontAwesomeNode"
   },
@@ -70,7 +63,6 @@
       "Copyright (c) 2012 Concord Consortium"
     ],
     "license": "The MIT License",
-    "licenseURL": "https://github.com/concord-consortium/iframe-phone/blob/v1.1.3/LICENSE",
     "projectURL": "https://github.com/concord-consortium/iframe-phone/tree/v1.1.3",
     "notes": "Used in CODAP interoperability experiments"
   },
@@ -79,7 +71,6 @@
       "a basic linear algebra package for Java."
     ],
     "license": "Public Domain",
-    "licenseURL": "http://math.nist.gov/javanumerics/jama/",
     "projectURL": "http://math.nist.gov/javanumerics/jama/",
     "notes": "A derived work (certain ported and modified files) is used in Dot, mainly for matrix decompositions. Used in assorted simulations."
   },
@@ -89,7 +80,6 @@
       "(includes Sizzle.js, http://sizzlejs.com)"
     ],
     "license": "The MIT License",
-    "licenseURL": "http://jquery.org/license",
     "projectURL": "http://jquery.com",
     "notes": "Facilitates interaction with browser DOM elements, mainly used in Scenery"
   },
@@ -98,7 +88,6 @@
       "Copyright (c) 2012 Anton Kovalyov"
     ],
     "license": "The MIT License",
-    "licenseURL": "https://github.com/jshint/jshint/blob/master/LICENSE",
     "projectURL": "http://www.jshint.com/",
     "notes": "Helps us enforce stylistic patterns in our Javascript code"
   },
@@ -107,7 +96,6 @@
       "Copyright (c) 2014 BenjamÌn Eidelman, twitter.com/beneidel"
     ],
     "license": "The MIT License",
-    "licenseURL": "https://github.com/benjamine/jsondiffpatch/blob/master/MIT-LICENSE.txt",
     "projectURL": "https://github.com/benjamine/jsondiffpatch",
     "notes": "Computes state diffs for record/playback in together.js sims"
   },
@@ -117,7 +105,6 @@
     ],
     "projectURL": "http://en.wikipedia.org/wiki/Liberation_fonts",
     "license": "SIL Open Font License, Version 1.1",
-    "licenseURL": "https://en.wikipedia.org/wiki/Liberation_fonts",
     "notes": "For the 3D text in bond angles (faster updates than SVG text)"
   },
   "lodash-2.4.1.js": {
@@ -127,7 +114,6 @@
       "Copyright (c) 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors"
     ],
     "license": "The MIT License",
-    "licenseURL": "http://lodash.com/license",
     "projectURL": "http://lodash.com",
     "notes": "Adds common data structure operations such as sorting, grouping, etc."
   },
@@ -136,7 +122,6 @@
       "Copyright (c) 2011 by Sébastien Loisel"
     ],
     "license": "The MIT License",
-    "licenseURL": "https://github.com/sloisel/numeric/blob/master/license.txt",
     "projectURL": "http://www.numericjs.com",
     "notes": "Provides numeric functions such as optimization algorithms"
   },
@@ -145,7 +130,6 @@
       "Copyright (c) 2010-2012 David Majda"
     ],
     "license": "The MIT License",
-    "licenseURL": "https://github.com/dmajda/pegjs/blob/master/LICENSE",
     "projectURL": "http://pegjs.majda.cz",
     "notes": "Parser Generator for JavaScript. SVG path parsing in Kite"
   },
@@ -154,7 +138,6 @@
       "Copyright (c) 2012-2014, Mat Groves"
     ],
     "license": "The MIT License",
-    "licenseURL": "https://github.com/GoodBoyDigital/pixi.js/blob/master/LICENSE",
     "projectURL": "http://www.pixijs.com/",
     "notes": "2d scene graph. Experimental renderer for Scenery, not used in production"
   },
@@ -163,7 +146,6 @@
       "Copyright (c) 2009-2014, Poly2Tri Contributors"
     ],
     "license": "Revised BSD License",
-    "licenseURL": "https://github.com/r3mi/poly2tri.js/blob/master/LICENSE.txt",
     "projectURL": "https://github.com/r3mi/poly2tri.js",
     "notes": "Used for rendering in Scenery's WebGL renderer"
   },
@@ -172,7 +154,6 @@
       "Copyright (c) 2013 Alex Gyoshev, http://gyoshev.mit-license.org/"
     ],
     "license": "The MIT License",
-    "licenseURL": "http://gyoshev.mit-license.org",
     "projectURL": "https://github.com/gyoshev/qhint",
     "notes": "Allows us to run code style jshint tests in qunit's unit tests"
   },
@@ -181,7 +162,6 @@
       "Copyright (c) 2014 jQuery Foundation and other contributors"
     ],
     "license": "The MIT License",
-    "licenseURL": "https://qunitjs.com/",
     "projectURL": "https://qunitjs.com/",
     "notes": "A JavaScript Unit Testing Framework. Allows us to easily test our code to help us make sure nothing gets broken as development continues."
   },
@@ -190,7 +170,6 @@
       "Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved."
     ],
     "license": "The MIT License",
-    "licenseURL": "https://raw.githubusercontent.com/jrburke/requirejs/2.1.11/LICENSE",
     "projectURL": "http://requirejs.org/",
     "notes": "Manages code and dependencies to make it easier to develop simulations and test them quickly"
   },
@@ -199,7 +178,6 @@
       "Copyright (c) 2013 David Bau, all rights reserved."
     ],
     "license": "Revised BSD License",
-    "licenseURL": "https://github.com/davidbau/seedrandom/blob/master/seedrandom.js",
     "projectURL": "https://github.com/davidbau/seedrandom",
     "notes": "Provides reproducible sequences of random numbers"
   },
@@ -209,7 +187,6 @@
     ],
     "projectURL": "https://github.com/mrdoob/stats.js/",
     "license": "The MIT License",
-    "licenseURL": "https://github.com/mrdoob/stats.js/blob/master/LICENSE",
     "notes": "Used in Scenery tests and examples, for showing a FPS monitor in the corner of the window"
   },
   "syntaxhighlighter-3.0.83.js": {
@@ -217,7 +194,6 @@
       "Copyright (c) 2004-2010 Alex Gorbatchev"
     ],
     "license": "The MIT License",
-    "licenseURL": "http://alexgorbatchev.com/SyntaxHighlighter/about.html",
     "projectURL": "https://github.com/syntaxhighlighter/syntaxhighlighter",
     "notes": "Provides code highlighting in Scenery/Kite/Dot documentation"
   },
@@ -226,7 +202,6 @@
       "Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved."
     ],
     "license": "The MIT License",
-    "licenseURL": "https://github.com/requirejs/text/blob/master/LICENSE",
     "projectURL": "http://github.com/requirejs/text",
     "notes": "Loads strings to be displayed in the sim, including internationalized strings."
   },
@@ -235,7 +210,6 @@
       "Copyright (c) 2010-2014 three.js authors"
     ],
     "license": "The MIT License",
-    "licenseURL": "https://github.com/mrdoob/three.js/blob/master/LICENSE",
     "projectURL": "http://threejs.org",
     "notes": "For the 3D view (WebGL and Canvas)"
   },
@@ -244,7 +218,6 @@
       "Copyright (c) 2010-2012 Tween.js authors."
     ],
     "license": "The MIT License",
-    "licenseURL": "https://github.com/tweenjs/tween.js/blob/master/LICENSE",
     "projectURL": "https://github.com/tweenjs/tween.js/",
     "notes": "Used to animate some graphics.  Requires easing-equations"
   },
@@ -253,7 +226,6 @@
       "Copyright (c) 2001 Robert Penner. All rights reserved"
     ],
     "license": "Revised BSD License",
-    "licenseURL": "http://robertpenner.com/easing_terms_of_use.html",
     "projectURL": "http://robertpenner.com/easing/",
     "notes": "Easing equations used in Tween.js, used to animate some graphics"
   },
@@ -262,7 +234,6 @@
       "Copyright (c) 2010 Linden Research, Inc., Copyright (c) 2014 Joshua Bell"
     ],
     "license": "The MIT License",
-    "licenseURL": "https://github.com/substack/typedarray/blob/master/LICENSE",
     "projectURL": "https://github.com/substack/typedarray",
     "notes": "Typed array polyfill for optimization in matrices and/or 3D applications"
   }
