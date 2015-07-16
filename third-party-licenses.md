@@ -50,8 +50,10 @@
 
 **three-r68.js**<br>Copyright (c) 2010-2014 three.js authors<br>http://threejs.org<br>License: The MIT License<br>License URL: https://github.com/mrdoob/three.js/blob/master/LICENSE<br>Notes: For the 3D view (WebGL and Canvas)
 
-**Tween-r12.js**<br>Copyright (c) 2010-2012 Tween.js authors.<br>Easing equations Copyright (c) 2001 Robert Penner under the Revised BSD license<br>https://github.com/tweenjs/tween.js/<br>License: The MIT License<br>License URL: https://github.com/tweenjs/tween.js/blob/master/LICENSE<br>Notes: Used to smoothly animate the speedometer and accelerometer to the left and back in Forces and Motion Basics.
+**Tween-r12.js**<br>Copyright (c) 2010-2012 Tween.js authors.<br>https://github.com/tweenjs/tween.js/<br>License: The MIT License<br>License URL: https://github.com/tweenjs/tween.js/blob/master/LICENSE<br>Notes: Used to animate some graphics.  Requires easing-equations-1.0.js
+
+**easing-equations**<br>Copyright (c) 2001 Robert Penner. All rights reserved<br>http://robertpenner.com/easing/<br>License: Revised BSD<br>License URL: http://robertpenner.com/easing_terms_of_use.html<br>Notes: Easing equations used in Tween.js, used to animate some graphics
 
 **typedarray-44f09cf.js**<br>Copyright (c) 2010 Linden Research, Inc., Copyright (c) 2014 Joshua Bell<br>https://github.com/substack/typedarray<br>License: The MIT License<br>License URL: https://github.com/substack/typedarray/blob/master/LICENSE<br>Notes: Typed array polyfill
 
-**Licenses Used:**<br>The MIT License<br>Apache 2.0<br>Use it if you like it<br>SIL Open Font License, Version 1.1<br>Public Domain<br>Revised BSD License
+**Licenses Used:**<br>The MIT License<br>Apache 2.0<br>Use it if you like it<br>SIL Open Font License, Version 1.1<br>Public Domain<br>Revised BSD License<br>Revised BSD
