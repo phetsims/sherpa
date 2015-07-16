@@ -28,6 +28,8 @@
 
 **numeric-1.2.6.js**<br>Copyright (c) 2011 by Sébastien Loisel<br>http://www.numericjs.com<br>License: [The MIT License](licenses/numeric-1.2.6.js.txt)<br>Notes: Provides numeric functions such as optimization algorithms
 
+**numeric-quadratic-programming**<br>Copyright (c) 2011 Alberto Santini <albertosantini@gmail.com><br>http://www.numericjs.com<br>License: [The MIT License](licenses/numeric-quadratic-programming.txt)<br>Notes: Implementation of the quadratic programming modules in numeric.js, not used by PhET software
+
 **pegjs-0.7.0.js**<br>Copyright (c) 2010-2012 David Majda<br>http://pegjs.majda.cz<br>License: [The MIT License](licenses/pegjs-0.7.0.js.txt)<br>Notes: Parser Generator for JavaScript. SVG path parsing in Kite
 
 **pixi-v3.0.0-rc1-dev.js**<br>Copyright (c) 2012-2014, Mat Groves<br>http://www.pixijs.com/<br>License: [The MIT License](licenses/pixi-v3.0.0-rc1-dev.js.txt)<br>Notes: 2d scene graph. Experimental renderer for Scenery, not used in production
