@@ -50,10 +50,10 @@
 
 **three-r68.js**<br>Copyright (c) 2010-2014 three.js authors<br>http://threejs.org<br>License: [The MIT License](licenses/three-r68.js.txt)<br>Notes: For the 3D view (WebGL and Canvas)
 
-**Tween-r12.js**<br>Copyright (c) 2010-2012 Tween.js authors.<br>https://github.com/tweenjs/tween.js/<br>License: [The MIT License](licenses/Tween-r12.js.txt)<br>Notes: Used to animate some graphics.  Requires easing-equations-1.0.js
+**Tween-r12.js**<br>Copyright (c) 2010-2012 Tween.js authors.<br>https://github.com/tweenjs/tween.js/<br>License: [The MIT License](licenses/Tween-r12.js.txt)<br>Notes: Used to animate some graphics.  Requires easing-equations
 
 **easing-equations**<br>Copyright (c) 2001 Robert Penner. All rights reserved<br>http://robertpenner.com/easing/<br>License: [Revised BSD License](licenses/easing-equations.txt)<br>Notes: Easing equations used in Tween.js, used to animate some graphics
 
-**typedarray-44f09cf.js**<br>Copyright (c) 2010 Linden Research, Inc., Copyright (c) 2014 Joshua Bell<br>https://github.com/substack/typedarray<br>License: [The MIT License](licenses/typedarray-44f09cf.js.txt)<br>Notes: Typed array polyfill
+**typedarray-44f09cf.js**<br>Copyright (c) 2010 Linden Research, Inc., Copyright (c) 2014 Joshua Bell<br>https://github.com/substack/typedarray<br>License: [The MIT License](licenses/typedarray-44f09cf.js.txt)<br>Notes: Typed array polyfill for optimization in matrices and/or 3D applications
 
 **Licenses Used:**<br>The MIT License<br>Apache 2.0<br>Use it if you like it<br>SIL Open Font License, Version 1.1<br>Public Domain<br>Revised BSD License
