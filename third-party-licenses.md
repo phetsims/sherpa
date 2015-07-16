@@ -42,9 +42,9 @@
 
 **seedrandom-2.2.js**<br>Copyright (c) 2013 David Bau, all rights reserved.<br>https://github.com/davidbau/seedrandom<br>License: [Revised BSD License](licenses/seedrandom-2.2.js.txt)<br>Notes: Provides reproducible sequences of random numbers
 
-**stats-r12.js**<br>Copyright (c) 2009-2014 Mr.doob<br><br>License: [The MIT License](licenses/stats-r12.js.txt)<br>Notes: Used in Scenery tests and examples, for showing a FPS monitor in the corner of the window
+**stats-r12.js**<br>Copyright (c) 2009-2014 Mr.doob<br>https://github.com/mrdoob/stats.js/<br>License: [The MIT License](licenses/stats-r12.js.txt)<br>Notes: Used in Scenery tests and examples, for showing a FPS monitor in the corner of the window
 
-**syntaxhighlighter-3.0.83.js**<br>Copyright (c) 2004-2010 Alex Gorbatchev<br>http://alexgorbatchev.com/SyntaxHighlighter/<br>License: [The MIT License](licenses/syntaxhighlighter-3.0.83.js.txt)<br>Notes: Provides code highlighting in Scenery/Kite/Dot documentation
+**syntaxhighlighter-3.0.83.js**<br>Copyright (c) 2004-2010 Alex Gorbatchev<br>https://github.com/syntaxhighlighter/syntaxhighlighter<br>License: [The MIT License](licenses/syntaxhighlighter-3.0.83.js.txt)<br>Notes: Provides code highlighting in Scenery/Kite/Dot documentation
 
 **text-2.0.12.js**<br>Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved.<br>http://github.com/requirejs/text<br>License: [The MIT License](licenses/text-2.0.12.js.txt)<br>Notes: Loads strings to be displayed in the sim, including internationalized strings.
 
