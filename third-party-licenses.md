@@ -2,7 +2,7 @@
 
 **benchmark-1.0.0.js**<br>Copyright (c) 2010-2012 Mathias Bynens http://mths.be<br>Based on JSLitmus.js Copyright (c) Robert Kieffer http://broofa.com<br>Modified by John-David Dalton http://allyoucanleet.com<br>http://benchmarkjs.com<br>License: [The MIT License](licenses/benchmark-1.0.0.js.txt)<br>Notes: Used only in Scenery tests
 
-**bootstrap-2.2.2.js**<br>Copyright (c) 2012 Twitter, Inc<br>Designed and built with all the love in the world @twitter by @mdo and @fat.<br>http://getbootstrap.com/2.3.2/index.html<br>License: [Apache 2.0](licenses/bootstrap-2.2.2.js.txt)<br>Notes: In documentation only, supports webpages for Scenery/Kite/Dot docs
+**bootstrap-2.2.2.js**<br>Copyright (c) 2012 Twitter, Inc<br>Designed and built with all the love in the world @twitter by @mdo and @fat.<br>http://getbootstrap.com/2.2.2/index.html<br>License: [Apache 2.0](licenses/bootstrap-2.2.2.js.txt)<br>Notes: In documentation only, supports webpages for Scenery/Kite/Dot docs
 
 **canvg-1.3.js**<br>Copyright (c) 2010-2011 Gabe Lerner (gabelerner@gmail.com)<br>https://code.google.com/p/canvg/<br>License: [The MIT License](licenses/canvg-1.3.js.txt)<br>Notes: Javascript SVG parser and renderer on Canvas.  Used in scenery unit tests, may be used in sims later on if we convert SVG to Canvas. Downloaded 2/9/2015 from https://github.com/gabelerner/canvg
 
