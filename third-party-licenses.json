@@ -125,6 +125,14 @@
     "projectURL": "http://www.numericjs.com",
     "notes": "Provides numeric functions such as optimization algorithms"
   },
+  "numeric-quadratic-programming": {
+    "text": [
+      "Copyright (c) 2011 Alberto Santini <albertosantini@gmail.com>"
+    ],
+    "license": "The MIT License",
+    "projectURL": "http://www.numericjs.com",
+    "notes": "Implementation of the quadratic programming modules in numeric.js, not used by PhET software"
+  },
   "pegjs-0.7.0.js": {
     "text": [
       "Copyright (c) 2010-2012 David Majda"
