@@ -207,6 +207,7 @@
     "text": [
       "Copyright (c) 2009-2014 Mr.doob"
     ],
+    "projectURL": "https://github.com/mrdoob/stats.js/",
     "license": "The MIT License",
     "licenseURL": "https://github.com/mrdoob/stats.js/blob/master/LICENSE",
     "notes": "Used in Scenery tests and examples, for showing a FPS monitor in the corner of the window"
@@ -217,7 +218,7 @@
     ],
     "license": "The MIT License",
     "licenseURL": "http://alexgorbatchev.com/SyntaxHighlighter/about.html",
-    "projectURL": "http://alexgorbatchev.com/SyntaxHighlighter/",
+    "projectURL": "https://github.com/syntaxhighlighter/syntaxhighlighter",
     "notes": "Provides code highlighting in Scenery/Kite/Dot documentation"
   },
   "text-2.0.12.js": {
@@ -251,7 +252,7 @@
     "text": [
       "Copyright (c) 2001 Robert Penner. All rights reserved"
     ],
-    "license": "Revised BSD",
+    "license": "Revised BSD License",
     "licenseURL": "http://robertpenner.com/easing_terms_of_use.html",
     "projectURL": "http://robertpenner.com/easing/",
     "notes": "Easing equations used in Tween.js, used to animate some graphics"
