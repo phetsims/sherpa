@@ -16,7 +16,7 @@
     ],
     "projectURL": "http://benchmarkjs.com",
     "license": "The MIT License",
-    "licenseURL": "https://github.com/bestiejs/benchmark.js/blob/master/LICENSE.txt",
+    "licenseURL": "https://github.com/bestiejs/benchmark.js/blob/master/LICENSE",
     "notes": "Used only in Scenery tests"
   },
   "bootstrap-2.2.2.js": {
@@ -117,7 +117,7 @@
     ],
     "projectURL": "http://en.wikipedia.org/wiki/Liberation_fonts",
     "license": "SIL Open Font License, Version 1.1",
-    "licenseURL": "http://scripts.sil.org/OFL",
+    "licenseURL": "https://en.wikipedia.org/wiki/Liberation_fonts",
     "notes": "For the 3D text in bond angles (faster updates than SVG text)"
   },
   "lodash-2.4.1.js": {
@@ -181,8 +181,8 @@
       "Copyright (c) 2014 jQuery Foundation and other contributors"
     ],
     "license": "The MIT License",
-    "licenseURL": "https://jquery.org/license",
-    "projectURL": "http://qunitjs.com",
+    "licenseURL": "https://qunitjs.com/",
+    "projectURL": "https://qunitjs.com/",
     "notes": "A JavaScript Unit Testing Framework. Allows us to easily test our code to help us make sure nothing gets broken as development continues."
   },
   "requirejs-2.1.11.js": {
@@ -208,7 +208,7 @@
       "Copyright (c) 2009-2014 Mr.doob"
     ],
     "license": "The MIT License",
-    "licenseURL": "http://github.com/mrdoob/stats.js",
+    "licenseURL": "https://github.com/mrdoob/stats.js/blob/master/LICENSE",
     "notes": "Used in Scenery tests and examples, for showing a FPS monitor in the corner of the window"
   },
   "syntaxhighlighter-3.0.83.js": {
