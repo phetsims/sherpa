@@ -1,7 +1,3 @@
-**FileSaver-b8054a2.js**<br>Copyright (c) 2015 Eli Grey. (http://eligrey.com)<br>https://github.com/eligrey/FileSaver.js<br>License: [The MIT License](licenses/FileSaver-b8054a2.js.txt)<br>Notes: Used for saving screenshot images
-
-**Tween-r12.js**<br>Copyright (c) 2010-2012 Tween.js authors.<br>https://github.com/tweenjs/tween.js/<br>License: [The MIT License](licenses/Tween-r12.js.txt)<br>Notes: Used to animate some graphics<br>Dependencies: **easing-equations-r12**
-
 **almond-0.2.9.js**<br>Copyright (c) 2011-2014, The Dojo Foundation All Rights Reserved.<br>https://github.com/jrburke/almond<br>License: [The MIT License](licenses/almond-0.2.9.js.txt)<br>Notes: Allows a RequireJS-based simulation to run in its compiled (smaller, faster) form
 
 **benchmark-1.0.0.js**<br>Copyright (c) 2010-2012 Mathias Bynens http://mths.be<br>Based on JSLitmus.js Copyright (c) Robert Kieffer http://broofa.com<br>Modified by John-David Dalton http://allyoucanleet.com<br>http://benchmarkjs.com<br>License: [The MIT License](licenses/benchmark-1.0.0.js.txt)<br>Notes: Used only in Scenery tests
@@ -13,6 +9,8 @@
 **canvg-rgbcolor-1.3.js**<br>Stoyan Stefanov (sstoo@gmail.com)<br>http://www.phpied.com/rgb-color-parser-in-javascript/<br>License: [Use it if you like it](licenses/canvg-rgbcolor-1.3.js.txt)<br>Notes: A class to parse color values (packaged with canvg-1.3), required by canvg, see above
 
 **easing-equations-r12**<br>Copyright (c) 2001 Robert Penner. All rights reserved<br>http://robertpenner.com/easing/<br>License: [Revised BSD License](licenses/easing-equations-r12.txt)<br>Notes: Easing equations used in Tween.js, used to animate some graphics
+
+**FileSaver-b8054a2.js**<br>Copyright (c) 2015 Eli Grey. (http://eligrey.com)<br>https://github.com/eligrey/FileSaver.js<br>License: [The MIT License](licenses/FileSaver-b8054a2.js.txt)<br>Notes: Used for saving screenshot images
 
 **fontawesome-webfont-3.0.2.svg**<br>by Dave Gandy<br>https://github.com/FortAwesome/Font-Awesome/tree/v3.0.2<br>License: [SIL Open Font License, Version 1.1](licenses/fontawesome-webfont-3.0.2.svg.txt)<br>Notes: Provides shapes like the home icon and check box icons, used in FontAwesomeNode
 
@@ -55,6 +53,8 @@
 **text-2.0.12.js**<br>Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved.<br>http://github.com/requirejs/text<br>License: [The MIT License](licenses/text-2.0.12.js.txt)<br>Notes: Loads strings to be displayed in the sim, including internationalized strings.
 
 **three-r68.js**<br>Copyright (c) 2010-2014 three.js authors<br>http://threejs.org<br>License: [The MIT License](licenses/three-r68.js.txt)<br>Notes: For the 3D view (WebGL and Canvas)
+
+**Tween-r12.js**<br>Copyright (c) 2010-2012 Tween.js authors.<br>https://github.com/tweenjs/tween.js/<br>License: [The MIT License](licenses/Tween-r12.js.txt)<br>Notes: Used to animate some graphics<br>Dependencies: **easing-equations-r12**
 
 **typedarray-44f09cf.js**<br>Copyright (c) 2010 Linden Research, Inc., Copyright (c) 2014 Joshua Bell<br>https://github.com/substack/typedarray<br>License: [The MIT License](licenses/typedarray-44f09cf.js.txt)<br>Notes: Typed array polyfill for optimization in matrices and/or 3D applications
 
