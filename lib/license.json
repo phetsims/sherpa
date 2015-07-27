@@ -123,7 +123,7 @@
     ],
     "license": "The MIT License",
     "projectURL": "http://www.numericjs.com",
-    "notes": "Provides numeric functions such as optimization algorithms",
+    "notes": "Provides numeric functions such as optimization algorithms.  Used in Energy Skate Park: Basics",
     "dependencies": [
       "numeric-quadratic-programming-1.2.6"
     ]
