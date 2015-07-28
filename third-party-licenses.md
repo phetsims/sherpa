@@ -1,4 +1,4 @@
-**Third-party Code:**<br>
+# Third-party Code:<br>
 **almond-0.2.9.js**<br>Copyright (c) 2011-2014, The Dojo Foundation All Rights Reserved.<br>https://github.com/jrburke/almond<br>License: [The MIT License](licenses/almond-0.2.9.js.txt)<br>Notes: Allows a RequireJS-based simulation to run in its compiled (smaller, faster) form
 
 **benchmark-1.0.0.js**<br>Copyright (c) 2010-2012 Mathias Bynens http://mths.be<br>Based on JSLitmus.js Copyright (c) Robert Kieffer http://broofa.com<br>Modified by John-David Dalton http://allyoucanleet.com<br>http://benchmarkjs.com<br>License: [The MIT License](licenses/benchmark-1.0.0.js.txt)<br>Notes: Used only in Scenery tests
@@ -60,11 +60,11 @@
 **typedarray-44f09cf.js**<br>Copyright (c) 2010 Linden Research, Inc., Copyright (c) 2014 Joshua Bell<br>https://github.com/substack/typedarray<br>License: [The MIT License](licenses/typedarray-44f09cf.js.txt)<br>Notes: Typed array polyfill for optimization in matrices and/or 3D applications<br>Used by: molecule-shapes, molecule-shapes-basics
 
 ---
-**Third-party Code License Summary:**<br>
+# Third-party Code License Summary:<br>
 The MIT License<br>Apache 2.0<br>Use it if you like it<br>Revised BSD License<br>SIL Open Font License, Version 1.1<br>Public Domain
 
 ---
-**Third-party Images & Audio:**<br>
+# Third-party Images & Audio:<br>
 **BALANCING_ACT/fire-extinguisher.png**<br>Public Domain<br>https://openclipart.org/detail/27077/fire-extinguisher<br>License: Public Domain<br>Notes: Modified by John Blanco<br>Used by: TODO
 
 **BALANCING_ACT/old-television.png**<br>Public Domain<br>https://openclipart.org/detail/19995/antique-television<br>License: Public Domain<br>Notes: Modified by jblanco<br>Used by: TODO
