@@ -85,11 +85,11 @@ The MIT License<br>Apache 2.0<br>Use it if you like it<br>Revised BSD License<br
 
 **GRAVITY_AND_ORBITS/space-station.png**<br>Copyright NASA<br>http://www.nasa.gov/images/content/323090main_s119e009793_hires.jpg<br>License: NASA<br>Notes: linked from http://www.nasa.gov/mission_pages/station/multimedia/iss_sts119_images.html<br>Used by: TODO
 
-**JOHN_TRAVOLTAGE/arm.png**<br>http://www.americancinematheque.com/ball/1997MPBTravolta.htm<br>http://www.americancinematheque.com/ball/1997MPBTravolta.htm<br>License: http://www.americancinematheque.com/ball/1997MPBTravolta.htm<br>Notes: edited by NP<br>Used by: TODO
+**JOHN_TRAVOLTAGE/arm.png**<br>from American Cinematheque<br>http://www.americancinematheque.com/ball/1997MPBTravolta.htm<br>License: Unlicensed<br>Notes: edited by NP<br>Used by: TODO
 
-**JOHN_TRAVOLTAGE/body.png**<br>http://www.americancinematheque.com/ball/1997MPBTravolta.htm<br>http://www.americancinematheque.com/ball/1997MPBTravolta.htm<br>License: http://www.americancinematheque.com/ball/1997MPBTravolta.htm<br>Notes: edited by NP<br>Used by: TODO
+**JOHN_TRAVOLTAGE/body.png**<br>from American Cinematheque<br>http://www.americancinematheque.com/ball/1997MPBTravolta.htm<br>License: Unlicensed<br>Notes: edited by NP<br>Used by: TODO
 
-**JOHN_TRAVOLTAGE/leg.png**<br>http://www.americancinematheque.com/ball/1997MPBTravolta.htm<br>http://www.americancinematheque.com/ball/1997MPBTravolta.htm<br>License: http://www.americancinematheque.com/ball/1997MPBTravolta.htm<br>Notes: edited by NP<br>Used by: TODO
+**JOHN_TRAVOLTAGE/leg.png**<br>from American Cinematheque<br>http://www.americancinematheque.com/ball/1997MPBTravolta.htm<br>License: Unlicensed<br>Notes: edited by NP<br>Used by: TODO
 
 **UNDER_PRESSURE/cement-texture-dark.jpg**<br>Public Domain<br>http://www.public-domain-image.com/full-image/textures-and-patterns-public-domain-images-pictures/concrete-texture-public-domain-images-pictures/cement-texture.jpg-royalty-free-stock-image.html<br>License: Public Domain<br>Notes: <br>Used by: TODO
 
@@ -99,5 +99,5 @@ The MIT License<br>Apache 2.0<br>Use it if you like it<br>Revised BSD License<br
 
 ---
 # Third-party Images & Audio License Summary:<br>
-Public Domain<br>NASA<br>http://www.americancinematheque.com/ball/1997MPBTravolta.htm<br>
+Public Domain<br>NASA<br>Unlicensed<br>
 
