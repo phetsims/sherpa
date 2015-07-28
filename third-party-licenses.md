@@ -65,37 +65,37 @@ The MIT License<br>Apache 2.0<br>Use it if you like it<br>Revised BSD License<br
 
 ---
 # Third-party Images & Audio:<br>
-**BALANCING_ACT/fire-extinguisher.png**<br>Public Domain<br>https://openclipart.org/detail/27077/fire-extinguisher<br>License: Public Domain<br>Notes: Modified by John Blanco<br>Used by: TODO
+**BALANCING_ACT/fire-extinguisher.png**<br>Public Domain<br>https://openclipart.org/detail/27077/fire-extinguisher<br>License: Public Domain<br>Notes: Modified by John Blanco
 
-**BALANCING_ACT/old-television.png**<br>Public Domain<br>https://openclipart.org/detail/19995/antique-television<br>License: Public Domain<br>Notes: Modified by jblanco<br>Used by: TODO
+**BALANCING_ACT/old-television.png**<br>Public Domain<br>https://openclipart.org/detail/19995/antique-television<br>License: Public Domain<br>Notes: Modified by jblanco
 
-**ENERGY_SKATE_PARK_BASICS/cement-texture-dark.jpg**<br>Public Domain<br>http://www.public-domain-image.com/full-image/textures-and-patterns-public-domain-images-pictures/concrete-texture-public-domain-images-pictures/cement-texture.jpg-royalty-free-stock-image.html<br>License: Public Domain<br>Notes: <br>Used by: TODO
+**ENERGY_SKATE_PARK_BASICS/cement-texture-dark.jpg**<br>Public Domain<br>http://www.public-domain-image.com/full-image/textures-and-patterns-public-domain-images-pictures/concrete-texture-public-domain-images-pictures/cement-texture.jpg-royalty-free-stock-image.html<br>License: Public Domain<br>Notes: 
 
-**FLUID_PRESSURE_AND_FLOW/grass-texture.png**<br>Public Domain<br>http://openclipart.org/detail/21212/grass-texture-by-rg1024-21212<br>License: Public Domain<br>Notes: also used in Under Pressure<br>Used by: TODO
+**FLUID_PRESSURE_AND_FLOW/grass-texture.png**<br>Public Domain<br>http://openclipart.org/detail/21212/grass-texture-by-rg1024-21212<br>License: Public Domain<br>Notes: also used in Under Pressure
 
-**FORCES_AND_MOTION_BASICS/brick-tile.png**<br>Public Domain<br>http://openclipart.org/detail/9523/-by--9523<br>License: Public Domain<br>Notes: <br>Used by: TODO
+**FORCES_AND_MOTION_BASICS/brick-tile.png**<br>Public Domain<br>http://openclipart.org/detail/9523/-by--9523<br>License: Public Domain<br>Notes: 
 
-**FORCES_AND_MOTION_BASICS/cloud1.png**<br>Public Domain<br>http://openclipart.org/detail/99229/landscape-by-rg1024<br>License: Public Domain<br>Notes: <br>Used by: TODO
+**FORCES_AND_MOTION_BASICS/cloud1.png**<br>Public Domain<br>http://openclipart.org/detail/99229/landscape-by-rg1024<br>License: Public Domain<br>Notes: 
 
-**FORCES_AND_MOTION_BASICS/golf-clap**<br>Public Domain<br>http://www.pdsounds.org/sounds/clapping_hurray<br>License: Public Domain<br>Notes: edited by Noah Podolefsky and Sam Reid<br>Used by: TODO
+**FORCES_AND_MOTION_BASICS/golf-clap**<br>Public Domain<br>http://www.pdsounds.org/sounds/clapping_hurray<br>License: Public Domain<br>Notes: edited by Noah Podolefsky and Sam Reid
 
-**GRAVITY_AND_ORBITS/earth.gif**<br>Copyright NASA<br>http://www.harmsy.freeuk.com/images/earth2.jpeg<br>License: NASA<br>Notes: see http://www.harmsy.freeuk.com/images/earth2.jpeg, http://cac-science8.wikispaces.com/ nasa copyright rules here http://www.nasa.gov/audience/formedia/features/MP_Photo_Guidelines.html<br>Used by: TODO
+**GRAVITY_AND_ORBITS/earth.gif**<br>Copyright NASA<br>http://www.harmsy.freeuk.com/images/earth2.jpeg<br>License: NASA<br>Notes: see http://www.harmsy.freeuk.com/images/earth2.jpeg, http://cac-science8.wikispaces.com/ nasa copyright rules here http://www.nasa.gov/audience/formedia/features/MP_Photo_Guidelines.html
 
-**GRAVITY_AND_ORBITS/moon.png**<br>Public Domain<br>http://astro.unl.edu/misc/moonpics/moon08_th.jpg<br>License: Public Domain<br>Notes: ublic domain license noted at http://astro.unl.edu/misc/moonpics<br>Used by: TODO
+**GRAVITY_AND_ORBITS/moon.png**<br>Public Domain<br>http://astro.unl.edu/misc/moonpics/moon08_th.jpg<br>License: Public Domain<br>Notes: ublic domain license noted at http://astro.unl.edu/misc/moonpics
 
-**GRAVITY_AND_ORBITS/space-station.png**<br>Copyright NASA<br>http://www.nasa.gov/images/content/323090main_s119e009793_hires.jpg<br>License: NASA<br>Notes: linked from http://www.nasa.gov/mission_pages/station/multimedia/iss_sts119_images.html<br>Used by: TODO
+**GRAVITY_AND_ORBITS/space-station.png**<br>Copyright NASA<br>http://www.nasa.gov/images/content/323090main_s119e009793_hires.jpg<br>License: NASA<br>Notes: linked from http://www.nasa.gov/mission_pages/station/multimedia/iss_sts119_images.html
 
-**JOHN_TRAVOLTAGE/arm.png**<br>from American Cinematheque<br>http://www.americancinematheque.com/ball/1997MPBTravolta.htm<br>License: Unlicensed<br>Notes: edited by NP<br>Used by: TODO
+**JOHN_TRAVOLTAGE/arm.png**<br>from American Cinematheque<br>http://www.americancinematheque.com/ball/1997MPBTravolta.htm<br>License: Unlicensed<br>Notes: edited by NP
 
-**JOHN_TRAVOLTAGE/body.png**<br>from American Cinematheque<br>http://www.americancinematheque.com/ball/1997MPBTravolta.htm<br>License: Unlicensed<br>Notes: edited by NP<br>Used by: TODO
+**JOHN_TRAVOLTAGE/body.png**<br>from American Cinematheque<br>http://www.americancinematheque.com/ball/1997MPBTravolta.htm<br>License: Unlicensed<br>Notes: edited by NP
 
-**JOHN_TRAVOLTAGE/leg.png**<br>from American Cinematheque<br>http://www.americancinematheque.com/ball/1997MPBTravolta.htm<br>License: Unlicensed<br>Notes: edited by NP<br>Used by: TODO
+**JOHN_TRAVOLTAGE/leg.png**<br>from American Cinematheque<br>http://www.americancinematheque.com/ball/1997MPBTravolta.htm<br>License: Unlicensed<br>Notes: edited by NP
 
-**UNDER_PRESSURE/cement-texture-dark.jpg**<br>Public Domain<br>http://www.public-domain-image.com/full-image/textures-and-patterns-public-domain-images-pictures/concrete-texture-public-domain-images-pictures/cement-texture.jpg-royalty-free-stock-image.html<br>License: Public Domain<br>Notes: <br>Used by: TODO
+**UNDER_PRESSURE/cement-texture-dark.jpg**<br>Public Domain<br>http://www.public-domain-image.com/full-image/textures-and-patterns-public-domain-images-pictures/concrete-texture-public-domain-images-pictures/cement-texture.jpg-royalty-free-stock-image.html<br>License: Public Domain<br>Notes: 
 
-**UNDER_PRESSURE/grass-texture.png**<br>Public Domain<br>http://openclipart.org/detail/21212/grass-texture-by-rg1024-21212<br>License: Public Domain<br>Notes:  as public domain<br>Used by: TODO
+**UNDER_PRESSURE/grass-texture.png**<br>Public Domain<br>http://openclipart.org/detail/21212/grass-texture-by-rg1024-21212<br>License: Public Domain<br>Notes:  as public domain
 
-**VEGAS/boing**<br>Public Domain<br>http://freesound.org<br>License: Public Domain<br>Notes: Creative Commons 0 license, modified by John B<br>Used by: TODO
+**VEGAS/boing**<br>Public Domain<br>http://freesound.org<br>License: Public Domain<br>Notes: Creative Commons 0 license, modified by John B
 
 ---
 # Third-party Images & Audio License Summary:<br>
