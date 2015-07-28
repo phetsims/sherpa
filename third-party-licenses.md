@@ -81,7 +81,7 @@ The MIT License<br>Apache 2.0<br>Use it if you like it<br>Revised BSD License<br
 
 **GRAVITY_AND_ORBITS/earth.gif**<br>Copyright NASA<br>http://www.harmsy.freeuk.com/images/earth2.jpeg<br>License: NASA<br>Notes: see http://www.harmsy.freeuk.com/images/earth2.jpeg, http://cac-science8.wikispaces.com/ nasa copyright rules here http://www.nasa.gov/audience/formedia/features/MP_Photo_Guidelines.html
 
-**GRAVITY_AND_ORBITS/moon.png**<br>Public Domain<br>http://astro.unl.edu/misc/moonpics/moon08_th.jpg<br>License: Public Domain<br>Notes: ublic domain license noted at http://astro.unl.edu/misc/moonpics
+**GRAVITY_AND_ORBITS/moon.png**<br>Public Domain<br>http://astro.unl.edu/misc/moonpics/moon08_th.jpg<br>License: Public Domain<br>Notes: Public domain license noted at http://astro.unl.edu/misc/moonpics
 
 **GRAVITY_AND_ORBITS/space-station.png**<br>Copyright NASA<br>http://www.nasa.gov/images/content/323090main_s119e009793_hires.jpg<br>License: NASA<br>Notes: linked from http://www.nasa.gov/mission_pages/station/multimedia/iss_sts119_images.html
 
