@@ -96,3 +96,8 @@ The MIT License<br>Apache 2.0<br>Use it if you like it<br>Revised BSD License<br
 **UNDER_PRESSURE/grass-texture.png**<br>Public Domain<br>http://openclipart.org/detail/21212/grass-texture-by-rg1024-21212<br>License: Public Domain<br>Notes:  as public domain<br>Used by: TODO
 
 **VEGAS/boing**<br>Public Domain<br>http://freesound.org<br>License: Public Domain<br>Notes: Creative Commons 0 license, modified by John B<br>Used by: TODO
+
+---
+# Third-party Images & Audio License Summary:<br>
+Public Domain<br>NASA<br>
+
