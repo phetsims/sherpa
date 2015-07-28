@@ -1,4 +1,4 @@
-**almond-0.2.9.js**<br>Copyright (c) 2011-2014, The Dojo Foundation All Rights Reserved.<br>https://github.com/jrburke/almond<br>License: [The MIT License](licenses/almond-0.2.9.js.txt)<br>Notes: Allows a RequireJS-based simulation to run in its compiled (smaller, faster) form
+**almond-0.2.9.js**<br>Copyright (c) 2011-2014, The Dojo Foundation All Rights Reserved.<br>https://github.com/jrburke/almond<br>License: [The MIT License](licenses/almond-0.2.9.js.txt)<br>Notes: Allows a RequireJS-based simulation to run in its compiled (smaller, faster) form<br>Used by: undefined
 
 **benchmark-1.0.0.js**<br>Copyright (c) 2010-2012 Mathias Bynens http://mths.be<br>Based on JSLitmus.js Copyright (c) Robert Kieffer http://broofa.com<br>Modified by John-David Dalton http://allyoucanleet.com<br>http://benchmarkjs.com<br>License: [The MIT License](licenses/benchmark-1.0.0.js.txt)<br>Notes: Used only in Scenery tests
 
@@ -8,31 +8,31 @@
 
 **canvg-rgbcolor-1.3.js**<br>Stoyan Stefanov (sstoo@gmail.com)<br>http://www.phpied.com/rgb-color-parser-in-javascript/<br>License: [Use it if you like it](licenses/canvg-rgbcolor-1.3.js.txt)<br>Notes: A class to parse color values (packaged with canvg-1.3), required by canvg, see above
 
-**easing-equations-r12**<br>Copyright (c) 2001 Robert Penner. All rights reserved<br>http://robertpenner.com/easing/<br>License: [Revised BSD License](licenses/easing-equations-r12.txt)<br>Notes: Easing equations used in Tween.js, used to animate some graphics
+**easing-equations-r12**<br>Copyright (c) 2001 Robert Penner. All rights reserved<br>http://robertpenner.com/easing/<br>License: [Revised BSD License](licenses/easing-equations-r12.txt)<br>Notes: Easing equations used in Tween.js, used to animate some graphics<br>Used by: undefined
 
-**FileSaver-b8054a2.js**<br>Copyright (c) 2015 Eli Grey. (http://eligrey.com)<br>https://github.com/eligrey/FileSaver.js<br>License: [The MIT License](licenses/FileSaver-b8054a2.js.txt)<br>Notes: Used for saving screenshot images
+**FileSaver-b8054a2.js**<br>Copyright (c) 2015 Eli Grey. (http://eligrey.com)<br>https://github.com/eligrey/FileSaver.js<br>License: [The MIT License](licenses/FileSaver-b8054a2.js.txt)<br>Notes: Used for saving screenshot images<br>Used by: undefined
 
-**fontawesome-webfont-3.0.2.svg**<br>by Dave Gandy<br>https://github.com/FortAwesome/Font-Awesome/tree/v3.0.2<br>License: [SIL Open Font License, Version 1.1](licenses/fontawesome-webfont-3.0.2.svg.txt)<br>Notes: Provides shapes like the home icon and check box icons, used in FontAwesomeNode
+**fontawesome-webfont-3.0.2.svg**<br>by Dave Gandy<br>https://github.com/FortAwesome/Font-Awesome/tree/v3.0.2<br>License: [SIL Open Font License, Version 1.1](licenses/fontawesome-webfont-3.0.2.svg.txt)<br>Notes: Provides shapes like the home icon and check box icons, used in FontAwesomeNode<br>Used by: undefined
 
 **iframe-phone-1.1.3.js**<br>Copyright (c) 2012 Concord Consortium<br>https://github.com/concord-consortium/iframe-phone/tree/v1.1.3<br>License: [The MIT License](licenses/iframe-phone-1.1.3.js.txt)<br>Notes: Used in CODAP interoperability experiments
 
-**jama-1.0.2**<br>a basic linear algebra package for Java.<br>http://math.nist.gov/javanumerics/jama/<br>License: [Public Domain](licenses/jama-1.0.2.txt)<br>Notes: A derived work (certain ported and modified files) is used in Dot, mainly for matrix decompositions. Used in assorted simulations.
+**jama-1.0.2**<br>a basic linear algebra package for Java.<br>http://math.nist.gov/javanumerics/jama/<br>License: [Public Domain](licenses/jama-1.0.2.txt)<br>Notes: A derived work (certain ported and modified files) is used in Dot, mainly for matrix decompositions. Used in assorted simulations.<br>Used by: undefined
 
-**jquery-2.1.0.js**<br>Copyright (c) 2005, 2014 jQuery Foundation, Inc. and other contributors<br>(includes Sizzle.js, http://sizzlejs.com)<br>http://jquery.com<br>License: [The MIT License](licenses/jquery-2.1.0.js.txt)<br>Notes: Facilitates interaction with browser DOM elements, mainly used in Scenery
+**jquery-2.1.0.js**<br>Copyright (c) 2005, 2014 jQuery Foundation, Inc. and other contributors<br>(includes Sizzle.js, http://sizzlejs.com)<br>http://jquery.com<br>License: [The MIT License](licenses/jquery-2.1.0.js.txt)<br>Notes: Facilitates interaction with browser DOM elements, mainly used in Scenery<br>Used by: undefined
 
 **jshint-2.5.0.js**<br>Copyright (c) 2012 Anton Kovalyov<br>http://www.jshint.com/<br>License: [The MIT License](licenses/jshint-2.5.0.js.txt)<br>Notes: Helps us enforce stylistic patterns in our Javascript code
 
 **jsondiffpatch-0.1.31.js**<br>Copyright (c) 2014 BenjamÌn Eidelman, twitter.com/beneidel<br>https://github.com/benjamine/jsondiffpatch<br>License: [The MIT License](licenses/jsondiffpatch-0.1.31.js.txt)<br>Notes: Computes state diffs for record/playback in together.js sims
 
-**liberation-sans-regular-subset-numeric-degrees.js**<br>Developed by Steve Matteson of Ascender Corporation as Ascender Sans and Ascender Serif<br>http://en.wikipedia.org/wiki/Liberation_fonts<br>License: [SIL Open Font License, Version 1.1](licenses/liberation-sans-regular-subset-numeric-degrees.js.txt)<br>Notes: For the 3D text in bond angles (faster updates than SVG text)
+**liberation-sans-regular-subset-numeric-degrees.js**<br>Developed by Steve Matteson of Ascender Corporation as Ascender Sans and Ascender Serif<br>http://en.wikipedia.org/wiki/Liberation_fonts<br>License: [SIL Open Font License, Version 1.1](licenses/liberation-sans-regular-subset-numeric-degrees.js.txt)<br>Notes: For the 3D text in bond angles (faster updates than SVG text)<br>Used by: undefined
 
-**lodash-2.4.1.js**<br>Copyright (c) 2012-2013 The Dojo Foundation, http://dojofoundation.org><br>Based on Underscore.js 1.5.2, http://underscorejs.org/LICENSE<br>Copyright (c) 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors<br>http://lodash.com<br>License: [The MIT License](licenses/lodash-2.4.1.js.txt)<br>Notes: Adds common data structure operations such as sorting, grouping, etc.
+**lodash-2.4.1.js**<br>Copyright (c) 2012-2013 The Dojo Foundation, http://dojofoundation.org><br>Based on Underscore.js 1.5.2, http://underscorejs.org/LICENSE<br>Copyright (c) 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors<br>http://lodash.com<br>License: [The MIT License](licenses/lodash-2.4.1.js.txt)<br>Notes: Adds common data structure operations such as sorting, grouping, etc.<br>Used by: undefined
 
-**numeric-1.2.6.js**<br>Copyright (c) 2011 by Sébastien Loisel<br>http://www.numericjs.com<br>License: [The MIT License](licenses/numeric-1.2.6.js.txt)<br>Notes: Provides numeric functions such as optimization algorithms<br>Dependencies: **numeric-quadratic-programming-1.2.6**
+**numeric-1.2.6.js**<br>Copyright (c) 2011 by Sébastien Loisel<br>http://www.numericjs.com<br>License: [The MIT License](licenses/numeric-1.2.6.js.txt)<br>Notes: Provides numeric functions such as optimization algorithms.  Used in Energy Skate Park: Basics<br>Dependencies: **numeric-quadratic-programming-1.2.6**<br>Used by: undefined
 
-**numeric-quadratic-programming-1.2.6**<br>Copyright (c) 2011 Alberto Santini <albertosantini@gmail.com><br>http://www.numericjs.com<br>License: [The MIT License](licenses/numeric-quadratic-programming-1.2.6.txt)<br>Notes: Implementation of the quadratic programming modules in numeric.js, not used by PhET software
+**numeric-quadratic-programming-1.2.6**<br>Copyright (c) 2011 Alberto Santini <albertosantini@gmail.com><br>http://www.numericjs.com<br>License: [The MIT License](licenses/numeric-quadratic-programming-1.2.6.txt)<br>Notes: Implementation of the quadratic programming modules in numeric.js, not used by PhET software<br>Used by: undefined
 
-**pegjs-0.7.0.js**<br>Copyright (c) 2010-2012 David Majda<br>http://pegjs.majda.cz<br>License: [The MIT License](licenses/pegjs-0.7.0.js.txt)<br>Notes: Parser Generator for JavaScript. SVG path parsing in Kite
+**pegjs-0.7.0.js**<br>Copyright (c) 2010-2012 David Majda<br>http://pegjs.majda.cz<br>License: [The MIT License](licenses/pegjs-0.7.0.js.txt)<br>Notes: Parser Generator for JavaScript. SVG path parsing in Kite<br>Used by: undefined
 
 **pixi-v3.0.0-rc1-dev.js**<br>Copyright (c) 2012-2014, Mat Groves<br>http://www.pixijs.com/<br>License: [The MIT License](licenses/pixi-v3.0.0-rc1-dev.js.txt)<br>Notes: 2d scene graph. Experimental renderer for Scenery, not used in production
 
@@ -44,18 +44,18 @@
 
 **requirejs-2.1.11.js**<br>Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved.<br>http://requirejs.org/<br>License: [The MIT License](licenses/requirejs-2.1.11.js.txt)<br>Notes: Manages code and dependencies to make it easier to develop simulations and test them quickly
 
-**seedrandom-2.2.js**<br>Copyright (c) 2013 David Bau, all rights reserved.<br>https://github.com/davidbau/seedrandom<br>License: [Revised BSD License](licenses/seedrandom-2.2.js.txt)<br>Notes: Provides reproducible sequences of random numbers
+**seedrandom-2.2.js**<br>Copyright (c) 2013 David Bau, all rights reserved.<br>https://github.com/davidbau/seedrandom<br>License: [Revised BSD License](licenses/seedrandom-2.2.js.txt)<br>Notes: Provides reproducible sequences of random numbers<br>Used by: undefined
 
 **stats-r12.js**<br>Copyright (c) 2009-2014 Mr.doob<br>https://github.com/mrdoob/stats.js/<br>License: [The MIT License](licenses/stats-r12.js.txt)<br>Notes: Used in Scenery tests and examples, for showing a FPS monitor in the corner of the window
 
 **syntaxhighlighter-3.0.83.js**<br>Copyright (c) 2004-2010 Alex Gorbatchev<br>https://github.com/syntaxhighlighter/syntaxhighlighter<br>License: [The MIT License](licenses/syntaxhighlighter-3.0.83.js.txt)<br>Notes: Provides code highlighting in Scenery/Kite/Dot documentation
 
-**text-2.0.12.js**<br>Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved.<br>http://github.com/requirejs/text<br>License: [The MIT License](licenses/text-2.0.12.js.txt)<br>Notes: Loads strings to be displayed in the sim, including internationalized strings.
+**text-2.0.12.js**<br>Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved.<br>http://github.com/requirejs/text<br>License: [The MIT License](licenses/text-2.0.12.js.txt)<br>Notes: Loads strings to be displayed in the sim, including internationalized strings.<br>Used by: undefined
 
-**three-r68.js**<br>Copyright (c) 2010-2014 three.js authors<br>http://threejs.org<br>License: [The MIT License](licenses/three-r68.js.txt)<br>Notes: For the 3D view (WebGL and Canvas)
+**three-r68.js**<br>Copyright (c) 2010-2014 three.js authors<br>http://threejs.org<br>License: [The MIT License](licenses/three-r68.js.txt)<br>Notes: For the 3D view (WebGL and Canvas)<br>Used by: undefined
 
-**Tween-r12.js**<br>Copyright (c) 2010-2012 Tween.js authors.<br>https://github.com/tweenjs/tween.js/<br>License: [The MIT License](licenses/Tween-r12.js.txt)<br>Notes: Used to animate some graphics<br>Dependencies: **easing-equations-r12**
+**Tween-r12.js**<br>Copyright (c) 2010-2012 Tween.js authors.<br>https://github.com/tweenjs/tween.js/<br>License: [The MIT License](licenses/Tween-r12.js.txt)<br>Notes: Used to animate some graphics<br>Dependencies: **easing-equations-r12**<br>Used by: undefined
 
-**typedarray-44f09cf.js**<br>Copyright (c) 2010 Linden Research, Inc., Copyright (c) 2014 Joshua Bell<br>https://github.com/substack/typedarray<br>License: [The MIT License](licenses/typedarray-44f09cf.js.txt)<br>Notes: Typed array polyfill for optimization in matrices and/or 3D applications
+**typedarray-44f09cf.js**<br>Copyright (c) 2010 Linden Research, Inc., Copyright (c) 2014 Joshua Bell<br>https://github.com/substack/typedarray<br>License: [The MIT License](licenses/typedarray-44f09cf.js.txt)<br>Notes: Typed array polyfill for optimization in matrices and/or 3D applications<br>Used by: undefined
 
 **Licenses Used:**<br>The MIT License<br>Apache 2.0<br>Use it if you like it<br>Revised BSD License<br>SIL Open Font License, Version 1.1<br>Public Domain
