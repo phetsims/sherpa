@@ -1,7 +1,8 @@
-* [Third-party Code & Fonts](#third-party-code-and-fonts)
-* [Third-party Code & Fonts License Summary](#third-party-code-and-fonts-license-summary)
-* [Third-party Images & Audio](#third-party-images-and-audio)
-* [Third-party Images & Audio License Summary](#third-party-images-and-audio-license-summary)
+[Third-party Code & Fonts](#third-party-code-and-fonts)
+[Third-party Code & Fonts License Summary](#third-party-code-and-fonts-license-summary)
+[Third-party Images & Audio](#third-party-images-and-audio)
+[Third-party Images & Audio License Summary](#third-party-images-and-audio-license-summary)
+
 # <a name="third-party-code-and-fonts"></a>Third-party Code & Fonts:<br>
 **almond-0.2.9.js**<br>Copyright (c) 2011-2014, The Dojo Foundation All Rights Reserved.<br>https://github.com/jrburke/almond<br>License: [The MIT License](licenses/almond-0.2.9.js.txt)<br>Notes: Allows a RequireJS-based simulation to run in its compiled (smaller, faster) form
 
