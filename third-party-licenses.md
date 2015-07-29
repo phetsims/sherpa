@@ -14,7 +14,7 @@
 
 **canvg-rgbcolor-1.3.js**<br>Stoyan Stefanov (sstoo@gmail.com)<br>http://www.phpied.com/rgb-color-parser-in-javascript/<br>License: [Use it if you like it](licenses/canvg-rgbcolor-1.3.js.txt)<br>Notes: A class to parse color values (packaged with canvg-1.3), required by canvg, see above
 
-**easing-equations-r12**<br>Copyright (c) 2001 Robert Penner. All rights reserved<br>http://robertpenner.com/easing/<br>License: [Revised BSD License](licenses/easing-equations-r12.txt)<br>Notes: Easing equations used in Tween.js, used to animate some graphics<br>Used by: area-builder, arithmetic, bending-light, charges-and-fields, faradays-law, forces-and-motion-basics, fraction-comparison, fraction-matcher, least-squares-regression, protein-synthesis, seasons
+**easing-equations-r12**<br>Copyright (c) 2001 Robert Penner. All rights reserved<br>http://robertpenner.com/easing/<br>License: [Revised BSD License](licenses/easing-equations-r12.txt)<br>Notes: Easing equations used in Tween.js, used to animate some graphics<br>Used by: area-builder, arithmetic, bending-light, build-a-molecule, charges-and-fields, faradays-law, forces-and-motion-basics, fraction-comparison, fraction-matcher, hookes-law, least-squares-regression, protein-synthesis, seasons
 
 **FileSaver-b8054a2.js**<br>Copyright (c) 2015 Eli Grey. (http://eligrey.com)<br>https://github.com/eligrey/FileSaver.js<br>License: [The MIT License](licenses/FileSaver-b8054a2.js.txt)<br>Notes: Used for saving screenshot images
 
@@ -60,7 +60,7 @@
 
 **three-r68.js**<br>Copyright (c) 2010-2014 three.js authors<br>http://threejs.org<br>License: [The MIT License](licenses/three-r68.js.txt)<br>Notes: For the 3D view (WebGL and Canvas)<br>Used by: molecule-shapes, molecule-shapes-basics
 
-**Tween-r12.js**<br>Copyright (c) 2010-2012 Tween.js authors.<br>https://github.com/tweenjs/tween.js/<br>License: [The MIT License](licenses/Tween-r12.js.txt)<br>Notes: Used to animate some graphics<br>Dependencies: **easing-equations-r12**<br>Used by: area-builder, arithmetic, bending-light, charges-and-fields, faradays-law, forces-and-motion-basics, fraction-comparison, fraction-matcher, least-squares-regression, protein-synthesis, seasons
+**Tween-r12.js**<br>Copyright (c) 2010-2012 Tween.js authors.<br>https://github.com/tweenjs/tween.js/<br>License: [The MIT License](licenses/Tween-r12.js.txt)<br>Notes: Used to animate some graphics<br>Dependencies: **easing-equations-r12**<br>Used by: area-builder, arithmetic, bending-light, build-a-molecule, charges-and-fields, faradays-law, forces-and-motion-basics, fraction-comparison, fraction-matcher, hookes-law, least-squares-regression, protein-synthesis, seasons
 
 **typedarray-44f09cf.js**<br>Copyright (c) 2010 Linden Research, Inc., Copyright (c) 2014 Joshua Bell<br>https://github.com/substack/typedarray<br>License: [The MIT License](licenses/typedarray-44f09cf.js.txt)<br>Notes: Typed array polyfill for optimization in matrices and/or 3D applications<br>Used by: molecule-shapes, molecule-shapes-basics
 
