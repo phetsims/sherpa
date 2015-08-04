@@ -216,13 +216,29 @@
     "projectURL": "http://github.com/requirejs/text",
     "notes": "Loads strings to be displayed in the sim, including internationalized strings."
   },
-  "three-r68.js": {
+  "three-r71.js": {
     "text": [
       "Copyright (c) 2010-2014 three.js authors"
     ],
     "license": "The MIT License",
     "projectURL": "http://threejs.org",
     "notes": "For the 3D view (WebGL and Canvas)"
+  },
+  "three-r71-Projector.js": {
+    "text": [
+      "Copyright (c) 2010-2014 three.js authors"
+    ],
+    "license": "The MIT License",
+    "projectURL": "http://threejs.org",
+    "notes": "For the 3D view (WebGL and Canvas) Canvas fall-back"
+  },
+  "three-r71-CanvasRenderer.js": {
+    "text": [
+      "Copyright (c) 2010-2014 three.js authors"
+    ],
+    "license": "The MIT License",
+    "projectURL": "http://threejs.org",
+    "notes": "For the 3D view (WebGL and Canvas) Canvas fall-back"
   },
   "Tween-r12.js": {
     "text": [
