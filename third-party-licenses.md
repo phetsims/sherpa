@@ -1,10 +1,81 @@
-This report is for the current branch & revision of each repository at the time the report was generated and may not match with published versions.  To see the third party resources used in published simulations, inspect their HTML files for the `window.phet.chipper.thirdPartyLicenses` and `window.phet.chipper.thirdPartyImagesAndAudio` (only exists in recent sim publications).
-* [Third-party Code & Fonts](#third-party-code-and-fonts)
-* [Third-party Code & Fonts License Summary](#third-party-code-and-fonts-license-summary)
-* [Third-party Images & Audio](#third-party-images-and-audio)
-* [Third-party Images & Audio License Summary](#third-party-images-and-audio-license-summary)
+This report enumerates the third-party resources (code, images, audio, etc) used in a set of simulations.
+* [Third-party Code](#third-party-code)
+* [Third-party Code License Summary](#third-party-code-license-summary)
+* [Third-party Media](#third-party-media)
+* [Third-party Media License Summary](#third-party-media-license-summary)
 
-# <a name="third-party-code-and-fonts"></a>Third-party Code & Fonts:<br>
+This report is for the following simulations: 
+
+* ‪Acid-Base Solutions‬ 1.2.0-dev.1
+* ‪Area Builder‬ 1.1.0-dev.1
+* ‪Arithmetic‬ 1.0.0-dev.13
+* ‪Atomic Interactions‬ 1.0.0-dev.8
+* ‪Balancing Act‬ 1.0.0-dev.12
+* ‪Balancing Chemical Equations‬ 1.1.0-dev.2
+* ‪Balloons and Static Electricity‬ 1.1.0-rc.5
+* ‪Beaker‬ 1.0.0-together.6
+* ‪Beer's Law Lab‬ 1.3.0-dev.2
+* ‪Bending Light‬ 1.0.0-dev.5
+* ‪Blackbody Spectrum‬ 1.0.0-dev.2
+* ‪Build a Molecule‬ 0.0.0-dev.11
+* ‪Build an Atom‬ 1.2.0-dev.1
+* ‪Calculus Grapher‬ 1.0.0-dev.1
+* ‪Capacitor Lab: Basics‬ 1.0.0-dev.4
+* ‪Chains‬ 1.0.0-dev.1
+* ‪Charges And Fields‬ 1.0.0-rc.1
+* ‪Color Vision‬ 1.1.0-dev.2
+* ‪Concentration‬ 1.2.0-dev.5
+* ‪Curve Fitting‬ 1.0.0-dev.4
+* ‪Energy Forms And Changes‬ 1.0.0-dev.1
+* ‪Energy Skate Park: Basics‬ 1.0.0
+* ‪Estimation‬ 1.0.0-dev.3
+* ‪Example Simulation‬ 1.0.0-dev.8
+* ‪Faraday's Law‬ 1.1.0-dev.2
+* ‪Fluid Pressure and Flow‬ 1.0.0-dev.19
+* ‪Forces and Motion: Basics‬ 1.1.5-dev.3
+* ‪Fraction Comparison‬ 1.0.0-dev.11
+* ‪Fraction Matcher‬ 1.0.0
+* ‪Friction‬ 1.2.0-dev.1
+* ‪Function Builder‬ 1.0.0-dev.1
+* ‪Gene Expression - The Basics‬ 1.0.0-dev.1
+* ‪Graphing Lines‬ 1.0.0-dev.16
+* ‪Graphing Quadratics‬ 1.0.0-dev.1
+* ‪Gravity And Orbits‬ 1.0.0-dev.1
+* ‪Gravity Force Lab‬ 1.2.0-dev.1
+* ‪Hooke's Law‬ 1.0.0-dev.26
+* ‪Isotopes And Atomic Mass‬ 1.0.0-dev.1
+* ‪John Travoltage‬ 1.2.0-dev.1
+* ‪Least-Squares Regression‬ 1.0.0-dev.14
+* ‪Making Tens‬ 1.0.0-dev.2
+* ‪Molarity‬ 1.2.0-dev.1
+* ‪Molecule Polarity‬ 1.0.0-dev.8
+* ‪Molecule Shapes‬ 1.0.1-dev.1
+* ‪Molecules and Light‬ 1.1.0-dev.2
+* ‪Neuron‬ 1.0.0-dev.10
+* ‪Ohm's Law‬ 1.2.0-dev.2
+* ‪Optics Lab‬ 1.0.0-dev.9
+* ‪Pendulum Lab‬ 1.0.0-dev.4
+* ‪Plinko Probability‬ 1.0.0-dev.2
+* ‪Projectile Motion‬ 1.0.0-dev.1
+* ‪Protein Synthesis: Basics‬ 1.0.0-dev.7
+* ‪Reactants, Products and Leftovers‬ 1.1.0-dev.1
+* ‪Resistance in a Wire‬ 1.2.0-dev.1
+* ‪Rutherford Scattering‬ 1.0.0-dev.1
+* ‪Seasons‬ 1.0.0-dev.10
+* ‪Simula Rasa‬ 1.0.0-dev.1
+* ‪States of Matter‬ 1.0.0-dev.5
+* ‪Sugar And Salt Solutions‬ 1.0.0-dev.1
+* ‪Trig Lab‬ 1.0.0-dev.16
+* ‪Under Pressure‬ 1.1.0-dev.3
+* ‪Vibe Demo‬ 1.0.0-dev.1
+* ‪Wave on a String‬ 1.0.0
+* ‪griddle demo‬ 0.0.0
+* ‪pH Scale‬ 1.2.0-dev.1
+* ‪scenery-phet demo‬ 1.0.0-dev.12
+* ‪vegas demo‬ 1.0.0-dev.3
+
+To see the third party resources used in a particular published simulation, inspect the HTML file between the `### START THIRD PARTY LICENSE ENTRIES ###` and `### END THIRD PARTY LICENSE ENTRIES ###` (only exists in sim publications after Aug 7, 2015).
+# <a name="third-party-code"></a>Third-party Code:<br>
 **almond-0.2.9.js**<br>Copyright (c) 2011-2014, The Dojo Foundation All Rights Reserved.<br>https://github.com/jrburke/almond<br>License: [The MIT License](licenses/almond-0.2.9.js.txt)<br>Notes: Allows a RequireJS-based simulation to run in its compiled (smaller, faster) form
 
 **benchmark-1.0.0.js**<br>Copyright (c) 2010-2012 Mathias Bynens http://mths.be<br>Based on JSLitmus.js Copyright (c) Robert Kieffer http://broofa.com<br>Modified by John-David Dalton http://allyoucanleet.com<br>http://benchmarkjs.com<br>License: [The MIT License](licenses/benchmark-1.0.0.js.txt)<br>Notes: Used only in Scenery tests
@@ -15,7 +86,7 @@ This report is for the current branch & revision of each repository at the time 
 
 **canvg-rgbcolor-1.3.js**<br>Stoyan Stefanov (sstoo@gmail.com)<br>http://www.phpied.com/rgb-color-parser-in-javascript/<br>License: [Use it if you like it](licenses/canvg-rgbcolor-1.3.js.txt)<br>Notes: A class to parse color values (packaged with canvg-1.3), required by canvg, see above
 
-**easing-equations-r12**<br>Copyright (c) 2001 Robert Penner. All rights reserved<br>http://robertpenner.com/easing/<br>License: [Revised BSD License](licenses/easing-equations-r12.txt)<br>Notes: Easing equations used in Tween.js, used to animate some graphics<br>Used by: area-builder, arithmetic, bending-light, build-a-molecule, charges-and-fields, faradays-law, forces-and-motion-basics, fraction-comparison, fraction-matcher, hookes-law, least-squares-regression, protein-synthesis, seasons
+**easing-equations-r12**<br>Copyright (c) 2001 Robert Penner. All rights reserved<br>http://robertpenner.com/easing/<br>License: [Revised BSD License](licenses/easing-equations-r12.txt)<br>Notes: Easing equations used in Tween.js, used to animate some graphics<br>Used by: ‪Area Builder‬ 1.1.0-dev.1, ‪Arithmetic‬ 1.0.0-dev.13, ‪Bending Light‬ 1.0.0-dev.5, ‪Charges And Fields‬ 1.0.0-rc.1, ‪Faraday's Law‬ 1.1.0-dev.2, ‪Forces and Motion: Basics‬ 1.1.5-dev.3, ‪Fraction Comparison‬ 1.0.0-dev.11, ‪Fraction Matcher‬ 1.0.0, ‪Hooke's Law‬ 1.0.0-dev.26, ‪Least-Squares Regression‬ 1.0.0-dev.14, ‪Protein Synthesis: Basics‬ 1.0.0-dev.7, ‪Seasons‬ 1.0.0-dev.10
 
 **FileSaver-b8054a2.js**<br>Copyright (c) 2015 Eli Grey. (http://eligrey.com)<br>https://github.com/eligrey/FileSaver.js<br>License: [The MIT License](licenses/FileSaver-b8054a2.js.txt)<br>Notes: Used for saving screenshot images
 
@@ -31,13 +102,13 @@ This report is for the current branch & revision of each repository at the time 
 
 **jsondiffpatch-0.1.31.js**<br>Copyright (c) 2014 BenjamÌn Eidelman, twitter.com/beneidel<br>https://github.com/benjamine/jsondiffpatch<br>License: [The MIT License](licenses/jsondiffpatch-0.1.31.js.txt)<br>Notes: Computes state diffs for record/playback in together.js sims
 
-**liberation-sans-regular-subset-numeric-degrees.js**<br>Developed by Steve Matteson of Ascender Corporation as Ascender Sans and Ascender Serif<br>http://en.wikipedia.org/wiki/Liberation_fonts<br>License: [SIL Open Font License, Version 1.1](licenses/liberation-sans-regular-subset-numeric-degrees.js.txt)<br>Notes: For the 3D text in bond angles (faster updates than SVG text)<br>Used by: molecule-shapes, molecule-shapes-basics
+**liberation-sans-regular-subset-numeric-degrees.js**<br>Developed by Steve Matteson of Ascender Corporation as Ascender Sans and Ascender Serif<br>http://en.wikipedia.org/wiki/Liberation_fonts<br>License: [SIL Open Font License, Version 1.1](licenses/liberation-sans-regular-subset-numeric-degrees.js.txt)<br>Notes: For the 3D text in bond angles (faster updates than SVG text)<br>Used by: ‪Molecule Shapes‬ 1.0.1-dev.1
 
 **lodash-2.4.1.js**<br>Copyright (c) 2012-2013 The Dojo Foundation, http://dojofoundation.org><br>Based on Underscore.js 1.5.2, http://underscorejs.org/LICENSE<br>Copyright (c) 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors<br>http://lodash.com<br>License: [The MIT License](licenses/lodash-2.4.1.js.txt)<br>Notes: Adds common data structure operations such as sorting, grouping, etc.
 
-**numeric-1.2.6.js**<br>Copyright (c) 2011 by Sébastien Loisel<br>http://www.numericjs.com<br>License: [The MIT License](licenses/numeric-1.2.6.js.txt)<br>Notes: Provides numeric functions such as optimization algorithms.  Used in Energy Skate Park: Basics<br>Dependencies: **numeric-quadratic-programming-1.2.6**<br>Used by: energy-skate-park-basics, fluid-pressure-and-flow
+**numeric-1.2.6.js**<br>Copyright (c) 2011 by Sébastien Loisel<br>http://www.numericjs.com<br>License: [The MIT License](licenses/numeric-1.2.6.js.txt)<br>Notes: Provides numeric functions such as optimization algorithms.  Used in Energy Skate Park: Basics<br>Dependencies: **numeric-quadratic-programming-1.2.6**<br>Used by: ‪Energy Skate Park: Basics‬ 1.0.0, ‪Fluid Pressure and Flow‬ 1.0.0-dev.19
 
-**numeric-quadratic-programming-1.2.6**<br>Copyright (c) 2011 Alberto Santini <albertosantini@gmail.com><br>http://www.numericjs.com<br>License: [The MIT License](licenses/numeric-quadratic-programming-1.2.6.txt)<br>Notes: Implementation of the quadratic programming modules in numeric.js, not used by PhET software<br>Used by: energy-skate-park-basics, fluid-pressure-and-flow
+**numeric-quadratic-programming-1.2.6**<br>Copyright (c) 2011 Alberto Santini <albertosantini@gmail.com><br>http://www.numericjs.com<br>License: [The MIT License](licenses/numeric-quadratic-programming-1.2.6.txt)<br>Notes: Implementation of the quadratic programming modules in numeric.js, not used by PhET software<br>Used by: ‪Energy Skate Park: Basics‬ 1.0.0, ‪Fluid Pressure and Flow‬ 1.0.0-dev.19
 
 **pegjs-0.7.0.js**<br>Copyright (c) 2010-2012 David Majda<br>http://pegjs.majda.cz<br>License: [The MIT License](licenses/pegjs-0.7.0.js.txt)<br>Notes: Parser Generator for JavaScript. SVG path parsing in Kite
 
@@ -51,7 +122,7 @@ This report is for the current branch & revision of each repository at the time 
 
 **requirejs-2.1.11.js**<br>Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved.<br>http://requirejs.org/<br>License: [The MIT License](licenses/requirejs-2.1.11.js.txt)<br>Notes: Manages code and dependencies to make it easier to develop simulations and test them quickly
 
-**seedrandom-2.2.js**<br>Copyright (c) 2013 David Bau, all rights reserved.<br>https://github.com/davidbau/seedrandom<br>License: [Revised BSD License](licenses/seedrandom-2.2.js.txt)<br>Notes: Provides reproducible sequences of random numbers<br>Used by: forces-and-motion-basics, plinko-probability
+**seedrandom-2.2.js**<br>Copyright (c) 2013 David Bau, all rights reserved.<br>https://github.com/davidbau/seedrandom<br>License: [Revised BSD License](licenses/seedrandom-2.2.js.txt)<br>Notes: Provides reproducible sequences of random numbers<br>Used by: ‪Forces and Motion: Basics‬ 1.1.5-dev.3, ‪Plinko Probability‬ 1.0.0-dev.2
 
 **stats-r12.js**<br>Copyright (c) 2009-2014 Mr.doob<br>https://github.com/mrdoob/stats.js/<br>License: [The MIT License](licenses/stats-r12.js.txt)<br>Notes: Used in Scenery tests and examples, for showing a FPS monitor in the corner of the window
 
@@ -59,21 +130,49 @@ This report is for the current branch & revision of each repository at the time 
 
 **text-2.0.12.js**<br>Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved.<br>http://github.com/requirejs/text<br>License: [The MIT License](licenses/text-2.0.12.js.txt)<br>Notes: Loads strings to be displayed in the sim, including internationalized strings.
 
-**three-r68.js**<br>Copyright (c) 2010-2014 three.js authors<br>http://threejs.org<br>License: [The MIT License](licenses/three-r68.js.txt)<br>Notes: For the 3D view (WebGL and Canvas)<br>Used by: molecule-shapes, molecule-shapes-basics
+**three-r71-CanvasRenderer.js**<br>Copyright (c) 2010-2014 three.js authors<br>http://threejs.org<br>License: [The MIT License](licenses/three-r71-CanvasRenderer.js.txt)<br>Notes: For the 3D view (WebGL and Canvas) Canvas fall-back<br>Used by: ‪Molecule Shapes‬ 1.0.1-dev.1
 
-**Tween-r12.js**<br>Copyright (c) 2010-2012 Tween.js authors.<br>https://github.com/tweenjs/tween.js/<br>License: [The MIT License](licenses/Tween-r12.js.txt)<br>Notes: Used to animate some graphics<br>Dependencies: **easing-equations-r12**<br>Used by: area-builder, arithmetic, bending-light, build-a-molecule, charges-and-fields, faradays-law, forces-and-motion-basics, fraction-comparison, fraction-matcher, hookes-law, least-squares-regression, protein-synthesis, seasons
+**three-r71-Projector.js**<br>Copyright (c) 2010-2014 three.js authors<br>http://threejs.org<br>License: [The MIT License](licenses/three-r71-Projector.js.txt)<br>Notes: For the 3D view (WebGL and Canvas) Canvas fall-back<br>Used by: ‪Molecule Shapes‬ 1.0.1-dev.1
 
-**typedarray-44f09cf.js**<br>Copyright (c) 2010 Linden Research, Inc., Copyright (c) 2014 Joshua Bell<br>https://github.com/substack/typedarray<br>License: [The MIT License](licenses/typedarray-44f09cf.js.txt)<br>Notes: Typed array polyfill for optimization in matrices and/or 3D applications<br>Used by: molecule-shapes, molecule-shapes-basics
+**three-r71.js**<br>Copyright (c) 2010-2014 three.js authors<br>http://threejs.org<br>License: [The MIT License](licenses/three-r71.js.txt)<br>Notes: For the 3D view (WebGL and Canvas)<br>Used by: ‪Molecule Shapes‬ 1.0.1-dev.1
+
+**Tween-r12.js**<br>Copyright (c) 2010-2012 Tween.js authors.<br>https://github.com/tweenjs/tween.js/<br>License: [The MIT License](licenses/Tween-r12.js.txt)<br>Notes: Used to animate some graphics<br>Dependencies: **easing-equations-r12**<br>Used by: ‪Area Builder‬ 1.1.0-dev.1, ‪Arithmetic‬ 1.0.0-dev.13, ‪Bending Light‬ 1.0.0-dev.5, ‪Charges And Fields‬ 1.0.0-rc.1, ‪Faraday's Law‬ 1.1.0-dev.2, ‪Forces and Motion: Basics‬ 1.1.5-dev.3, ‪Fraction Comparison‬ 1.0.0-dev.11, ‪Fraction Matcher‬ 1.0.0, ‪Hooke's Law‬ 1.0.0-dev.26, ‪Least-Squares Regression‬ 1.0.0-dev.14, ‪Protein Synthesis: Basics‬ 1.0.0-dev.7, ‪Seasons‬ 1.0.0-dev.10
+
+**typedarray-44f09cf.js**<br>Copyright (c) 2010 Linden Research, Inc., Copyright (c) 2014 Joshua Bell<br>https://github.com/substack/typedarray<br>License: [The MIT License](licenses/typedarray-44f09cf.js.txt)<br>Notes: Typed array polyfill for optimization in matrices and/or 3D applications<br>Used by: ‪Molecule Shapes‬ 1.0.1-dev.1
 
 ---
-# <a name="third-party-code-and-fonts-license-summary"></a>Third-party Code & Fonts License Summary:<br>
+# <a name="third-party-code-and-license-summary"></a>Third-party Code License Summary:<br>
 The MIT License<br>Apache 2.0<br>Use it if you like it<br>Revised BSD License<br>SIL Open Font License, Version 1.1<br>Public Domain
 
 ---
-# <a name="third-party-images-and-audio"></a>Third-party Images & Audio:<br>
+# <a name="third-party-media"></a>Third-party Media:<br>
 **BALANCING_ACT/fire-extinguisher.png**<br>Public Domain<br>https://openclipart.org/detail/27077/fire-extinguisher<br>License: Public Domain<br>Notes: Modified by John Blanco
 
 **BALANCING_ACT/old-television.png**<br>Public Domain<br>https://openclipart.org/detail/19995/antique-television<br>License: Public Domain<br>Notes: Modified by jblanco
+
+**BUILD_A_MOLECULE/green-left.png**<br><br><br>License: Unknown<br>Notes: 
+
+**BUILD_A_MOLECULE/green-middle.png**<br><br><br>License: <br>Notes: 
+
+**BUILD_A_MOLECULE/green-right.png**<br><br><br>License: <br>Notes: 
+
+**BUILD_A_MOLECULE/scissors-closed-up.cur**<br><br><br>License: <br>Notes: 
+
+**BUILD_A_MOLECULE/scissors-closed-up.png**<br><br><br>License: <br>Notes: 
+
+**BUILD_A_MOLECULE/scissors-closed.cur**<br><br><br>License: <br>Notes: 
+
+**BUILD_A_MOLECULE/scissors-closed.png**<br><br><br>License: <br>Notes: 
+
+**BUILD_A_MOLECULE/scissors-up.cur**<br><br><br>License: <br>Notes: 
+
+**BUILD_A_MOLECULE/scissors-up.png**<br><br><br>License: <br>Notes: 
+
+**BUILD_A_MOLECULE/scissors.cur**<br><br>http://www.openclipart.org/detail/32341<br>License: Public Domain<br>Notes: Modified by PhET
+
+**BUILD_A_MOLECULE/scissors.png**<br><br>http://www.openclipart.org/detail/32341<br>License: Public Domain<br>Notes: Modified by PhET
+
+**BUILD_A_MOLECULE/split-blue.png**<br><br><br>License: <br>Notes: 
 
 **ENERGY_SKATE_PARK_BASICS/cement-texture-dark.jpg**<br>Public Domain<br>http://www.public-domain-image.com/full-image/textures-and-patterns-public-domain-images-pictures/concrete-texture-public-domain-images-pictures/cement-texture.jpg-royalty-free-stock-image.html<br>License: Public Domain<br>Notes: 
 
@@ -91,11 +190,65 @@ The MIT License<br>Apache 2.0<br>Use it if you like it<br>Revised BSD License<br
 
 **GRAVITY_AND_ORBITS/space-station.png**<br>Copyright NASA<br>http://www.nasa.gov/images/content/323090main_s119e009793_hires.jpg<br>License: NASA<br>Notes: linked from http://www.nasa.gov/mission_pages/station/multimedia/iss_sts119_images.html
 
-**JOHN_TRAVOLTAGE/arm.png**<br>from American Cinematheque<br>http://www.americancinematheque.com/ball/1997MPBTravolta.htm<br>License: Unlicensed<br>Notes: edited by NP
+**JOHN_TRAVOLTAGE/arm.png**<br>from American Cinematheque<br>http://www.americancinematheque.com/ball/1997MPBTravolta.htm<br>License: Unlicensed<br>Notes: edited by NP<br>Exception: PhET decided to allow images for John Travoltage even though we were unable to contact American Cinematheque for explicit permission
 
-**JOHN_TRAVOLTAGE/body.png**<br>from American Cinematheque<br>http://www.americancinematheque.com/ball/1997MPBTravolta.htm<br>License: Unlicensed<br>Notes: edited by NP
+**JOHN_TRAVOLTAGE/body.png**<br>from American Cinematheque<br>http://www.americancinematheque.com/ball/1997MPBTravolta.htm<br>License: Unlicensed<br>Notes: edited by NP<br>Exception: PhET decided to allow images for John Travoltage even though we were unable to contact American Cinematheque for explicit permission
 
-**JOHN_TRAVOLTAGE/leg.png**<br>from American Cinematheque<br>http://www.americancinematheque.com/ball/1997MPBTravolta.htm<br>License: Unlicensed<br>Notes: edited by NP
+**JOHN_TRAVOLTAGE/leg.png**<br>from American Cinematheque<br>http://www.americancinematheque.com/ball/1997MPBTravolta.htm<br>License: Unlicensed<br>Notes: edited by NP<br>Exception: PhET decided to allow images for John Travoltage even though we were unable to contact American Cinematheque for explicit permission
+
+**MAKING_TENS/1.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+
+**MAKING_TENS/10.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+
+**MAKING_TENS/100.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+
+**MAKING_TENS/2.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+
+**MAKING_TENS/20.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+
+**MAKING_TENS/200.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+
+**MAKING_TENS/3.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+
+**MAKING_TENS/30.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+
+**MAKING_TENS/300.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+
+**MAKING_TENS/4.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+
+**MAKING_TENS/40.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+
+**MAKING_TENS/400.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+
+**MAKING_TENS/5.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+
+**MAKING_TENS/50.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+
+**MAKING_TENS/500.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+
+**MAKING_TENS/6.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+
+**MAKING_TENS/60.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+
+**MAKING_TENS/600.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+
+**MAKING_TENS/7.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+
+**MAKING_TENS/70.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+
+**MAKING_TENS/700.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+
+**MAKING_TENS/8.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+
+**MAKING_TENS/80.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+
+**MAKING_TENS/800.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+
+**MAKING_TENS/9.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+
+**MAKING_TENS/90.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+
+**MAKING_TENS/900.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
 
 **UNDER_PRESSURE/cement-texture-dark.jpg**<br>Public Domain<br>http://www.public-domain-image.com/full-image/textures-and-patterns-public-domain-images-pictures/concrete-texture-public-domain-images-pictures/cement-texture.jpg-royalty-free-stock-image.html<br>License: Public Domain<br>Notes: 
 
@@ -104,6 +257,6 @@ The MIT License<br>Apache 2.0<br>Use it if you like it<br>Revised BSD License<br
 **VEGAS/boing**<br>Public Domain<br>http://freesound.org<br>License: Public Domain<br>Notes: Creative Commons 0 license, modified by John B
 
 ---
-# <a name="third-party-images-and-audio-license-summary"></a>Third-party Images & Audio License Summary:<br>
-Public Domain<br>NASA<br>Unlicensed<br>
+# <a name="third-party-media-license-summary"></a>Third-party Media License Summary:<br>
+Public Domain<br>Unknown<br><br>NASA<br>Unlicensed
 
