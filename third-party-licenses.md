@@ -12,10 +12,10 @@ This report is for the following simulations:
 * ‪Atomic Interactions‬ 1.0.0-dev.8
 * ‪Balancing Act‬ 1.0.0-dev.12
 * ‪Balancing Chemical Equations‬ 1.1.0-dev.2
-* ‪Balloons and Static Electricity‬ 1.1.0-rc.5
+* ‪Balloons and Static Electricity‬ 1.2.0-dev.1
 * ‪Beaker‬ 1.0.0-together.6
 * ‪Beer's Law Lab‬ 1.3.0-dev.2
-* ‪Bending Light‬ 1.0.0-dev.5
+* ‪Bending Light‬ 1.0.0-dev.6
 * ‪Blackbody Spectrum‬ 1.0.0-dev.2
 * ‪Build a Molecule‬ 0.0.0-dev.11
 * ‪Build an Atom‬ 1.2.0-dev.1
@@ -49,9 +49,10 @@ This report is for the following simulations:
 * ‪Making Tens‬ 1.0.0-dev.2
 * ‪Molarity‬ 1.2.0-dev.1
 * ‪Molecule Polarity‬ 1.0.0-dev.8
+* ‪Molecule Shapes: Basics‬ 1.0.0
 * ‪Molecule Shapes‬ 1.0.1-dev.1
 * ‪Molecules and Light‬ 1.1.0-dev.2
-* ‪Neuron‬ 1.0.0-dev.10
+* ‪Neuron‬ 1.0.0-dev.11
 * ‪Ohm's Law‬ 1.2.0-dev.2
 * ‪Optics Lab‬ 1.0.0-dev.9
 * ‪Pendulum Lab‬ 1.0.0-dev.4
@@ -86,7 +87,7 @@ To see the third party resources used in a particular published simulation, insp
 
 **canvg-rgbcolor-1.3.js**<br>Stoyan Stefanov (sstoo@gmail.com)<br>http://www.phpied.com/rgb-color-parser-in-javascript/<br>License: [Use it if you like it](licenses/canvg-rgbcolor-1.3.js.txt)<br>Notes: A class to parse color values (packaged with canvg-1.3), required by canvg, see above
 
-**easing-equations-r12**<br>Copyright (c) 2001 Robert Penner. All rights reserved<br>http://robertpenner.com/easing/<br>License: [Revised BSD License](licenses/easing-equations-r12.txt)<br>Notes: Easing equations used in Tween.js, used to animate some graphics<br>Used by: ‪Area Builder‬ 1.1.0-dev.1, ‪Arithmetic‬ 1.0.0-dev.13, ‪Bending Light‬ 1.0.0-dev.5, ‪Charges And Fields‬ 1.0.0-rc.1, ‪Faraday's Law‬ 1.1.0-dev.2, ‪Forces and Motion: Basics‬ 1.1.5-dev.3, ‪Fraction Comparison‬ 1.0.0-dev.11, ‪Fraction Matcher‬ 1.0.0, ‪Hooke's Law‬ 1.0.0-dev.26, ‪Least-Squares Regression‬ 1.0.0-dev.14, ‪Protein Synthesis: Basics‬ 1.0.0-dev.7, ‪Seasons‬ 1.0.0-dev.10
+**easing-equations-r12**<br>Copyright (c) 2001 Robert Penner. All rights reserved<br>http://robertpenner.com/easing/<br>License: [Revised BSD License](licenses/easing-equations-r12.txt)<br>Notes: Easing equations used in Tween.js, used to animate some graphics<br>Used by: ‪Area Builder‬ 1.1.0-dev.1, ‪Arithmetic‬ 1.0.0-dev.13, ‪Bending Light‬ 1.0.0-dev.6, ‪Charges And Fields‬ 1.0.0-rc.1, ‪Faraday's Law‬ 1.1.0-dev.2, ‪Forces and Motion: Basics‬ 1.1.5-dev.3, ‪Fraction Comparison‬ 1.0.0-dev.11, ‪Fraction Matcher‬ 1.0.0, ‪Hooke's Law‬ 1.0.0-dev.26, ‪Least-Squares Regression‬ 1.0.0-dev.14, ‪Protein Synthesis: Basics‬ 1.0.0-dev.7, ‪Seasons‬ 1.0.0-dev.10
 
 **FileSaver-b8054a2.js**<br>Copyright (c) 2015 Eli Grey. (http://eligrey.com)<br>https://github.com/eligrey/FileSaver.js<br>License: [The MIT License](licenses/FileSaver-b8054a2.js.txt)<br>Notes: Used for saving screenshot images
 
@@ -102,7 +103,7 @@ To see the third party resources used in a particular published simulation, insp
 
 **jsondiffpatch-0.1.31.js**<br>Copyright (c) 2014 BenjamÌn Eidelman, twitter.com/beneidel<br>https://github.com/benjamine/jsondiffpatch<br>License: [The MIT License](licenses/jsondiffpatch-0.1.31.js.txt)<br>Notes: Computes state diffs for record/playback in together.js sims
 
-**liberation-sans-regular-subset-numeric-degrees.js**<br>Developed by Steve Matteson of Ascender Corporation as Ascender Sans and Ascender Serif<br>http://en.wikipedia.org/wiki/Liberation_fonts<br>License: [SIL Open Font License, Version 1.1](licenses/liberation-sans-regular-subset-numeric-degrees.js.txt)<br>Notes: For the 3D text in bond angles (faster updates than SVG text)<br>Used by: ‪Molecule Shapes‬ 1.0.1-dev.1
+**liberation-sans-regular-subset-numeric-degrees.js**<br>Developed by Steve Matteson of Ascender Corporation as Ascender Sans and Ascender Serif<br>http://en.wikipedia.org/wiki/Liberation_fonts<br>License: [SIL Open Font License, Version 1.1](licenses/liberation-sans-regular-subset-numeric-degrees.js.txt)<br>Notes: For the 3D text in bond angles (faster updates than SVG text)<br>Used by: ‪Molecule Shapes: Basics‬ 1.0.0, ‪Molecule Shapes‬ 1.0.1-dev.1
 
 **lodash-2.4.1.js**<br>Copyright (c) 2012-2013 The Dojo Foundation, http://dojofoundation.org><br>Based on Underscore.js 1.5.2, http://underscorejs.org/LICENSE<br>Copyright (c) 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors<br>http://lodash.com<br>License: [The MIT License](licenses/lodash-2.4.1.js.txt)<br>Notes: Adds common data structure operations such as sorting, grouping, etc.
 
@@ -130,15 +131,15 @@ To see the third party resources used in a particular published simulation, insp
 
 **text-2.0.12.js**<br>Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved.<br>http://github.com/requirejs/text<br>License: [The MIT License](licenses/text-2.0.12.js.txt)<br>Notes: Loads strings to be displayed in the sim, including internationalized strings.
 
-**three-r71-CanvasRenderer.js**<br>Copyright (c) 2010-2014 three.js authors<br>http://threejs.org<br>License: [The MIT License](licenses/three-r71-CanvasRenderer.js.txt)<br>Notes: For the 3D view (WebGL and Canvas) Canvas fall-back<br>Used by: ‪Molecule Shapes‬ 1.0.1-dev.1
+**three-r71-CanvasRenderer.js**<br>Copyright (c) 2010-2014 three.js authors<br>http://threejs.org<br>License: [The MIT License](licenses/three-r71-CanvasRenderer.js.txt)<br>Notes: For the 3D view (WebGL and Canvas) Canvas fall-back<br>Used by: ‪Molecule Shapes: Basics‬ 1.0.0, ‪Molecule Shapes‬ 1.0.1-dev.1
 
-**three-r71-Projector.js**<br>Copyright (c) 2010-2014 three.js authors<br>http://threejs.org<br>License: [The MIT License](licenses/three-r71-Projector.js.txt)<br>Notes: For the 3D view (WebGL and Canvas) Canvas fall-back<br>Used by: ‪Molecule Shapes‬ 1.0.1-dev.1
+**three-r71-Projector.js**<br>Copyright (c) 2010-2014 three.js authors<br>http://threejs.org<br>License: [The MIT License](licenses/three-r71-Projector.js.txt)<br>Notes: For the 3D view (WebGL and Canvas) Canvas fall-back<br>Used by: ‪Molecule Shapes: Basics‬ 1.0.0, ‪Molecule Shapes‬ 1.0.1-dev.1
 
-**three-r71.js**<br>Copyright (c) 2010-2014 three.js authors<br>http://threejs.org<br>License: [The MIT License](licenses/three-r71.js.txt)<br>Notes: For the 3D view (WebGL and Canvas)<br>Used by: ‪Molecule Shapes‬ 1.0.1-dev.1
+**three-r71.js**<br>Copyright (c) 2010-2014 three.js authors<br>http://threejs.org<br>License: [The MIT License](licenses/three-r71.js.txt)<br>Notes: For the 3D view (WebGL and Canvas)<br>Used by: ‪Molecule Shapes: Basics‬ 1.0.0, ‪Molecule Shapes‬ 1.0.1-dev.1
 
-**Tween-r12.js**<br>Copyright (c) 2010-2012 Tween.js authors.<br>https://github.com/tweenjs/tween.js/<br>License: [The MIT License](licenses/Tween-r12.js.txt)<br>Notes: Used to animate some graphics<br>Dependencies: **easing-equations-r12**<br>Used by: ‪Area Builder‬ 1.1.0-dev.1, ‪Arithmetic‬ 1.0.0-dev.13, ‪Bending Light‬ 1.0.0-dev.5, ‪Charges And Fields‬ 1.0.0-rc.1, ‪Faraday's Law‬ 1.1.0-dev.2, ‪Forces and Motion: Basics‬ 1.1.5-dev.3, ‪Fraction Comparison‬ 1.0.0-dev.11, ‪Fraction Matcher‬ 1.0.0, ‪Hooke's Law‬ 1.0.0-dev.26, ‪Least-Squares Regression‬ 1.0.0-dev.14, ‪Protein Synthesis: Basics‬ 1.0.0-dev.7, ‪Seasons‬ 1.0.0-dev.10
+**Tween-r12.js**<br>Copyright (c) 2010-2012 Tween.js authors.<br>https://github.com/tweenjs/tween.js/<br>License: [The MIT License](licenses/Tween-r12.js.txt)<br>Notes: Used to animate some graphics<br>Dependencies: **easing-equations-r12**<br>Used by: ‪Area Builder‬ 1.1.0-dev.1, ‪Arithmetic‬ 1.0.0-dev.13, ‪Bending Light‬ 1.0.0-dev.6, ‪Charges And Fields‬ 1.0.0-rc.1, ‪Faraday's Law‬ 1.1.0-dev.2, ‪Forces and Motion: Basics‬ 1.1.5-dev.3, ‪Fraction Comparison‬ 1.0.0-dev.11, ‪Fraction Matcher‬ 1.0.0, ‪Hooke's Law‬ 1.0.0-dev.26, ‪Least-Squares Regression‬ 1.0.0-dev.14, ‪Protein Synthesis: Basics‬ 1.0.0-dev.7, ‪Seasons‬ 1.0.0-dev.10
 
-**typedarray-44f09cf.js**<br>Copyright (c) 2010 Linden Research, Inc., Copyright (c) 2014 Joshua Bell<br>https://github.com/substack/typedarray<br>License: [The MIT License](licenses/typedarray-44f09cf.js.txt)<br>Notes: Typed array polyfill for optimization in matrices and/or 3D applications<br>Used by: ‪Molecule Shapes‬ 1.0.1-dev.1
+**typedarray-44f09cf.js**<br>Copyright (c) 2010 Linden Research, Inc., Copyright (c) 2014 Joshua Bell<br>https://github.com/substack/typedarray<br>License: [The MIT License](licenses/typedarray-44f09cf.js.txt)<br>Notes: Typed array polyfill for optimization in matrices and/or 3D applications<br>Used by: ‪Molecule Shapes: Basics‬ 1.0.0, ‪Molecule Shapes‬ 1.0.1-dev.1
 
 ---
 # <a name="third-party-code-and-license-summary"></a>Third-party Code License Summary:<br>
@@ -150,29 +151,29 @@ The MIT License<br>Apache 2.0<br>Use it if you like it<br>Revised BSD License<br
 
 **BALANCING_ACT/old-television.png**<br>Public Domain<br>https://openclipart.org/detail/19995/antique-television<br>License: Public Domain<br>Notes: Modified by jblanco
 
-**BUILD_A_MOLECULE/green-left.png**<br><br><br>License: Unknown<br>Notes: 
+**BUILD_A_MOLECULE/green-left.png**<br>(no text)<br>(no project url)<br>License: Unknown<br>Notes: 
 
-**BUILD_A_MOLECULE/green-middle.png**<br><br><br>License: <br>Notes: 
+**BUILD_A_MOLECULE/green-middle.png**<br>(no text)<br>(no project url)<br>License: <br>Notes: 
 
-**BUILD_A_MOLECULE/green-right.png**<br><br><br>License: <br>Notes: 
+**BUILD_A_MOLECULE/green-right.png**<br>(no text)<br>(no project url)<br>License: <br>Notes: 
 
-**BUILD_A_MOLECULE/scissors-closed-up.cur**<br><br><br>License: <br>Notes: 
+**BUILD_A_MOLECULE/scissors-closed-up.cur**<br>(no text)<br>(no project url)<br>License: <br>Notes: 
 
-**BUILD_A_MOLECULE/scissors-closed-up.png**<br><br><br>License: <br>Notes: 
+**BUILD_A_MOLECULE/scissors-closed-up.png**<br>(no text)<br>(no project url)<br>License: <br>Notes: 
 
-**BUILD_A_MOLECULE/scissors-closed.cur**<br><br><br>License: <br>Notes: 
+**BUILD_A_MOLECULE/scissors-closed.cur**<br>(no text)<br>(no project url)<br>License: <br>Notes: 
 
-**BUILD_A_MOLECULE/scissors-closed.png**<br><br><br>License: <br>Notes: 
+**BUILD_A_MOLECULE/scissors-closed.png**<br>(no text)<br>(no project url)<br>License: <br>Notes: 
 
-**BUILD_A_MOLECULE/scissors-up.cur**<br><br><br>License: <br>Notes: 
+**BUILD_A_MOLECULE/scissors-up.cur**<br>(no text)<br>(no project url)<br>License: <br>Notes: 
 
-**BUILD_A_MOLECULE/scissors-up.png**<br><br><br>License: <br>Notes: 
+**BUILD_A_MOLECULE/scissors-up.png**<br>(no text)<br>(no project url)<br>License: <br>Notes: 
 
-**BUILD_A_MOLECULE/scissors.cur**<br><br>http://www.openclipart.org/detail/32341<br>License: Public Domain<br>Notes: Modified by PhET
+**BUILD_A_MOLECULE/scissors.cur**<br>(no text)<br>http://www.openclipart.org/detail/32341<br>License: Public Domain<br>Notes: Modified by PhET
 
-**BUILD_A_MOLECULE/scissors.png**<br><br>http://www.openclipart.org/detail/32341<br>License: Public Domain<br>Notes: Modified by PhET
+**BUILD_A_MOLECULE/scissors.png**<br>(no text)<br>http://www.openclipart.org/detail/32341<br>License: Public Domain<br>Notes: Modified by PhET
 
-**BUILD_A_MOLECULE/split-blue.png**<br><br><br>License: <br>Notes: 
+**BUILD_A_MOLECULE/split-blue.png**<br>(no text)<br>(no project url)<br>License: <br>Notes: 
 
 **ENERGY_SKATE_PARK_BASICS/cement-texture-dark.jpg**<br>Public Domain<br>http://www.public-domain-image.com/full-image/textures-and-patterns-public-domain-images-pictures/concrete-texture-public-domain-images-pictures/cement-texture.jpg-royalty-free-stock-image.html<br>License: Public Domain<br>Notes: 
 
@@ -196,59 +197,59 @@ The MIT License<br>Apache 2.0<br>Use it if you like it<br>Revised BSD License<br
 
 **JOHN_TRAVOLTAGE/leg.png**<br>from American Cinematheque<br>http://www.americancinematheque.com/ball/1997MPBTravolta.htm<br>License: Unlicensed<br>Notes: edited by NP<br>Exception: PhET decided to allow images for John Travoltage even though we were unable to contact American Cinematheque for explicit permission
 
-**MAKING_TENS/1.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+**MAKING_TENS/1.png**<br>from Snow Day Math<br>(no project url)<br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
 
-**MAKING_TENS/10.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+**MAKING_TENS/10.png**<br>from Snow Day Math<br>(no project url)<br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
 
-**MAKING_TENS/100.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+**MAKING_TENS/100.png**<br>from Snow Day Math<br>(no project url)<br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
 
-**MAKING_TENS/2.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+**MAKING_TENS/2.png**<br>from Snow Day Math<br>(no project url)<br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
 
-**MAKING_TENS/20.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+**MAKING_TENS/20.png**<br>from Snow Day Math<br>(no project url)<br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
 
-**MAKING_TENS/200.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+**MAKING_TENS/200.png**<br>from Snow Day Math<br>(no project url)<br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
 
-**MAKING_TENS/3.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+**MAKING_TENS/3.png**<br>from Snow Day Math<br>(no project url)<br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
 
-**MAKING_TENS/30.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+**MAKING_TENS/30.png**<br>from Snow Day Math<br>(no project url)<br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
 
-**MAKING_TENS/300.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+**MAKING_TENS/300.png**<br>from Snow Day Math<br>(no project url)<br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
 
-**MAKING_TENS/4.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+**MAKING_TENS/4.png**<br>from Snow Day Math<br>(no project url)<br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
 
-**MAKING_TENS/40.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+**MAKING_TENS/40.png**<br>from Snow Day Math<br>(no project url)<br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
 
-**MAKING_TENS/400.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+**MAKING_TENS/400.png**<br>from Snow Day Math<br>(no project url)<br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
 
-**MAKING_TENS/5.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+**MAKING_TENS/5.png**<br>from Snow Day Math<br>(no project url)<br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
 
-**MAKING_TENS/50.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+**MAKING_TENS/50.png**<br>from Snow Day Math<br>(no project url)<br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
 
-**MAKING_TENS/500.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+**MAKING_TENS/500.png**<br>from Snow Day Math<br>(no project url)<br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
 
-**MAKING_TENS/6.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+**MAKING_TENS/6.png**<br>from Snow Day Math<br>(no project url)<br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
 
-**MAKING_TENS/60.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+**MAKING_TENS/60.png**<br>from Snow Day Math<br>(no project url)<br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
 
-**MAKING_TENS/600.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+**MAKING_TENS/600.png**<br>from Snow Day Math<br>(no project url)<br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
 
-**MAKING_TENS/7.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+**MAKING_TENS/7.png**<br>from Snow Day Math<br>(no project url)<br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
 
-**MAKING_TENS/70.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+**MAKING_TENS/70.png**<br>from Snow Day Math<br>(no project url)<br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
 
-**MAKING_TENS/700.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+**MAKING_TENS/700.png**<br>from Snow Day Math<br>(no project url)<br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
 
-**MAKING_TENS/8.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+**MAKING_TENS/8.png**<br>from Snow Day Math<br>(no project url)<br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
 
-**MAKING_TENS/80.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+**MAKING_TENS/80.png**<br>from Snow Day Math<br>(no project url)<br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
 
-**MAKING_TENS/800.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+**MAKING_TENS/800.png**<br>from Snow Day Math<br>(no project url)<br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
 
-**MAKING_TENS/9.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+**MAKING_TENS/9.png**<br>from Snow Day Math<br>(no project url)<br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
 
-**MAKING_TENS/90.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+**MAKING_TENS/90.png**<br>from Snow Day Math<br>(no project url)<br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
 
-**MAKING_TENS/900.png**<br>from Snow Day Math<br><br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
+**MAKING_TENS/900.png**<br>from Snow Day Math<br>(no project url)<br>License: <br>Notes: from Snow Day Math<br>Exception: Snow Day Math images will not be used in the final version, this exception will allow the build to pass without errors
 
 **UNDER_PRESSURE/cement-texture-dark.jpg**<br>Public Domain<br>http://www.public-domain-image.com/full-image/textures-and-patterns-public-domain-images-pictures/concrete-texture-public-domain-images-pictures/cement-texture.jpg-royalty-free-stock-image.html<br>License: Public Domain<br>Notes: 
 
