@@ -17,12 +17,13 @@ This report is for the following simulations:
 * ‪Beer's Law Lab‬ 1.3.0-dev.2
 * ‪Bending Light‬ 1.0.0-dev.6
 * ‪Blackbody Spectrum‬ 1.0.0-dev.2
+* ‪Blast‬ 0.0.0-dev.4
 * ‪Build a Molecule‬ 0.0.0-dev.11
 * ‪Build an Atom‬ 1.2.0-dev.1
 * ‪Calculus Grapher‬ 1.0.0-dev.1
 * ‪Capacitor Lab: Basics‬ 1.0.0-dev.4
 * ‪Chains‬ 1.0.0-dev.1
-* ‪Charges And Fields‬ 1.0.0-rc.1
+* ‪Charges And Fields‬ 1.0.0-rc.3
 * ‪Color Vision‬ 1.1.0-dev.2
 * ‪Concentration‬ 1.2.0-dev.5
 * ‪Curve Fitting‬ 1.0.0-dev.4
@@ -64,13 +65,16 @@ This report is for the following simulations:
 * ‪Rutherford Scattering‬ 1.0.0-dev.1
 * ‪Seasons‬ 1.0.0-dev.10
 * ‪Simula Rasa‬ 1.0.0-dev.1
+* ‪States of Matter: Basics‬ 1.0.0-dev.2
 * ‪States of Matter‬ 1.0.0-dev.5
 * ‪Sugar And Salt Solutions‬ 1.0.0-dev.1
-* ‪Trig Lab‬ 1.0.0-dev.16
+* ‪Trig Tour‬ 1.0.0-dev.16
 * ‪Under Pressure‬ 1.1.0-dev.3
 * ‪Vibe Demo‬ 1.0.0-dev.1
 * ‪Wave on a String‬ 1.0.0
 * ‪griddle demo‬ 0.0.0
+* ‪litmus: JSmol testbed‬ 1.0.0-dev.1
+* ‪pH Scale: Basics‬ 1.2.0-dev.1
 * ‪pH Scale‬ 1.2.0-dev.1
 * ‪scenery-phet demo‬ 1.0.0-dev.12
 * ‪vegas demo‬ 1.0.0-dev.3
@@ -87,7 +91,7 @@ To see the third party resources used in a particular published simulation, insp
 
 **canvg-rgbcolor-1.3.js**<br>Stoyan Stefanov (sstoo@gmail.com)<br>http://www.phpied.com/rgb-color-parser-in-javascript/<br>License: [Use it if you like it](licenses/canvg-rgbcolor-1.3.js.txt)<br>Notes: A class to parse color values (packaged with canvg-1.3), required by canvg, see above
 
-**easing-equations-r12**<br>Copyright (c) 2001 Robert Penner. All rights reserved<br>http://robertpenner.com/easing/<br>License: [Revised BSD License](licenses/easing-equations-r12.txt)<br>Notes: Easing equations used in Tween.js, used to animate some graphics<br>Used by: ‪Area Builder‬ 1.1.0-dev.1, ‪Arithmetic‬ 1.0.0-dev.13, ‪Bending Light‬ 1.0.0-dev.6, ‪Charges And Fields‬ 1.0.0-rc.1, ‪Faraday's Law‬ 1.1.0-dev.2, ‪Forces and Motion: Basics‬ 1.1.5-dev.3, ‪Fraction Comparison‬ 1.0.0-dev.11, ‪Fraction Matcher‬ 1.0.0, ‪Hooke's Law‬ 1.0.0-dev.26, ‪Least-Squares Regression‬ 1.0.0-dev.14, ‪Protein Synthesis: Basics‬ 1.0.0-dev.7, ‪Seasons‬ 1.0.0-dev.10
+**easing-equations-r12**<br>Copyright (c) 2001 Robert Penner. All rights reserved<br>http://robertpenner.com/easing/<br>License: [Revised BSD License](licenses/easing-equations-r12.txt)<br>Notes: Easing equations used in Tween.js, used to animate some graphics<br>Used by: ‪Area Builder‬ 1.1.0-dev.1, ‪Arithmetic‬ 1.0.0-dev.13, ‪Bending Light‬ 1.0.0-dev.6, ‪Charges And Fields‬ 1.0.0-rc.3, ‪Faraday's Law‬ 1.1.0-dev.2, ‪Forces and Motion: Basics‬ 1.1.5-dev.3, ‪Fraction Comparison‬ 1.0.0-dev.11, ‪Fraction Matcher‬ 1.0.0, ‪Hooke's Law‬ 1.0.0-dev.26, ‪Least-Squares Regression‬ 1.0.0-dev.14, ‪Protein Synthesis: Basics‬ 1.0.0-dev.7, ‪Seasons‬ 1.0.0-dev.10
 
 **FileSaver-b8054a2.js**<br>Copyright (c) 2015 Eli Grey. (http://eligrey.com)<br>https://github.com/eligrey/FileSaver.js<br>License: [The MIT License](licenses/FileSaver-b8054a2.js.txt)<br>Notes: Used for saving screenshot images
 
@@ -137,7 +141,7 @@ To see the third party resources used in a particular published simulation, insp
 
 **three-r71.js**<br>Copyright (c) 2010-2014 three.js authors<br>http://threejs.org<br>License: [The MIT License](licenses/three-r71.js.txt)<br>Notes: For the 3D view (WebGL and Canvas)<br>Used by: ‪Molecule Shapes: Basics‬ 1.0.0, ‪Molecule Shapes‬ 1.0.1-dev.1
 
-**Tween-r12.js**<br>Copyright (c) 2010-2012 Tween.js authors.<br>https://github.com/tweenjs/tween.js/<br>License: [The MIT License](licenses/Tween-r12.js.txt)<br>Notes: Used to animate some graphics<br>Dependencies: **easing-equations-r12**<br>Used by: ‪Area Builder‬ 1.1.0-dev.1, ‪Arithmetic‬ 1.0.0-dev.13, ‪Bending Light‬ 1.0.0-dev.6, ‪Charges And Fields‬ 1.0.0-rc.1, ‪Faraday's Law‬ 1.1.0-dev.2, ‪Forces and Motion: Basics‬ 1.1.5-dev.3, ‪Fraction Comparison‬ 1.0.0-dev.11, ‪Fraction Matcher‬ 1.0.0, ‪Hooke's Law‬ 1.0.0-dev.26, ‪Least-Squares Regression‬ 1.0.0-dev.14, ‪Protein Synthesis: Basics‬ 1.0.0-dev.7, ‪Seasons‬ 1.0.0-dev.10
+**Tween-r12.js**<br>Copyright (c) 2010-2012 Tween.js authors.<br>https://github.com/tweenjs/tween.js/<br>License: [The MIT License](licenses/Tween-r12.js.txt)<br>Notes: Used to animate some graphics<br>Dependencies: **easing-equations-r12**<br>Used by: ‪Area Builder‬ 1.1.0-dev.1, ‪Arithmetic‬ 1.0.0-dev.13, ‪Bending Light‬ 1.0.0-dev.6, ‪Charges And Fields‬ 1.0.0-rc.3, ‪Faraday's Law‬ 1.1.0-dev.2, ‪Forces and Motion: Basics‬ 1.1.5-dev.3, ‪Fraction Comparison‬ 1.0.0-dev.11, ‪Fraction Matcher‬ 1.0.0, ‪Hooke's Law‬ 1.0.0-dev.26, ‪Least-Squares Regression‬ 1.0.0-dev.14, ‪Protein Synthesis: Basics‬ 1.0.0-dev.7, ‪Seasons‬ 1.0.0-dev.10
 
 **typedarray-44f09cf.js**<br>Copyright (c) 2010 Linden Research, Inc., Copyright (c) 2014 Joshua Bell<br>https://github.com/substack/typedarray<br>License: [The MIT License](licenses/typedarray-44f09cf.js.txt)<br>Notes: Typed array polyfill for optimization in matrices and/or 3D applications<br>Used by: ‪Molecule Shapes: Basics‬ 1.0.0, ‪Molecule Shapes‬ 1.0.1-dev.1
 
@@ -151,29 +155,21 @@ The MIT License<br>Apache 2.0<br>Use it if you like it<br>Revised BSD License<br
 
 **BALANCING_ACT/old-television.png**<br>Public Domain<br>https://openclipart.org/detail/19995/antique-television<br>License: Public Domain<br>Notes: Modified by jblanco
 
-**BUILD_A_MOLECULE/green-left.png**<br>(no text)<br>(no project url)<br>License: Unknown<br>Notes: (no notes)
+**BUILD_A_MOLECULE/scissors-closed-up.cur**<br>Public Domain<br>http://www.openclipart.org/detail/32341<br>License: Public Domain<br>Notes: Modified by PhET
 
-**BUILD_A_MOLECULE/green-middle.png**<br>(no text)<br>(no project url)<br>License: (no license)<br>Notes: (no notes)
+**BUILD_A_MOLECULE/scissors-closed-up.png**<br>Public Domain<br>http://www.openclipart.org/detail/32341<br>License: Public Domain<br>Notes: Modified by PhET
 
-**BUILD_A_MOLECULE/green-right.png**<br>(no text)<br>(no project url)<br>License: (no license)<br>Notes: (no notes)
+**BUILD_A_MOLECULE/scissors-closed.cur**<br>Public Domain<br>http://www.openclipart.org/detail/32341<br>License: Public Domain<br>Notes: Modified by PhET
 
-**BUILD_A_MOLECULE/scissors-closed-up.cur**<br>(no text)<br>(no project url)<br>License: (no license)<br>Notes: (no notes)
+**BUILD_A_MOLECULE/scissors-closed.png**<br>Public Domain<br>http://www.openclipart.org/detail/32341<br>License: Public Domain<br>Notes: Modified by PhET
 
-**BUILD_A_MOLECULE/scissors-closed-up.png**<br>(no text)<br>(no project url)<br>License: (no license)<br>Notes: (no notes)
+**BUILD_A_MOLECULE/scissors-up.cur**<br>Public Domain<br>http://www.openclipart.org/detail/32341<br>License: Public Domain<br>Notes: Modified by PhET
 
-**BUILD_A_MOLECULE/scissors-closed.cur**<br>(no text)<br>(no project url)<br>License: (no license)<br>Notes: (no notes)
+**BUILD_A_MOLECULE/scissors-up.png**<br>Public Domain<br>http://www.openclipart.org/detail/32341<br>License: Public Domain<br>Notes: Modified by PhET
 
-**BUILD_A_MOLECULE/scissors-closed.png**<br>(no text)<br>(no project url)<br>License: (no license)<br>Notes: (no notes)
+**BUILD_A_MOLECULE/scissors.cur**<br>Public Domain<br>http://www.openclipart.org/detail/32341<br>License: Public Domain<br>Notes: Modified by PhET
 
-**BUILD_A_MOLECULE/scissors-up.cur**<br>(no text)<br>(no project url)<br>License: (no license)<br>Notes: (no notes)
-
-**BUILD_A_MOLECULE/scissors-up.png**<br>(no text)<br>(no project url)<br>License: (no license)<br>Notes: (no notes)
-
-**BUILD_A_MOLECULE/scissors.cur**<br>(no text)<br>http://www.openclipart.org/detail/32341<br>License: Public Domain<br>Notes: Modified by PhET
-
-**BUILD_A_MOLECULE/scissors.png**<br>(no text)<br>http://www.openclipart.org/detail/32341<br>License: Public Domain<br>Notes: Modified by PhET
-
-**BUILD_A_MOLECULE/split-blue.png**<br>(no text)<br>(no project url)<br>License: (no license)<br>Notes: (no notes)
+**BUILD_A_MOLECULE/scissors.png**<br>Public Domain<br>http://www.openclipart.org/detail/32341<br>License: Public Domain<br>Notes: Modified by PhET
 
 **ENERGY_SKATE_PARK_BASICS/cement-texture-dark.jpg**<br>Public Domain<br>http://www.public-domain-image.com/full-image/textures-and-patterns-public-domain-images-pictures/concrete-texture-public-domain-images-pictures/cement-texture.jpg-royalty-free-stock-image.html<br>License: Public Domain<br>Notes: (no notes)
 
@@ -259,5 +255,5 @@ The MIT License<br>Apache 2.0<br>Use it if you like it<br>Revised BSD License<br
 
 ---
 # <a name="third-party-media-license-summary"></a>Third-party Media License Summary:<br>
-Public Domain<br>Unknown<br>(no license)<br>NASA<br>Unlicensed
+Public Domain<br>NASA<br>Unlicensed<br>(no license)
 
