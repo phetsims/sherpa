@@ -4,12 +4,12 @@ sherpa
 Third-party libraries and dependencies for PhET Simulations
 
 By PhET Interactive Simulations
-http://phet.colorado.edu/ 
+http://phet.colorado.edu/
 
 [List of the third-party code, fonts, images and audio](third-party-licenses.md)
 
 For developers: when adding a new library or changing third-party-licenses.json, please run the `grunt report-third-party` command with the
-`--copy-from-build` option after running a `grunt-all.sh build-no-lint`.  Note that this grunt task has a required
+`--copy-from-build` option after running a `chipper/bin/grunt-all.sh --lint=false`.  Note that this grunt task has a required
  argument which is the directory to copy the HTML files to.
 
 ### Documentation
