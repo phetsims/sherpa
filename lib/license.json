@@ -143,6 +143,14 @@
     "projectURL": "http://lodash.com",
     "notes": "Adds common data structure operations such as sorting, grouping, etc."
   },
+  "node-properties-parser-0.3.1.js": {
+    "text": [
+      "Developed by Xavi Ramirez"
+    ],
+    "license": "The MIT License",
+    "projectURL": "https://github.com/xavi-/node-properties-parser",
+    "notes": "A parser for .properties files written in javascript."
+  },
   "numeric-1.2.6.js": {
     "text": [
       "Copyright (c) 2011 by Sébastien Loisel"
