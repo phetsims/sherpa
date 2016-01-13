@@ -218,13 +218,13 @@
     "projectURL": "http://requirejs.org/",
     "notes": "Manages code and dependencies to make it easier to develop simulations and test them quickly"
   },
-  "seedrandom-2.2.js": {
+  "seedrandom-2.4.2.js": {
     "text": [
-      "Copyright (c) 2013 David Bau, all rights reserved."
+      "Copyright 2015 David Bau."
     ],
-    "license": "Revised BSD License",
+    "license": "MIT",
     "projectURL": "https://github.com/davidbau/seedrandom",
-    "notes": "Provides reproducible sequences of random numbers"
+    "notes": "seeded random number generator for Javascript"
   },
   "stats-r12.js": {
     "text": [
