@@ -93,7 +93,7 @@ To see the third party resources used in a particular published simulation, insp
 
 **fontawesome-webfont-3.0.2.svg**<br>by Dave Gandy<br>https://github.com/FortAwesome/Font-Awesome/tree/v3.0.2<br>License: [SIL Open Font License, Version 1.1](licenses/fontawesome-webfont-3.0.2.svg.txt)<br>Notes: Provides shapes like the home icon and check box icons, used in FontAwesomeNode
 
-**highlight.js-9.1.0.js**<br>Copyright (c) 2006, Ivan Sagalaev<br>https://highlightjs.org/<br>License: [Revised BSD License](licenses/highlight.js-9.1.0.js.txt)<br>Notes: Used for together.js documentation
+**highlight.js-9.1.0.js**<br>Copyright (c) 2006, Ivan Sagalaev<br>https://highlightjs.org/<br>License: [Revised BSD License](licenses/highlight.js-9.1.0.js.txt)<br>Notes: Used for phetio.js documentation
 
 **iframe-phone-1.1.3.js**<br>Copyright (c) 2012 Concord Consortium<br>https://github.com/concord-consortium/iframe-phone/tree/v1.1.3<br>License: [The MIT License](licenses/iframe-phone-1.1.3.js.txt)<br>Notes: Used in CODAP interoperability experiments
 
@@ -103,7 +103,7 @@ To see the third party resources used in a particular published simulation, insp
 
 **jshint-2.5.0.js**<br>Copyright (c) 2012 Anton Kovalyov<br>http://www.jshint.com/<br>License: [The MIT License](licenses/jshint-2.5.0.js.txt)<br>Notes: Helps us enforce stylistic patterns in our Javascript code
 
-**jsondiffpatch-0.1.31.js**<br>Copyright (c) 2014 BenjamÌn Eidelman, twitter.com/beneidel<br>https://github.com/benjamine/jsondiffpatch<br>License: [The MIT License](licenses/jsondiffpatch-0.1.31.js.txt)<br>Notes: Computes state diffs for record/playback in together.js sims
+**jsondiffpatch-0.1.31.js**<br>Copyright (c) 2014 BenjamÌn Eidelman, twitter.com/beneidel<br>https://github.com/benjamine/jsondiffpatch<br>License: [The MIT License](licenses/jsondiffpatch-0.1.31.js.txt)<br>Notes: Computes state diffs for record/playback in phetio.js sims
 
 **katex-0.5.1-css-all.js**<br>Copyright (c) 2009-2010, Design Science, Inc. (<www.mathjax.org>)<br>Copyright (c) 2014 Khan Academy (<www.khanacademy.org>),<br>https://github.com/Khan/KaTeX<br>License: [SIL Open Font License, Version 1.1](licenses/katex-0.5.1-css-all.js.txt)<br>Notes: Fonts for rendering math equations with FormulaNode, see https://github.com/Khan/KaTeX/issues/339<br>Used by: &#8234;scenery-phet demo&#8236; 1.0.0-dev.14
 
