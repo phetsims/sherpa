@@ -91,14 +91,6 @@
     "projectURL": "http://jquery.com",
     "notes": "Facilitates interaction with browser DOM elements, mainly used in Scenery"
   },
-  "jshint-2.5.0.js": {
-    "text": [
-      "Copyright (c) 2012 Anton Kovalyov"
-    ],
-    "license": "The MIT License",
-    "projectURL": "http://www.jshint.com/",
-    "notes": "Helps us enforce stylistic patterns in our Javascript code"
-  },
   "jsondiffpatch-0.1.31.js": {
     "text": [
       "Copyright (c) 2014 BenjamÌn Eidelman, twitter.com/beneidel"
