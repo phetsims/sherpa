@@ -10,6 +10,7 @@ http://phet.colorado.edu/
 
 For developers: when adding a new library or changing third-party-licenses.json, please update the third-party-licenses.md
 file by following these steps:
+
 1. grunt-all.sh
 2. cd $ANY_SIM_DIR$
 3. grunt report-third-party --active-runnables=true --input=$TEMP_DIR$ --output=$PATH_TO_SHERPA$/third-party-licenses.md
