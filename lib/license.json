@@ -7,6 +7,25 @@
     "license": "The MIT License",
     "notes": "Allows a RequireJS-based simulation to run in its compiled (smaller, faster) form"
   },
+  "BigInteger-cda5bcc.js": {
+    "text": [
+      "Developed by Peter Olson, https://github.com/peterolson"
+    ],
+    "projectURL": "https://github.com/peterolson/BigInteger.js",
+    "license": "Public Domain",
+    "notes": "An arbitrary length integer library for Javascript"
+  },
+  "BigRational-8f8c2fa.js": {
+    "text": [
+      "Developed by Peter Olson, https://github.com/peterolson"
+    ],
+    "projectURL": "https://github.com/peterolson/BigInteger.js",
+    "license": "Public Domain",
+    "notes": "An arbitrary length rational number library for Javascript",
+    "dependencies": [
+      "BigInteger-cda5bcc.js"
+    ]
+  },
   "benchmark-1.0.0.js": {
     "text": [
       "Copyright (c) 2010-2012 Mathias Bynens http://mths.be",
