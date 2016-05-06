@@ -23,7 +23,7 @@ This report is for the following simulations:
 * &#8234;Capacitor Lab: Basics&#8236; 1.0.0-dev.14
 * &#8234;Chains&#8236; 1.0.0-dev.1
 * &#8234;Charges And Fields&#8236; 1.0.0-dev.14
-* &#8234;Circuit Construction Kit: Basics&#8236; 1.0.0-dev.5
+* &#8234;Circuit Construction Kit&#8236; 1.0.0-dev.5
 * &#8234;Color Vision&#8236; 1.2.0-dev.2
 * &#8234;Concentration&#8236; 1.3.0-dev.4
 * &#8234;Curve Fitting&#8236; 1.0.0-dev.4
