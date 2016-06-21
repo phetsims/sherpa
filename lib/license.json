@@ -58,6 +58,14 @@
     "projectURL": "https://github.com/FortAwesome/Font-Awesome/tree/v3.0.2",
     "notes": "Provides shapes like the home icon and check box icons, used in FontAwesomeNode"
   },
+  "game-up-camera-1.0.0.js": {
+    "text": [
+      "Copyright (c) BrainPOP"
+    ],
+    "license": "MIT",
+    "projectURL": "https://github.com/phetsims/sherpa/blob/master/lib/game-up-camera-1.0.0.js",
+    "notes": "Allows a simulation to return a snapshot to BrainPOP/GameUp/SnapThought"
+  },
   "highlight.js-9.1.0.js": {
     "text": [
       "Copyright (c) 2006, Ivan Sagalaev"
