@@ -170,6 +170,14 @@
     "projectURL": "http://lodash.com",
     "notes": "Adds common data structure operations such as sorting, grouping, etc."
   },
+  "lz-string-1.4.4.js": {
+    "text": [
+      "Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>"
+    ],
+    "license": "The WTFPL",
+    "projectURL": "http://pieroxy.net/blog/pages/lz-string/index.html",
+    "notes": "Provides string compression and decompression."
+  },
   "node-properties-parser-0.3.1.js": {
     "text": [
       "Developed by Xavi Ramirez"
