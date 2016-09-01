@@ -69,13 +69,13 @@
     "projectURL": "https://github.com/eligrey/FileSaver.js",
     "notes": "Used for saving screenshot images"
   },
-  "font-awesome.min.css": {
+  "font-awesome-4.5.0": {
     "text": [
       "Created by Dave Gandy"
     ],
-    "license": "MIT License",
+    "license": "Font Awesome licensed under SIL OFL 1.1 · Code licensed under MIT License · Documentation licensed under CC BY 3.0",
     "projectURL": "http://fontawesome.io/",
-    "notes": "Provides shapes and icons for website, phet-io-website, and phet-io wrappers"
+    "notes": "Provides shapes and icons for phet-io wrappers"
   },
   "fontawesome-webfont-3.0.2.svg": {
     "text": [
