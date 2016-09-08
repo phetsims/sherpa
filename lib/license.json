@@ -332,7 +332,7 @@
     "license": "The MIT License",
     "projectURL": "http://codeseven.github.io/toastr/",
     "notes": "For displaying popup messages in PhET-iO apps."
-  }
+  },
   "Tween-r12.js": {
     "text": [
       "Copyright (c) 2010-2012 Tween.js authors."
