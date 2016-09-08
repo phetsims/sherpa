@@ -126,6 +126,14 @@
     "projectURL": "http://jquery.com",
     "notes": "Facilitates interaction with browser DOM elements, mainly used in Scenery"
   },
+  "jquery-ui-1.8.min.js": {
+    "text": [
+      "Copyright (c) 2012 AUTHORS.txt; Licensed MIT, GPL"
+    ],
+    "license": "The MIT License",
+    "projectURL": "https://jqueryui.com",
+    "notes": "jQuery UI is a curated set of user interface interactions, effects, widgets, and themes. Used in some phet-io apps"
+  },
   "jsondiffpatch-0.1.31.js": {
     "text": [
       "Copyright (c) 2014 BenjamÌn Eidelman, twitter.com/beneidel"
