@@ -325,14 +325,6 @@
     "projectURL": "http://threejs.org",
     "notes": "For the 3D view (WebGL and Canvas) Canvas fall-back"
   },
-  "toastr.min.js, toastr.min.css": {
-    "text": [
-      "Copyright © 2012-2014 Hans Fjällemark, John Papa & Tim Ferrell."
-    ],
-    "license": "The MIT License",
-    "projectURL": "http://codeseven.github.io/toastr/",
-    "notes": "For displaying popup messages in PhET-iO apps."
-  },
   "Tween-r12.js": {
     "text": [
       "Copyright (c) 2010-2012 Tween.js authors."
