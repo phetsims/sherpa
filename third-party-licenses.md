@@ -6,42 +6,44 @@ This report enumerates the third-party resources (code, images, audio, etc) used
 
 This report is for the following simulations: 
 
-* &#8234;Acid-Base Solutions&#8236; 1.2.6
+* &#8234;Acid-Base Solutions&#8236; 1.2.7
 * &#8234;Area Builder&#8236; 1.1.2
-* &#8234;Arithmetic&#8236; 1.0.5
-* &#8234;Balancing Act&#8236; 1.1.3
-* &#8234;Balancing Chemical Equations&#8236; 1.1.5
-* &#8234;Balloons and Static Electricity&#8236; 1.1.3
-* &#8234;Beer&#39;s Law Lab&#8236; 1.4.0
-* &#8234;Bending Light&#8236; 1.0.5
+* &#8234;Arithmetic&#8236; 1.0.6
+* &#8234;Balancing Act&#8236; 1.1.4
+* &#8234;Balancing Chemical Equations&#8236; 1.1.6
+* &#8234;Balloons and Static Electricity&#8236; 1.1.4
+* &#8234;Beer&#39;s Law Lab&#8236; 1.5.0-phetio.4
+* &#8234;Bending Light&#8236; 1.0.6
 * &#8234;Build an Atom&#8236; 1.2.1
-* &#8234;Color Vision&#8236; 1.1.5
+* &#8234;Chains&#8236; 1.1.0
+* &#8234;Color Vision&#8236; 1.1.6
 * &#8234;Concentration&#8236; 1.3.1
 * &#8234;Energy Skate Park: Basics&#8236; 1.1.2
-* &#8234;Faraday&#39;s Law&#8236; 1.1.5
+* &#8234;Example Simulation&#8236; 1.0.0
+* &#8234;Faraday&#39;s Law&#8236; 1.2.0-phetio.1
 * &#8234;Forces and Motion: Basics&#8236; 2.0.1
-* &#8234;Fraction Matcher&#8236; 1.1.3
-* &#8234;Friction&#8236; 1.2.6
+* &#8234;Fraction Matcher&#8236; 1.1.4
+* &#8234;Friction&#8236; 1.2.7
 * &#8234;Function Builder&#8236; 1.0.0
-* &#8234;Graphing Lines&#8236; 1.1.6
-* &#8234;Gravity Force Lab&#8236; 2.0.2
-* &#8234;Hooke&#39;s Law&#8236; 1.0.5
+* &#8234;Graphing Lines&#8236; 1.1.7
+* &#8234;Gravity Force Lab&#8236; 2.0.3
+* &#8234;Hooke&#39;s Law&#8236; 1.0.6
 * &#8234;Isotopes and Atomic Mass&#8236; 1.0.3
-* &#8234;John Travoltage&#8236; 1.2.2
-* &#8234;Least-Squares Regression&#8236; 1.1.1
-* &#8234;Molarity&#8236; 1.2.6
-* &#8234;Molecule Shapes&#8236; 1.1.6
-* &#8234;Molecule Shapes: Basics&#8236; 1.1.4
-* &#8234;Molecules and Light&#8236; 1.1.7
+* &#8234;John Travoltage&#8236; 1.2.3
+* &#8234;Least-Squares Regression&#8236; 1.1.2
+* &#8234;Molarity&#8236; 1.2.7
+* &#8234;Molecule Shapes&#8236; 1.1.7
+* &#8234;Molecule Shapes: Basics&#8236; 1.1.5
+* &#8234;Molecules and Light&#8236; 1.1.8
 * &#8234;Neuron&#8236; 1.0.3
-* &#8234;Ohm&#39;s Law&#8236; 1.3.3
-* &#8234;Reactants, Products and Leftovers&#8236; 1.1.5
-* &#8234;Resistance in a Wire&#8236; 1.2.3
-* &#8234;Trig Tour&#8236; 1.0.4
+* &#8234;Ohm&#39;s Law&#8236; 1.3.4
+* &#8234;Reactants, Products and Leftovers&#8236; 1.1.6
+* &#8234;Resistance in a Wire&#8236; 1.2.4
+* &#8234;Trig Tour&#8236; 1.0.5
 * &#8234;Under Pressure&#8236; 1.1.1
-* &#8234;Wave on a String&#8236; 1.1.4
-* &#8234;pH Scale&#8236; 1.2.5
-* &#8234;pH Scale: Basics&#8236; 1.2.5
+* &#8234;Wave on a String&#8236; 1.1.5
+* &#8234;pH Scale&#8236; 1.2.6
+* &#8234;pH Scale: Basics&#8236; 1.2.6
 
 To see the third party resources used in a particular published simulation, inspect the HTML file between the `### START THIRD PARTY LICENSE ENTRIES ###` and `### END THIRD PARTY LICENSE ENTRIES ###` (only exists in sim publications after Aug 7, 2015).
 # <a name="third-party-code"></a>Third-party Code:<br>
@@ -59,13 +61,15 @@ To see the third party resources used in a particular published simulation, insp
 
 **canvg-rgbcolor-1.3.js**<br>Stoyan Stefanov (sstoo@gmail.com)<br>http://www.phpied.com/rgb-color-parser-in-javascript/<br>License: [Use it if you like it](licenses/canvg-rgbcolor-1.3.js.txt)<br>Notes: A class to parse color values (packaged with canvg-1.3), required by canvg, see above
 
-**easing-equations-r12**<br>Copyright (c) 2001 Robert Penner. All rights reserved<br>http://robertpenner.com/easing/<br>License: [Revised BSD License](licenses/easing-equations-r12.txt)<br>Notes: Easing equations used in Tween.js, used to animate some graphics<br>Used by: &#8234;Area Builder&#8236; 1.1.2, &#8234;Arithmetic&#8236; 1.0.5, &#8234;Bending Light&#8236; 1.0.5, &#8234;Faraday&#39;s Law&#8236; 1.1.5, &#8234;Forces and Motion: Basics&#8236; 2.0.1, &#8234;Fraction Matcher&#8236; 1.1.3, &#8234;Function Builder&#8236; 1.0.0, &#8234;Hooke&#39;s Law&#8236; 1.0.5, &#8234;Least-Squares Regression&#8236; 1.1.1
+**easing-equations-r12**<br>Copyright (c) 2001 Robert Penner. All rights reserved<br>http://robertpenner.com/easing/<br>License: [Revised BSD License](licenses/easing-equations-r12.txt)<br>Notes: Easing equations used in Tween.js, used to animate some graphics<br>Used by: &#8234;Area Builder&#8236; 1.1.2, &#8234;Arithmetic&#8236; 1.0.6, &#8234;Bending Light&#8236; 1.0.6, &#8234;Faraday&#39;s Law&#8236; 1.2.0-phetio.1, &#8234;Forces and Motion: Basics&#8236; 2.0.1, &#8234;Fraction Matcher&#8236; 1.1.4, &#8234;Function Builder&#8236; 1.0.0, &#8234;Hooke&#39;s Law&#8236; 1.0.6, &#8234;Least-Squares Regression&#8236; 1.1.2
 
 **FileSaver-b8054a2.js**<br>Copyright (c) 2015 Eli Grey. (http://eligrey.com)<br>https://github.com/eligrey/FileSaver.js<br>License: [The MIT License](licenses/FileSaver-b8054a2.js.txt)<br>Notes: Used for saving screenshot images
 
+**font-awesome-4.5.0**<br>Created by Dave Gandy<br>http://fontawesome.io/<br>License: [Font Awesome licensed under SIL OFL 1.1 · Code licensed under MIT License · Documentation licensed under CC BY 3.0](licenses/font-awesome-4.5.0.txt)<br>Notes: Provides shapes and icons for phet-io wrappers
+
 **fontawesome-webfont-3.0.2.svg**<br>by Dave Gandy<br>https://github.com/FortAwesome/Font-Awesome/tree/v3.0.2<br>License: [SIL Open Font License, Version 1.1](licenses/fontawesome-webfont-3.0.2.svg.txt)<br>Notes: Provides shapes like the home icon and check box icons, used in FontAwesomeNode
 
-**game-up-camera-1.0.0.js**<br>Copyright (c) BrainPOP<br>https://github.com/phetsims/sherpa/blob/master/lib/game-up-camera-1.0.0.js<br>License: [MIT](licenses/game-up-camera-1.0.0.js.txt)<br>Notes: Allows a simulation to return a snapshot to BrainPOP/GameUp/SnapThought<br>Used by: &#8234;Area Builder&#8236; 1.1.2, &#8234;Balancing Act&#8236; 1.1.3, &#8234;Color Vision&#8236; 1.1.5, &#8234;Concentration&#8236; 1.3.1, &#8234;Energy Skate Park: Basics&#8236; 1.1.2, &#8234;Function Builder&#8236; 1.0.0, &#8234;Graphing Lines&#8236; 1.1.6, &#8234;Molecules and Light&#8236; 1.1.7, &#8234;Wave on a String&#8236; 1.1.4
+**game-up-camera-1.0.0.js**<br>Copyright (c) BrainPOP<br>https://github.com/phetsims/sherpa/blob/master/lib/game-up-camera-1.0.0.js<br>License: [MIT](licenses/game-up-camera-1.0.0.js.txt)<br>Notes: Allows a simulation to return a snapshot to BrainPOP/GameUp/SnapThought<br>Used by: &#8234;Area Builder&#8236; 1.1.2, &#8234;Balancing Act&#8236; 1.1.4, &#8234;Beer&#39;s Law Lab&#8236; 1.5.0-phetio.4, &#8234;Color Vision&#8236; 1.1.6, &#8234;Concentration&#8236; 1.3.1, &#8234;Energy Skate Park: Basics&#8236; 1.1.2, &#8234;Example Simulation&#8236; 1.0.0, &#8234;Faraday&#39;s Law&#8236; 1.2.0-phetio.1, &#8234;Function Builder&#8236; 1.0.0, &#8234;Graphing Lines&#8236; 1.1.7, &#8234;Molecules and Light&#8236; 1.1.8, &#8234;Wave on a String&#8236; 1.1.5
 
 **highlight.js-9.1.0.js**<br>Copyright (c) 2006, Ivan Sagalaev<br>https://highlightjs.org/<br>License: [Revised BSD License](licenses/highlight.js-9.1.0.js.txt)<br>Notes: Used for phetio.js documentation
 
@@ -75,6 +79,8 @@ To see the third party resources used in a particular published simulation, insp
 
 **jquery-2.1.0.js**<br>Copyright (c) 2005, 2014 jQuery Foundation, Inc. and other contributors<br>(includes Sizzle.js, http://sizzlejs.com)<br>http://jquery.com<br>License: [The MIT License](licenses/jquery-2.1.0.js.txt)<br>Notes: Facilitates interaction with browser DOM elements, mainly used in Scenery
 
+**jquery-ui-1.8.min.js**<br>Copyright (c) 2012 AUTHORS.txt; Licensed MIT, GPL<br>https://jqueryui.com<br>License: [The MIT License](licenses/jquery-ui-1.8.min.js.txt)<br>Notes: jQuery UI is a curated set of user interface interactions, effects, widgets, and themes. Used in some phet-io apps
+
 **jsondiffpatch-0.1.31.js**<br>Copyright (c) 2014 BenjamÌn Eidelman, twitter.com/beneidel<br>https://github.com/benjamine/jsondiffpatch<br>License: [The MIT License](licenses/jsondiffpatch-0.1.31.js.txt)<br>Notes: Computes state diffs for record/playback in phetio.js sims
 
 **katex-0.5.1-css-all.js**<br>Copyright (c) 2009-2010, Design Science, Inc. (<www.mathjax.org>)<br>Copyright (c) 2014 Khan Academy (<www.khanacademy.org>),<br>https://github.com/Khan/KaTeX<br>License: [SIL Open Font License, Version 1.1](licenses/katex-0.5.1-css-all.js.txt)<br>Notes: Fonts for rendering math equations with FormulaNode, see https://github.com/Khan/KaTeX/issues/339
@@ -83,7 +89,7 @@ To see the third party resources used in a particular published simulation, insp
 
 **katex-0.5.1.min.js**<br>Copyright (c) 2015 Khan Academy<br>https://github.com/Khan/KaTeX<br>License: [The MIT License](licenses/katex-0.5.1.min.js.txt)<br>Notes: JavaScript for rendering math equations with FormulaNode
 
-**liberation-sans-regular-subset-numeric-degrees.js**<br>Developed by Steve Matteson of Ascender Corporation as Ascender Sans and Ascender Serif<br>http://en.wikipedia.org/wiki/Liberation_fonts<br>License: [SIL Open Font License, Version 1.1](licenses/liberation-sans-regular-subset-numeric-degrees.js.txt)<br>Notes: For the 3D text in bond angles (faster updates than SVG text)<br>Used by: &#8234;Molecule Shapes&#8236; 1.1.6, &#8234;Molecule Shapes: Basics&#8236; 1.1.4
+**liberation-sans-regular-subset-numeric-degrees.js**<br>Developed by Steve Matteson of Ascender Corporation as Ascender Sans and Ascender Serif<br>http://en.wikipedia.org/wiki/Liberation_fonts<br>License: [SIL Open Font License, Version 1.1](licenses/liberation-sans-regular-subset-numeric-degrees.js.txt)<br>Notes: For the 3D text in bond angles (faster updates than SVG text)<br>Used by: &#8234;Molecule Shapes&#8236; 1.1.7, &#8234;Molecule Shapes: Basics&#8236; 1.1.5
 
 **lodash-2.4.1.js**<br>Copyright (c) 2012-2013 The Dojo Foundation, http://dojofoundation.org><br>Based on Underscore.js 1.5.2, http://underscorejs.org/LICENSE<br>Copyright (c) 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors<br>http://lodash.com<br>License: [The MIT License](licenses/lodash-2.4.1.js.txt)<br>Notes: Adds common data structure operations such as sorting, grouping, etc.
 
@@ -107,7 +113,7 @@ To see the third party resources used in a particular published simulation, insp
 
 **requirejs-2.1.11.js**<br>Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved.<br>http://requirejs.org/<br>License: [The MIT License](licenses/requirejs-2.1.11.js.txt)<br>Notes: Manages code and dependencies to make it easier to develop simulations and test them quickly
 
-**seedrandom-2.4.2.js**<br>Copyright 2015 David Bau.<br>https://github.com/davidbau/seedrandom<br>License: [MIT](licenses/seedrandom-2.4.2.js.txt)<br>Notes: seeded random number generator for Javascript<br>Used by: &#8234;Area Builder&#8236; 1.1.2, &#8234;Balancing Act&#8236; 1.1.3, &#8234;Balloons and Static Electricity&#8236; 1.1.3, &#8234;Beer&#39;s Law Lab&#8236; 1.4.0, &#8234;Build an Atom&#8236; 1.2.1, &#8234;Color Vision&#8236; 1.1.5, &#8234;Concentration&#8236; 1.3.1, &#8234;Energy Skate Park: Basics&#8236; 1.1.2, &#8234;Forces and Motion: Basics&#8236; 2.0.1, &#8234;Fraction Matcher&#8236; 1.1.3, &#8234;Function Builder&#8236; 1.0.0, &#8234;Gravity Force Lab&#8236; 2.0.2, &#8234;Isotopes and Atomic Mass&#8236; 1.0.3, &#8234;John Travoltage&#8236; 1.2.2, &#8234;Least-Squares Regression&#8236; 1.1.1, &#8234;Ohm&#39;s Law&#8236; 1.3.3, &#8234;Resistance in a Wire&#8236; 1.2.3, &#8234;Trig Tour&#8236; 1.0.4, &#8234;Under Pressure&#8236; 1.1.1, &#8234;Wave on a String&#8236; 1.1.4
+**seedrandom-2.4.2.js**<br>Copyright 2015 David Bau.<br>https://github.com/davidbau/seedrandom<br>License: [MIT](licenses/seedrandom-2.4.2.js.txt)<br>Notes: seeded random number generator for Javascript<br>Used by: &#8234;Area Builder&#8236; 1.1.2, &#8234;Balancing Act&#8236; 1.1.4, &#8234;Balloons and Static Electricity&#8236; 1.1.4, &#8234;Beer&#39;s Law Lab&#8236; 1.5.0-phetio.4, &#8234;Build an Atom&#8236; 1.2.1, &#8234;Chains&#8236; 1.1.0, &#8234;Color Vision&#8236; 1.1.6, &#8234;Concentration&#8236; 1.3.1, &#8234;Energy Skate Park: Basics&#8236; 1.1.2, &#8234;Example Simulation&#8236; 1.0.0, &#8234;Faraday&#39;s Law&#8236; 1.2.0-phetio.1, &#8234;Forces and Motion: Basics&#8236; 2.0.1, &#8234;Fraction Matcher&#8236; 1.1.4, &#8234;Function Builder&#8236; 1.0.0, &#8234;Gravity Force Lab&#8236; 2.0.3, &#8234;Isotopes and Atomic Mass&#8236; 1.0.3, &#8234;John Travoltage&#8236; 1.2.3, &#8234;Least-Squares Regression&#8236; 1.1.2, &#8234;Ohm&#39;s Law&#8236; 1.3.4, &#8234;Resistance in a Wire&#8236; 1.2.4, &#8234;Trig Tour&#8236; 1.0.5, &#8234;Under Pressure&#8236; 1.1.1, &#8234;Wave on a String&#8236; 1.1.5
 
 **stats-r12.js**<br>Copyright (c) 2009-2014 Mr.doob<br>https://github.com/mrdoob/stats.js/<br>License: [The MIT License](licenses/stats-r12.js.txt)<br>Notes: Used in Scenery tests and examples, for showing a FPS monitor in the corner of the window
 
@@ -115,19 +121,19 @@ To see the third party resources used in a particular published simulation, insp
 
 **text-2.0.12.js**<br>Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved.<br>http://github.com/requirejs/text<br>License: [The MIT License](licenses/text-2.0.12.js.txt)<br>Notes: Loads strings to be displayed in the sim, including internationalized strings.
 
-**three-r71-CanvasRenderer.js**<br>Copyright (c) 2010-2014 three.js authors<br>http://threejs.org<br>License: [The MIT License](licenses/three-r71-CanvasRenderer.js.txt)<br>Notes: For the 3D view (WebGL and Canvas) Canvas fall-back<br>Used by: &#8234;Molecule Shapes&#8236; 1.1.6, &#8234;Molecule Shapes: Basics&#8236; 1.1.4
+**three-r71-CanvasRenderer.js**<br>Copyright (c) 2010-2014 three.js authors<br>http://threejs.org<br>License: [The MIT License](licenses/three-r71-CanvasRenderer.js.txt)<br>Notes: For the 3D view (WebGL and Canvas) Canvas fall-back<br>Used by: &#8234;Molecule Shapes&#8236; 1.1.7, &#8234;Molecule Shapes: Basics&#8236; 1.1.5
 
-**three-r71-Projector.js**<br>Copyright (c) 2010-2014 three.js authors<br>http://threejs.org<br>License: [The MIT License](licenses/three-r71-Projector.js.txt)<br>Notes: For the 3D view (WebGL and Canvas) Canvas fall-back<br>Used by: &#8234;Molecule Shapes&#8236; 1.1.6, &#8234;Molecule Shapes: Basics&#8236; 1.1.4
+**three-r71-Projector.js**<br>Copyright (c) 2010-2014 three.js authors<br>http://threejs.org<br>License: [The MIT License](licenses/three-r71-Projector.js.txt)<br>Notes: For the 3D view (WebGL and Canvas) Canvas fall-back<br>Used by: &#8234;Molecule Shapes&#8236; 1.1.7, &#8234;Molecule Shapes: Basics&#8236; 1.1.5
 
-**three-r71.js**<br>Copyright (c) 2010-2014 three.js authors<br>http://threejs.org<br>License: [The MIT License](licenses/three-r71.js.txt)<br>Notes: For the 3D view (WebGL and Canvas)<br>Used by: &#8234;Molecule Shapes&#8236; 1.1.6, &#8234;Molecule Shapes: Basics&#8236; 1.1.4
+**three-r71.js**<br>Copyright (c) 2010-2014 three.js authors<br>http://threejs.org<br>License: [The MIT License](licenses/three-r71.js.txt)<br>Notes: For the 3D view (WebGL and Canvas)<br>Used by: &#8234;Molecule Shapes&#8236; 1.1.7, &#8234;Molecule Shapes: Basics&#8236; 1.1.5
 
-**Tween-r12.js**<br>Copyright (c) 2010-2012 Tween.js authors.<br>https://github.com/tweenjs/tween.js/<br>License: [The MIT License](licenses/Tween-r12.js.txt)<br>Notes: Used to animate some graphics<br>Dependencies: **easing-equations-r12**<br>Used by: &#8234;Area Builder&#8236; 1.1.2, &#8234;Arithmetic&#8236; 1.0.5, &#8234;Bending Light&#8236; 1.0.5, &#8234;Faraday&#39;s Law&#8236; 1.1.5, &#8234;Forces and Motion: Basics&#8236; 2.0.1, &#8234;Fraction Matcher&#8236; 1.1.3, &#8234;Function Builder&#8236; 1.0.0, &#8234;Hooke&#39;s Law&#8236; 1.0.5, &#8234;Least-Squares Regression&#8236; 1.1.1
+**Tween-r12.js**<br>Copyright (c) 2010-2012 Tween.js authors.<br>https://github.com/tweenjs/tween.js/<br>License: [The MIT License](licenses/Tween-r12.js.txt)<br>Notes: Used to animate some graphics<br>Dependencies: **easing-equations-r12**<br>Used by: &#8234;Area Builder&#8236; 1.1.2, &#8234;Arithmetic&#8236; 1.0.6, &#8234;Bending Light&#8236; 1.0.6, &#8234;Faraday&#39;s Law&#8236; 1.2.0-phetio.1, &#8234;Forces and Motion: Basics&#8236; 2.0.1, &#8234;Fraction Matcher&#8236; 1.1.4, &#8234;Function Builder&#8236; 1.0.0, &#8234;Hooke&#39;s Law&#8236; 1.0.6, &#8234;Least-Squares Regression&#8236; 1.1.2
 
-**typedarray-44f09cf.js**<br>Copyright (c) 2010 Linden Research, Inc., Copyright (c) 2014 Joshua Bell<br>https://github.com/substack/typedarray<br>License: [The MIT License](licenses/typedarray-44f09cf.js.txt)<br>Notes: Typed array polyfill for optimization in matrices and/or 3D applications<br>Used by: &#8234;Molecule Shapes&#8236; 1.1.6, &#8234;Molecule Shapes: Basics&#8236; 1.1.4
+**typedarray-44f09cf.js**<br>Copyright (c) 2010 Linden Research, Inc., Copyright (c) 2014 Joshua Bell<br>https://github.com/substack/typedarray<br>License: [The MIT License](licenses/typedarray-44f09cf.js.txt)<br>Notes: Typed array polyfill for optimization in matrices and/or 3D applications<br>Used by: &#8234;Molecule Shapes&#8236; 1.1.7, &#8234;Molecule Shapes: Basics&#8236; 1.1.5
 
 ---
 # <a name="third-party-code-and-license-summary"></a>Third-party Code License Summary:<br>
-The MIT License<br>Public Domain<br>Apache 2.0<br>Use it if you like it<br>Revised BSD License<br>SIL Open Font License, Version 1.1<br>MIT<br>The WTFPL
+The MIT License<br>Public Domain<br>Apache 2.0<br>Use it if you like it<br>Revised BSD License<br>Font Awesome licensed under SIL OFL 1.1 · Code licensed under MIT License · Documentation licensed under CC BY 3.0<br>SIL Open Font License, Version 1.1<br>MIT<br>The WTFPL
 
 ---
 # <a name="third-party-media"></a>Third-party Media:<br>
