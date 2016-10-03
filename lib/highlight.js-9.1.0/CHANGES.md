@@ -770,7 +770,7 @@ languages.
 Notable changes:
 
 - The library now works not only in a browser but also with [node.js][]. It is
-  installable with `npm install highlight.js`. [API][] docs are available on our
+  installable with `npm update highlight.js`. [API][] docs are available on our
   wiki.
 
 - The new unique feature (apparently) among syntax highlighters is highlighting
