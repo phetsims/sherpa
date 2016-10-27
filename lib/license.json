@@ -83,15 +83,7 @@
     ],
     "license": "Font Awesome licensed under SIL OFL 1.1 · Code licensed under MIT License · Documentation licensed under CC BY 3.0",
     "projectURL": "http://fontawesome.io/",
-    "notes": "Provides shapes and icons for phet-io wrappers"
-  },
-  "fontawesome-webfont-3.0.2.svg": {
-    "text": [
-      "by Dave Gandy"
-    ],
-    "license": "SIL Open Font License, Version 1.1",
-    "projectURL": "https://github.com/FortAwesome/Font-Awesome/tree/v3.0.2",
-    "notes": "Provides shapes like the home icon and check box icons, used in FontAwesomeNode"
+    "notes": "Provides shapes and icons for phet-io wrappers, SVG for icons in FontAwesomeNode"
   },
   "game-up-camera-1.0.0.js": {
     "text": [

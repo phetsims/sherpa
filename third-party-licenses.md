@@ -71,9 +71,7 @@ To see the third party resources used in a particular published simulation, insp
 
 **FileSaver-b8054a2.js**<br>Copyright (c) 2015 Eli Grey. (http://eligrey.com)<br>https://github.com/eligrey/FileSaver.js<br>License: [The MIT License](licenses/FileSaver-b8054a2.js.txt)<br>Notes: Used for saving screenshot images
 
-**font-awesome-4.5.0**<br>Created by Dave Gandy<br>http://fontawesome.io/<br>License: [Font Awesome licensed under SIL OFL 1.1 · Code licensed under MIT License · Documentation licensed under CC BY 3.0](licenses/font-awesome-4.5.0.txt)<br>Notes: Provides shapes and icons for phet-io wrappers
-
-**fontawesome-webfont-3.0.2.svg**<br>by Dave Gandy<br>https://github.com/FortAwesome/Font-Awesome/tree/v3.0.2<br>License: [SIL Open Font License, Version 1.1](licenses/fontawesome-webfont-3.0.2.svg.txt)<br>Notes: Provides shapes like the home icon and check box icons, used in FontAwesomeNode
+**font-awesome-4.5.0**<br>Created by Dave Gandy<br>http://fontawesome.io/<br>License: [Font Awesome licensed under SIL OFL 1.1 · Code licensed under MIT License · Documentation licensed under CC BY 3.0](licenses/font-awesome-4.5.0.txt)<br>Notes: Provides shapes and icons for phet-io wrappers, SVG for icons in FontAwesomeNode
 
 **game-up-camera-1.0.0.js**<br>Copyright (c) BrainPOP<br>https://github.com/phetsims/sherpa/blob/master/lib/game-up-camera-1.0.0.js<br>License: [MIT](licenses/game-up-camera-1.0.0.js.txt)<br>Notes: Allows a simulation to return a snapshot to BrainPOP/GameUp/SnapThought<br>Used by: &#8234;Area Builder&#8236; 1.1.2, &#8234;Atomic Interactions&#8236; 1.0.0, &#8234;Balancing Act&#8236; 1.1.5, &#8234;Bending Light&#8236; 1.1.0, &#8234;Charges And Fields&#8236; 1.0.0, &#8234;Color Vision&#8236; 1.1.6, &#8234;Concentration&#8236; 1.3.2, &#8234;Energy Skate Park: Basics&#8236; 1.1.2, &#8234;Example Simulation&#8236; 1.0.0, &#8234;Friction&#8236; 1.3.0, &#8234;Function Builder&#8236; 1.0.0, &#8234;Graphing Lines&#8236; 1.1.7, &#8234;Molecules and Light&#8236; 1.1.11, &#8234;Neuron&#8236; 1.1.0, &#8234;Plinko Probability&#8236; 1.0.0, &#8234;Rutherford Scattering&#8236; 1.0.3, &#8234;Wave on a String&#8236; 1.1.5
 
@@ -141,7 +139,7 @@ To see the third party resources used in a particular published simulation, insp
 
 ---
 # <a name="third-party-code-and-license-summary"></a>Third-party Code License Summary:<br>
-The MIT License<br>Public Domain<br>Apache 2.0<br>Use it if you like it<br>Revised BSD License<br>Font Awesome licensed under SIL OFL 1.1 · Code licensed under MIT License · Documentation licensed under CC BY 3.0<br>SIL Open Font License, Version 1.1<br>MIT<br>The WTFPL
+The MIT License<br>Public Domain<br>Apache 2.0<br>Use it if you like it<br>Revised BSD License<br>Font Awesome licensed under SIL OFL 1.1 · Code licensed under MIT License · Documentation licensed under CC BY 3.0<br>MIT<br>SIL Open Font License, Version 1.1<br>The WTFPL
 
 ---
 # <a name="third-party-media"></a>Third-party Media:<br>
