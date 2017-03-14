@@ -319,6 +319,14 @@
     "projectURL": "http://requirejs.org/",
     "notes": "Manages code and dependencies to make it easier to develop simulations and test them quickly"
   },
+  "scenery-e8bb0c3.min.js": {
+    "text": [
+      "Copyright (c) 2014 University of Colorado Boulder"
+    ],
+    "license": "The MIT License",
+    "projectURL": "http://phetsims.github.io/scenery/",
+    "notes": "A Scenery build for small web UIs, like Yotta's"
+  },
   "seedrandom-2.4.2.js": {
     "text": [
       "Copyright 2015 David Bau."
