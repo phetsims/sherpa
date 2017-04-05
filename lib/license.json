@@ -109,6 +109,14 @@
     "projectURL": "https://highlightjs.org/",
     "notes": "Used for phetio.js documentation"
   },
+  "himalaya-0.2.7.js": {
+    "text": [
+      "Copyright (c) 2015, Chris Andrejewski <christopher.andrejewski@gmail.com>"
+    ],
+    "license": "ISC License",
+    "projectURL": "https://github.com/andrejewski/himalaya",
+    "notes": "Used for HTML parsing in simulations, to sanitize/handle rich HTML text"
+  },
   "iframe-phone-1.1.3.js": {
     "text": [
       "Copyright (c) 2012 Concord Consortium"
