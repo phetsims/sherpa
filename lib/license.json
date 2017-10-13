@@ -93,6 +93,14 @@
     "projectURL": "http://fontawesome.io/",
     "notes": "Provides shapes and icons for phet-io wrappers, SVG for icons in FontAwesomeNode"
   },
+  "fourier-1.1.0.js": {
+    "text": [
+      "Copyright © 2017 Anthony Liu"
+    ],
+    "license": "MIT",
+    "projectURL": "https://github.com/turbomaze/JS-Fourier-Image-Analysis",
+    "notes": "This is a web app that computes the 2D Fourier transforms (FTs) of images."
+  },
   "game-up-camera-1.0.0.js": {
     "text": [
       "Copyright (c) BrainPOP"
