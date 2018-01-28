@@ -69,6 +69,16 @@
     "projectURL": "http://www.phpied.com/rgb-color-parser-in-javascript/",
     "notes": "A class to parse color values (packaged with canvg-1.3), required by canvg, see above"
   },
+  "clarinet-1.0.0.js": {
+    "text": [
+      "Copyright (c) Isaac Z. Schlueter (\"Author\")",
+      "Copyright (c) 2011 nuno job <nunojob.com>",
+      "All rights reserved."
+    ],
+    "license": "The BSD License (2-clause)",
+    "projectURL": "https://github.com/dscape/clarinet/",
+    "notes": "clarinet is a sax-like streaming parser for JSON. works in the browser and node.js"
+  },
   "d3-4.7.1.min.js": {
     "text": [
       "Copyright 2010-2016 Mike Bostock"
