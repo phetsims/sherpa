@@ -84,6 +84,8 @@ To see the third party resources used in a particular published simulation, insp
 
 **canvg-rgbcolor-1.3.js**<br>Stoyan Stefanov (sstoo@gmail.com)<br>http://www.phpied.com/rgb-color-parser-in-javascript/<br>License: [Use it if you like it](licenses/canvg-rgbcolor-1.3.js.txt)<br>Notes: A class to parse color values (packaged with canvg-1.3), required by canvg, see above
 
+**clarinet-1.0.0.js**<br>Copyright (c) Isaac Z. Schlueter ("Author")<br>Copyright (c) 2011 nuno job <nunojob.com><br>All rights reserved.<br>https://github.com/dscape/clarinet/<br>License: [The BSD License (2-clause)](licenses/clarinet-1.0.0.js.txt)<br>Notes: clarinet is a sax-like streaming parser for JSON. works in the browser and node.js
+
 **d3-4.7.1.min.js**<br>Copyright 2010-2016 Mike Bostock<br>https://github.com/d3/d3<br>License: [The MIT License](licenses/d3-4.7.1.min.js.txt)<br>Notes: Used by metrics-graphics for Yotta graphs
 
 **easing-equations-r12**<br>Copyright (c) 2001 Robert Penner. All rights reserved<br>http://robertpenner.com/easing/<br>License: [Revised BSD License](licenses/easing-equations-r12.txt)<br>Notes: Easing equations used in Tween.js, used to animate some graphics<br>Used by: &#8234;Area Builder&#8236; 1.1.6, &#8234;Arithmetic&#8236; 1.0.10, &#8234;Bending Light&#8236; 1.1.7, &#8234;Capacitor Lab: Basics&#8236;, &#8234;Charges And Fields&#8236; 1.0.4, &#8234;Circuit Construction Kit: DC - Virtual Lab&#8236;, &#8234;Circuit Construction Kit: DC&#8236;, &#8234;Expression Exchange&#8236;, &#8234;Faraday&#39;s Law&#8236; 1.1.10, &#8234;Forces and Motion: Basics&#8236;, &#8234;Fraction Matcher&#8236; 1.1.8, &#8234;Function Builder&#8236; 1.0.10, &#8234;Function Builder: Basics&#8236;, &#8234;Gene Expression Essentials&#8236;, &#8234;Hooke&#39;s Law&#8236; 1.0.10, &#8234;Least-Squares Regression&#8236; 1.1.7, &#8234;Make a Ten&#8236;, &#8234;Projectile Motion&#8236;, &#8234;Unit Rates&#8236;
@@ -182,7 +184,7 @@ To see the third party resources used in a particular published simulation, insp
 
 ---
 # <a name="third-party-code-and-license-summary"></a>Third-party Code License Summary:<br>
-The MIT License<br>Public Domain<br>Apache 2.0<br>Use it if you like it<br>Revised BSD License<br>Font Awesome licensed under SIL OFL 1.1 · Code licensed under MIT License · Documentation licensed under CC BY 3.0<br>MIT<br>ISC License<br>SIL Open Font License, Version 1.1<br>The WTFPL<br>Mozilla Public License, version 2.0<br>The MIT License and GPLv2
+The MIT License<br>Public Domain<br>Apache 2.0<br>Use it if you like it<br>The BSD License (2-clause)<br>Revised BSD License<br>Font Awesome licensed under SIL OFL 1.1 · Code licensed under MIT License · Documentation licensed under CC BY 3.0<br>MIT<br>ISC License<br>SIL Open Font License, Version 1.1<br>The WTFPL<br>Mozilla Public License, version 2.0<br>The MIT License and GPLv2
 
 ---
 # <a name="third-party-media"></a>Third-party Media:<br>
