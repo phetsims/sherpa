@@ -87,6 +87,14 @@
     "projectURL": "https://github.com/d3/d3",
     "notes": "Used by metrics-graphics for Yotta graphs"
   },
+  "diff-match-patch-1.0.0.js": {
+    "text": [
+      "Copyright 2018 The diff-match-patch Authors."
+    ],
+    "license": "the Apache License, Version 2.0",
+    "projectURL": "https://github.com/google/diff-match-patch",
+    "notes": "Used by metrics-graphics for Yotta graphs"
+  },
   "FileSaver-b8054a2.js": {
     "text": [
       "Copyright (c) 2015 Eli Grey. (http://eligrey.com)"
@@ -177,9 +185,25 @@
     "projectURL": "https://jqueryui.com",
     "notes": "jQuery UI is a curated set of user interface interactions, effects, widgets, and themes. Used in some phet-io apps"
   },
+  "jsondiffpatch.umd-0.3.5": {
+    "text": [
+      "Copyright (c) 2018 Benjamin Eidelman, https://twitter.com/beneidel"
+    ],
+    "license": "The MIT License",
+    "projectURL": "https://github.com/benjamine/jsondiffpatch",
+    "notes": "Computes state diffs for record/playback in phetio.js sims"
+  },
   "jsondiffpatch-0.1.31.js": {
     "text": [
       "Copyright (c) 2014 BenjamÌn Eidelman, twitter.com/beneidel"
+    ],
+    "license": "The MIT License",
+    "projectURL": "https://github.com/benjamine/jsondiffpatch",
+    "notes": "Computes state diffs for record/playback in phetio.js sims"
+  },
+  "jsondiffpatch-annotated-0.3.5.css": {
+    "text": [
+      "Copyright (c) 2018 Benjamin Eidelman, https://twitter.com/beneidel"
     ],
     "license": "The MIT License",
     "projectURL": "https://github.com/benjamine/jsondiffpatch",
