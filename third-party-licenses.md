@@ -88,6 +88,8 @@ To see the third party resources used in a particular published simulation, insp
 
 **d3-4.7.1.min.js**<br>Copyright 2010-2016 Mike Bostock<br>https://github.com/d3/d3<br>License: [The MIT License](licenses/d3-4.7.1.min.js.txt)<br>Notes: Used by metrics-graphics for Yotta graphs
 
+**diff-match-patch-1.0.0.js**<br>Copyright 2018 The diff-match-patch Authors.<br>https://github.com/google/diff-match-patch<br>License: [the Apache License, Version 2.0](licenses/diff-match-patch-1.0.0.js.txt)<br>Notes: Used by metrics-graphics for Yotta graphs
+
 **easing-equations-r12**<br>Copyright (c) 2001 Robert Penner. All rights reserved<br>http://robertpenner.com/easing/<br>License: [Revised BSD License](licenses/easing-equations-r12.txt)<br>Notes: Easing equations used in Tween.js, used to animate some graphics<br>Used by: &#8234;Area Builder&#8236; 1.1.6, &#8234;Arithmetic&#8236; 1.0.10, &#8234;Bending Light&#8236; 1.1.7, &#8234;Capacitor Lab: Basics&#8236;, &#8234;Charges And Fields&#8236; 1.0.4, &#8234;Circuit Construction Kit: DC - Virtual Lab&#8236;, &#8234;Circuit Construction Kit: DC&#8236;, &#8234;Expression Exchange&#8236;, &#8234;Faraday&#39;s Law&#8236; 1.1.10, &#8234;Forces and Motion: Basics&#8236;, &#8234;Fraction Matcher&#8236; 1.1.8, &#8234;Function Builder&#8236; 1.0.10, &#8234;Function Builder: Basics&#8236;, &#8234;Gene Expression Essentials&#8236;, &#8234;Hooke&#39;s Law&#8236; 1.0.10, &#8234;Least-Squares Regression&#8236; 1.1.7, &#8234;Make a Ten&#8236;, &#8234;Projectile Motion&#8236;, &#8234;Unit Rates&#8236;
 
 **FileSaver-b8054a2.js**<br>Copyright (c) 2015 Eli Grey. (http://eligrey.com)<br>https://github.com/eligrey/FileSaver.js<br>License: [The MIT License](licenses/FileSaver-b8054a2.js.txt)<br>Notes: Used for saving screenshot images
@@ -113,6 +115,10 @@ To see the third party resources used in a particular published simulation, insp
 **jshashes-1.0.7.js**<br>Copyright (c) 2012-2017, Tomas Aparicio<br>Copyright (c) 1999-2012, Paul Johnston, Angel Marin, Jeremy Lin<br>https://github.com/r3mi/poly2tri.js<br>License: [Revised BSD License](licenses/jshashes-1.0.7.js.txt)<br>Notes: Used for rendering in Scenery's WebGL renderer
 
 **jsondiffpatch-0.1.31.js**<br>Copyright (c) 2014 BenjamÌn Eidelman, twitter.com/beneidel<br>https://github.com/benjamine/jsondiffpatch<br>License: [The MIT License](licenses/jsondiffpatch-0.1.31.js.txt)<br>Notes: Computes state diffs for record/playback in phetio.js sims
+
+**jsondiffpatch-annotated-0.3.5.css**<br>Copyright (c) 2018 Benjamin Eidelman, https://twitter.com/beneidel<br>https://github.com/benjamine/jsondiffpatch<br>License: [The MIT License](licenses/jsondiffpatch-annotated-0.3.5.css.txt)<br>Notes: Computes state diffs for record/playback in phetio.js sims
+
+**jsondiffpatch.umd-0.3.5**<br>Copyright (c) 2018 Benjamin Eidelman, https://twitter.com/beneidel<br>https://github.com/benjamine/jsondiffpatch<br>License: [The MIT License](licenses/jsondiffpatch.umd-0.3.5.txt)<br>Notes: Computes state diffs for record/playback in phetio.js sims
 
 **katex-0.5.1-css-all.js**<br>Copyright (c) 2009-2010, Design Science, Inc. (<www.mathjax.org>)<br>Copyright (c) 2014 Khan Academy (<www.khanacademy.org>),<br>https://github.com/Khan/KaTeX<br>License: [SIL Open Font License, Version 1.1](licenses/katex-0.5.1-css-all.js.txt)<br>Notes: Fonts for rendering math equations with FormulaNode, see https://github.com/Khan/KaTeX/issues/339
 
@@ -184,7 +190,7 @@ To see the third party resources used in a particular published simulation, insp
 
 ---
 # <a name="third-party-code-and-license-summary"></a>Third-party Code License Summary:<br>
-The MIT License<br>Public Domain<br>Apache 2.0<br>Use it if you like it<br>The BSD License (2-clause)<br>Revised BSD License<br>Font Awesome licensed under SIL OFL 1.1 · Code licensed under MIT License · Documentation licensed under CC BY 3.0<br>MIT<br>ISC License<br>SIL Open Font License, Version 1.1<br>The WTFPL<br>Mozilla Public License, version 2.0<br>The MIT License and GPLv2
+The MIT License<br>Public Domain<br>Apache 2.0<br>Use it if you like it<br>The BSD License (2-clause)<br>the Apache License, Version 2.0<br>Revised BSD License<br>Font Awesome licensed under SIL OFL 1.1 · Code licensed under MIT License · Documentation licensed under CC BY 3.0<br>MIT<br>ISC License<br>SIL Open Font License, Version 1.1<br>The WTFPL<br>Mozilla Public License, version 2.0<br>The MIT License and GPLv2
 
 ---
 # <a name="third-party-media"></a>Third-party Media:<br>
