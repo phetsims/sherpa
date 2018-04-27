@@ -67,7 +67,7 @@ This report is for the following simulations:
 * &#8234;Under Pressure&#8236; 1.1.5
 * &#8234;Unit Rates&#8236;
 * &#8234;Wave on a String&#8236; 1.1.9
-* &#8234;pH Scale&#8236; 1.2.11
+* &#8234;pH Scale&#8236; 1.2.12
 * &#8234;pH Scale: Basics&#8236; 1.2.11
 
 To see the third party resources used in a particular published simulation, inspect the HTML file between the `### START THIRD PARTY LICENSE ENTRIES ###` and `### END THIRD PARTY LICENSE ENTRIES ###` (only exists in sim publications after Aug 7, 2015).
