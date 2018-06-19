@@ -127,6 +127,14 @@
     "projectURL": "https://github.com/phetsims/sherpa/blob/master/lib/game-up-camera-1.0.0.js",
     "notes": "Allows a simulation to return a snapshot to BrainPOP/GameUp/SnapThought"
   },
+  "he-1.1.1.js": {
+    "text": [
+      "Copyright Mathias Bynens <https://mathiasbynens.be/>"
+    ],
+    "license": "MIT",
+    "projectURL": "https://github.com/mathiasbynens/he",
+    "notes": "Used for HTML entity parsing in simulations related to RichText or other uses"
+  },
   "highlight.js-9.1.0.js": {
     "text": [
       "Copyright (c) 2006, Ivan Sagalaev"
