@@ -394,6 +394,22 @@
     "projectURL": "https://qunitjs.com/",
     "notes": "A JavaScript Unit Testing Framework. Allows us to easily test our code to help us make sure nothing gets broken as development continues."
   },
+  "qunit-composite-2.0.0.css": {
+    "text": [
+      "Copyright jQuery Foundation and other contributors"
+    ],
+    "license": "The MIT License",
+    "projectURL": "https://github.com/JamesMGreene/qunit-composite",
+    "notes": "A library to allow multiple qunit tests to be aggregated into a single report by running qunit suites in an iframe."
+  },
+  "qunit-composite-2.0.0.js": {
+    "text": [
+      "Copyright jQuery Foundation and other contributors"
+    ],
+    "license": "The MIT License",
+    "projectURL": "https://github.com/JamesMGreene/qunit-composite",
+    "notes": "A library to allow multiple qunit tests to be aggregated into a single report by running qunit suites in an iframe."
+  },
   "requirejs-2.1.11.js": {
     "text": [
       "Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved."
