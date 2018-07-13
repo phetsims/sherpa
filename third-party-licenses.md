@@ -168,6 +168,10 @@ To see the third party resources used in a particular published simulation, insp
 
 **qunit-2.4.1.js**<br>Copyright jQuery Foundation and other contributors<br>https://qunitjs.com/<br>License: [The MIT License](licenses/qunit-2.4.1.js.txt)<br>Notes: A JavaScript Unit Testing Framework. Allows us to easily test our code to help us make sure nothing gets broken as development continues.
 
+**qunit-composite-2.0.0.css**<br>Copyright jQuery Foundation and other contributors<br>https://github.com/JamesMGreene/qunit-composite<br>License: [The MIT License](licenses/qunit-composite-2.0.0.css.txt)<br>Notes: A library to allow multiple qunit tests to be aggregated into a single report by running qunit suites in an iframe.
+
+**qunit-composite-2.0.0.js**<br>Copyright jQuery Foundation and other contributors<br>https://github.com/JamesMGreene/qunit-composite<br>License: [The MIT License](licenses/qunit-composite-2.0.0.js.txt)<br>Notes: A library to allow multiple qunit tests to be aggregated into a single report by running qunit suites in an iframe.
+
 **requirejs-2.1.11.js**<br>Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved.<br>http://requirejs.org/<br>License: [The MIT License](licenses/requirejs-2.1.11.js.txt)<br>Notes: Manages code and dependencies to make it easier to develop simulations and test them quickly
 
 **scenery-e8bb0c3.min.js**<br>Copyright (c) 2014 University of Colorado Boulder<br>http://phetsims.github.io/scenery/<br>License: [The MIT License](licenses/scenery-e8bb0c3.min.js.txt)<br>Notes: A Scenery build for small web UIs, like Yotta's
