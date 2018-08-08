@@ -15,7 +15,7 @@ This report is for the following simulations:
 * &#8234;Arithmetic&#8236; 1.0.12
 * &#8234;Atomic Interactions&#8236; 1.0.6
 * &#8234;Balancing Act&#8236; 1.1.12
-* &#8234;Balancing Chemical Equations&#8236; 1.1.11
+* &#8234;Balancing Chemical Equations&#8236; 1.1.12
 * &#8234;Balloons and Static Electricity&#8236;
 * &#8234;Beer&#39;s Law Lab&#8236; 1.4.6
 * &#8234;Bending Light&#8236; 1.1.8
