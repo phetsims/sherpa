@@ -193,6 +193,30 @@
     "projectURL": "https://jqueryui.com",
     "notes": "jQuery UI is a curated set of user interface interactions, effects, widgets, and themes. Used in some phet-io apps"
   },
+  "jsondiffpatch-v0.3.11.umd.js": {
+    "text": [
+      "Copyright (c) 2018 Benjamin Eidelman, https://twitter.com/beneidel"
+    ],
+    "license": "The MIT License",
+    "projectURL": "https://github.com/benjamine/jsondiffpatch",
+    "notes": "Computes state diffs for record/playback in phetio.js sims"
+  },
+  "jsondiffpatch-v0.3.11-annotated.css": {
+    "text": [
+      "Copyright (c) 2018 Benjamin Eidelman, https://twitter.com/beneidel"
+    ],
+    "license": "The MIT License",
+    "projectURL": "https://github.com/benjamine/jsondiffpatch",
+    "notes": "Computes state diffs for record/playback in phetio.js sims"
+  },
+  "jsondiffpatch-v0.3.11-html.css": {
+    "text": [
+      "Copyright (c) 2018 Benjamin Eidelman, https://twitter.com/beneidel"
+    ],
+    "license": "The MIT License",
+    "projectURL": "https://github.com/benjamine/jsondiffpatch",
+    "notes": "Computes state diffs for record/playback in phetio.js sims"
+  },
   "jsondiffpatch.umd-0.3.5": {
     "text": [
       "Copyright (c) 2018 Benjamin Eidelman, https://twitter.com/beneidel"
