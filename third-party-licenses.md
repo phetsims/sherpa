@@ -127,6 +127,12 @@ To see the third party resources used in a particular published simulation, insp
 
 **jsondiffpatch-annotated-0.3.5.css**<br>Copyright (c) 2018 Benjamin Eidelman, https://twitter.com/beneidel<br>https://github.com/benjamine/jsondiffpatch<br>License: [The MIT License](licenses/jsondiffpatch-annotated-0.3.5.css.txt)<br>Notes: Computes state diffs for record/playback in phetio.js sims
 
+**jsondiffpatch-v0.3.11-annotated.css**<br>Copyright (c) 2018 Benjamin Eidelman, https://twitter.com/beneidel<br>https://github.com/benjamine/jsondiffpatch<br>License: [The MIT License](licenses/jsondiffpatch-v0.3.11-annotated.css.txt)<br>Notes: Computes state diffs for record/playback in phetio.js sims
+
+**jsondiffpatch-v0.3.11-html.css**<br>Copyright (c) 2018 Benjamin Eidelman, https://twitter.com/beneidel<br>https://github.com/benjamine/jsondiffpatch<br>License: [The MIT License](licenses/jsondiffpatch-v0.3.11-html.css.txt)<br>Notes: Computes state diffs for record/playback in phetio.js sims
+
+**jsondiffpatch-v0.3.11.umd.js**<br>Copyright (c) 2018 Benjamin Eidelman, https://twitter.com/beneidel<br>https://github.com/benjamine/jsondiffpatch<br>License: [The MIT License](licenses/jsondiffpatch-v0.3.11.umd.js.txt)<br>Notes: Computes state diffs for record/playback in phetio.js sims
+
 **jsondiffpatch.umd-0.3.5**<br>Copyright (c) 2018 Benjamin Eidelman, https://twitter.com/beneidel<br>https://github.com/benjamine/jsondiffpatch<br>License: [The MIT License](licenses/jsondiffpatch.umd-0.3.5.txt)<br>Notes: Computes state diffs for record/playback in phetio.js sims
 
 **katex-0.5.1-css-all.js**<br>Copyright (c) 2009-2010, Design Science, Inc. (<www.mathjax.org>)<br>Copyright (c) 2014 Khan Academy (<www.khanacademy.org>),<br>https://github.com/Khan/KaTeX<br>License: [SIL Open Font License, Version 1.1](licenses/katex-0.5.1-css-all.js.txt)<br>Notes: Fonts for rendering math equations with FormulaNode, see https://github.com/Khan/KaTeX/issues/339
