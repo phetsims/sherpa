@@ -123,8 +123,6 @@ To see the third party resources used in a particular published simulation, insp
 
 **jshashes-1.0.7.js**<br>Copyright (c) 2012-2017, Tomas Aparicio<br>Copyright (c) 1999-2012, Paul Johnston, Angel Marin, Jeremy Lin<br>https://github.com/r3mi/poly2tri.js<br>License: [Revised BSD License](licenses/jshashes-1.0.7.js.txt)<br>Notes: Used for rendering in Scenery's WebGL renderer
 
-**jsondiffpatch-0.1.31.js**<br>Copyright (c) 2014 BenjamÌn Eidelman, twitter.com/beneidel<br>https://github.com/benjamine/jsondiffpatch<br>License: [The MIT License](licenses/jsondiffpatch-0.1.31.js.txt)<br>Notes: Computes state diffs for record/playback in phetio.js sims
-
 **jsondiffpatch-annotated-0.3.5.css**<br>Copyright (c) 2018 Benjamin Eidelman, https://twitter.com/beneidel<br>https://github.com/benjamine/jsondiffpatch<br>License: [The MIT License](licenses/jsondiffpatch-annotated-0.3.5.css.txt)<br>Notes: Computes state diffs for record/playback in phetio.js sims
 
 **jsondiffpatch-v0.3.11-annotated.css**<br>Copyright (c) 2018 Benjamin Eidelman, https://twitter.com/beneidel<br>https://github.com/benjamine/jsondiffpatch<br>License: [The MIT License](licenses/jsondiffpatch-v0.3.11-annotated.css.txt)<br>Notes: Computes state diffs for record/playback in phetio.js sims
