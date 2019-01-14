@@ -346,6 +346,14 @@
     "projectURL": "https://github.com/r3mi/poly2tri.js",
     "notes": "Used for rendering in Scenery's WebGL renderer"
   },
+  "prism-1.15.0": {
+    "text": [
+      "Copyright (c) 2012 Lea Verou"
+    ],
+    "license": "The MIT License",
+    "projectURL": "https://prismjs.com/",
+    "notes": "Used for displayed code syntax highlighting"
+  },
   "qhint-1.1.js": {
     "text": [
       "Copyright (c) 2013 Alex Gyoshev, http://gyoshev.mit-license.org/"
