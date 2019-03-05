@@ -159,6 +159,14 @@
     "projectURL": "https://github.com/concord-consortium/iframe-phone/tree/v1.1.3",
     "notes": "Used in CODAP interoperability experiments"
   },
+  "imageprocessing-labs-fft-1.0.0.js": {
+    "text": [
+      "Copyright (c) 2017 wellflat"
+    ],
+    "license": "The MIT License",
+    "projectURL": "https://github.com/wellflat/imageprocessing-labs",
+    "notes": "2D Discrete Fourier Transform for Wave Interference Diffraction screen."
+  },
   "jama-1.0.2": {
     "text": [
       "a basic linear algebra package for Java."
