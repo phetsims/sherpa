@@ -124,6 +124,8 @@ To see the third party resources used in a particular published simulation, insp
 
 **iframe-phone-1.1.3.js**<br>Copyright (c) 2012 Concord Consortium<br>https://github.com/concord-consortium/iframe-phone/tree/v1.1.3<br>License: [The MIT License](licenses/iframe-phone-1.1.3.js.txt)<br>Notes: Used in CODAP interoperability experiments
 
+**imageprocessing-labs-fft-1.0.0.js**<br>Copyright (c) 2017 wellflat<br>https://github.com/wellflat/imageprocessing-labs<br>License: [The MIT License](licenses/imageprocessing-labs-fft-1.0.0.js.txt)<br>Notes: 2D Discrete Fourier Transform for Wave Interference Diffraction screen.
+
 **jama-1.0.2**<br>a basic linear algebra package for Java.<br>http://math.nist.gov/javanumerics/jama/<br>License: [Public Domain](licenses/jama-1.0.2.txt)<br>Notes: A derived work (certain ported and modified files) is used in Dot, mainly for matrix decompositions. Used in assorted simulations.
 
 **jquery-2.1.0.js**<br>Copyright (c) 2005, 2014 jQuery Foundation, Inc. and other contributors<br>(includes Sizzle.js, http://sizzlejs.com)<br>http://jquery.com<br>License: [The MIT License](licenses/jquery-2.1.0.js.txt)<br>Notes: Facilitates interaction with browser DOM elements, mainly used in Scenery
