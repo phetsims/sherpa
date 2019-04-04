@@ -6,7 +6,7 @@ This report enumerates the third-party resources (code, images, sounds, etc) use
 
 This report is for the following simulations: 
 
-* &#8234;Acid-Base Solutions&#8236; 1.2.16
+* &#8234;Acid-Base Solutions&#8236; 1.2.17
 * &#8234;Area Builder&#8236; 1.1.11
 * &#8234;Area Model Algebra&#8236;
 * &#8234;Area Model Decimals&#8236;
