@@ -271,6 +271,22 @@
     "projectURL": "http://pieroxy.net/blog/pages/lz-string/index.html",
     "notes": "Provides string compression and decompression."
   },
+  "matter-0.14.2.js": {
+    "text": [
+      "Copyright (c) Liam Brummitt and contributors."
+    ],
+    "license": "The MIT License",
+    "projectURL": "http://brm.io/matter-js/",
+    "notes": "2D physics engine for simulations (e.g. Density/Buoyancy)"
+  },
+  "matter-0.14.2.min.js": {
+    "text": [
+      "Copyright (c) Liam Brummitt and contributors."
+    ],
+    "license": "The MIT License",
+    "projectURL": "http://brm.io/matter-js/",
+    "notes": "2D physics engine for simulations (e.g. Density/Buoyancy)"
+  },
   "metrics-graphics-2.11.0.css": {
     "text": [
       "Mozilla Public License, version 2.0"
@@ -337,6 +353,22 @@
     "license": "The MIT License",
     "projectURL": "http://www.pixijs.com/",
     "notes": "2d scene graph. Experimental renderer for Scenery, not used in production"
+  },
+  "poly-decomp-0.3.0.js": {
+    "text": [
+      "Copyright (c) 2013 Stefan Hedman"
+    ],
+    "license": "The MIT License",
+    "projectURL": "https://github.com/schteppe/poly-decomp.js/",
+    "notes": "Polygon decomposition, required by Matter.js for a few operations"
+  },
+  "poly-decomp-0.3.0.min.js": {
+    "text": [
+      "Copyright (c) 2013 Stefan Hedman"
+    ],
+    "license": "The MIT License",
+    "projectURL": "https://github.com/schteppe/poly-decomp.js/",
+    "notes": "Polygon decomposition, required by Matter.js for a few operations"
   },
   "poly2tri-1.3.5.min.js": {
     "text": [
