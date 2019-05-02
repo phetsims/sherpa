@@ -338,6 +338,22 @@
     "projectURL": "http://www.numericjs.com",
     "notes": "Implementation of the quadratic programming modules in numeric.js, not used by PhET software"
   },
+  "p2-0.7.1.js": {
+    "text": [
+      "Copyright (c) 2016 p2.js authors"
+    ],
+    "license": "The MIT License",
+    "projectURL": "https://github.com/schteppe/p2.js",
+    "notes": "2D physics engine for simulations (e.g. Density/Buoyancy)"
+  },
+  "p2-0.7.1.min.js": {
+    "text": [
+      "Copyright (c) 2016 p2.js authors"
+    ],
+    "license": "The MIT License",
+    "projectURL": "https://github.com/schteppe/p2.js",
+    "notes": "2D physics engine for simulations (e.g. Density/Buoyancy)"
+  },
   "pegjs-0.7.0.js": {
     "text": [
       "Copyright (c) 2010-2012 David Majda"
@@ -537,6 +553,22 @@
     "license": "The MIT License",
     "projectURL": "http://threejs.org",
     "notes": "For the 3D view (WebGL and Canvas) Canvas fall-back"
+  },
+  "three-r104.js": {
+    "text": [
+      "Copyright © 2010-2019 three.js authors"
+    ],
+    "license": "The MIT License",
+    "projectURL": "http://threejs.org",
+    "notes": "For the 3D view (WebGL and Canvas)"
+  },
+  "three-r104.min.js": {
+    "text": [
+      "Copyright © 2010-2019 three.js authors"
+    ],
+    "license": "The MIT License",
+    "projectURL": "http://threejs.org",
+    "notes": "For the 3D view (WebGL and Canvas)"
   },
   "Tween-r12.js": {
     "text": [
