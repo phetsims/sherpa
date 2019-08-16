@@ -23,6 +23,7 @@
  * See https://github.com/phetsims/scenery/issues/457 for more information.
  *
  * @author Jonathan Olson <jonathan.olson@colorado.edu>
+ * @author Saurabh Totey
  */
 
 var fs = require( 'fs' );
