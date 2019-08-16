@@ -217,27 +217,27 @@
     "projectURL": "https://github.com/benjamine/jsondiffpatch",
     "notes": "Computes state diffs for record/playback in phetio.js sims"
   },
-  "katex-0.5.1-css-all.js": {
+  "katex-0.11.0-css-all.js": {
     "text": [
       "Copyright (c) 2009-2010, Design Science, Inc. (<www.mathjax.org>)",
-      "Copyright (c) 2014 Khan Academy (<www.khanacademy.org>),"
+      "Copyright (c) 2013-2018 Khan Academy (<www.khanacademy.org>),"
     ],
     "license": "SIL Open Font License, Version 1.1",
     "projectURL": "https://github.com/Khan/KaTeX",
     "notes": "Fonts for rendering math equations with FormulaNode, see https://github.com/Khan/KaTeX/issues/339"
   },
-  "katex-0.5.1-css-none.js": {
+  "katex-0.11.0-css-none.js": {
     "text": [
       "Copyright (c) 2009-2010, Design Science, Inc. (<www.mathjax.org>)",
-      "Copyright (c) 2014 Khan Academy (<www.khanacademy.org>),"
+      "Copyright (c) 2013-2018 Khan Academy (<www.khanacademy.org>),"
     ],
     "license": "SIL Open Font License, Version 1.1",
     "projectURL": "https://github.com/Khan/KaTeX",
     "notes": "Fonts for rendering math equations with FormulaNode, see https://github.com/Khan/KaTeX/issues/339"
   },
-  "katex-0.5.1.min.js": {
+  "katex-0.11.0.min.js": {
     "text": [
-      "Copyright (c) 2015 Khan Academy"
+      "Copyright (c) 2013-2018 Khan Academy"
     ],
     "license": "The MIT License",
     "projectURL": "https://github.com/Khan/KaTeX",
