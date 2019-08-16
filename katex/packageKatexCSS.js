@@ -10,9 +10,9 @@
  * files (from all, a few, or none), and includes all of the JS/CSS and logic to load the CSS and then preload things
  * into memory.
  *
- * During simulation development, the file including ALL embedded font files (e.g. katex-0.5.1-css-all.js) should
+ * During simulation development, the file including ALL embedded font files (e.g. katex-0.11.0-css-all.js) should
  * generally be used if the embedded mathematics may change. Then for the production version of the simulation, first
- * test which font files are needed by using the package with NO font files embedded (e.g. katex-0.5.1-css-none.js).
+ * test which font files are needed by using the package with NO font files embedded (e.g. katex-0.11.0-css-none.js).
  * The browser will show failed requests for font files that will be needed. Then (if the package with only the specific
  * font files is not already provided), add a writePackage() statement at the end of this file which will filter for the
  * needed font files only, and run this file from the directory it's in to generate the package file, e.g.:
@@ -36,7 +36,7 @@ global.phet = {
 var loadFileAsDataURI = require( '../../chipper/js/common/loadFileAsDataURI' );
 
 // Referece to the KaTeX directory we're processing. This will need to be updated for KaTeX upgrades
-var katexDir = 'katex-0.5.1';
+var katexDir = 'katex-0.11.0';
 
 // Load the CSS as a string
 var css = fs.readFileSync( katexDir + '/katex.min.css', 'utf8' );
@@ -98,7 +98,7 @@ function writePackage( filename, fontPredicate ) {
   var output =
     '// This file was created by packageKatexCSS.js\n' +
     '(function(){\n' +
-    '  var css = \'' + packageCSS.replace( /'/g, '\\\'' ) + '\';\n' +
+    '  var css = \'' + packageCSS.replace( /'/g, '\\\'' ).replace( '\\\\\'woff\\\\\'', '\\\'woff\\\'' ) + '\';\n' +
     '  var usedFontData = ' + JSON.stringify( usedFontData ) + ';\n' +
     stylesheetPreloadFragment + // our main logic
     '})();\n';
@@ -107,12 +107,12 @@ function writePackage( filename, fontPredicate ) {
 }
 
 // Package with everything embedded. Guarantees loads, but it is quite large
-writePackage( '../lib/katex-0.5.1-css-all.js', function( fontName ) {
+writePackage( '../lib/katex-0.11.0-css-all.js', function( fontName ) {
   return true;
 } );
 
 // Package with NOTHING embedded. Switch to this to see which font file requests the browser makes. Those are the files
 // that need to be included in the particular package used.
-writePackage( '../lib/katex-0.5.1-css-none.js', function( fontName ) {
+writePackage( '../lib/katex-0.11.0-css-none.js', function( fontName ) {
   return false;
 } );

@@ -140,11 +140,11 @@ To see the third party resources used in a particular published simulation, insp
 
 **jsondiffpatch-v0.3.11.umd.js**<br>Copyright (c) 2018 Benjamin Eidelman, https://twitter.com/beneidel<br>https://github.com/benjamine/jsondiffpatch<br>License: [The MIT License](licenses/jsondiffpatch-v0.3.11.umd.js.txt)<br>Notes: Computes state diffs for record/playback in phetio.js sims
 
-**katex-0.5.1-css-all.js**<br>Copyright (c) 2009-2010, Design Science, Inc. (<www.mathjax.org>)<br>Copyright (c) 2014 Khan Academy (<www.khanacademy.org>),<br>https://github.com/Khan/KaTeX<br>License: [SIL Open Font License, Version 1.1](licenses/katex-0.5.1-css-all.js.txt)<br>Notes: Fonts for rendering math equations with FormulaNode, see https://github.com/Khan/KaTeX/issues/339
+**katex-0.11.0-css-all.js**<br>Copyright (c) 2009-2010, Design Science, Inc. (<www.mathjax.org>)<br>Copyright (c) 2014-2017 Khan Academy (<www.khanacademy.org>),<br>https://github.com/Khan/KaTeX<br>License: [SIL Open Font License, Version 1.1](licenses/katex-0.11.0-css-all.js.txt)<br>Notes: Fonts for rendering math equations with FormulaNode, see https://github.com/Khan/KaTeX/issues/339
 
-**katex-0.5.1-css-none.js**<br>Copyright (c) 2009-2010, Design Science, Inc. (<www.mathjax.org>)<br>Copyright (c) 2014 Khan Academy (<www.khanacademy.org>),<br>https://github.com/Khan/KaTeX<br>License: [SIL Open Font License, Version 1.1](licenses/katex-0.5.1-css-none.js.txt)<br>Notes: Fonts for rendering math equations with FormulaNode, see https://github.com/Khan/KaTeX/issues/339
+**katex-0.11.0-css-none.js**<br>Copyright (c) 2009-2010, Design Science, Inc. (<www.mathjax.org>)<br>Copyright (c) 2014-2017 Khan Academy (<www.khanacademy.org>),<br>https://github.com/Khan/KaTeX<br>License: [SIL Open Font License, Version 1.1](licenses/katex-0.11.0-css-none.js.txt)<br>Notes: Fonts for rendering math equations with FormulaNode, see https://github.com/Khan/KaTeX/issues/339
 
-**katex-0.5.1.min.js**<br>Copyright (c) 2015 Khan Academy<br>https://github.com/Khan/KaTeX<br>License: [The MIT License](licenses/katex-0.5.1.min.js.txt)<br>Notes: JavaScript for rendering math equations with FormulaNode
+**katex-0.11.0.min.js**<br>Copyright (c) 2013-2018 Khan Academy<br>https://github.com/Khan/KaTeX<br>License: [The MIT License](licenses/katex-0.11.0.min.js.txt)<br>Notes: JavaScript for rendering math equations with FormulaNode
 
 **liberation-sans-regular-subset-numeric-degrees.js**<br>Developed by Steve Matteson of Ascender Corporation as Ascender Sans and Ascender Serif<br>http://en.wikipedia.org/wiki/Liberation_fonts<br>License: [SIL Open Font License, Version 1.1](licenses/liberation-sans-regular-subset-numeric-degrees.js.txt)<br>Notes: For the 3D text in bond angles (faster updates than SVG text)<br>Used by: &#8234;Molecule Shapes&#8236;, &#8234;Molecule Shapes: Basics&#8236;
 
