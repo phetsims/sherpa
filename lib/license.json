@@ -220,19 +220,19 @@
   "katex-0.11.0-css-all.js": {
     "text": [
       "Copyright (c) 2009-2010, Design Science, Inc. (<www.mathjax.org>)",
-      "Copyright (c) 2013-2018 Khan Academy (<www.khanacademy.org>),"
+      "Copyright (c) 2014-2018 Khan Academy (<www.khanacademy.org>),"
     ],
     "license": "SIL Open Font License, Version 1.1",
-    "projectURL": "https://github.com/Khan/KaTeX",
+    "projectURL": "https://github.com/KaTeX/KaTeX",
     "notes": "Fonts for rendering math equations with FormulaNode, see https://github.com/Khan/KaTeX/issues/339"
   },
   "katex-0.11.0-css-none.js": {
     "text": [
       "Copyright (c) 2009-2010, Design Science, Inc. (<www.mathjax.org>)",
-      "Copyright (c) 2013-2018 Khan Academy (<www.khanacademy.org>),"
+      "Copyright (c) 2014-2018 Khan Academy (<www.khanacademy.org>),"
     ],
     "license": "SIL Open Font License, Version 1.1",
-    "projectURL": "https://github.com/Khan/KaTeX",
+    "projectURL": "https://github.com/KaTeX/KaTeX",
     "notes": "Fonts for rendering math equations with FormulaNode, see https://github.com/Khan/KaTeX/issues/339"
   },
   "katex-0.11.0.min.js": {
@@ -240,7 +240,7 @@
       "Copyright (c) 2013-2018 Khan Academy"
     ],
     "license": "The MIT License",
-    "projectURL": "https://github.com/Khan/KaTeX",
+    "projectURL": "https://github.com/KaTeX/KaTeX",
     "notes": "JavaScript for rendering math equations with FormulaNode"
   },
   "liberation-sans-regular-subset-numeric-degrees.js": {
