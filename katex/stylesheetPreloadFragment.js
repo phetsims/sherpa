@@ -19,6 +19,22 @@
   fontPreloadDiv.style.height = '0';
   fontPreloadDiv.style.clip = 'rect(0,0,0,0)';
   fontPreloadDiv.setAttribute( 'aria-hidden', true );
+
+  // an ES5 equivalent version of detectPrefix.js inlined
+  var cssNames = [];
+  cssNames.push( 'userSelect' );
+  [ 'moz', 'Moz', 'webkit', 'ms', 'o' ].forEach( function( prefix ) {
+    cssNames.push( prefix + 'UserSelect' );
+  } );
+  var userSelect = '';
+  for ( var i = 0; i < cssNames.length; i++ ) {
+    if ( fontPreloadDiv.style[ cssNames[ i ] ] !== undefined ) {
+      userSelect = cssNames[ i ];
+      break;
+    }
+  }
+  fontPreloadDiv.style[ userSelect ] = 'none';
+
   usedFontData.forEach( function( font ) {
     var span = document.createElement( 'span' );
     span.innerHTML = 'preload';
