@@ -418,22 +418,6 @@
     "projectURL": "https://qunitjs.com/",
     "notes": "A JavaScript Unit Testing Framework. Allows us to easily test our code to help us make sure nothing gets broken as development continues."
   },
-  "qunit-2.0.1.css": {
-    "text": [
-      "Copyright (c) 2016 jQuery Foundation and other contributors"
-    ],
-    "license": "The MIT License",
-    "projectURL": "https://qunitjs.com/",
-    "notes": "A JavaScript Unit Testing Framework. Allows us to easily test our code to help us make sure nothing gets broken as development continues."
-  },
-  "qunit-2.0.1.js": {
-    "text": [
-      "Copyright (c) 2016 jQuery Foundation and other contributors"
-    ],
-    "license": "The MIT License",
-    "projectURL": "https://qunitjs.com/",
-    "notes": "A JavaScript Unit Testing Framework. Allows us to easily test our code to help us make sure nothing gets broken as development continues."
-  },
   "qunit-2.4.1.css": {
     "text": [
       "Copyright jQuery Foundation and other contributors"
