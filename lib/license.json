@@ -287,6 +287,14 @@
     "projectURL": "http://brm.io/matter-js/",
     "notes": "2D physics engine for simulations (e.g. Density/Buoyancy)"
   },
+  "mdn-array-from-polyfill.js": {
+    "text": [
+      "Any copyright is dedicated to the Public Domain. http://creativecommons.org/publicdomain/zero/1.0/"
+    ],
+    "license": "CC0 1.0 Universal (CC0 1.0)",
+    "projectURL": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from",
+    "notes": "polyfill for Array.from from MDN."
+  },
   "metrics-graphics-2.11.0.css": {
     "text": [
       "Mozilla Public License, version 2.0"
