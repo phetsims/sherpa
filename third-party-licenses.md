@@ -164,6 +164,8 @@ To see the third party resources used in a particular published simulation, insp
 
 **matter-0.14.2.min.js**<br>Copyright (c) Liam Brummitt and contributors.<br>http://brm.io/matter-js/<br>License: [The MIT License](licenses/matter-0.14.2.min.js.txt)<br>Notes: 2D physics engine for simulations (e.g. Density/Buoyancy)
 
+**mdn-array-from-polyfill.js**<br>Any copyright is dedicated to the Public Domain. http://creativecommons.org/publicdomain/zero/1.0/<br>https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from<br>License: [CC0 1.0 Universal (CC0 1.0)](licenses/mdn-array-from-polyfill.js.txt)<br>Notes: polyfill for Array.from from MDN.
+
 **metrics-graphics-2.11.0.css**<br>Mozilla Public License, version 2.0<br>http://www.metricsgraphicsjs.org/<br>License: [Mozilla Public License, version 2.0](licenses/metrics-graphics-2.11.0.css.txt)<br>Notes: Plotting for Yotta graphs
 
 **metrics-graphics-2.11.0.js**<br>Mozilla Public License, version 2.0<br>http://www.metricsgraphicsjs.org/<br>License: [Mozilla Public License, version 2.0](licenses/metrics-graphics-2.11.0.js.txt)<br>Notes: Plotting for Yotta graphs
@@ -236,7 +238,7 @@ To see the third party resources used in a particular published simulation, insp
 
 ---
 # <a name="third-party-code-and-license-summary"></a>Third-party Code License Summary:<br>
-The MIT License<br>Public Domain<br>Apache 2.0<br>Use it if you like it<br>The BSD License (2-clause)<br>the Apache License, Version 2.0<br>Revised BSD License<br>Font Awesome licensed under SIL OFL 1.1 · Code licensed under MIT License · Documentation licensed under CC BY 3.0<br>MIT<br>ISC License<br>SIL Open Font License, Version 1.1<br>The WTFPL<br>Mozilla Public License, version 2.0<br>The MIT License and GPLv2
+The MIT License<br>Public Domain<br>Apache 2.0<br>Use it if you like it<br>The BSD License (2-clause)<br>the Apache License, Version 2.0<br>Revised BSD License<br>Font Awesome licensed under SIL OFL 1.1 · Code licensed under MIT License · Documentation licensed under CC BY 3.0<br>MIT<br>ISC License<br>SIL Open Font License, Version 1.1<br>The WTFPL<br>CC0 1.0 Universal (CC0 1.0)<br>Mozilla Public License, version 2.0<br>The MIT License and GPLv2
 
 ---
 # <a name="third-party-media"></a>Third-party Media:<br>
