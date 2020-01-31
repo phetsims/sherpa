@@ -235,11 +235,11 @@ To see the third party resources used in a particular published simulation, insp
 
 **typedarray-44f09cf.js**<br>Copyright (c) 2010 Linden Research, Inc., Copyright (c) 2014 Joshua Bell<br>https://github.com/substack/typedarray<br>License: [The MIT License](licenses/typedarray-44f09cf.js.txt)<br>Notes: Typed array polyfill for optimization in matrices and/or 3D applications<br>Used by: &#8234;Molecule Shapes&#8236;, &#8234;Molecule Shapes: Basics&#8236;
 
-**ua-parser-0.7.12.min.js**<br>Copyright © 2012-2016 Faisal Salman <<fyzlman@gmail.com>><br>https://github.com/faisalman/ua-parser-js<br>License: [The MIT License and GPLv2](licenses/ua-parser-0.7.12.min.js.txt)<br>Notes: Parse User Agents strings to make them human readable
+**ua-parser-0.7.21.min.js**<br>Copyright © 2012-2019 Faisal Salman <f@faisalman.com><br>https://github.com/faisalman/ua-parser-js<br>License: [The MIT License](licenses/ua-parser-0.7.21.min.js.txt)<br>Notes: Parse User Agents strings to make them human readable
 
 ---
 # <a name="third-party-code-and-license-summary"></a>Third-party Code License Summary:<br>
-The MIT License<br>Public Domain<br>Apache 2.0<br>Use it if you like it<br>The BSD License (2-clause)<br>the Apache License, Version 2.0<br>Revised BSD License<br>Font Awesome licensed under SIL OFL 1.1 · Code licensed under MIT License · Documentation licensed under CC BY 3.0<br>MIT<br>ISC License<br>SIL Open Font License, Version 1.1<br>The WTFPL<br>CC0 1.0 Universal (CC0 1.0)<br>Mozilla Public License, version 2.0<br>The MIT License and GPLv2
+The MIT License<br>Public Domain<br>Apache 2.0<br>Use it if you like it<br>The BSD License (2-clause)<br>the Apache License, Version 2.0<br>Revised BSD License<br>Font Awesome licensed under SIL OFL 1.1 · Code licensed under MIT License · Documentation licensed under CC BY 3.0<br>MIT<br>ISC License<br>SIL Open Font License, Version 1.1<br>The WTFPL<br>CC0 1.0 Universal (CC0 1.0)<br>Mozilla Public License, version 2.0
 
 ---
 # <a name="third-party-media"></a>Third-party Media:<br>
