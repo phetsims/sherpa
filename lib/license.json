@@ -583,9 +583,9 @@
   },
   "ua-parser-0.7.12.min.js": {
     "text": [
-      "Copyright © 2012-2016 Faisal Salman <<fyzlman@gmail.com>>"
+      "Copyright © 2012-2019 Faisal Salman <f@faisalman.com>"
     ],
-    "license": "The MIT License and GPLv2",
+    "license": "The MIT License",
     "projectURL": "https://github.com/faisalman/ua-parser-js",
     "notes": "Parse User Agents strings to make them human readable"
   }
