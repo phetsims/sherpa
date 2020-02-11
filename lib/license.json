@@ -474,7 +474,7 @@
     "projectURL": "https://github.com/davidbau/seedrandom",
     "notes": "seeded random number generator for Javascript"
   },
-  "split-1.5.9.min.js": {
+  "split-1.5.11.min.js": {
     "text": [
       "Copyright (c) 2018 Nathan Cahill"
     ],
