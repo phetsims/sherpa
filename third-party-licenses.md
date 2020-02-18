@@ -165,7 +165,7 @@ To see the third party resources used in a particular published simulation, insp
 
 **matter-0.14.2.min.js**<br>Copyright (c) Liam Brummitt and contributors.<br>http://brm.io/matter-js/<br>License: [The MIT License](licenses/matter-0.14.2.min.js.txt)<br>Notes: 2D physics engine for simulations (e.g. Density/Buoyancy)
 
-**mdn-array-from-polyfill.js**<br>Any copyright is dedicated to the Public Domain. http://creativecommons.org/publicdomain/zero/1.0/<br>https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from<br>License: [CC0 1.0 Universal (CC0 1.0)](licenses/mdn-array-from-polyfill.js.txt)<br>Notes: polyfill for Array.from from MDN.<br>Used by: &#8234;Chains&#8236;, &#8234;Number Line: Integers&#8236;
+**mdn-array-from-polyfill.js**<br>Any copyright is dedicated to the Public Domain. http://creativecommons.org/publicdomain/zero/1.0/<br>https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from<br>License: [CC0 1.0 Universal (CC0 1.0)](licenses/mdn-array-from-polyfill.js.txt)<br>Notes: polyfill for Array.from from MDN.<br>Used by: &#8234;Chains&#8236;, &#8234;Molarity&#8236;, &#8234;Number Line: Integers&#8236;
 
 **metrics-graphics-2.11.0.css**<br>Mozilla Public License, version 2.0<br>http://www.metricsgraphicsjs.org/<br>License: [Mozilla Public License, version 2.0](licenses/metrics-graphics-2.11.0.css.txt)<br>Notes: Plotting for Yotta graphs
 
