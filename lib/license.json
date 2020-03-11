@@ -370,6 +370,14 @@
     "projectURL": "https://github.com/schteppe/p2.js",
     "notes": "2D physics engine for simulations (e.g. Density/Buoyancy)"
   },
+  "pixelmatch@5.1.0.js": {
+    "text": [
+      "Copyright (c) 2019, Mapbox"
+    ],
+    "license": "The ISC License",
+    "projectURL": "https://github.com/mapbox/pixelmatch",
+    "notes": "The smallest, simplest and fastest JavaScript pixel-level image comparison library"
+  },
   "pegjs-0.7.0.js": {
     "text": [
       "Copyright (c) 2010-2012 David Majda"
