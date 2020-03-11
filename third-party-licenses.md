@@ -187,6 +187,8 @@ To see the third party resources used in a particular published simulation, insp
 
 **pegjs-0.7.0.js**<br>Copyright (c) 2010-2012 David Majda<br>http://pegjs.majda.cz<br>License: [The MIT License](licenses/pegjs-0.7.0.js.txt)<br>Notes: Parser Generator for JavaScript. SVG path parsing in Kite
 
+**pixelmatch@5.1.0.js**<br>Copyright (c) 2019, Mapbox<br>https://github.com/mapbox/pixelmatch<br>License: [The ISC License](licenses/pixelmatch@5.1.0.js.txt)<br>Notes: The smallest, simplest and fastest JavaScript pixel-level image comparison library
+
 **pixi-v3.0.0-rc1-dev.js**<br>Copyright (c) 2012-2014, Mat Groves<br>http://www.pixijs.com/<br>License: [The MIT License](licenses/pixi-v3.0.0-rc1-dev.js.txt)<br>Notes: 2d scene graph. Experimental renderer for Scenery, not used in production
 
 **poly-decomp-0.3.0.js**<br>Copyright (c) 2013 Stefan Hedman<br>https://github.com/schteppe/poly-decomp.js/<br>License: [The MIT License](licenses/poly-decomp-0.3.0.js.txt)<br>Notes: Polygon decomposition, required by Matter.js for a few operations
@@ -241,7 +243,7 @@ To see the third party resources used in a particular published simulation, insp
 
 ---
 # <a name="third-party-code-and-license-summary"></a>Third-party Code License Summary:<br>
-The MIT License<br>Public Domain<br>Apache 2.0<br>Use it if you like it<br>The BSD License (2-clause)<br>the Apache License, Version 2.0<br>Revised BSD License<br>Font Awesome licensed under SIL OFL 1.1 · Code licensed under MIT License · Documentation licensed under CC BY 3.0<br>MIT<br>ISC License<br>SIL Open Font License, Version 1.1<br>The WTFPL<br>CC0 1.0 Universal (CC0 1.0)<br>Mozilla Public License, version 2.0
+The MIT License<br>Public Domain<br>Apache 2.0<br>Use it if you like it<br>The BSD License (2-clause)<br>the Apache License, Version 2.0<br>Revised BSD License<br>Font Awesome licensed under SIL OFL 1.1 · Code licensed under MIT License · Documentation licensed under CC BY 3.0<br>MIT<br>ISC License<br>SIL Open Font License, Version 1.1<br>The WTFPL<br>CC0 1.0 Universal (CC0 1.0)<br>Mozilla Public License, version 2.0<br>The ISC License
 
 ---
 # <a name="third-party-media"></a>Third-party Media:<br>
