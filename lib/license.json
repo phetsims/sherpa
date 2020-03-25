@@ -394,6 +394,15 @@
     "projectURL": "http://www.pixijs.com/",
     "notes": "2d scene graph. Experimental renderer for Scenery, not used in production"
   },
+  "planck-0.3.0-rc.2.js": {
+    "text": [
+      "Copyright (c) 2016-2018 Ali Shakiba http://shakiba.me/planck.js",
+      "Copyright (c) 2006-2013 Erin Catto  http://www.gphysics.com"
+    ],
+    "license": "zlib License",
+    "projectURL": "https://github.com/shakiba/planck.js",
+    "notes": "2d physics engine for density/buoyancy"
+  },
   "poly-decomp-0.3.0.js": {
     "text": [
       "Copyright (c) 2013 Stefan Hedman"
