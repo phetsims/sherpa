@@ -123,7 +123,7 @@ To see the third party resources used in a particular published simulation, insp
 
 **easing-equations-r12**<br>Copyright (c) 2001 Robert Penner. All rights reserved<br>http://robertpenner.com/easing/<br>License: [Revised BSD License](licenses/easing-equations-r12.txt)<br>Notes: Easing equations used in Tween.js, used to animate some graphics<br>Used by: &#8234;Area Builder&#8236; 1.1.20, &#8234;Arithmetic&#8236; 1.0.24, &#8234;Bending Light&#8236; 1.1.20, &#8234;Capacitor Lab: Basics&#8236;, &#8234;Charges and Fields&#8236; 1.0.47, &#8234;Equality Explorer&#8236;, &#8234;Equality Explorer: Basics&#8236;, &#8234;Equality Explorer: Two Variables&#8236;, &#8234;Expression Exchange&#8236;, &#8234;Faraday&#39;s Law&#8236; 1.1.23, &#8234;Forces and Motion: Basics&#8236;, &#8234;Fractions: Intro&#8236;, &#8234;Function Builder&#8236; 1.0.23, &#8234;Function Builder: Basics&#8236;, &#8234;Gene Expression Essentials&#8236;, &#8234;Hooke&#39;s Law&#8236; 1.0.23, &#8234;Least-Squares Regression&#8236; 1.1.20, &#8234;Make a Ten&#8236;, &#8234;Projectile Motion&#8236;, &#8234;Unit Rates&#8236;
 
-**es6-promise-1e68dc.auto.min.js**<br>Copyright (c) 2014 Yehuda Katz, Tom Dale, Stefan Penner and contributors<br>https://github.com/stefanpenner/es6-promise<br>License: [The MIT License](licenses/es6-promise-1e68dc.auto.min.js.txt)<br>Notes: Used to polyfill for IE11 (or others) where webpack depends on promises<br>Used by: &#8234;Build a Molecule&#8236;, &#8234;Density&#8236;, &#8234;Energy Skate Park&#8236;
+**es6-promise-1e68dc.auto.min.js**<br>Copyright (c) 2014 Yehuda Katz, Tom Dale, Stefan Penner and contributors<br>https://github.com/stefanpenner/es6-promise<br>License: [The MIT License](licenses/es6-promise-1e68dc.auto.min.js.txt)<br>Notes: Used to polyfill for IE11 (or others) where webpack depends on promises<br>Used by: &#8234;Build a Molecule&#8236;, &#8234;Circuit Construction Kit: AC&#8236;, &#8234;Density&#8236;, &#8234;Energy Skate Park&#8236;
 
 **FileSaver-b8054a2.js**<br>Copyright (c) 2015 Eli Grey. (http://eligrey.com)<br>https://github.com/eligrey/FileSaver.js<br>License: [The MIT License](licenses/FileSaver-b8054a2.js.txt)<br>Notes: Used for saving screenshot images
 
@@ -256,8 +256,6 @@ The MIT License<br>Public Domain<br>Apache 2.0<br>Use it if you like it<br>The B
 **BALANCING_ACT/fire-extinguisher.png**<br>Public Domain<br>https://openclipart.org/detail/27077/fire-extinguisher<br>License: Public Domain<br>Notes: Modified by John Blanco
 
 **BALANCING_ACT/old-television.png**<br>Public Domain<br>https://openclipart.org/detail/19995/antique-television<br>License: Public Domain<br>Notes: Modified by jblanco
-
-**CIRCUIT_CONSTRUCTION_KIT_COMMON/dog-bark.mp3**<br>Public Domain<br>https://freesound.org/people/kwahmah_02/sounds/277058/<br>License: Public Domain<br>Notes: (no notes)
 
 **ENERGY_SKATE_PARK_BASICS/cement-texture-dark.jpg**<br>Public Domain<br>http://www.public-domain-image.com/full-image/textures-and-patterns-public-domain-images-pictures/concrete-texture-public-domain-images-pictures/cement-texture.jpg-royalty-free-stock-image.html<br>License: Public Domain<br>Notes: (no notes)
 
