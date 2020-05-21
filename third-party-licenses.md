@@ -207,9 +207,9 @@ To see the third party resources used in a particular published simulation, insp
 
 **qhint-1.1.js**<br>Copyright (c) 2013 Alex Gyoshev, http://gyoshev.mit-license.org/<br>https://github.com/gyoshev/qhint<br>License: [The MIT License](licenses/qhint-1.1.js.txt)<br>Notes: Allows us to run code style jshint tests in qunit's unit tests
 
-**qunit-2.4.1.css**<br>Copyright jQuery Foundation and other contributors<br>https://qunitjs.com/<br>License: [The MIT License](licenses/qunit-2.4.1.css.txt)<br>Notes: A JavaScript Unit Testing Framework. Allows us to easily test our code to help us make sure nothing gets broken as development continues.
+**qunit-2.10.0.css**<br>Copyright jQuery Foundation and other contributors<br>https://qunitjs.com/<br>License: [The MIT License](licenses/qunit-2.10.0.css.txt)<br>Notes: A JavaScript Unit Testing Framework. Allows us to easily test our code to help us make sure nothing gets broken as development continues.
 
-**qunit-2.4.1.js**<br>Copyright jQuery Foundation and other contributors<br>https://qunitjs.com/<br>License: [The MIT License](licenses/qunit-2.4.1.js.txt)<br>Notes: A JavaScript Unit Testing Framework. Allows us to easily test our code to help us make sure nothing gets broken as development continues.
+**qunit-2.10.0.js**<br>Copyright jQuery Foundation and other contributors<br>https://qunitjs.com/<br>License: [The MIT License](licenses/qunit-2.10.0.js.txt)<br>Notes: A JavaScript Unit Testing Framework. Allows us to easily test our code to help us make sure nothing gets broken as development continues.
 
 **qunit-composite-2.0.0.css**<br>Copyright jQuery Foundation and other contributors<br>https://github.com/JamesMGreene/qunit-composite<br>License: [The MIT License](licenses/qunit-composite-2.0.0.css.txt)<br>Notes: A library to allow multiple qunit tests to be aggregated into a single report by running qunit suites in an iframe.
 

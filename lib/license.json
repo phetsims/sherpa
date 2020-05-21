@@ -443,7 +443,7 @@
     "projectURL": "https://github.com/gyoshev/qhint",
     "notes": "Allows us to run code style jshint tests in qunit's unit tests"
   },
-  "qunit-2.4.1.css": {
+  "qunit-2.10.0.css": {
     "text": [
       "Copyright jQuery Foundation and other contributors"
     ],
@@ -451,7 +451,7 @@
     "projectURL": "https://qunitjs.com/",
     "notes": "A JavaScript Unit Testing Framework. Allows us to easily test our code to help us make sure nothing gets broken as development continues."
   },
-  "qunit-2.4.1.js": {
+  "qunit-2.10.0.js": {
     "text": [
       "Copyright jQuery Foundation and other contributors"
     ],
