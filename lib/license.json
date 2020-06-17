@@ -1,12 +1,4 @@
 {
-  "almond-0.2.9.js": {
-    "text": [
-      "Copyright (c) 2011-2014, The Dojo Foundation All Rights Reserved."
-    ],
-    "projectURL": "https://github.com/jrburke/almond",
-    "license": "The MIT License",
-    "notes": "Allows a RequireJS-based simulation to run in its compiled (smaller, faster) form"
-  },
   "base64-js-1.2.0.js": {
     "text": [
       "Copyright (c) 2014"
@@ -475,14 +467,6 @@
     "projectURL": "https://github.com/JamesMGreene/qunit-composite",
     "notes": "A library to allow multiple qunit tests to be aggregated into a single report by running qunit suites in an iframe."
   },
-  "requirejs-2.1.11.js": {
-    "text": [
-      "Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved."
-    ],
-    "license": "The MIT License",
-    "projectURL": "http://requirejs.org/",
-    "notes": "Manages code and dependencies to make it easier to develop simulations and test them quickly"
-  },
   "scenery-e8bb0c3.min.js": {
     "text": [
       "Copyright (c) 2014 University of Colorado Boulder"
@@ -522,14 +506,6 @@
     "license": "The MIT License",
     "projectURL": "https://github.com/syntaxhighlighter/syntaxhighlighter",
     "notes": "Provides code highlighting in Scenery/Kite/Dot documentation"
-  },
-  "text-2.0.12.js": {
-    "text": [
-      "Copyright (c) 2010-2014, The Dojo Foundation All Rights Reserved."
-    ],
-    "license": "The MIT License",
-    "projectURL": "http://github.com/requirejs/text",
-    "notes": "Loads strings to be displayed in the sim, including internationalized strings."
   },
   "TextEncoderLite-3c9f6f0.js": {
     "text": [
