@@ -295,6 +295,14 @@
     "projectURL": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from",
     "notes": "polyfill for Array.from from MDN."
   },
+  "mechamarkers-21f16221e414ec2dca68bbfbb866369eea7abd70.js": {
+    "text": [
+      "Copyright (c) 2019 Peter Gyory"
+    ],
+    "license": "The MIT License",
+    "projectURL": "https://github.com/atlas-acme-lab/mechamarkers-boilerplate/",
+    "notes": "to support tangible input using mechamarkers, see tangible/ github repo"
+  },
   "metrics-graphics-2.11.0.css": {
     "text": [
       "Mozilla Public License, version 2.0"
