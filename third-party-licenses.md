@@ -171,6 +171,8 @@ To see the third party resources used in a particular published simulation, insp
 
 **mdn-array-from-polyfill.js**<br>Any copyright is dedicated to the Public Domain. http://creativecommons.org/publicdomain/zero/1.0/<br>https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from<br>License: [CC0 1.0 Universal (CC0 1.0)](licenses/mdn-array-from-polyfill.js.txt)<br>Notes: polyfill for Array.from from MDN.<br>Used by: &#8234;Build a Molecule&#8236;, &#8234;Chains&#8236;, &#8234;Circuit Construction Kit: AC&#8236;, &#8234;Density&#8236;, &#8234;Energy Skate Park&#8236;, &#8234;Gravity Force Lab&#8236;, &#8234;Molarity&#8236;, &#8234;Number Line: Integers&#8236;
 
+**mechamarkers-21f16221e414ec2dca68bbfbb866369eea7abd70.js**<br>Copyright (c) 2019 Peter Gyory<br>https://github.com/atlas-acme-lab/mechamarkers-boilerplate/<br>License: [The MIT License](licenses/mechamarkers-21f16221e414ec2dca68bbfbb866369eea7abd70.js.txt)<br>Notes: to support tangible input using mechamarkers, see tangible/ github repo
+
 **metrics-graphics-2.11.0.css**<br>Mozilla Public License, version 2.0<br>http://www.metricsgraphicsjs.org/<br>License: [Mozilla Public License, version 2.0](licenses/metrics-graphics-2.11.0.css.txt)<br>Notes: Plotting for Yotta graphs
 
 **metrics-graphics-2.11.0.js**<br>Mozilla Public License, version 2.0<br>http://www.metricsgraphicsjs.org/<br>License: [Mozilla Public License, version 2.0](licenses/metrics-graphics-2.11.0.js.txt)<br>Notes: Plotting for Yotta graphs
