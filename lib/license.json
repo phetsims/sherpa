@@ -36,6 +36,16 @@
     "license": "The MIT License",
     "notes": "Used only in Scenery tests"
   },
+  "benchmark-2.1.4.js": {
+    "text": [
+      "Copyright 2010-2016 Mathias Bynens",
+      "Based on JSLitmus.js, copyright Robert Kieffer",
+      "Modified by John-David Dalton"
+    ],
+    "projectURL": "http://benchmarkjs.com",
+    "license": "The MIT License",
+    "notes": "Used in isolated non-sim-included benchmarking tests"
+  },
   "bootstrap-2.2.2.js": {
     "text": [
       "Copyright (c) 2012 Twitter, Inc",
