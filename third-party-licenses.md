@@ -101,6 +101,8 @@ To see the third party resources used in a particular published simulation, insp
 
 **benchmark-1.0.0.js**<br>Copyright (c) 2010-2012 Mathias Bynens http://mths.be<br>Based on JSLitmus.js Copyright (c) Robert Kieffer http://broofa.com<br>Modified by John-David Dalton http://allyoucanleet.com<br>http://benchmarkjs.com<br>License: [The MIT License](licenses/benchmark-1.0.0.js.txt)<br>Notes: Used only in Scenery tests
 
+**benchmark-2.1.4.js**<br>Copyright 2010-2016 Mathias Bynens<br>Based on JSLitmus.js, copyright Robert Kieffer<br>Modified by John-David Dalton<br>http://benchmarkjs.com<br>License: [The MIT License](licenses/benchmark-2.1.4.js.txt)<br>Notes: Used in isolated non-sim-included benchmarking tests
+
 **BigInteger-cda5bcc.js**<br>Developed by Peter Olson, https://github.com/peterolson<br>https://github.com/peterolson/BigInteger.js<br>License: [Public Domain](licenses/BigInteger-cda5bcc.js.txt)<br>Notes: An arbitrary length integer library for Javascript<br>Used by: &#8234;Function Builder&#8236; 1.0.23, &#8234;Function Builder: Basics&#8236;
 
 **BigRational-8f8c2fa.js**<br>Developed by Peter Olson, https://github.com/peterolson<br>https://github.com/peterolson/BigInteger.js<br>License: [Public Domain](licenses/BigRational-8f8c2fa.js.txt)<br>Notes: An arbitrary length rational number library for Javascript<br>Dependencies: **BigInteger-cda5bcc.js**<br>Used by: &#8234;Function Builder&#8236; 1.0.23, &#8234;Function Builder: Basics&#8236;
