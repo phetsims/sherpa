@@ -113,7 +113,7 @@ To see the third party resources used in a particular published simulation, insp
 
 **canvg-rgbcolor-1.3.js**<br>Stoyan Stefanov (sstoo@gmail.com)<br>http://www.phpied.com/rgb-color-parser-in-javascript/<br>License: [Use it if you like it](licenses/canvg-rgbcolor-1.3.js.txt)<br>Notes: A class to parse color values (packaged with canvg-1.3), required by canvg, see above
 
-**clarinet-1.0.0.js**<br>Copyright (c) Isaac Z. Schlueter ("Author")<br>Copyright (c) 2011 nuno job <nunojob.com><br>All rights reserved.<br>https://github.com/dscape/clarinet/<br>License: [The BSD License (2-clause)](licenses/clarinet-1.0.0.js.txt)<br>Notes: clarinet is a sax-like streaming parser for JSON. works in the browser and node.js
+**clarinet-0.12.4.js**<br>Copyright (c) Isaac Z. Schlueter ("Author")<br>Copyright (c) 2011 nuno job <nunojob.com><br>All rights reserved.<br>https://github.com/dscape/clarinet/<br>License: [The BSD License (2-clause)](licenses/clarinet-0.12.4.js.txt)<br>Notes: clarinet is a sax-like streaming parser for JSON. works in the browser and node.js
 
 **d3-4.7.1.min.js**<br>Copyright 2010-2016 Mike Bostock<br>https://github.com/d3/d3<br>License: [The MIT License](licenses/d3-4.7.1.min.js.txt)<br>Notes: Used by metrics-graphics for Yotta graphs
 
