@@ -257,6 +257,22 @@ The MIT License<br>Public Domain<br>Apache 2.0<br>Use it if you like it<br>The B
 
 **BALANCING_ACT/old-television.png**<br>Public Domain<br>https://openclipart.org/detail/19995/antique-television<br>License: Public Domain<br>Notes: Modified by jblanco
 
+**build-a-molecule/images/scissors_cur.js**<br>Public Domain<br>http://www.openclipart.org/detail/32341<br>License: Public Domain<br>Notes: Modified by PhET
+
+**build-a-molecule/images/scissors_png.js**<br>Public Domain<br>http://www.openclipart.org/detail/32341<br>License: Public Domain<br>Notes: Modified by PhET
+
+**build-a-molecule/images/scissors-closed_cur.js**<br>Public Domain<br>http://www.openclipart.org/detail/32341<br>License: Public Domain<br>Notes: Modified by PhET
+
+**build-a-molecule/images/scissors-closed_png.js**<br>Public Domain<br>http://www.openclipart.org/detail/32341<br>License: Public Domain<br>Notes: Modified by PhET
+
+**build-a-molecule/images/scissors-closed-up_cur.js**<br>Public Domain<br>http://www.openclipart.org/detail/32341<br>License: Public Domain<br>Notes: Modified by PhET
+
+**build-a-molecule/images/scissors-closed-up_png.js**<br>Public Domain<br>http://www.openclipart.org/detail/32341<br>License: Public Domain<br>Notes: Modified by PhET
+
+**build-a-molecule/images/scissors-up_cur.js**<br>Public Domain<br>http://www.openclipart.org/detail/32341<br>License: Public Domain<br>Notes: Modified by PhET
+
+**build-a-molecule/images/scissors-up_png.js**<br>Public Domain<br>http://www.openclipart.org/detail/32341<br>License: Public Domain<br>Notes: Modified by PhET
+
 **ENERGY_SKATE_PARK_BASICS/cement-texture-dark.jpg**<br>Public Domain<br>http://www.public-domain-image.com/full-image/textures-and-patterns-public-domain-images-pictures/concrete-texture-public-domain-images-pictures/cement-texture.jpg-royalty-free-stock-image.html<br>License: Public Domain<br>Notes: (no notes)
 
 **FLUID_PRESSURE_AND_FLOW/cement-texture-dark.jpg**<br>Public Domain<br>http://www.public-domain-image.com/full-image/textures-and-patterns-public-domain-images-pictures/concrete-texture-public-domain-images-pictures/cement-texture.jpg-royalty-free-stock-image.html<br>License: Public Domain<br>Notes: (no notes)
@@ -280,6 +296,8 @@ The MIT License<br>Public Domain<br>Apache 2.0<br>Use it if you like it<br>The B
 **TAMBO/empty_apartment_bedroom_06_resampled.mp3**<br>obtained from www.openairlib.net<br>http://phet.colorado.edu<br>License: Public Domain Creative Commons<br>Notes: downloaded from http://www.openairlib.net/auralizationdb/content/empty-apartment-bedroom, resampled to 44.1 kHz
 
 **VEGAS/boing.mp3**<br>Public Domain<br>http://freesound.org<br>License: Public Domain<br>Notes: Creative Commons 0 license, modified by John B
+
+**vegas/sounds/boing_mp3.js**<br>Public Domain<br>http://freesound.org<br>License: Public Domain<br>Notes: Creative Commons 0 license, modified by John B
 
 ---
 # <a name="third-party-media-license-summary"></a>Third-party Media License Summary:<br>
