@@ -105,14 +105,6 @@
     "projectURL": "https://github.com/clenemt/docdash",
     "notes": "Template for the PhET-iO API documentation"
   },
-  "es6-promise-1e68dc.auto.min.js": {
-    "text": [
-      "Copyright (c) 2014 Yehuda Katz, Tom Dale, Stefan Penner and contributors"
-    ],
-    "license": "The MIT License",
-    "projectURL": "https://github.com/stefanpenner/es6-promise",
-    "notes": "Used to polyfill for IE11 (or others) where webpack depends on promises"
-  },
   "FileSaver-b8054a2.js": {
     "text": [
       "Copyright (c) 2015 Eli Grey. (http://eligrey.com)"
