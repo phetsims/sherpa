@@ -40,11 +40,11 @@ import sun from '../../../sun/js/sun.js';
 class FANode extends Path {
 
   /**
-   * @param {string} data - the path data
+   * @param {Shape} shape
    * @param {Object} [options]
    */
-  constructor( data, options ) {
-    super( data, options );
+  constructor( shape, options ) {
+    super( shape, options );
   }
 }
 
