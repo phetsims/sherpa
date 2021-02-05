@@ -121,6 +121,14 @@
     "projectURL": "http://fontawesome.io/",
     "notes": "Provides shapes and icons for phet-io wrappers, SVG for icons in FontAwesomeNode"
   },
+  "fontawesome-free-5.15.2-desktop": {
+    "text": [
+      "Font Awesome Free is free, open source, and GPL friendly. You can use it for\ncommercial projects, open source projects, or really almost whatever you want.\nFull Font Awesome Free license: https://fontawesome.com/license/free."
+    ],
+    "license": "CC BY 4.0 License (https://creativecommons.org/licenses/by/4.0/)",
+    "projectURL": "https://fontawesome.com/",
+    "notes": "Provides icons"
+  },
   "game-up-camera-1.0.0.js": {
     "text": [
       "Copyright (c) BrainPOP"
