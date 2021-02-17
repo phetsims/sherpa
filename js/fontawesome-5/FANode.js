@@ -27,7 +27,7 @@
  * for your context.
  *
  * Also, the path data is provided separately in case it is needed in a different context:
- * new Shape( AddressBook.PATH )
+ * new Shape( AddressBook.PATH_DATA )
  *
  * A list of all icon constructors is provided by iconList.js, which can be used for testing.
  *
