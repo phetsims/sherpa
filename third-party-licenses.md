@@ -197,8 +197,6 @@ To see the third party resources used in a particular published simulation, insp
 
 **pixelmatch@5.1.0.js**<br>Copyright (c) 2019, Mapbox<br>https://github.com/mapbox/pixelmatch<br>License: [The ISC License](licenses/pixelmatch@5.1.0.js.txt)<br>Notes: The smallest, simplest and fastest JavaScript pixel-level image comparison library
 
-**pixi-v3.0.0-rc1-dev.js**<br>Copyright (c) 2012-2014, Mat Groves<br>http://www.pixijs.com/<br>License: [The MIT License](licenses/pixi-v3.0.0-rc1-dev.js.txt)<br>Notes: 2d scene graph. Experimental renderer for Scenery, not used in production
-
 **planck-0.3.0-rc.2.js**<br>Copyright (c) 2016-2018 Ali Shakiba http://shakiba.me/planck.js<br>Copyright (c) 2006-2013 Erin Catto  http://www.gphysics.com<br>https://github.com/shakiba/planck.js<br>License: [zlib License](licenses/planck-0.3.0-rc.2.js.txt)<br>Notes: 2d physics engine for density/buoyancy<br>Used by: &#8234;Density&#8236;
 
 **poly-decomp-0.3.0.js**<br>Copyright (c) 2013 Stefan Hedman<br>https://github.com/schteppe/poly-decomp.js/<br>License: [The MIT License](licenses/poly-decomp-0.3.0.js.txt)<br>Notes: Polygon decomposition, required by Matter.js for a few operations<br>Used by: &#8234;Density&#8236;

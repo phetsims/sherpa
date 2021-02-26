@@ -396,14 +396,6 @@
     "projectURL": "http://pegjs.majda.cz",
     "notes": "Parser Generator for JavaScript. SVG path parsing in Kite"
   },
-  "pixi-v3.0.0-rc1-dev.js": {
-    "text": [
-      "Copyright (c) 2012-2014, Mat Groves"
-    ],
-    "license": "The MIT License",
-    "projectURL": "http://www.pixijs.com/",
-    "notes": "2d scene graph. Experimental renderer for Scenery, not used in production"
-  },
   "planck-0.3.0-rc.2.js": {
     "text": [
       "Copyright (c) 2016-2018 Ali Shakiba http://shakiba.me/planck.js",
