@@ -7,7 +7,7 @@
     "projectURL": "https://github.com/beatgammit/base64-js",
     "notes": "For converting typed arrays to base64 (helps converting encoded SVG data URLs)"
   },
-  "beholder-detection-1.0.10.js": {
+  "beholder-detection-1.1.10.js": {
     "text": [
       " Copyright (c) 2020 Peter Gyory & Clement Zheng"
     ],
