@@ -7,24 +7,13 @@
     "projectURL": "https://github.com/beatgammit/base64-js",
     "notes": "For converting typed arrays to base64 (helps converting encoded SVG data URLs)"
   },
-  "BigInteger-cda5bcc.js": {
+  "beholder-detection-1.0.10.js": {
     "text": [
-      "Developed by Peter Olson, https://github.com/peterolson"
+      " Copyright (c) 2020 Peter Gyory & Clement Zheng"
     ],
-    "projectURL": "https://github.com/peterolson/BigInteger.js",
-    "license": "Public Domain",
-    "notes": "An arbitrary length integer library for Javascript"
-  },
-  "BigRational-8f8c2fa.js": {
-    "text": [
-      "Developed by Peter Olson, https://github.com/peterolson"
-    ],
-    "projectURL": "https://github.com/peterolson/BigInteger.js",
-    "license": "Public Domain",
-    "notes": "An arbitrary length rational number library for Javascript",
-    "dependencies": [
-      "BigInteger-cda5bcc.js"
-    ]
+    "projectURL": "https://github.com/project-beholder/beholder-detection",
+    "license": "The MIT License",
+    "notes": "Supporting tangible input to PhET Simulations, see phetsims/tangible."
   },
   "benchmark-1.0.0.js": {
     "text": [
@@ -45,6 +34,25 @@
     "projectURL": "http://benchmarkjs.com",
     "license": "The MIT License",
     "notes": "Used in isolated non-sim-included benchmarking tests"
+  },
+  "BigInteger-cda5bcc.js": {
+    "text": [
+      "Developed by Peter Olson, https://github.com/peterolson"
+    ],
+    "projectURL": "https://github.com/peterolson/BigInteger.js",
+    "license": "Public Domain",
+    "notes": "An arbitrary length integer library for Javascript"
+  },
+  "BigRational-8f8c2fa.js": {
+    "text": [
+      "Developed by Peter Olson, https://github.com/peterolson"
+    ],
+    "projectURL": "https://github.com/peterolson/BigInteger.js",
+    "license": "Public Domain",
+    "notes": "An arbitrary length rational number library for Javascript",
+    "dependencies": [
+      "BigInteger-cda5bcc.js"
+    ]
   },
   "bootstrap-2.2.2.js": {
     "text": [
@@ -304,14 +312,6 @@
     "license": "The MIT License",
     "projectURL": "http://brm.io/matter-js/",
     "notes": "2D physics engine for simulations (e.g. Density/Buoyancy)"
-  },
-  "mechamarkers-21f16221e414ec2dca68bbfbb866369eea7abd70.js": {
-    "text": [
-      "Copyright (c) 2019 Peter Gyory"
-    ],
-    "license": "The MIT License",
-    "projectURL": "https://github.com/atlas-acme-lab/mechamarkers-boilerplate/",
-    "notes": "to support tangible input using mechamarkers, see tangible/ github repo"
   },
   "metrics-graphics-2.11.0.css": {
     "text": [
