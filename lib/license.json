@@ -388,6 +388,22 @@
     "projectURL": "https://github.com/mapbox/pixelmatch",
     "notes": "The smallest, simplest and fastest JavaScript pixel-level image comparison library"
   },
+  "pako-2.0.3.min.js": {
+    "text": [
+      "Copyright (C) 2014-2017 by Vitaly Puzrin and Andrei Tuputcyn"
+    ],
+    "license": "The MIT License",
+    "projectURL": "https://github.com/nodeca/pako",
+    "notes": "high speed zlib port to javascript, works in browser & node.js"
+  },
+  "pako_inflate-2.0.3.min.js": {
+    "text": [
+      "Copyright (C) 2014-2017 by Vitaly Puzrin and Andrei Tuputcyn"
+    ],
+    "license": "The MIT License",
+    "projectURL": "https://github.com/nodeca/pako",
+    "notes": "high speed zlib port to javascript, works in browser & node.js"
+  },
   "pegjs-0.7.0.js": {
     "text": [
       "Copyright (c) 2010-2012 David Majda"
