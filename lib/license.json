@@ -509,14 +509,6 @@
     "projectURL": "https://github.com/davidbau/seedrandom",
     "notes": "seeded random number generator for Javascript"
   },
-  "split-1.5.11.min.js": {
-    "text": [
-      "Copyright (c) 2018 Nathan Cahill"
-    ],
-    "license": "MIT",
-    "projectURL": "https://github.com/nathancahill/split",
-    "notes": "Unopinionated utilities for resizeable split views"
-  },
   "stats-r12.js": {
     "text": [
       "Copyright (c) 2009-2014 Mr.doob"
