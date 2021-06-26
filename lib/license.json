@@ -153,14 +153,6 @@
     "projectURL": "https://github.com/mathiasbynens/he",
     "notes": "Used for HTML entity parsing in simulations related to RichText or other uses"
   },
-  "highlight.js-9.1.0.js": {
-    "text": [
-      "Copyright (c) 2006, Ivan Sagalaev"
-    ],
-    "license": "Revised BSD License",
-    "projectURL": "https://highlightjs.org/",
-    "notes": "Used for phetio.js documentation"
-  },
   "himalaya-0.2.7.js": {
     "text": [
       "Copyright (c) 2015, Chris Andrejewski <christopher.andrejewski@gmail.com>"
