@@ -1,7 +1,6 @@
 // Copyright 2021, University of Colorado Boulder
 // @author Michael Kauzmann (PhET Interactive Simulations)
 
-'use strict';
 
 // Use this file since sherpa doesn't have a package.json to embed this line into.
 module.exports = {
