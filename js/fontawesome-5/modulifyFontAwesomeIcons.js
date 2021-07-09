@@ -137,7 +137,6 @@ keys.forEach( key => {
     }
 
     let typeName = `${_.camelCase( key )}`;
-    console.log( typeName );
 
     // Start with alphabetical characters, not numbers
     const char = typeName.charAt( 0 );
