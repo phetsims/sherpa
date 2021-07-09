@@ -211,7 +211,9 @@ Full Font Awesome Free license: https://fontawesome.com/license/free.<br>https:/
 
 **poly2tri-1.3.5.min.js**<br>Copyright (c) 2009-2014, Poly2Tri Contributors<br>https://github.com/r3mi/poly2tri.js<br>License: [Revised BSD License](licenses/poly2tri-1.3.5.min.js.txt)<br>Notes: Used for rendering in Scenery's WebGL renderer
 
-**prism-1.15.0**<br>Copyright (c) 2012 Lea Verou<br>https://prismjs.com/<br>License: [The MIT License](licenses/prism-1.15.0.txt)<br>Notes: Used for displayed code syntax highlighting
+**prism-1.23.0.js**<br>Copyright (c) 2012 Lea Verou<br>https://prismjs.com/<br>License: [The MIT License](licenses/prism-1.23.0.js.txt)<br>Notes: Used for displayed code syntax highlighting
+
+**prism-okaidia-1.23.0.css**<br>Copyright (c) 2012 Lea Verou<br>https://prismjs.com/<br>License: [The MIT License](licenses/prism-okaidia-1.23.0.css.txt)<br>Notes: Used for displayed code syntax highlighting
 
 **qhint-1.1.js**<br>Copyright (c) 2013 Alex Gyoshev, http://gyoshev.mit-license.org/<br>https://github.com/gyoshev/qhint<br>License: [The MIT License](licenses/qhint-1.1.js.txt)<br>Notes: Allows us to run code style jshint tests in qunit's unit tests
 
