@@ -10,8 +10,7 @@ module.exports = {
     'katex/',
     'licenses/',
     'js/fontawesome-4/',
-    'js/fontawesome-5/brands/',
-    'js/fontawesome-5/regular/',
-    'js/fontawesome-5/solid/'
+    'js/fontawesome-5/',
+    'js/fontawesome-5/brands/'
   ]
 };
