@@ -437,7 +437,15 @@
     "projectURL": "https://github.com/r3mi/poly2tri.js",
     "notes": "Used for rendering in Scenery's WebGL renderer"
   },
-  "prism-1.15.0": {
+  "prism-1.23.0.js": {
+    "text": [
+      "Copyright (c) 2012 Lea Verou"
+    ],
+    "license": "The MIT License",
+    "projectURL": "https://prismjs.com/",
+    "notes": "Used for displayed code syntax highlighting"
+  },
+  "prism-okaidia-1.23.0.css": {
     "text": [
       "Copyright (c) 2012 Lea Verou"
     ],
