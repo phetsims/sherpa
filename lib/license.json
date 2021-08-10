@@ -539,7 +539,7 @@
     ],
     "license": "The MIT License",
     "projectURL": "http://threejs.org",
-    "notes": "For the 3D view (WebGL and Canvas)"
+    "notes": "For the 3D view (WebGL and Canvas), modified with commenting out startup console.log"
   },
   "three-r71-Projector.js": {
     "text": [
@@ -563,7 +563,7 @@
     ],
     "license": "The MIT License",
     "projectURL": "http://threejs.org",
-    "notes": "For the 3D view (WebGL and Canvas)"
+    "notes": "For the 3D view (WebGL and Canvas), modified with commenting out startup console.log"
   },
   "three-r104.min.js": {
     "text": [
@@ -571,7 +571,7 @@
     ],
     "license": "The MIT License",
     "projectURL": "http://threejs.org",
-    "notes": "For the 3D view (WebGL and Canvas)"
+    "notes": "For the 3D view (WebGL and Canvas), modified with commenting out startup console.log"
   },
   "Tween-r12.js": {
     "text": [
