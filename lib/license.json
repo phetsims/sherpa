@@ -573,6 +573,30 @@
     "projectURL": "http://threejs.org",
     "notes": "For the 3D view (WebGL and Canvas), modified with commenting out startup console.log"
   },
+  "three-r131.js": {
+    "text": [
+      "Copyright © 2010-2021 three.js authors"
+    ],
+    "license": "The MIT License",
+    "projectURL": "http://threejs.org",
+    "notes": "For the 3D view (WebGL and Canvas)"
+  },
+  "three-r131.min.js": {
+    "text": [
+      "Copyright © 2010-2021 three.js authors"
+    ],
+    "license": "The MIT License",
+    "projectURL": "http://threejs.org",
+    "notes": "For the 3D view (WebGL and Canvas)"
+  },
+  "three-r131.module.js": {
+    "text": [
+      "Copyright © 2010-2021 three.js authors"
+    ],
+    "license": "The MIT License",
+    "projectURL": "http://threejs.org",
+    "notes": "For the 3D view (WebGL and Canvas)"
+  },
   "Tween-r12.js": {
     "text": [
       "Copyright (c) 2010-2012 Tween.js authors."
