@@ -304,7 +304,7 @@ The MIT License<br>Public Domain<br>Apache 2.0<br>Use it if you like it<br>The B
 
 **john-travoltage/images/leg_png.js**<br>from American Cinematheque<br>http://www.americancinematheque.com/ball/1997MPBTravolta.htm<br>License: Unlicensed<br>Notes: edited by NP<br>Exception: PhET decided to allow images for John Travoltage even though we were unable to contact American Cinematheque for explicit permission
 
-**TAMBO/empty_apartment_bedroom_06_resampled.mp3**<br>obtained from www.openairlib.net<br>http://phet.colorado.edu<br>License: Public Domain Creative Commons<br>Notes: downloaded from http://www.openairlib.net/auralizationdb/content/empty-apartment-bedroom, resampled to 44.1 kHz
+**TAMBO/empty_apartment_bedroom_06_resampled.mp3**<br>obtained from www.openairlib.net<br>https://phet.colorado.edu<br>License: Public Domain Creative Commons<br>Notes: downloaded from http://www.openairlib.net/auralizationdb/content/empty-apartment-bedroom, resampled to 44.1 kHz
 
 **VEGAS/boing.mp3**<br>Public Domain<br>http://freesound.org<br>License: Public Domain<br>Notes: Creative Commons 0 license, modified by John B
 

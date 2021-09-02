@@ -4,7 +4,7 @@ sherpa
 Third-party libraries and dependencies for PhET Simulations
 
 By PhET Interactive Simulations
-http://phet.colorado.edu/
+https://phet.colorado.edu/
 
 [List of the third-party code, fonts, images and audio](third-party-licenses.md)
 
