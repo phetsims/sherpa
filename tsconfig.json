@@ -1,0 +1,17 @@
+{
+  "extends": "../chipper/tsconfig-core.json",
+  "references": [
+    {
+      "path": "../scenery"
+    }
+  ],
+  "include": [
+    "js/**/*",
+    "lib/lodash-4.17.4.min.js",
+    "lib/game-up-camera-1.0.0.js"
+  ],
+  "exclude": [
+    "js/sherpa-main.js",
+    "js/demo/**/*"
+  ]
+}
