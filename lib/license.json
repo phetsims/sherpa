@@ -113,14 +113,6 @@
     "projectURL": "https://github.com/google/diff-match-patch",
     "notes": "Used by metrics-graphics for Yotta graphs"
   },
-  "docdash-1.2.0": {
-    "text": [
-      "Copyright (c) 2016 Clement Moron clenemt@gmail.com and the contributors to docdash. All rights reserved."
-    ],
-    "license": "the Apache License, Version 2.0",
-    "projectURL": "https://github.com/clenemt/docdash",
-    "notes": "Template for the PhET-iO API documentation"
-  },
   "FileSaver-b8054a2.js": {
     "text": [
       "Copyright (c) 2015 Eli Grey. (http://eligrey.com)"
