@@ -1,0 +1,10 @@
+{
+  "name": "sherpa",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phetsims/sherpa.git"
+  },
+  "phet": {
+    "supportsOutputJS": true
+  }
+}
