@@ -153,9 +153,9 @@
     "projectURL": "https://github.com/mathiasbynens/he",
     "notes": "Used for HTML entity parsing in simulations related to RichText or other uses"
   },
-  "himalaya-0.2.7.js": {
+  "himalaya-1.1.0.js": {
     "text": [
-      "Copyright (c) 2015, Chris Andrejewski <christopher.andrejewski@gmail.com>"
+      "Copyright (c) 2017, Chris Andrejewski <christopher.andrejewski@gmail.com>"
     ],
     "license": "ISC License",
     "projectURL": "https://github.com/andrejewski/himalaya",
