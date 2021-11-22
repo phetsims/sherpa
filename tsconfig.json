@@ -1,0 +1,12 @@
+{
+  "extends": "../chipper/tsconfig-core.json",
+  "references": [
+    {
+      "path": "../joist/tsconfig.json"
+    }
+  ],
+  "include": [
+    "js/sherpa-main.js",
+    "js/demo/**/*"
+  ]
+}
