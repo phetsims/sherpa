@@ -283,7 +283,7 @@ The MIT License<br>Public Domain<br>Apache 2.0<br>Use it if you like it<br>The B
 
 **build-a-molecule/images/scissors-up_png.js**<br>Public Domain<br>http://www.openclipart.org/detail/32341<br>License: Public Domain<br>Notes: Modified by PhET
 
-**circuit-construction-kit-common/sounds/dogBark_mp3.js**<br>Public Domain<br>https://freesound.org/people/kwahmah_02/sounds/277058/<br>License: Public Domain<br>Notes: (no notes)
+**circuit-construction-kit-common/sounds/dog-bark_mp3.js**<br>Public Domain<br>https://freesound.org/people/kwahmah_02/sounds/277058/<br>License: Public Domain<br>Notes: (no notes)
 
 **ENERGY_SKATE_PARK_BASICS/cement-texture-dark.jpg**<br>Public Domain<br>http://www.public-domain-image.com/full-image/textures-and-patterns-public-domain-images-pictures/concrete-texture-public-domain-images-pictures/cement-texture.jpg-royalty-free-stock-image.html<br>License: Public Domain<br>Notes: (no notes)
 
