@@ -517,6 +517,22 @@
     "projectURL": "https://github.com/davidbau/seedrandom",
     "notes": "seeded random number generator for Javascript"
   },
+  "source-map-0.7.3.js": {
+    "text": [
+      "Copyright (c) 2009-2011, Mozilla Foundation and contributors"
+    ],
+    "license": "BSD",
+    "projectURL": "https://github.com/mozilla/source-map",
+    "notes": "Consume and generate source maps."
+  },
+  "stack-trace-parser-0.1.7.js": {
+    "text": [
+      "Copyright (c) 2014-2019 Georg Tavonius"
+    ],
+    "license": "MIT",
+    "projectURL": "https://github.com/errwischt/stacktrace-parser",
+    "notes": "Parses every stack trace into a nicely formatted array of hashes."
+  },
   "stats-r12.js": {
     "text": [
       "Copyright (c) 2009-2014 Mr.doob"
