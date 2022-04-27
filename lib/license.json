@@ -313,7 +313,7 @@
     "projectURL": "http://brm.io/matter-js/",
     "notes": "2D physics engine for simulations (e.g. Density/Buoyancy)"
   },
-  "mediaPipe/hands@0.4.1646424915": {
+  "mediaPipeDependencies.js": {
     "text": [
       "Apache License",
       "Version 2.0, January 2004",
@@ -321,7 +321,7 @@
     ],
     "license": "Apache 2.0",
     "projectURL": "https://google.github.io/mediapipe/solutions/hands",
-    "notes": "Hand tracking computer vision library"
+    "notes": "PhET's generated output of dependencies for MediaPipe, see sherpa/lib/mediaPipe/hands@0.4.1646424915/createMediaPipeDependencies"
   },
   "metrics-graphics-2.11.0.css": {
     "text": [
