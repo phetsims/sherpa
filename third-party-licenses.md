@@ -189,6 +189,8 @@ Full Font Awesome Free license: https://fontawesome.com/license/free.<br>https:/
 
 **matter-0.14.2.min.js**<br>Copyright (c) Liam Brummitt and contributors.<br>http://brm.io/matter-js/<br>License: [The MIT License](licenses/matter-0.14.2.min.js.txt)<br>Notes: 2D physics engine for simulations (e.g. Density/Buoyancy)
 
+**mediaPipe/hands@0.4.1646424915**<br>Apache License<br>Version 2.0, January 2004<br>http://www.apache.org/licenses/<br>https://google.github.io/mediapipe/solutions/hands<br>License: [Apache 2.0](licenses/mediaPipe/hands@0.4.1646424915.txt)<br>Notes: Hand tracking computer vision library
+
 **metrics-graphics-2.11.0.css**<br>Mozilla Public License, version 2.0<br>http://www.metricsgraphicsjs.org/<br>License: [Mozilla Public License, version 2.0](licenses/metrics-graphics-2.11.0.css.txt)<br>Notes: Plotting for Yotta graphs
 
 **metrics-graphics-2.11.0.js**<br>Mozilla Public License, version 2.0<br>http://www.metricsgraphicsjs.org/<br>License: [Mozilla Public License, version 2.0](licenses/metrics-graphics-2.11.0.js.txt)<br>Notes: Plotting for Yotta graphs
