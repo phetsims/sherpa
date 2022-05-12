@@ -7,14 +7,6 @@
     "projectURL": "https://github.com/beatgammit/base64-js",
     "notes": "For converting typed arrays to base64 (helps converting encoded SVG data URLs)"
   },
-  "beholder-detection-1.1.12.js": {
-    "text": [
-      " Copyright (c) 2020 Peter Gyory & Clement Zheng"
-    ],
-    "projectURL": "https://github.com/project-beholder/beholder-detection",
-    "license": "The MIT License",
-    "notes": "Supporting tangible input to PhET Simulations, see phetsims/tangible."
-  },
   "benchmark-1.0.0.js": {
     "text": [
       "Copyright (c) 2010-2012 Mathias Bynens http://mths.be",
