@@ -183,6 +183,22 @@
     "projectURL": "https://google.github.io/mediapipe/solutions/hands",
     "notes": "Version is not in filename because it lives under lib/mediaPipe/hands@0.4.1646424915/"
   },
+  "highlightjs-11.5.1.min.js": {
+    "text": [
+      "Copyright (c) 2006, Ivan Sagalaev."
+    ],
+    "license": "Revised BSD License",
+    "projectURL": "https://highlightjs.org/",
+    "notes": "Used for code documentation"
+  },
+  "highlightjs-11.5.1-a11y-light.min.css": {
+    "text": [
+      "Copyright (c) 2006, Ivan Sagalaev."
+    ],
+    "license": "Revised BSD License",
+    "projectURL": "https://highlightjs.org/",
+    "notes": "Used for code documentation"
+  },
   "himalaya-1.1.0.js": {
     "text": [
       "Copyright (c) 2017, Chris Andrejewski <christopher.andrejewski@gmail.com>"
