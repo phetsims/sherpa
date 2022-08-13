@@ -123,11 +123,15 @@ To see the third party resources used in a particular published simulation, insp
 
 **bootstrap-2.2.2.js**<br>Copyright (c) 2012 Twitter, Inc<br>Designed and built with all the love in the world @twitter by @mdo and @fat.<br>http://getbootstrap.com/2.2.2/index.html<br>License: [Apache 2.0](licenses/bootstrap-2.2.2.js.txt)<br>Notes: In documentation only, supports webpages for Scenery/Kite/Dot docs
 
+**camera_utils-0.3.1640029074.js**<br>Apache License<br>Version 2.0, January 2004<br>http://www.apache.org/licenses/<br>https://google.github.io/mediapipe/solutions/hands<br>License: [Apache 2.0](licenses/camera_utils-0.3.1640029074.js.txt)<br>Notes: For use by MediaPipe, see `tangible/` for implementation
+
 **canvg-1.3.js**<br>Copyright (c) 2010-2011 Gabe Lerner (gabelerner@gmail.com)<br>https://code.google.com/p/canvg/<br>License: [The MIT License](licenses/canvg-1.3.js.txt)<br>Notes: Javascript SVG parser and renderer on Canvas.  Used in scenery unit tests, may be used in sims later on if we convert SVG to Canvas. Downloaded 2/9/2015 from https://github.com/gabelerner/canvg
 
 **canvg-rgbcolor-1.3.js**<br>Stoyan Stefanov (sstoo@gmail.com)<br>http://www.phpied.com/rgb-color-parser-in-javascript/<br>License: [Use it if you like it](licenses/canvg-rgbcolor-1.3.js.txt)<br>Notes: A class to parse color values (packaged with canvg-1.3), required by canvg, see above
 
 **clarinet-1.0.0.js**<br>Copyright (c) Isaac Z. Schlueter ("Author")<br>Copyright (c) 2011 nuno job <nunojob.com><br>All rights reserved.<br>https://github.com/dscape/clarinet/<br>License: [The BSD License (2-clause)](licenses/clarinet-1.0.0.js.txt)<br>Notes: clarinet is a sax-like streaming parser for JSON. works in the browser and node.js
+
+**control_utils-0.6.1629159505.js**<br>Apache License<br>Version 2.0, January 2004<br>http://www.apache.org/licenses/<br>https://google.github.io/mediapipe/solutions/hands<br>License: [Apache 2.0](licenses/control_utils-0.6.1629159505.js.txt)<br>Notes: For use by MediaPipe, see `tangible/` for implementation
 
 **d3-4.7.1.min.js**<br>Copyright 2010-2016 Mike Bostock<br>https://github.com/d3/d3<br>License: [The MIT License](licenses/d3-4.7.1.min.js.txt)<br>Notes: Used by metrics-graphics for Yotta graphs
 
