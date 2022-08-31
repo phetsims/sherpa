@@ -315,6 +315,16 @@
     "license": "SIL Open Font License, Version 1.1",
     "notes": "For the 3D text in bond angles (faster updates than SVG text)"
   },
+  "linebreak-1.1.0.js": {
+    "text": [
+      "tiny-inflate 1.0.3 (https://github.com/foliojs/tiny-inflate) Copyright (c) 2015-present Devon Govett",
+      "unicode-trie 2.0.0 (https://github.com/foliojs/unicode-trie) Copyright 2018",
+      "linebreak 1.1.0 (https://github.com/foliojs/linebreak) Copyright (c) 2014-present Devon Govett"
+    ],
+    "license": "The MIT License",
+    "projectURL": "https://github.com/foliojs/linebreak",
+    "notes": "Ability to find linebreak opportunities in unicode strings: Unicode Line Breaking Algorithm (UAX #14)"
+  },
   "lodash-4.17.4.js": {
     "text": [
       "Lodash <https://lodash.com/>",
