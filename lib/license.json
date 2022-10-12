@@ -91,6 +91,38 @@
     "projectURL": "https://github.com/dscape/clarinet/",
     "notes": "clarinet is a sax-like streaming parser for JSON. works in the browser and node.js"
   },
+  "codemirror-5.52.2.min.css": {
+    "text": [
+      "Copyright (C) 2017 by Marijn Haverbeke <marijnh@gmail.com> and others"
+    ],
+    "license": "The MIT License",
+    "projectURL": "https://codemirror.net/",
+    "notes": "Used by the Scenery sandbox (or other non-sim editor needs)"
+  },
+  "codemirror-5.52.2.min.js": {
+    "text": [
+      "Copyright (C) 2017 by Marijn Haverbeke <marijnh@gmail.com> and others"
+    ],
+    "license": "The MIT License",
+    "projectURL": "https://codemirror.net/",
+    "notes": "Used by the Scenery sandbox (or other non-sim editor needs)"
+  },
+  "codemirror-5.52.2.javascript.min.js": {
+    "text": [
+      "Copyright (C) 2017 by Marijn Haverbeke <marijnh@gmail.com> and others"
+    ],
+    "license": "The MIT License",
+    "projectURL": "https://codemirror.net/",
+    "notes": "Used by the Scenery sandbox (or other non-sim editor needs)"
+  },
+  "codemirror-5.52.2.monokai.min.css": {
+    "text": [
+      "Copyright (C) 2017 by Marijn Haverbeke <marijnh@gmail.com> and others"
+    ],
+    "license": "The MIT License",
+    "projectURL": "https://codemirror.net/",
+    "notes": "Used by the Scenery sandbox (or other non-sim editor needs)"
+  },
   "control_utils-0.6.1629159505.js": {
     "text": [
       "Apache License",
