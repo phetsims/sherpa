@@ -132,6 +132,14 @@ To see the third party resources used in a particular published simulation, insp
 
 **clarinet-1.0.0.js**<br>Copyright (c) Isaac Z. Schlueter ("Author")<br>Copyright (c) 2011 nuno job <nunojob.com><br>All rights reserved.<br>https://github.com/dscape/clarinet/<br>License: [The BSD License (2-clause)](licenses/clarinet-1.0.0.js.txt)<br>Notes: clarinet is a sax-like streaming parser for JSON. works in the browser and node.js
 
+**codemirror-5.52.2.javascript.min.js**<br>Copyright (C) 2017 by Marijn Haverbeke <marijnh@gmail.com> and others<br>https://codemirror.net/<br>License: [The MIT License](licenses/codemirror-5.52.2.javascript.min.js.txt)<br>Notes: Used by the Scenery sandbox (or other non-sim editor needs)
+
+**codemirror-5.52.2.min.css**<br>Copyright (C) 2017 by Marijn Haverbeke <marijnh@gmail.com> and others<br>https://codemirror.net/<br>License: [The MIT License](licenses/codemirror-5.52.2.min.css.txt)<br>Notes: Used by the Scenery sandbox (or other non-sim editor needs)
+
+**codemirror-5.52.2.min.js**<br>Copyright (C) 2017 by Marijn Haverbeke <marijnh@gmail.com> and others<br>https://codemirror.net/<br>License: [The MIT License](licenses/codemirror-5.52.2.min.js.txt)<br>Notes: Used by the Scenery sandbox (or other non-sim editor needs)
+
+**codemirror-5.52.2.monokai.min.css**<br>Copyright (C) 2017 by Marijn Haverbeke <marijnh@gmail.com> and others<br>https://codemirror.net/<br>License: [The MIT License](licenses/codemirror-5.52.2.monokai.min.css.txt)<br>Notes: Used by the Scenery sandbox (or other non-sim editor needs)
+
 **control_utils-0.6.1629159505.js**<br>Apache License<br>Version 2.0, January 2004<br>http://www.apache.org/licenses/<br>https://google.github.io/mediapipe/solutions/hands<br>License: [Apache 2.0](licenses/control_utils-0.6.1629159505.js.txt)<br>Notes: For use by MediaPipe, see `tangible/` for implementation
 
 **d3-4.7.1.min.js**<br>Copyright 2010-2016 Mike Bostock<br>https://github.com/d3/d3<br>License: [The MIT License](licenses/d3-4.7.1.min.js.txt)<br>Notes: Used by metrics-graphics for Yotta graphs
