@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import dailymotionString from './dailymotionString.js';
 
-export default new Shape( dailymotionString );
+export default new Shape( dailymotionString ).makeImmutable();

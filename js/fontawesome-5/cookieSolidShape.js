@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import cookieSolidString from './cookieSolidString.js';
 
-export default new Shape( cookieSolidString );
+export default new Shape( cookieSolidString ).makeImmutable();

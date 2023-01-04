@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import parachuteBoxSolidString from './parachuteBoxSolidString.js';
 
-export default new Shape( parachuteBoxSolidString );
+export default new Shape( parachuteBoxSolidString ).makeImmutable();

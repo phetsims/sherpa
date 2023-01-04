@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import tabletAltSolidString from './tabletAltSolidString.js';
 
-export default new Shape( tabletAltSolidString );
+export default new Shape( tabletAltSolidString ).makeImmutable();

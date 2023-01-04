@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import underlineSolidString from './underlineSolidString.js';
 
-export default new Shape( underlineSolidString );
+export default new Shape( underlineSolidString ).makeImmutable();

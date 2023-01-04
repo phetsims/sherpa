@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import fedoraString from './fedoraString.js';
 
-export default new Shape( fedoraString );
+export default new Shape( fedoraString ).makeImmutable();

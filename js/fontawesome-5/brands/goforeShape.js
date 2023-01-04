@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import goforeString from './goforeString.js';
 
-export default new Shape( goforeString );
+export default new Shape( goforeString ).makeImmutable();

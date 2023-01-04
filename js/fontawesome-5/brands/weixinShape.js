@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import weixinString from './weixinString.js';
 
-export default new Shape( weixinString );
+export default new Shape( weixinString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import microsoftString from './microsoftString.js';
 
-export default new Shape( microsoftString );
+export default new Shape( microsoftString ).makeImmutable();

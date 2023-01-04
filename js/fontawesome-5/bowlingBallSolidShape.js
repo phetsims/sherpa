@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import bowlingBallSolidString from './bowlingBallSolidString.js';
 
-export default new Shape( bowlingBallSolidString );
+export default new Shape( bowlingBallSolidString ).makeImmutable();

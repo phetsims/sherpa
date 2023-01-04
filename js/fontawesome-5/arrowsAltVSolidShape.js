@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import arrowsAltVSolidString from './arrowsAltVSolidString.js';
 
-export default new Shape( arrowsAltVSolidString );
+export default new Shape( arrowsAltVSolidString ).makeImmutable();

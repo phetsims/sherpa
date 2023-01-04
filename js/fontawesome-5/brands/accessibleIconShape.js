@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import accessibleIconString from './accessibleIconString.js';
 
-export default new Shape( accessibleIconString );
+export default new Shape( accessibleIconString ).makeImmutable();

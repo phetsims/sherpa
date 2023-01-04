@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import kaggleString from './kaggleString.js';
 
-export default new Shape( kaggleString );
+export default new Shape( kaggleString ).makeImmutable();

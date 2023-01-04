@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import glassesSolidString from './glassesSolidString.js';
 
-export default new Shape( glassesSolidString );
+export default new Shape( glassesSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import percentageSolidString from './percentageSolidString.js';
 
-export default new Shape( percentageSolidString );
+export default new Shape( percentageSolidString ).makeImmutable();

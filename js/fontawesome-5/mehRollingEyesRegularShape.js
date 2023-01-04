@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import mehRollingEyesRegularString from './mehRollingEyesRegularString.js';
 
-export default new Shape( mehRollingEyesRegularString );
+export default new Shape( mehRollingEyesRegularString ).makeImmutable();

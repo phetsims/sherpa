@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import stepBackwardSolidString from './stepBackwardSolidString.js';
 
-export default new Shape( stepBackwardSolidString );
+export default new Shape( stepBackwardSolidString ).makeImmutable();

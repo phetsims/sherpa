@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import slidersHSolidString from './slidersHSolidString.js';
 
-export default new Shape( slidersHSolidString );
+export default new Shape( slidersHSolidString ).makeImmutable();

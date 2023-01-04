@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import cubeSolidString from './cubeSolidString.js';
 
-export default new Shape( cubeSolidString );
+export default new Shape( cubeSolidString ).makeImmutable();

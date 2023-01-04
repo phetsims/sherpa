@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import hashtagSolidString from './hashtagSolidString.js';
 
-export default new Shape( hashtagSolidString );
+export default new Shape( hashtagSolidString ).makeImmutable();

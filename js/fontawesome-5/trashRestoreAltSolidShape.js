@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import trashRestoreAltSolidString from './trashRestoreAltSolidString.js';
 
-export default new Shape( trashRestoreAltSolidString );
+export default new Shape( trashRestoreAltSolidString ).makeImmutable();

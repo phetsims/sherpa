@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import googleDriveString from './googleDriveString.js';
 
-export default new Shape( googleDriveString );
+export default new Shape( googleDriveString ).makeImmutable();

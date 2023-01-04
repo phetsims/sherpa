@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import alignJustifySolidString from './alignJustifySolidString.js';
 
-export default new Shape( alignJustifySolidString );
+export default new Shape( alignJustifySolidString ).makeImmutable();

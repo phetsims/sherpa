@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import futbolSolidString from './futbolSolidString.js';
 
-export default new Shape( futbolSolidString );
+export default new Shape( futbolSolidString ).makeImmutable();

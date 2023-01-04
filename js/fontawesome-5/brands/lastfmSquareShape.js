@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import lastfmSquareString from './lastfmSquareString.js';
 
-export default new Shape( lastfmSquareString );
+export default new Shape( lastfmSquareString ).makeImmutable();

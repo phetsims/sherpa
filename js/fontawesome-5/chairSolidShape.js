@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import chairSolidString from './chairSolidString.js';
 
-export default new Shape( chairSolidString );
+export default new Shape( chairSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import rubleSignSolidString from './rubleSignSolidString.js';
 
-export default new Shape( rubleSignSolidString );
+export default new Shape( rubleSignSolidString ).makeImmutable();

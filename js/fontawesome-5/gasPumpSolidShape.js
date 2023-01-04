@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import gasPumpSolidString from './gasPumpSolidString.js';
 
-export default new Shape( gasPumpSolidString );
+export default new Shape( gasPumpSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import wineGlassAltSolidString from './wineGlassAltSolidString.js';
 
-export default new Shape( wineGlassAltSolidString );
+export default new Shape( wineGlassAltSolidString ).makeImmutable();

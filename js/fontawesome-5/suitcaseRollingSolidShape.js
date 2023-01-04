@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import suitcaseRollingSolidString from './suitcaseRollingSolidString.js';
 
-export default new Shape( suitcaseRollingSolidString );
+export default new Shape( suitcaseRollingSolidString ).makeImmutable();

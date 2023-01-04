@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import trademarkSolidString from './trademarkSolidString.js';
 
-export default new Shape( trademarkSolidString );
+export default new Shape( trademarkSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import lungsSolidString from './lungsSolidString.js';
 
-export default new Shape( lungsSolidString );
+export default new Shape( lungsSolidString ).makeImmutable();

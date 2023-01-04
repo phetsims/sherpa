@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import tramSolidString from './tramSolidString.js';
 
-export default new Shape( tramSolidString );
+export default new Shape( tramSolidString ).makeImmutable();

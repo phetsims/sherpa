@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import shareSolidString from './shareSolidString.js';
 
-export default new Shape( shareSolidString );
+export default new Shape( shareSolidString ).makeImmutable();

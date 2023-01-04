@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import openidString from './openidString.js';
 
-export default new Shape( openidString );
+export default new Shape( openidString ).makeImmutable();

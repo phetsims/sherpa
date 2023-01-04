@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import conciergeBellSolidString from './conciergeBellSolidString.js';
 
-export default new Shape( conciergeBellSolidString );
+export default new Shape( conciergeBellSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import adversalString from './adversalString.js';
 
-export default new Shape( adversalString );
+export default new Shape( adversalString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import filePowerpointRegularString from './filePowerpointRegularString.js';
 
-export default new Shape( filePowerpointRegularString );
+export default new Shape( filePowerpointRegularString ).makeImmutable();

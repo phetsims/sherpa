@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import banSolidString from './banSolidString.js';
 
-export default new Shape( banSolidString );
+export default new Shape( banSolidString ).makeImmutable();

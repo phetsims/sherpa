@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import snowmanSolidString from './snowmanSolidString.js';
 
-export default new Shape( snowmanSolidString );
+export default new Shape( snowmanSolidString ).makeImmutable();

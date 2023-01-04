@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import cloudMeatballSolidString from './cloudMeatballSolidString.js';
 
-export default new Shape( cloudMeatballSolidString );
+export default new Shape( cloudMeatballSolidString ).makeImmutable();

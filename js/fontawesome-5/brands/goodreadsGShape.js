@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import goodreadsGString from './goodreadsGString.js';
 
-export default new Shape( goodreadsGString );
+export default new Shape( goodreadsGString ).makeImmutable();

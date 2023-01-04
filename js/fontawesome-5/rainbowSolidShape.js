@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import rainbowSolidString from './rainbowSolidString.js';
 
-export default new Shape( rainbowSolidString );
+export default new Shape( rainbowSolidString ).makeImmutable();

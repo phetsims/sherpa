@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import stackOverflowString from './stackOverflowString.js';
 
-export default new Shape( stackOverflowString );
+export default new Shape( stackOverflowString ).makeImmutable();

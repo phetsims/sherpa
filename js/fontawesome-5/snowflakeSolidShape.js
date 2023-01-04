@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import snowflakeSolidString from './snowflakeSolidString.js';
 
-export default new Shape( snowflakeSolidString );
+export default new Shape( snowflakeSolidString ).makeImmutable();

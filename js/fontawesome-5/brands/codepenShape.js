@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import codepenString from './codepenString.js';
 
-export default new Shape( codepenString );
+export default new Shape( codepenString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import dumbbellSolidString from './dumbbellSolidString.js';
 
-export default new Shape( dumbbellSolidString );
+export default new Shape( dumbbellSolidString ).makeImmutable();

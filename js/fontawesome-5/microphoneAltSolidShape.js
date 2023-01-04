@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import microphoneAltSolidString from './microphoneAltSolidString.js';
 
-export default new Shape( microphoneAltSolidString );
+export default new Shape( microphoneAltSolidString ).makeImmutable();

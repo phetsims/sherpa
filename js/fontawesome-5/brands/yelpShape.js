@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import yelpString from './yelpString.js';
 
-export default new Shape( yelpString );
+export default new Shape( yelpString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import stackExchangeString from './stackExchangeString.js';
 
-export default new Shape( stackExchangeString );
+export default new Shape( stackExchangeString ).makeImmutable();

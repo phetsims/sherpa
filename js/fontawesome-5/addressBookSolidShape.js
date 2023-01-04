@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import addressBookSolidString from './addressBookSolidString.js';
 
-export default new Shape( addressBookSolidString );
+export default new Shape( addressBookSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import stackpathString from './stackpathString.js';
 
-export default new Shape( stackpathString );
+export default new Shape( stackpathString ).makeImmutable();

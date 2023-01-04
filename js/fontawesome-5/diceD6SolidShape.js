@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import diceD6SolidString from './diceD6SolidString.js';
 
-export default new Shape( diceD6SolidString );
+export default new Shape( diceD6SolidString ).makeImmutable();

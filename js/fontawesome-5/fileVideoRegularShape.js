@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import fileVideoRegularString from './fileVideoRegularString.js';
 
-export default new Shape( fileVideoRegularString );
+export default new Shape( fileVideoRegularString ).makeImmutable();

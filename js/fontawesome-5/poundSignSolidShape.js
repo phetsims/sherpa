@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import poundSignSolidString from './poundSignSolidString.js';
 
-export default new Shape( poundSignSolidString );
+export default new Shape( poundSignSolidString ).makeImmutable();

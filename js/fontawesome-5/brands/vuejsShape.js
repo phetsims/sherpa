@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import vuejsString from './vuejsString.js';
 
-export default new Shape( vuejsString );
+export default new Shape( vuejsString ).makeImmutable();

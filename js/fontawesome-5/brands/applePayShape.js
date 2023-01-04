@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import applePayString from './applePayString.js';
 
-export default new Shape( applePayString );
+export default new Shape( applePayString ).makeImmutable();

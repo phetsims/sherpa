@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import fanSolidString from './fanSolidString.js';
 
-export default new Shape( fanSolidString );
+export default new Shape( fanSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import snapchatString from './snapchatString.js';
 
-export default new Shape( snapchatString );
+export default new Shape( snapchatString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import laughWinkRegularString from './laughWinkRegularString.js';
 
-export default new Shape( laughWinkRegularString );
+export default new Shape( laughWinkRegularString ).makeImmutable();

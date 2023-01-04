@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import evernoteString from './evernoteString.js';
 
-export default new Shape( evernoteString );
+export default new Shape( evernoteString ).makeImmutable();

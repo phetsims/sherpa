@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import syringeSolidString from './syringeSolidString.js';
 
-export default new Shape( syringeSolidString );
+export default new Shape( syringeSolidString ).makeImmutable();

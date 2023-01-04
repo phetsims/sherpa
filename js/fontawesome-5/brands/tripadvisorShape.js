@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import tripadvisorString from './tripadvisorString.js';
 
-export default new Shape( tripadvisorString );
+export default new Shape( tripadvisorString ).makeImmutable();

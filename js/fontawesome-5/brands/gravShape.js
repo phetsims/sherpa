@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import gravString from './gravString.js';
 
-export default new Shape( gravString );
+export default new Shape( gravString ).makeImmutable();

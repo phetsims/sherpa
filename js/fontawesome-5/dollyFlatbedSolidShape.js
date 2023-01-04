@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import dollyFlatbedSolidString from './dollyFlatbedSolidString.js';
 
-export default new Shape( dollyFlatbedSolidString );
+export default new Shape( dollyFlatbedSolidString ).makeImmutable();

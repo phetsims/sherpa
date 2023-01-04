@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import atlasSolidString from './atlasSolidString.js';
 
-export default new Shape( atlasSolidString );
+export default new Shape( atlasSolidString ).makeImmutable();

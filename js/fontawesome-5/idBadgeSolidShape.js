@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import idBadgeSolidString from './idBadgeSolidString.js';
 
-export default new Shape( idBadgeSolidString );
+export default new Shape( idBadgeSolidString ).makeImmutable();

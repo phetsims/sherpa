@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import grimaceRegularString from './grimaceRegularString.js';
 
-export default new Shape( grimaceRegularString );
+export default new Shape( grimaceRegularString ).makeImmutable();

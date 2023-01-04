@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import innosoftString from './innosoftString.js';
 
-export default new Shape( innosoftString );
+export default new Shape( innosoftString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import theRedYetiString from './theRedYetiString.js';
 
-export default new Shape( theRedYetiString );
+export default new Shape( theRedYetiString ).makeImmutable();

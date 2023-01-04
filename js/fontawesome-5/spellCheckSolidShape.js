@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import spellCheckSolidString from './spellCheckSolidString.js';
 
-export default new Shape( spellCheckSolidString );
+export default new Shape( spellCheckSolidString ).makeImmutable();

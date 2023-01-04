@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import dhlString from './dhlString.js';
 
-export default new Shape( dhlString );
+export default new Shape( dhlString ).makeImmutable();

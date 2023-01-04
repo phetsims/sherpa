@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import gulpString from './gulpString.js';
 
-export default new Shape( gulpString );
+export default new Shape( gulpString ).makeImmutable();

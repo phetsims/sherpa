@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import speakerDeckString from './speakerDeckString.js';
 
-export default new Shape( speakerDeckString );
+export default new Shape( speakerDeckString ).makeImmutable();

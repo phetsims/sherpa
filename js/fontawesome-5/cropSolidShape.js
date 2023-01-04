@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import cropSolidString from './cropSolidString.js';
 
-export default new Shape( cropSolidString );
+export default new Shape( cropSolidString ).makeImmutable();

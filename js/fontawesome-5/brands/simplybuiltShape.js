@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import simplybuiltString from './simplybuiltString.js';
 
-export default new Shape( simplybuiltString );
+export default new Shape( simplybuiltString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import hockeyPuckSolidString from './hockeyPuckSolidString.js';
 
-export default new Shape( hockeyPuckSolidString );
+export default new Shape( hockeyPuckSolidString ).makeImmutable();

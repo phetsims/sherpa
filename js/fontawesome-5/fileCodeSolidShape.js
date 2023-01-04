@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import fileCodeSolidString from './fileCodeSolidString.js';
 
-export default new Shape( fileCodeSolidString );
+export default new Shape( fileCodeSolidString ).makeImmutable();

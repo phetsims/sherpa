@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import drumstickBiteSolidString from './drumstickBiteSolidString.js';
 
-export default new Shape( drumstickBiteSolidString );
+export default new Shape( drumstickBiteSolidString ).makeImmutable();

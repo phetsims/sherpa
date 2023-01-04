@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import steamSquareString from './steamSquareString.js';
 
-export default new Shape( steamSquareString );
+export default new Shape( steamSquareString ).makeImmutable();

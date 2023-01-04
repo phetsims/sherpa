@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import creativeCommonsNcJpString from './creativeCommonsNcJpString.js';
 
-export default new Shape( creativeCommonsNcJpString );
+export default new Shape( creativeCommonsNcJpString ).makeImmutable();

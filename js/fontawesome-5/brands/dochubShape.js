@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import dochubString from './dochubString.js';
 
-export default new Shape( dochubString );
+export default new Shape( dochubString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import timesSolidString from './timesSolidString.js';
 
-export default new Shape( timesSolidString );
+export default new Shape( timesSolidString ).makeImmutable();

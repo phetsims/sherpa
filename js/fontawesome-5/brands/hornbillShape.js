@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import hornbillString from './hornbillString.js';
 
-export default new Shape( hornbillString );
+export default new Shape( hornbillString ).makeImmutable();

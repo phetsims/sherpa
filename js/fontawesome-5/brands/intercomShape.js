@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import intercomString from './intercomString.js';
 
-export default new Shape( intercomString );
+export default new Shape( intercomString ).makeImmutable();

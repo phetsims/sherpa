@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import audibleString from './audibleString.js';
 
-export default new Shape( audibleString );
+export default new Shape( audibleString ).makeImmutable();

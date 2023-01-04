@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import wizardsOfTheCoastString from './wizardsOfTheCoastString.js';
 
-export default new Shape( wizardsOfTheCoastString );
+export default new Shape( wizardsOfTheCoastString ).makeImmutable();

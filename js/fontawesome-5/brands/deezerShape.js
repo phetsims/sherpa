@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import deezerString from './deezerString.js';
 
-export default new Shape( deezerString );
+export default new Shape( deezerString ).makeImmutable();

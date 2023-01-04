@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import undoAltSolidString from './undoAltSolidString.js';
 
-export default new Shape( undoAltSolidString );
+export default new Shape( undoAltSolidString ).makeImmutable();

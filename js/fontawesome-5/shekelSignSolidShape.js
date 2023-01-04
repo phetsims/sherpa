@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import shekelSignSolidString from './shekelSignSolidString.js';
 
-export default new Shape( shekelSignSolidString );
+export default new Shape( shekelSignSolidString ).makeImmutable();

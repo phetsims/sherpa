@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import gavelSolidString from './gavelSolidString.js';
 
-export default new Shape( gavelSolidString );
+export default new Shape( gavelSolidString ).makeImmutable();

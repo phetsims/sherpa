@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import pennyArcadeString from './pennyArcadeString.js';
 
-export default new Shape( pennyArcadeString );
+export default new Shape( pennyArcadeString ).makeImmutable();

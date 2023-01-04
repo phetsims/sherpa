@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import drawPolygonSolidString from './drawPolygonSolidString.js';
 
-export default new Shape( drawPolygonSolidString );
+export default new Shape( drawPolygonSolidString ).makeImmutable();

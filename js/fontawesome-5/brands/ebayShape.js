@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import ebayString from './ebayString.js';
 
-export default new Shape( ebayString );
+export default new Shape( ebayString ).makeImmutable();

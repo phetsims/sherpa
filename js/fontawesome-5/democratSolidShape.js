@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import democratSolidString from './democratSolidString.js';
 
-export default new Shape( democratSolidString );
+export default new Shape( democratSolidString ).makeImmutable();

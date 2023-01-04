@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import perbyteString from './perbyteString.js';
 
-export default new Shape( perbyteString );
+export default new Shape( perbyteString ).makeImmutable();

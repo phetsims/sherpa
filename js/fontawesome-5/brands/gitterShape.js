@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import gitterString from './gitterString.js';
 
-export default new Shape( gitterString );
+export default new Shape( gitterString ).makeImmutable();

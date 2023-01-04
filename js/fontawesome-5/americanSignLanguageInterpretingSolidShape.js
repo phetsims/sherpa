@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import americanSignLanguageInterpretingSolidString from './americanSignLanguageInterpretingSolidString.js';
 
-export default new Shape( americanSignLanguageInterpretingSolidString );
+export default new Shape( americanSignLanguageInterpretingSolidString ).makeImmutable();

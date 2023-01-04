@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import yarnString from './yarnString.js';
 
-export default new Shape( yarnString );
+export default new Shape( yarnString ).makeImmutable();

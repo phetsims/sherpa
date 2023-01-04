@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import crossSolidString from './crossSolidString.js';
 
-export default new Shape( crossSolidString );
+export default new Shape( crossSolidString ).makeImmutable();

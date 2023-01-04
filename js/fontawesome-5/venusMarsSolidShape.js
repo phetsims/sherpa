@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import venusMarsSolidString from './venusMarsSolidString.js';
 
-export default new Shape( venusMarsSolidString );
+export default new Shape( venusMarsSolidString ).makeImmutable();

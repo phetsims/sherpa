@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import jenkinsString from './jenkinsString.js';
 
-export default new Shape( jenkinsString );
+export default new Shape( jenkinsString ).makeImmutable();

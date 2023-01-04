@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import tencentWeiboString from './tencentWeiboString.js';
 
-export default new Shape( tencentWeiboString );
+export default new Shape( tencentWeiboString ).makeImmutable();

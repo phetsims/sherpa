@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import meteorSolidString from './meteorSolidString.js';
 
-export default new Shape( meteorSolidString );
+export default new Shape( meteorSolidString ).makeImmutable();

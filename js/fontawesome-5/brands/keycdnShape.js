@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import keycdnString from './keycdnString.js';
 
-export default new Shape( keycdnString );
+export default new Shape( keycdnString ).makeImmutable();

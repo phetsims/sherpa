@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import swimmingPoolSolidString from './swimmingPoolSolidString.js';
 
-export default new Shape( swimmingPoolSolidString );
+export default new Shape( swimmingPoolSolidString ).makeImmutable();

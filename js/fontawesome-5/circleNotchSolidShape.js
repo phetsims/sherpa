@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import circleNotchSolidString from './circleNotchSolidString.js';
 
-export default new Shape( circleNotchSolidString );
+export default new Shape( circleNotchSolidString ).makeImmutable();

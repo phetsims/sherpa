@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import voteYeaSolidString from './voteYeaSolidString.js';
 
-export default new Shape( voteYeaSolidString );
+export default new Shape( voteYeaSolidString ).makeImmutable();

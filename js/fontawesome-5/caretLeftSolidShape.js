@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import caretLeftSolidString from './caretLeftSolidString.js';
 
-export default new Shape( caretLeftSolidString );
+export default new Shape( caretLeftSolidString ).makeImmutable();

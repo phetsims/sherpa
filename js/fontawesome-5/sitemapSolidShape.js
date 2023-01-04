@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import sitemapSolidString from './sitemapSolidString.js';
 
-export default new Shape( sitemapSolidString );
+export default new Shape( sitemapSolidString ).makeImmutable();

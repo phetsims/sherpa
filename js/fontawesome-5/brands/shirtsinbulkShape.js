@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import shirtsinbulkString from './shirtsinbulkString.js';
 
-export default new Shape( shirtsinbulkString );
+export default new Shape( shirtsinbulkString ).makeImmutable();

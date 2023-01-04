@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import idBadgeRegularString from './idBadgeRegularString.js';
 
-export default new Shape( idBadgeRegularString );
+export default new Shape( idBadgeRegularString ).makeImmutable();

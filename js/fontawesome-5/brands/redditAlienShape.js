@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import redditAlienString from './redditAlienString.js';
 
-export default new Shape( redditAlienString );
+export default new Shape( redditAlienString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import userTimesSolidString from './userTimesSolidString.js';
 
-export default new Shape( userTimesSolidString );
+export default new Shape( userTimesSolidString ).makeImmutable();

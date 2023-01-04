@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import stopCircleRegularString from './stopCircleRegularString.js';
 
-export default new Shape( stopCircleRegularString );
+export default new Shape( stopCircleRegularString ).makeImmutable();

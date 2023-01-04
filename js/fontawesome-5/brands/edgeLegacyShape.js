@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import edgeLegacyString from './edgeLegacyString.js';
 
-export default new Shape( edgeLegacyString );
+export default new Shape( edgeLegacyString ).makeImmutable();

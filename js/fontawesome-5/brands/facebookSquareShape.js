@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import facebookSquareString from './facebookSquareString.js';
 
-export default new Shape( facebookSquareString );
+export default new Shape( facebookSquareString ).makeImmutable();

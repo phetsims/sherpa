@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import hatCowboySideSolidString from './hatCowboySideSolidString.js';
 
-export default new Shape( hatCowboySideSolidString );
+export default new Shape( hatCowboySideSolidString ).makeImmutable();

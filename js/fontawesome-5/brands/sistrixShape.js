@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import sistrixString from './sistrixString.js';
 
-export default new Shape( sistrixString );
+export default new Shape( sistrixString ).makeImmutable();

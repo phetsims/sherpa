@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import suseString from './suseString.js';
 
-export default new Shape( suseString );
+export default new Shape( suseString ).makeImmutable();

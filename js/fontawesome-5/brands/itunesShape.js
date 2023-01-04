@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import itunesString from './itunesString.js';
 
-export default new Shape( itunesString );
+export default new Shape( itunesString ).makeImmutable();

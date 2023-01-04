@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import toriiGateSolidString from './toriiGateSolidString.js';
 
-export default new Shape( toriiGateSolidString );
+export default new Shape( toriiGateSolidString ).makeImmutable();

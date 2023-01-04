@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import quidditchSolidString from './quidditchSolidString.js';
 
-export default new Shape( quidditchSolidString );
+export default new Shape( quidditchSolidString ).makeImmutable();

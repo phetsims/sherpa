@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import chevronDownSolidString from './chevronDownSolidString.js';
 
-export default new Shape( chevronDownSolidString );
+export default new Shape( chevronDownSolidString ).makeImmutable();

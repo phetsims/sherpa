@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import bookmarkSolidString from './bookmarkSolidString.js';
 
-export default new Shape( bookmarkSolidString );
+export default new Shape( bookmarkSolidString ).makeImmutable();

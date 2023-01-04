@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import redditSquareString from './redditSquareString.js';
 
-export default new Shape( redditSquareString );
+export default new Shape( redditSquareString ).makeImmutable();

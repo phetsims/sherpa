@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import minusSquareSolidString from './minusSquareSolidString.js';
 
-export default new Shape( minusSquareSolidString );
+export default new Shape( minusSquareSolidString ).makeImmutable();

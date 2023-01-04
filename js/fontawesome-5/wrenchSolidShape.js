@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import wrenchSolidString from './wrenchSolidString.js';
 
-export default new Shape( wrenchSolidString );
+export default new Shape( wrenchSolidString ).makeImmutable();

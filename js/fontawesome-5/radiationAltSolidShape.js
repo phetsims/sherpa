@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import radiationAltSolidString from './radiationAltSolidString.js';
 
-export default new Shape( radiationAltSolidString );
+export default new Shape( radiationAltSolidString ).makeImmutable();

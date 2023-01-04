@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import sinkSolidString from './sinkSolidString.js';
 
-export default new Shape( sinkSolidString );
+export default new Shape( sinkSolidString ).makeImmutable();

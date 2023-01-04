@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import guitarSolidString from './guitarSolidString.js';
 
-export default new Shape( guitarSolidString );
+export default new Shape( guitarSolidString ).makeImmutable();

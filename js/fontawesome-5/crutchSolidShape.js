@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import crutchSolidString from './crutchSolidString.js';
 
-export default new Shape( crutchSolidString );
+export default new Shape( crutchSolidString ).makeImmutable();

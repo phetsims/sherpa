@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import slideshareString from './slideshareString.js';
 
-export default new Shape( slideshareString );
+export default new Shape( slideshareString ).makeImmutable();

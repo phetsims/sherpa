@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import mastodonString from './mastodonString.js';
 
-export default new Shape( mastodonString );
+export default new Shape( mastodonString ).makeImmutable();

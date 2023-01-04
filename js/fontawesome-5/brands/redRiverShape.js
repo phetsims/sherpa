@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import redRiverString from './redRiverString.js';
 
-export default new Shape( redRiverString );
+export default new Shape( redRiverString ).makeImmutable();

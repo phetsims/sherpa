@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import laptopCodeSolidString from './laptopCodeSolidString.js';
 
-export default new Shape( laptopCodeSolidString );
+export default new Shape( laptopCodeSolidString ).makeImmutable();

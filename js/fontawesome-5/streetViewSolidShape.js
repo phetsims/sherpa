@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import streetViewSolidString from './streetViewSolidString.js';
 
-export default new Shape( streetViewSolidString );
+export default new Shape( streetViewSolidString ).makeImmutable();

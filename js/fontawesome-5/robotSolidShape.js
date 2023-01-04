@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import robotSolidString from './robotSolidString.js';
 
-export default new Shape( robotSolidString );
+export default new Shape( robotSolidString ).makeImmutable();

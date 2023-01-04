@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import fastForwardSolidString from './fastForwardSolidString.js';
 
-export default new Shape( fastForwardSolidString );
+export default new Shape( fastForwardSolidString ).makeImmutable();

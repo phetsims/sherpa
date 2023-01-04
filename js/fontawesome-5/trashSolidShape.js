@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import trashSolidString from './trashSolidString.js';
 
-export default new Shape( trashSolidString );
+export default new Shape( trashSolidString ).makeImmutable();

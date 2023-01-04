@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import firefoxBrowserString from './firefoxBrowserString.js';
 
-export default new Shape( firefoxBrowserString );
+export default new Shape( firefoxBrowserString ).makeImmutable();

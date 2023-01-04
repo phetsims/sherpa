@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import scribdString from './scribdString.js';
 
-export default new Shape( scribdString );
+export default new Shape( scribdString ).makeImmutable();

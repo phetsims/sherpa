@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import dribbbleSquareString from './dribbbleSquareString.js';
 
-export default new Shape( dribbbleSquareString );
+export default new Shape( dribbbleSquareString ).makeImmutable();

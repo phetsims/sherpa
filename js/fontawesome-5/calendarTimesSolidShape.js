@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import calendarTimesSolidString from './calendarTimesSolidString.js';
 
-export default new Shape( calendarTimesSolidString );
+export default new Shape( calendarTimesSolidString ).makeImmutable();

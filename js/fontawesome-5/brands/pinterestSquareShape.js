@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import pinterestSquareString from './pinterestSquareString.js';
 
-export default new Shape( pinterestSquareString );
+export default new Shape( pinterestSquareString ).makeImmutable();

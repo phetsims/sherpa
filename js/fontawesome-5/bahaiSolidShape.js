@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import bahaiSolidString from './bahaiSolidString.js';
 
-export default new Shape( bahaiSolidString );
+export default new Shape( bahaiSolidString ).makeImmutable();

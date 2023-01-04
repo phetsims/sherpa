@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import cloneSolidString from './cloneSolidString.js';
 
-export default new Shape( cloneSolidString );
+export default new Shape( cloneSolidString ).makeImmutable();

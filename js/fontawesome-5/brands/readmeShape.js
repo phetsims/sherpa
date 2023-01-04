@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import readmeString from './readmeString.js';
 
-export default new Shape( readmeString );
+export default new Shape( readmeString ).makeImmutable();

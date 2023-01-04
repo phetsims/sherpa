@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import paletteSolidString from './paletteSolidString.js';
 
-export default new Shape( paletteSolidString );
+export default new Shape( paletteSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import wordpressString from './wordpressString.js';
 
-export default new Shape( wordpressString );
+export default new Shape( wordpressString ).makeImmutable();

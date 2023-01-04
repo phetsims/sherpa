@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import deafSolidString from './deafSolidString.js';
 
-export default new Shape( deafSolidString );
+export default new Shape( deafSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import unsplashString from './unsplashString.js';
 
-export default new Shape( unsplashString );
+export default new Shape( unsplashString ).makeImmutable();

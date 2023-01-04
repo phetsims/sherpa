@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import superscriptSolidString from './superscriptSolidString.js';
 
-export default new Shape( superscriptSolidString );
+export default new Shape( superscriptSolidString ).makeImmutable();

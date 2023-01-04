@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import amiliaString from './amiliaString.js';
 
-export default new Shape( amiliaString );
+export default new Shape( amiliaString ).makeImmutable();

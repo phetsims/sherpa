@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import angellistString from './angellistString.js';
 
-export default new Shape( angellistString );
+export default new Shape( angellistString ).makeImmutable();

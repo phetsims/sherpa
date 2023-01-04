@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import empireString from './empireString.js';
 
-export default new Shape( empireString );
+export default new Shape( empireString ).makeImmutable();

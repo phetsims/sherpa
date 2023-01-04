@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import motorcycleSolidString from './motorcycleSolidString.js';
 
-export default new Shape( motorcycleSolidString );
+export default new Shape( motorcycleSolidString ).makeImmutable();

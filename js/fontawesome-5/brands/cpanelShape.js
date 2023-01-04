@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import cpanelString from './cpanelString.js';
 
-export default new Shape( cpanelString );
+export default new Shape( cpanelString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import emberString from './emberString.js';
 
-export default new Shape( emberString );
+export default new Shape( emberString ).makeImmutable();

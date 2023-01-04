@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import adSolidString from './adSolidString.js';
 
-export default new Shape( adSolidString );
+export default new Shape( adSolidString ).makeImmutable();

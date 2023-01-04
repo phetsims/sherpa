@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import usbString from './usbString.js';
 
-export default new Shape( usbString );
+export default new Shape( usbString ).makeImmutable();

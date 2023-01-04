@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import angrySolidString from './angrySolidString.js';
 
-export default new Shape( angrySolidString );
+export default new Shape( angrySolidString ).makeImmutable();

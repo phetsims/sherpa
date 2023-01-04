@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import fonticonsFiString from './fonticonsFiString.js';
 
-export default new Shape( fonticonsFiString );
+export default new Shape( fonticonsFiString ).makeImmutable();

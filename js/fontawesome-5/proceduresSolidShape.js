@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import proceduresSolidString from './proceduresSolidString.js';
 
-export default new Shape( proceduresSolidString );
+export default new Shape( proceduresSolidString ).makeImmutable();

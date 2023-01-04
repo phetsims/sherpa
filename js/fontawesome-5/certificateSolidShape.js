@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import certificateSolidString from './certificateSolidString.js';
 
-export default new Shape( certificateSolidString );
+export default new Shape( certificateSolidString ).makeImmutable();

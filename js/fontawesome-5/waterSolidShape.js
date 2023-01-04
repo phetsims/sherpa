@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import waterSolidString from './waterSolidString.js';
 
-export default new Shape( waterSolidString );
+export default new Shape( waterSolidString ).makeImmutable();

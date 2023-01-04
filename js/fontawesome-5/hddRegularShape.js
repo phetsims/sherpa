@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import hddRegularString from './hddRegularString.js';
 
-export default new Shape( hddRegularString );
+export default new Shape( hddRegularString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import xboxString from './xboxString.js';
 
-export default new Shape( xboxString );
+export default new Shape( xboxString ).makeImmutable();

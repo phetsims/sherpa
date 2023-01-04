@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import transgenderSolidString from './transgenderSolidString.js';
 
-export default new Shape( transgenderSolidString );
+export default new Shape( transgenderSolidString ).makeImmutable();

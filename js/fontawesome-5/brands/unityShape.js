@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import unityString from './unityString.js';
 
-export default new Shape( unityString );
+export default new Shape( unityString ).makeImmutable();

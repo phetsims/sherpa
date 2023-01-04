@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import dharmachakraSolidString from './dharmachakraSolidString.js';
 
-export default new Shape( dharmachakraSolidString );
+export default new Shape( dharmachakraSolidString ).makeImmutable();

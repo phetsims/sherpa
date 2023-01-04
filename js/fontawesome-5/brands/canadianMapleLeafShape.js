@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import canadianMapleLeafString from './canadianMapleLeafString.js';
 
-export default new Shape( canadianMapleLeafString );
+export default new Shape( canadianMapleLeafString ).makeImmutable();

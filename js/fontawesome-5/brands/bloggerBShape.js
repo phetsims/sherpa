@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import bloggerBString from './bloggerBString.js';
 
-export default new Shape( bloggerBString );
+export default new Shape( bloggerBString ).makeImmutable();

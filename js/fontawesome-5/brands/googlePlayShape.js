@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import googlePlayString from './googlePlayString.js';
 
-export default new Shape( googlePlayString );
+export default new Shape( googlePlayString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import eyeDropperSolidString from './eyeDropperSolidString.js';
 
-export default new Shape( eyeDropperSolidString );
+export default new Shape( eyeDropperSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import exclamationTriangleSolidString from './exclamationTriangleSolidString.js';
 
-export default new Shape( exclamationTriangleSolidString );
+export default new Shape( exclamationTriangleSolidString ).makeImmutable();

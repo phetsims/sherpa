@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import drupalString from './drupalString.js';
 
-export default new Shape( drupalString );
+export default new Shape( drupalString ).makeImmutable();

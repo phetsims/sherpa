@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import alipayString from './alipayString.js';
 
-export default new Shape( alipayString );
+export default new Shape( alipayString ).makeImmutable();

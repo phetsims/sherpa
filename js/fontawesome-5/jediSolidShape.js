@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import jediSolidString from './jediSolidString.js';
 
-export default new Shape( jediSolidString );
+export default new Shape( jediSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import ttySolidString from './ttySolidString.js';
 
-export default new Shape( ttySolidString );
+export default new Shape( ttySolidString ).makeImmutable();

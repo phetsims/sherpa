@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import bityString from './bityString.js';
 
-export default new Shape( bityString );
+export default new Shape( bityString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import helicopterSolidString from './helicopterSolidString.js';
 
-export default new Shape( helicopterSolidString );
+export default new Shape( helicopterSolidString ).makeImmutable();

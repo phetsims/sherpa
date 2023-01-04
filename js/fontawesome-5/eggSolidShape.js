@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import eggSolidString from './eggSolidString.js';
 
-export default new Shape( eggSolidString );
+export default new Shape( eggSolidString ).makeImmutable();

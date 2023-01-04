@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import levelDownAltSolidString from './levelDownAltSolidString.js';
 
-export default new Shape( levelDownAltSolidString );
+export default new Shape( levelDownAltSolidString ).makeImmutable();

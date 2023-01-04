@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import mapSolidString from './mapSolidString.js';
 
-export default new Shape( mapSolidString );
+export default new Shape( mapSolidString ).makeImmutable();

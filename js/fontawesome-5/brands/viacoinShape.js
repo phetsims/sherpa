@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import viacoinString from './viacoinString.js';
 
-export default new Shape( viacoinString );
+export default new Shape( viacoinString ).makeImmutable();

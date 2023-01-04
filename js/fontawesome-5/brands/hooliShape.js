@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import hooliString from './hooliString.js';
 
-export default new Shape( hooliString );
+export default new Shape( hooliString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import sleighSolidString from './sleighSolidString.js';
 
-export default new Shape( sleighSolidString );
+export default new Shape( sleighSolidString ).makeImmutable();

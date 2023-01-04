@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import airbnbString from './airbnbString.js';
 
-export default new Shape( airbnbString );
+export default new Shape( airbnbString ).makeImmutable();

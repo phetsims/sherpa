@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import lyftString from './lyftString.js';
 
-export default new Shape( lyftString );
+export default new Shape( lyftString ).makeImmutable();

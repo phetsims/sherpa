@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import chargingStationSolidString from './chargingStationSolidString.js';
 
-export default new Shape( chargingStationSolidString );
+export default new Shape( chargingStationSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import weightHangingSolidString from './weightHangingSolidString.js';
 
-export default new Shape( weightHangingSolidString );
+export default new Shape( weightHangingSolidString ).makeImmutable();

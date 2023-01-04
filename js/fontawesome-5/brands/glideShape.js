@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import glideString from './glideString.js';
 
-export default new Shape( glideString );
+export default new Shape( glideString ).makeImmutable();

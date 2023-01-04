@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import kiwiBirdSolidString from './kiwiBirdSolidString.js';
 
-export default new Shape( kiwiBirdSolidString );
+export default new Shape( kiwiBirdSolidString ).makeImmutable();

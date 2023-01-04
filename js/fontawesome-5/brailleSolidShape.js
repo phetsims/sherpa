@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import brailleSolidString from './brailleSolidString.js';
 
-export default new Shape( brailleSolidString );
+export default new Shape( brailleSolidString ).makeImmutable();

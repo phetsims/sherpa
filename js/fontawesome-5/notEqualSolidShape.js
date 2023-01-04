@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import notEqualSolidString from './notEqualSolidString.js';
 
-export default new Shape( notEqualSolidString );
+export default new Shape( notEqualSolidString ).makeImmutable();

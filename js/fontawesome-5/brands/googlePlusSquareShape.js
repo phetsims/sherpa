@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import googlePlusSquareString from './googlePlusSquareString.js';
 
-export default new Shape( googlePlusSquareString );
+export default new Shape( googlePlusSquareString ).makeImmutable();

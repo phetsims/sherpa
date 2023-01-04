@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import researchgateString from './researchgateString.js';
 
-export default new Shape( researchgateString );
+export default new Shape( researchgateString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import renrenString from './renrenString.js';
 
-export default new Shape( renrenString );
+export default new Shape( renrenString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import doorClosedSolidString from './doorClosedSolidString.js';
 
-export default new Shape( doorClosedSolidString );
+export default new Shape( doorClosedSolidString ).makeImmutable();

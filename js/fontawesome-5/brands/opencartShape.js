@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import opencartString from './opencartString.js';
 
-export default new Shape( opencartString );
+export default new Shape( opencartString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import listAltRegularString from './listAltRegularString.js';
 
-export default new Shape( listAltRegularString );
+export default new Shape( listAltRegularString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import accusoftString from './accusoftString.js';
 
-export default new Shape( accusoftString );
+export default new Shape( accusoftString ).makeImmutable();

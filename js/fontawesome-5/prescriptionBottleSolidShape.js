@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import prescriptionBottleSolidString from './prescriptionBottleSolidString.js';
 
-export default new Shape( prescriptionBottleSolidString );
+export default new Shape( prescriptionBottleSolidString ).makeImmutable();

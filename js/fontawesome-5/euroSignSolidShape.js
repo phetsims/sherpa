@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import euroSignSolidString from './euroSignSolidString.js';
 
-export default new Shape( euroSignSolidString );
+export default new Shape( euroSignSolidString ).makeImmutable();

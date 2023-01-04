@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import glassMartiniAltSolidString from './glassMartiniAltSolidString.js';
 
-export default new Shape( glassMartiniAltSolidString );
+export default new Shape( glassMartiniAltSolidString ).makeImmutable();

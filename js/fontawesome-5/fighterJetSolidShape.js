@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import fighterJetSolidString from './fighterJetSolidString.js';
 
-export default new Shape( fighterJetSolidString );
+export default new Shape( fighterJetSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import meetupString from './meetupString.js';
 
-export default new Shape( meetupString );
+export default new Shape( meetupString ).makeImmutable();

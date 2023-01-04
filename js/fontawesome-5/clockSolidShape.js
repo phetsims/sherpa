@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import clockSolidString from './clockSolidString.js';
 
-export default new Shape( clockSolidString );
+export default new Shape( clockSolidString ).makeImmutable();

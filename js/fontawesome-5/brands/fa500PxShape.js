@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import fa500PxString from './fa500PxString.js';
 
-export default new Shape( fa500PxString );
+export default new Shape( fa500PxString ).makeImmutable();

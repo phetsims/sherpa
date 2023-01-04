@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import syncAltSolidString from './syncAltSolidString.js';
 
-export default new Shape( syncAltSolidString );
+export default new Shape( syncAltSolidString ).makeImmutable();

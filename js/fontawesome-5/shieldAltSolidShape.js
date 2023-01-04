@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import shieldAltSolidString from './shieldAltSolidString.js';
 
-export default new Shape( shieldAltSolidString );
+export default new Shape( shieldAltSolidString ).makeImmutable();

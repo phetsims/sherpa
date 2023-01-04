@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import divideSolidString from './divideSolidString.js';
 
-export default new Shape( divideSolidString );
+export default new Shape( divideSolidString ).makeImmutable();

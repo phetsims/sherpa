@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import truckMovingSolidString from './truckMovingSolidString.js';
 
-export default new Shape( truckMovingSolidString );
+export default new Shape( truckMovingSolidString ).makeImmutable();

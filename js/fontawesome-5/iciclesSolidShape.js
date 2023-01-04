@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import iciclesSolidString from './iciclesSolidString.js';
 
-export default new Shape( iciclesSolidString );
+export default new Shape( iciclesSolidString ).makeImmutable();

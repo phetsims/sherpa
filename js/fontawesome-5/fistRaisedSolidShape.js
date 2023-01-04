@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import fistRaisedSolidString from './fistRaisedSolidString.js';
 
-export default new Shape( fistRaisedSolidString );
+export default new Shape( fistRaisedSolidString ).makeImmutable();

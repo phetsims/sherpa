@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import chevronCircleDownSolidString from './chevronCircleDownSolidString.js';
 
-export default new Shape( chevronCircleDownSolidString );
+export default new Shape( chevronCircleDownSolidString ).makeImmutable();

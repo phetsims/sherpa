@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import reacteuropeString from './reacteuropeString.js';
 
-export default new Shape( reacteuropeString );
+export default new Shape( reacteuropeString ).makeImmutable();

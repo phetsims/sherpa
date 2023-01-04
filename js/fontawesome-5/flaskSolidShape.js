@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import flaskSolidString from './flaskSolidString.js';
 
-export default new Shape( flaskSolidString );
+export default new Shape( flaskSolidString ).makeImmutable();

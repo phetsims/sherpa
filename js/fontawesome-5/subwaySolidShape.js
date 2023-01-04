@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import subwaySolidString from './subwaySolidString.js';
 
-export default new Shape( subwaySolidString );
+export default new Shape( subwaySolidString ).makeImmutable();

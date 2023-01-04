@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import mixcloudString from './mixcloudString.js';
 
-export default new Shape( mixcloudString );
+export default new Shape( mixcloudString ).makeImmutable();

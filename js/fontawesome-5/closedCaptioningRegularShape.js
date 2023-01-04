@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import closedCaptioningRegularString from './closedCaptioningRegularString.js';
 
-export default new Shape( closedCaptioningRegularString );
+export default new Shape( closedCaptioningRegularString ).makeImmutable();

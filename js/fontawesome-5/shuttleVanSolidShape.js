@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import shuttleVanSolidString from './shuttleVanSolidString.js';
 
-export default new Shape( shuttleVanSolidString );
+export default new Shape( shuttleVanSolidString ).makeImmutable();

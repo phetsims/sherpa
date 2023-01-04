@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import viadeoString from './viadeoString.js';
 
-export default new Shape( viadeoString );
+export default new Shape( viadeoString ).makeImmutable();

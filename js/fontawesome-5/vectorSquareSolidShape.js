@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import vectorSquareSolidString from './vectorSquareSolidString.js';
 
-export default new Shape( vectorSquareSolidString );
+export default new Shape( vectorSquareSolidString ).makeImmutable();

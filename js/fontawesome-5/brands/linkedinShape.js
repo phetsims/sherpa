@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import linkedinString from './linkedinString.js';
 
-export default new Shape( linkedinString );
+export default new Shape( linkedinString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import pasteSolidString from './pasteSolidString.js';
 
-export default new Shape( pasteSolidString );
+export default new Shape( pasteSolidString ).makeImmutable();

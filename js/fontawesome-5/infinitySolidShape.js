@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import infinitySolidString from './infinitySolidString.js';
 
-export default new Shape( infinitySolidString );
+export default new Shape( infinitySolidString ).makeImmutable();

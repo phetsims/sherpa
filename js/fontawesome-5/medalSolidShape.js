@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import medalSolidString from './medalSolidString.js';
 
-export default new Shape( medalSolidString );
+export default new Shape( medalSolidString ).makeImmutable();

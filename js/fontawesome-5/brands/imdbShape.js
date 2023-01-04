@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import imdbString from './imdbString.js';
 
-export default new Shape( imdbString );
+export default new Shape( imdbString ).makeImmutable();

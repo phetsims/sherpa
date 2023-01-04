@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import palfedString from './palfedString.js';
 
-export default new Shape( palfedString );
+export default new Shape( palfedString ).makeImmutable();

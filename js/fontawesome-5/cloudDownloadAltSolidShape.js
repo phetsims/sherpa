@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import cloudDownloadAltSolidString from './cloudDownloadAltSolidString.js';
 
-export default new Shape( cloudDownloadAltSolidString );
+export default new Shape( cloudDownloadAltSolidString ).makeImmutable();

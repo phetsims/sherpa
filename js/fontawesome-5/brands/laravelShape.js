@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import laravelString from './laravelString.js';
 
-export default new Shape( laravelString );
+export default new Shape( laravelString ).makeImmutable();

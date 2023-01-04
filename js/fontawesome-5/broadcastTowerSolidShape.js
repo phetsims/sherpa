@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import broadcastTowerSolidString from './broadcastTowerSolidString.js';
 
-export default new Shape( broadcastTowerSolidString );
+export default new Shape( broadcastTowerSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import operaString from './operaString.js';
 
-export default new Shape( operaString );
+export default new Shape( operaString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import stripeString from './stripeString.js';
 
-export default new Shape( stripeString );
+export default new Shape( stripeString ).makeImmutable();

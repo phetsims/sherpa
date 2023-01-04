@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import paintBrushSolidString from './paintBrushSolidString.js';
 
-export default new Shape( paintBrushSolidString );
+export default new Shape( paintBrushSolidString ).makeImmutable();

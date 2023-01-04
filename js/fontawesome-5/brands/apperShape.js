@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import apperString from './apperString.js';
 
-export default new Shape( apperString );
+export default new Shape( apperString ).makeImmutable();

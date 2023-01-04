@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import gopuramSolidString from './gopuramSolidString.js';
 
-export default new Shape( gopuramSolidString );
+export default new Shape( gopuramSolidString ).makeImmutable();

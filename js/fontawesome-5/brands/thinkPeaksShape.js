@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import thinkPeaksString from './thinkPeaksString.js';
 
-export default new Shape( thinkPeaksString );
+export default new Shape( thinkPeaksString ).makeImmutable();

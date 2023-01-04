@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import shippingFastSolidString from './shippingFastSolidString.js';
 
-export default new Shape( shippingFastSolidString );
+export default new Shape( shippingFastSolidString ).makeImmutable();

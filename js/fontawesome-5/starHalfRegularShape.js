@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import starHalfRegularString from './starHalfRegularString.js';
 
-export default new Shape( starHalfRegularString );
+export default new Shape( starHalfRegularString ).makeImmutable();

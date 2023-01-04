@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import osiString from './osiString.js';
 
-export default new Shape( osiString );
+export default new Shape( osiString ).makeImmutable();

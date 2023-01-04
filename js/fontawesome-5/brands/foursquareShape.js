@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import foursquareString from './foursquareString.js';
 
-export default new Shape( foursquareString );
+export default new Shape( foursquareString ).makeImmutable();

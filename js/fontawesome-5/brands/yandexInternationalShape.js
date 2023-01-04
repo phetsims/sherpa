@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import yandexInternationalString from './yandexInternationalString.js';
 
-export default new Shape( yandexInternationalString );
+export default new Shape( yandexInternationalString ).makeImmutable();

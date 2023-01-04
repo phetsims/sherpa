@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import pepperHotSolidString from './pepperHotSolidString.js';
 
-export default new Shape( pepperHotSolidString );
+export default new Shape( pepperHotSolidString ).makeImmutable();

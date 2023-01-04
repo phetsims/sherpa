@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import boltSolidString from './boltSolidString.js';
 
-export default new Shape( boltSolidString );
+export default new Shape( boltSolidString ).makeImmutable();

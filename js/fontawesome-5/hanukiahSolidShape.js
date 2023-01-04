@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import hanukiahSolidString from './hanukiahSolidString.js';
 
-export default new Shape( hanukiahSolidString );
+export default new Shape( hanukiahSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import checkCircleRegularString from './checkCircleRegularString.js';
 
-export default new Shape( checkCircleRegularString );
+export default new Shape( checkCircleRegularString ).makeImmutable();

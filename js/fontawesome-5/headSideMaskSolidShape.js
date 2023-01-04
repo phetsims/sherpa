@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import headSideMaskSolidString from './headSideMaskSolidString.js';
 
-export default new Shape( headSideMaskSolidString );
+export default new Shape( headSideMaskSolidString ).makeImmutable();

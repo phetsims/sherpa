@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import squarespaceString from './squarespaceString.js';
 
-export default new Shape( squarespaceString );
+export default new Shape( squarespaceString ).makeImmutable();

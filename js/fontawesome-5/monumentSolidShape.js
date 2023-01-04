@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import monumentSolidString from './monumentSolidString.js';
 
-export default new Shape( monumentSolidString );
+export default new Shape( monumentSolidString ).makeImmutable();

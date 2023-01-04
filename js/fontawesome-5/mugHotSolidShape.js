@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import mugHotSolidString from './mugHotSolidString.js';
 
-export default new Shape( mugHotSolidString );
+export default new Shape( mugHotSolidString ).makeImmutable();

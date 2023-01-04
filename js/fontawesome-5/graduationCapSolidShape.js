@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import graduationCapSolidString from './graduationCapSolidString.js';
 
-export default new Shape( graduationCapSolidString );
+export default new Shape( graduationCapSolidString ).makeImmutable();

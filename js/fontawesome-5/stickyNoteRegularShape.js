@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import stickyNoteRegularString from './stickyNoteRegularString.js';
 
-export default new Shape( stickyNoteRegularString );
+export default new Shape( stickyNoteRegularString ).makeImmutable();

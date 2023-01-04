@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import xingSquareString from './xingSquareString.js';
 
-export default new Shape( xingSquareString );
+export default new Shape( xingSquareString ).makeImmutable();

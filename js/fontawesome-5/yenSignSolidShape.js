@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import yenSignSolidString from './yenSignSolidString.js';
 
-export default new Shape( yenSignSolidString );
+export default new Shape( yenSignSolidString ).makeImmutable();

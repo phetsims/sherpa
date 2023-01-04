@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import mediumString from './mediumString.js';
 
-export default new Shape( mediumString );
+export default new Shape( mediumString ).makeImmutable();

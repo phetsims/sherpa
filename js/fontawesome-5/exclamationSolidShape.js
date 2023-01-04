@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import exclamationSolidString from './exclamationSolidString.js';
 
-export default new Shape( exclamationSolidString );
+export default new Shape( exclamationSolidString ).makeImmutable();

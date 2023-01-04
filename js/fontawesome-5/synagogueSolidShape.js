@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import synagogueSolidString from './synagogueSolidString.js';
 
-export default new Shape( synagogueSolidString );
+export default new Shape( synagogueSolidString ).makeImmutable();

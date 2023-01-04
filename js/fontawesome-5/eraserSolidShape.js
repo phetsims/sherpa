@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import eraserSolidString from './eraserSolidString.js';
 
-export default new Shape( eraserSolidString );
+export default new Shape( eraserSolidString ).makeImmutable();

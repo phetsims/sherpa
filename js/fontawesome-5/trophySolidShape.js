@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import trophySolidString from './trophySolidString.js';
 
-export default new Shape( trophySolidString );
+export default new Shape( trophySolidString ).makeImmutable();

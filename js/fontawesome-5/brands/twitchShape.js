@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import twitchString from './twitchString.js';
 
-export default new Shape( twitchString );
+export default new Shape( twitchString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import wpressrString from './wpressrString.js';
 
-export default new Shape( wpressrString );
+export default new Shape( wpressrString ).makeImmutable();

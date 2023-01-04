@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import kickstarterKString from './kickstarterKString.js';
 
-export default new Shape( kickstarterKString );
+export default new Shape( kickstarterKString ).makeImmutable();

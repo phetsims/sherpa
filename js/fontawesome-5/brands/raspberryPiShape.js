@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import raspberryPiString from './raspberryPiString.js';
 
-export default new Shape( raspberryPiString );
+export default new Shape( raspberryPiString ).makeImmutable();

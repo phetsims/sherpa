@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import whatsappSquareString from './whatsappSquareString.js';
 
-export default new Shape( whatsappSquareString );
+export default new Shape( whatsappSquareString ).makeImmutable();

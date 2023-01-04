@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import freebsdString from './freebsdString.js';
 
-export default new Shape( freebsdString );
+export default new Shape( freebsdString ).makeImmutable();

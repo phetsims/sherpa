@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import rockrmsString from './rockrmsString.js';
 
-export default new Shape( rockrmsString );
+export default new Shape( rockrmsString ).makeImmutable();

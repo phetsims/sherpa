@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import ns8String from './ns8String.js';
 
-export default new Shape( ns8String );
+export default new Shape( ns8String ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import thermometerFullSolidString from './thermometerFullSolidString.js';
 
-export default new Shape( thermometerFullSolidString );
+export default new Shape( thermometerFullSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import grinBeamSolidString from './grinBeamSolidString.js';
 
-export default new Shape( grinBeamSolidString );
+export default new Shape( grinBeamSolidString ).makeImmutable();

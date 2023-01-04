@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import autoprefixerString from './autoprefixerString.js';
 
-export default new Shape( autoprefixerString );
+export default new Shape( autoprefixerString ).makeImmutable();

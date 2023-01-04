@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import genderlessSolidString from './genderlessSolidString.js';
 
-export default new Shape( genderlessSolidString );
+export default new Shape( genderlessSolidString ).makeImmutable();

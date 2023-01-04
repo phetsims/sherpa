@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import neosString from './neosString.js';
 
-export default new Shape( neosString );
+export default new Shape( neosString ).makeImmutable();

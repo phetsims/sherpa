@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import ioxhostString from './ioxhostString.js';
 
-export default new Shape( ioxhostString );
+export default new Shape( ioxhostString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import magentoString from './magentoString.js';
 
-export default new Shape( magentoString );
+export default new Shape( magentoString ).makeImmutable();

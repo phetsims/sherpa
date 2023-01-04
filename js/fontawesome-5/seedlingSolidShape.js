@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import seedlingSolidString from './seedlingSolidString.js';
 
-export default new Shape( seedlingSolidString );
+export default new Shape( seedlingSolidString ).makeImmutable();

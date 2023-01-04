@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import userEditSolidString from './userEditSolidString.js';
 
-export default new Shape( userEditSolidString );
+export default new Shape( userEditSolidString ).makeImmutable();

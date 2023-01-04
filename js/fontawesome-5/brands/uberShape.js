@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import uberString from './uberString.js';
 
-export default new Shape( uberString );
+export default new Shape( uberString ).makeImmutable();

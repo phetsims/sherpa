@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import eyeSlashRegularString from './eyeSlashRegularString.js';
 
-export default new Shape( eyeSlashRegularString );
+export default new Shape( eyeSlashRegularString ).makeImmutable();

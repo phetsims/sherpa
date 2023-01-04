@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import dyalogString from './dyalogString.js';
 
-export default new Shape( dyalogString );
+export default new Shape( dyalogString ).makeImmutable();

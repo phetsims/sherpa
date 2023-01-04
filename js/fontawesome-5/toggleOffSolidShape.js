@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import toggleOffSolidString from './toggleOffSolidString.js';
 
-export default new Shape( toggleOffSolidString );
+export default new Shape( toggleOffSolidString ).makeImmutable();

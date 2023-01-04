@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import directionsSolidString from './directionsSolidString.js';
 
-export default new Shape( directionsSolidString );
+export default new Shape( directionsSolidString ).makeImmutable();

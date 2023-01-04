@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import pumpSoapSolidString from './pumpSoapSolidString.js';
 
-export default new Shape( pumpSoapSolidString );
+export default new Shape( pumpSoapSolidString ).makeImmutable();

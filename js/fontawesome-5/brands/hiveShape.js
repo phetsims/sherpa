@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import hiveString from './hiveString.js';
 
-export default new Shape( hiveString );
+export default new Shape( hiveString ).makeImmutable();

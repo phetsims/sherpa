@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import windowMinimizeSolidString from './windowMinimizeSolidString.js';
 
-export default new Shape( windowMinimizeSolidString );
+export default new Shape( windowMinimizeSolidString ).makeImmutable();

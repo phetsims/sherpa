@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import doveSolidString from './doveSolidString.js';
 
-export default new Shape( doveSolidString );
+export default new Shape( doveSolidString ).makeImmutable();

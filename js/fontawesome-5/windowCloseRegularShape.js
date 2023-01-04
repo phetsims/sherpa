@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import windowCloseRegularString from './windowCloseRegularString.js';
 
-export default new Shape( windowCloseRegularString );
+export default new Shape( windowCloseRegularString ).makeImmutable();

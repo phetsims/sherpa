@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import rocketSolidString from './rocketSolidString.js';
 
-export default new Shape( rocketSolidString );
+export default new Shape( rocketSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import stravaString from './stravaString.js';
 
-export default new Shape( stravaString );
+export default new Shape( stravaString ).makeImmutable();

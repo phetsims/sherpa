@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import napsterString from './napsterString.js';
 
-export default new Shape( napsterString );
+export default new Shape( napsterString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import freeCodeCampString from './freeCodeCampString.js';
 
-export default new Shape( freeCodeCampString );
+export default new Shape( freeCodeCampString ).makeImmutable();

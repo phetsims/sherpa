@@ -118,7 +118,7 @@ const getShapeFileText = ( typeName, style ) => {
 import { Shape } from '../../../${style === 'brands' ? '../' : ''}kite/js/imports.js';
 import ${term} from './${term}.js';
 
-export default new Shape( ${term} );`;
+export default new Shape( ${term} ).makeImmutable();`;
 };
 
 const list = [];

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import skyatlasString from './skyatlasString.js';
 
-export default new Shape( skyatlasString );
+export default new Shape( skyatlasString ).makeImmutable();

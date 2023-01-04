@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import bookDeadSolidString from './bookDeadSolidString.js';
 
-export default new Shape( bookDeadSolidString );
+export default new Shape( bookDeadSolidString ).makeImmutable();

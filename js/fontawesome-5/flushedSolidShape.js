@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import flushedSolidString from './flushedSolidString.js';
 
-export default new Shape( flushedSolidString );
+export default new Shape( flushedSolidString ).makeImmutable();

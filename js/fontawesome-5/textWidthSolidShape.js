@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import textWidthSolidString from './textWidthSolidString.js';
 
-export default new Shape( textWidthSolidString );
+export default new Shape( textWidthSolidString ).makeImmutable();

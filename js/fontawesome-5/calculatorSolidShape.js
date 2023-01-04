@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import calculatorSolidString from './calculatorSolidString.js';
 
-export default new Shape( calculatorSolidString );
+export default new Shape( calculatorSolidString ).makeImmutable();

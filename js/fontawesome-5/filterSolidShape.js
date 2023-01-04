@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import filterSolidString from './filterSolidString.js';
 
-export default new Shape( filterSolidString );
+export default new Shape( filterSolidString ).makeImmutable();

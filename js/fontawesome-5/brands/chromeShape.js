@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import chromeString from './chromeString.js';
 
-export default new Shape( chromeString );
+export default new Shape( chromeString ).makeImmutable();

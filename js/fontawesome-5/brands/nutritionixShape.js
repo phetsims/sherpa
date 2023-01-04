@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import nutritionixString from './nutritionixString.js';
 
-export default new Shape( nutritionixString );
+export default new Shape( nutritionixString ).makeImmutable();

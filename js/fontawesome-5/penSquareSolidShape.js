@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import penSquareSolidString from './penSquareSolidString.js';
 
-export default new Shape( penSquareSolidString );
+export default new Shape( penSquareSolidString ).makeImmutable();

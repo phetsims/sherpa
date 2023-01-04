@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import ankhSolidString from './ankhSolidString.js';
 
-export default new Shape( ankhSolidString );
+export default new Shape( ankhSolidString ).makeImmutable();

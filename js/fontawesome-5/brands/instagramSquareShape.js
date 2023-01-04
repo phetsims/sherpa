@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import instagramSquareString from './instagramSquareString.js';
 
-export default new Shape( instagramSquareString );
+export default new Shape( instagramSquareString ).makeImmutable();

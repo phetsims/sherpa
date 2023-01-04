@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import recordVinylSolidString from './recordVinylSolidString.js';
 
-export default new Shape( recordVinylSolidString );
+export default new Shape( recordVinylSolidString ).makeImmutable();

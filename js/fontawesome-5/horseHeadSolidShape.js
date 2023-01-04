@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import horseHeadSolidString from './horseHeadSolidString.js';
 
-export default new Shape( horseHeadSolidString );
+export default new Shape( horseHeadSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import dashcubeString from './dashcubeString.js';
 
-export default new Shape( dashcubeString );
+export default new Shape( dashcubeString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import sithString from './sithString.js';
 
-export default new Shape( sithString );
+export default new Shape( sithString ).makeImmutable();

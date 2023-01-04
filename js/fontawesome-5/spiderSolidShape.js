@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import spiderSolidString from './spiderSolidString.js';
 
-export default new Shape( spiderSolidString );
+export default new Shape( spiderSolidString ).makeImmutable();

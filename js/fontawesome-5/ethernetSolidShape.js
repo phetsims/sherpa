@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import ethernetSolidString from './ethernetSolidString.js';
 
-export default new Shape( ethernetSolidString );
+export default new Shape( ethernetSolidString ).makeImmutable();

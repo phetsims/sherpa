@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import blenderSolidString from './blenderSolidString.js';
 
-export default new Shape( blenderSolidString );
+export default new Shape( blenderSolidString ).makeImmutable();

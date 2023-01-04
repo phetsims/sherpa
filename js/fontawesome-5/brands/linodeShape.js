@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import linodeString from './linodeString.js';
 
-export default new Shape( linodeString );
+export default new Shape( linodeString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import randomSolidString from './randomSolidString.js';
 
-export default new Shape( randomSolidString );
+export default new Shape( randomSolidString ).makeImmutable();

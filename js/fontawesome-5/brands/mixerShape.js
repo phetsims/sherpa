@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import mixerString from './mixerString.js';
 
-export default new Shape( mixerString );
+export default new Shape( mixerString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import checkSolidString from './checkSolidString.js';
 
-export default new Shape( checkSolidString );
+export default new Shape( checkSolidString ).makeImmutable();

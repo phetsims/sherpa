@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import mercurySolidString from './mercurySolidString.js';
 
-export default new Shape( mercurySolidString );
+export default new Shape( mercurySolidString ).makeImmutable();

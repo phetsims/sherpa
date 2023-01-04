@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import vineString from './vineString.js';
 
-export default new Shape( vineString );
+export default new Shape( vineString ).makeImmutable();

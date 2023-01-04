@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import codiepieString from './codiepieString.js';
 
-export default new Shape( codiepieString );
+export default new Shape( codiepieString ).makeImmutable();

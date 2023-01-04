@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import deskproString from './deskproString.js';
 
-export default new Shape( deskproString );
+export default new Shape( deskproString ).makeImmutable();

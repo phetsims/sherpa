@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import piedPiperHatString from './piedPiperHatString.js';
 
-export default new Shape( piedPiperHatString );
+export default new Shape( piedPiperHatString ).makeImmutable();

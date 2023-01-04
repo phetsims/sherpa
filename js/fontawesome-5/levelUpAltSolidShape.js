@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import levelUpAltSolidString from './levelUpAltSolidString.js';
 
-export default new Shape( levelUpAltSolidString );
+export default new Shape( levelUpAltSolidString ).makeImmutable();

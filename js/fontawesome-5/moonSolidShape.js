@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import moonSolidString from './moonSolidString.js';
 
-export default new Shape( moonSolidString );
+export default new Shape( moonSolidString ).makeImmutable();

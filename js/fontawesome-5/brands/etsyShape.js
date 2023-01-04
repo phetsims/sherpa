@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import etsyString from './etsyString.js';
 
-export default new Shape( etsyString );
+export default new Shape( etsyString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import buromobelexperteString from './buromobelexperteString.js';
 
-export default new Shape( buromobelexperteString );
+export default new Shape( buromobelexperteString ).makeImmutable();

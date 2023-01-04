@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import pauseCircleSolidString from './pauseCircleSolidString.js';
 
-export default new Shape( pauseCircleSolidString );
+export default new Shape( pauseCircleSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import diggString from './diggString.js';
 
-export default new Shape( diggString );
+export default new Shape( diggString ).makeImmutable();

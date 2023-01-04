@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import magicSolidString from './magicSolidString.js';
 
-export default new Shape( magicSolidString );
+export default new Shape( magicSolidString ).makeImmutable();

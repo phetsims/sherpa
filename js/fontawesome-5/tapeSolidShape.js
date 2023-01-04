@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import tapeSolidString from './tapeSolidString.js';
 
-export default new Shape( tapeSolidString );
+export default new Shape( tapeSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import powerOffSolidString from './powerOffSolidString.js';
 
-export default new Shape( powerOffSolidString );
+export default new Shape( powerOffSolidString ).makeImmutable();

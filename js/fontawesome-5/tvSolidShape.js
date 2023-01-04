@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import tvSolidString from './tvSolidString.js';
 
-export default new Shape( tvSolidString );
+export default new Shape( tvSolidString ).makeImmutable();

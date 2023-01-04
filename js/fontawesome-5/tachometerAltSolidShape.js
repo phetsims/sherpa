@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import tachometerAltSolidString from './tachometerAltSolidString.js';
 
-export default new Shape( tachometerAltSolidString );
+export default new Shape( tachometerAltSolidString ).makeImmutable();

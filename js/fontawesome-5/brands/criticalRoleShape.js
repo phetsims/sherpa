@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import criticalRoleString from './criticalRoleString.js';
 
-export default new Shape( criticalRoleString );
+export default new Shape( criticalRoleString ).makeImmutable();

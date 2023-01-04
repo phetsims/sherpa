@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import faucetSolidString from './faucetSolidString.js';
 
-export default new Shape( faucetSolidString );
+export default new Shape( faucetSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import erlangString from './erlangString.js';
 
-export default new Shape( erlangString );
+export default new Shape( erlangString ).makeImmutable();

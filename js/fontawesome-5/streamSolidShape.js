@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import streamSolidString from './streamSolidString.js';
 
-export default new Shape( streamSolidString );
+export default new Shape( streamSolidString ).makeImmutable();

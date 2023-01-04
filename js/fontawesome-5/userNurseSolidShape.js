@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import userNurseSolidString from './userNurseSolidString.js';
 
-export default new Shape( userNurseSolidString );
+export default new Shape( userNurseSolidString ).makeImmutable();

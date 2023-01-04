@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import filePdfSolidString from './filePdfSolidString.js';
 
-export default new Shape( filePdfSolidString );
+export default new Shape( filePdfSolidString ).makeImmutable();

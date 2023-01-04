@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import flagSolidString from './flagSolidString.js';
 
-export default new Shape( flagSolidString );
+export default new Shape( flagSolidString ).makeImmutable();

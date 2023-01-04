@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import enviraString from './enviraString.js';
 
-export default new Shape( enviraString );
+export default new Shape( enviraString ).makeImmutable();

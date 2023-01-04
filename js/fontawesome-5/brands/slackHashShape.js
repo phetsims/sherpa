@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import slackHashString from './slackHashString.js';
 
-export default new Shape( slackHashString );
+export default new Shape( slackHashString ).makeImmutable();

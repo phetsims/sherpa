@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import markdownString from './markdownString.js';
 
-export default new Shape( markdownString );
+export default new Shape( markdownString ).makeImmutable();

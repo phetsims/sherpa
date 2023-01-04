@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import tengeSolidString from './tengeSolidString.js';
 
-export default new Shape( tengeSolidString );
+export default new Shape( tengeSolidString ).makeImmutable();

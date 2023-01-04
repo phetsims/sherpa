@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import hourglassEndSolidString from './hourglassEndSolidString.js';
 
-export default new Shape( hourglassEndSolidString );
+export default new Shape( hourglassEndSolidString ).makeImmutable();

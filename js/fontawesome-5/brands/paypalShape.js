@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import paypalString from './paypalString.js';
 
-export default new Shape( paypalString );
+export default new Shape( paypalString ).makeImmutable();

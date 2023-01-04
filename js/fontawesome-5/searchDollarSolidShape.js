@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import searchDollarSolidString from './searchDollarSolidString.js';
 
-export default new Shape( searchDollarSolidString );
+export default new Shape( searchDollarSolidString ).makeImmutable();

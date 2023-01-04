@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import iceCreamSolidString from './iceCreamSolidString.js';
 
-export default new Shape( iceCreamSolidString );
+export default new Shape( iceCreamSolidString ).makeImmutable();

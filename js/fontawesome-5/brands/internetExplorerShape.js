@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import internetExplorerString from './internetExplorerString.js';
 
-export default new Shape( internetExplorerString );
+export default new Shape( internetExplorerString ).makeImmutable();

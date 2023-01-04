@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import baconSolidString from './baconSolidString.js';
 
-export default new Shape( baconSolidString );
+export default new Shape( baconSolidString ).makeImmutable();

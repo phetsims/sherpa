@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import bacteriaSolidString from './bacteriaSolidString.js';
 
-export default new Shape( bacteriaSolidString );
+export default new Shape( bacteriaSolidString ).makeImmutable();

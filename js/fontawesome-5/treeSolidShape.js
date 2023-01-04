@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import treeSolidString from './treeSolidString.js';
 
-export default new Shape( treeSolidString );
+export default new Shape( treeSolidString ).makeImmutable();

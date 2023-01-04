@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import revString from './revString.js';
 
-export default new Shape( revString );
+export default new Shape( revString ).makeImmutable();

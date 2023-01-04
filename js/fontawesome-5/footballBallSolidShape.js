@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import footballBallSolidString from './footballBallSolidString.js';
 
-export default new Shape( footballBallSolidString );
+export default new Shape( footballBallSolidString ).makeImmutable();

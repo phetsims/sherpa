@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import chartBarRegularString from './chartBarRegularString.js';
 
-export default new Shape( chartBarRegularString );
+export default new Shape( chartBarRegularString ).makeImmutable();

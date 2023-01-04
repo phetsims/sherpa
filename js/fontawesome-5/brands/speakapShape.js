@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import speakapString from './speakapString.js';
 
-export default new Shape( speakapString );
+export default new Shape( speakapString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import chalkboardSolidString from './chalkboardSolidString.js';
 
-export default new Shape( chalkboardSolidString );
+export default new Shape( chalkboardSolidString ).makeImmutable();

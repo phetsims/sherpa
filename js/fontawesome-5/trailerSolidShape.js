@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import trailerSolidString from './trailerSolidString.js';
 
-export default new Shape( trailerSolidString );
+export default new Shape( trailerSolidString ).makeImmutable();

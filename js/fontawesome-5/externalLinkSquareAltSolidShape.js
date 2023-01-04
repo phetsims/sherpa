@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import externalLinkSquareAltSolidString from './externalLinkSquareAltSolidString.js';
 
-export default new Shape( externalLinkSquareAltSolidString );
+export default new Shape( externalLinkSquareAltSolidString ).makeImmutable();

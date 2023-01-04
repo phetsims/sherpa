@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import borderAllSolidString from './borderAllSolidString.js';
 
-export default new Shape( borderAllSolidString );
+export default new Shape( borderAllSolidString ).makeImmutable();

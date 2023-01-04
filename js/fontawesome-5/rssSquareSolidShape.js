@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import rssSquareSolidString from './rssSquareSolidString.js';
 
-export default new Shape( rssSquareSolidString );
+export default new Shape( rssSquareSolidString ).makeImmutable();

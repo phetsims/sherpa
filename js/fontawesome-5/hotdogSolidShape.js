@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import hotdogSolidString from './hotdogSolidString.js';
 
-export default new Shape( hotdogSolidString );
+export default new Shape( hotdogSolidString ).makeImmutable();

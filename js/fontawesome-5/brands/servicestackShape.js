@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import servicestackString from './servicestackString.js';
 
-export default new Shape( servicestackString );
+export default new Shape( servicestackString ).makeImmutable();

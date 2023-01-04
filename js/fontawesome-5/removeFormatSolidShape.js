@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import removeFormatSolidString from './removeFormatSolidString.js';
 
-export default new Shape( removeFormatSolidString );
+export default new Shape( removeFormatSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import dnaSolidString from './dnaSolidString.js';
 
-export default new Shape( dnaSolidString );
+export default new Shape( dnaSolidString ).makeImmutable();

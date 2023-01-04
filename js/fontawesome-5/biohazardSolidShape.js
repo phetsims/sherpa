@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import biohazardSolidString from './biohazardSolidString.js';
 
-export default new Shape( biohazardSolidString );
+export default new Shape( biohazardSolidString ).makeImmutable();

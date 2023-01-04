@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import tintSlashSolidString from './tintSlashSolidString.js';
 
-export default new Shape( tintSlashSolidString );
+export default new Shape( tintSlashSolidString ).makeImmutable();

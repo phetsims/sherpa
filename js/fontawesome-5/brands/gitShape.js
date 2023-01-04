@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import gitString from './gitString.js';
 
-export default new Shape( gitString );
+export default new Shape( gitString ).makeImmutable();

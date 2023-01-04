@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import compactDiscSolidString from './compactDiscSolidString.js';
 
-export default new Shape( compactDiscSolidString );
+export default new Shape( compactDiscSolidString ).makeImmutable();

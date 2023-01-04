@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import searchenginString from './searchenginString.js';
 
-export default new Shape( searchenginString );
+export default new Shape( searchenginString ).makeImmutable();

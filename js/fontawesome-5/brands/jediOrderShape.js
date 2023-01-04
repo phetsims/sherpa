@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import jediOrderString from './jediOrderString.js';
 
-export default new Shape( jediOrderString );
+export default new Shape( jediOrderString ).makeImmutable();

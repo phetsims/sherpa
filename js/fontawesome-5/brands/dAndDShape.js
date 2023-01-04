@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import dAndDString from './dAndDString.js';
 
-export default new Shape( dAndDString );
+export default new Shape( dAndDString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import bicycleSolidString from './bicycleSolidString.js';
 
-export default new Shape( bicycleSolidString );
+export default new Shape( bicycleSolidString ).makeImmutable();

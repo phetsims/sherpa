@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import ccDinersClubString from './ccDinersClubString.js';
 
-export default new Shape( ccDinersClubString );
+export default new Shape( ccDinersClubString ).makeImmutable();

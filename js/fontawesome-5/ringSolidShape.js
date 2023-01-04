@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import ringSolidString from './ringSolidString.js';
 
-export default new Shape( ringSolidString );
+export default new Shape( ringSolidString ).makeImmutable();
