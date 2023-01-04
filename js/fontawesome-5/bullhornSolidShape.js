@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import bullhornSolidString from './bullhornSolidString.js';
 
-export default new Shape( bullhornSolidString );
+export default new Shape( bullhornSolidString ).makeImmutable();

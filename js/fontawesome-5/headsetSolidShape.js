@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import headsetSolidString from './headsetSolidString.js';
 
-export default new Shape( headsetSolidString );
+export default new Shape( headsetSolidString ).makeImmutable();

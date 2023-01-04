@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import facebookMessengerString from './facebookMessengerString.js';
 
-export default new Shape( facebookMessengerString );
+export default new Shape( facebookMessengerString ).makeImmutable();

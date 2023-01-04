@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import octopusDeployString from './octopusDeployString.js';
 
-export default new Shape( octopusDeployString );
+export default new Shape( octopusDeployString ).makeImmutable();

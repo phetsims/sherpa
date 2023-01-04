@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import flickrString from './flickrString.js';
 
-export default new Shape( flickrString );
+export default new Shape( flickrString ).makeImmutable();

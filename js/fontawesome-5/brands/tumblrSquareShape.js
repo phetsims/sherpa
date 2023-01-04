@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import tumblrSquareString from './tumblrSquareString.js';
 
-export default new Shape( tumblrSquareString );
+export default new Shape( tumblrSquareString ).makeImmutable();

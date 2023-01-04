@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import avianexString from './avianexString.js';
 
-export default new Shape( avianexString );
+export default new Shape( avianexString ).makeImmutable();

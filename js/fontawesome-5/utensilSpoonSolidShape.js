@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import utensilSpoonSolidString from './utensilSpoonSolidString.js';
 
-export default new Shape( utensilSpoonSolidString );
+export default new Shape( utensilSpoonSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import vaadinString from './vaadinString.js';
 
-export default new Shape( vaadinString );
+export default new Shape( vaadinString ).makeImmutable();

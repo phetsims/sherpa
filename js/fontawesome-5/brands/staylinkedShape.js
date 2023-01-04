@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import staylinkedString from './staylinkedString.js';
 
-export default new Shape( staylinkedString );
+export default new Shape( staylinkedString ).makeImmutable();

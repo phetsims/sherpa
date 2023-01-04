@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import solarPanelSolidString from './solarPanelSolidString.js';
 
-export default new Shape( solarPanelSolidString );
+export default new Shape( solarPanelSolidString ).makeImmutable();

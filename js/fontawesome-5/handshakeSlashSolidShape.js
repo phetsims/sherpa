@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import handshakeSlashSolidString from './handshakeSlashSolidString.js';
 
-export default new Shape( handshakeSlashSolidString );
+export default new Shape( handshakeSlashSolidString ).makeImmutable();

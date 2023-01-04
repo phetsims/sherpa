@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import placeOfWorshipSolidString from './placeOfWorshipSolidString.js';
 
-export default new Shape( placeOfWorshipSolidString );
+export default new Shape( placeOfWorshipSolidString ).makeImmutable();

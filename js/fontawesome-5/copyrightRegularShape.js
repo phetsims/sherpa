@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import copyrightRegularString from './copyrightRegularString.js';
 
-export default new Shape( copyrightRegularString );
+export default new Shape( copyrightRegularString ).makeImmutable();

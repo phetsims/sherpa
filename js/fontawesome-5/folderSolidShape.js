@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import folderSolidString from './folderSolidString.js';
 
-export default new Shape( folderSolidString );
+export default new Shape( folderSolidString ).makeImmutable();

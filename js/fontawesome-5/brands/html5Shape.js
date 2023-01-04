@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import html5String from './html5String.js';
 
-export default new Shape( html5String );
+export default new Shape( html5String ).makeImmutable();

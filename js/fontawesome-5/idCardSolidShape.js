@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import idCardSolidString from './idCardSolidString.js';
 
-export default new Shape( idCardSolidString );
+export default new Shape( idCardSolidString ).makeImmutable();

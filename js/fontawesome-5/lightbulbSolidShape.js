@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import lightbulbSolidString from './lightbulbSolidString.js';
 
-export default new Shape( lightbulbSolidString );
+export default new Shape( lightbulbSolidString ).makeImmutable();

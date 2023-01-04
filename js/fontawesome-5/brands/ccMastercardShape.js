@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import ccMastercardString from './ccMastercardString.js';
 
-export default new Shape( ccMastercardString );
+export default new Shape( ccMastercardString ).makeImmutable();

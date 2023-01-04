@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import windowRestoreRegularString from './windowRestoreRegularString.js';
 
-export default new Shape( windowRestoreRegularString );
+export default new Shape( windowRestoreRegularString ).makeImmutable();

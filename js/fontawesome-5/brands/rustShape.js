@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import rustString from './rustString.js';
 
-export default new Shape( rustString );
+export default new Shape( rustString ).makeImmutable();

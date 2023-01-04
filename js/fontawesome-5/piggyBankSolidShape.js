@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import piggyBankSolidString from './piggyBankSolidString.js';
 
-export default new Shape( piggyBankSolidString );
+export default new Shape( piggyBankSolidString ).makeImmutable();

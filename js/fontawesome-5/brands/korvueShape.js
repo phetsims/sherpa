@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import korvueString from './korvueString.js';
 
-export default new Shape( korvueString );
+export default new Shape( korvueString ).makeImmutable();

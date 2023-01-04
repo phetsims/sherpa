@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import telegramString from './telegramString.js';
 
-export default new Shape( telegramString );
+export default new Shape( telegramString ).makeImmutable();

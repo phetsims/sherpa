@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import megaportString from './megaportString.js';
 
-export default new Shape( megaportString );
+export default new Shape( megaportString ).makeImmutable();

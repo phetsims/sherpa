@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import starAndCrescentSolidString from './starAndCrescentSolidString.js';
 
-export default new Shape( starAndCrescentSolidString );
+export default new Shape( starAndCrescentSolidString ).makeImmutable();

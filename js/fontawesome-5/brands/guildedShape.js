@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import guildedString from './guildedString.js';
 
-export default new Shape( guildedString );
+export default new Shape( guildedString ).makeImmutable();

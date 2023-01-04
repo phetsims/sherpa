@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import bandAidSolidString from './bandAidSolidString.js';
 
-export default new Shape( bandAidSolidString );
+export default new Shape( bandAidSolidString ).makeImmutable();

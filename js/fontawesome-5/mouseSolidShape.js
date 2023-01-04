@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import mouseSolidString from './mouseSolidString.js';
 
-export default new Shape( mouseSolidString );
+export default new Shape( mouseSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import simCardSolidString from './simCardSolidString.js';
 
-export default new Shape( simCardSolidString );
+export default new Shape( simCardSolidString ).makeImmutable();

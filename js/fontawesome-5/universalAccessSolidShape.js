@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import universalAccessSolidString from './universalAccessSolidString.js';
 
-export default new Shape( universalAccessSolidString );
+export default new Shape( universalAccessSolidString ).makeImmutable();

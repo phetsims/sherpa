@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import phoenixFrameworkString from './phoenixFrameworkString.js';
 
-export default new Shape( phoenixFrameworkString );
+export default new Shape( phoenixFrameworkString ).makeImmutable();

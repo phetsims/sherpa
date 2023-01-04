@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import grinSquintRegularString from './grinSquintRegularString.js';
 
-export default new Shape( grinSquintRegularString );
+export default new Shape( grinSquintRegularString ).makeImmutable();

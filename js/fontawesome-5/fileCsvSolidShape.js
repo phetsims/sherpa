@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import fileCsvSolidString from './fileCsvSolidString.js';
 
-export default new Shape( fileCsvSolidString );
+export default new Shape( fileCsvSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import draft2DigitalString from './draft2DigitalString.js';
 
-export default new Shape( draft2DigitalString );
+export default new Shape( draft2DigitalString ).makeImmutable();

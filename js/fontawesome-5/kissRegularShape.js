@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import kissRegularString from './kissRegularString.js';
 
-export default new Shape( kissRegularString );
+export default new Shape( kissRegularString ).makeImmutable();

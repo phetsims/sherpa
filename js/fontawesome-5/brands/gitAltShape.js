@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import gitAltString from './gitAltString.js';
 
-export default new Shape( gitAltString );
+export default new Shape( gitAltString ).makeImmutable();

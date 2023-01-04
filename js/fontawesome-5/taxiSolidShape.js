@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import taxiSolidString from './taxiSolidString.js';
 
-export default new Shape( taxiSolidString );
+export default new Shape( taxiSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import compassSolidString from './compassSolidString.js';
 
-export default new Shape( compassSolidString );
+export default new Shape( compassSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import batteryThreeQuartersSolidString from './batteryThreeQuartersSolidString.js';
 
-export default new Shape( batteryThreeQuartersSolidString );
+export default new Shape( batteryThreeQuartersSolidString ).makeImmutable();

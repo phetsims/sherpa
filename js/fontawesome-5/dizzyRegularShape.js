@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import dizzyRegularString from './dizzyRegularString.js';
 
-export default new Shape( dizzyRegularString );
+export default new Shape( dizzyRegularString ).makeImmutable();

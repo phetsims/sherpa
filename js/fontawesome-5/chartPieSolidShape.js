@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import chartPieSolidString from './chartPieSolidString.js';
 
-export default new Shape( chartPieSolidString );
+export default new Shape( chartPieSolidString ).makeImmutable();

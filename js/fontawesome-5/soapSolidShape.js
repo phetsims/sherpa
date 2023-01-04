@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import soapSolidString from './soapSolidString.js';
 
-export default new Shape( soapSolidString );
+export default new Shape( soapSolidString ).makeImmutable();

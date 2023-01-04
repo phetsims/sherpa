@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import bathSolidString from './bathSolidString.js';
 
-export default new Shape( bathSolidString );
+export default new Shape( bathSolidString ).makeImmutable();

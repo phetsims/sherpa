@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import creativeCommonsSamplingString from './creativeCommonsSamplingString.js';
 
-export default new Shape( creativeCommonsSamplingString );
+export default new Shape( creativeCommonsSamplingString ).makeImmutable();

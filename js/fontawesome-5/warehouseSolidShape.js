@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import warehouseSolidString from './warehouseSolidString.js';
 
-export default new Shape( warehouseSolidString );
+export default new Shape( warehouseSolidString ).makeImmutable();

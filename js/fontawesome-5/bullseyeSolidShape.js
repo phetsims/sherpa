@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import bullseyeSolidString from './bullseyeSolidString.js';
 
-export default new Shape( bullseyeSolidString );
+export default new Shape( bullseyeSolidString ).makeImmutable();

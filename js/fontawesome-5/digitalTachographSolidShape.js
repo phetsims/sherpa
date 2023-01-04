@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import digitalTachographSolidString from './digitalTachographSolidString.js';
 
-export default new Shape( digitalTachographSolidString );
+export default new Shape( digitalTachographSolidString ).makeImmutable();

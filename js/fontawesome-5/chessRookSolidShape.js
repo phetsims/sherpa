@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import chessRookSolidString from './chessRookSolidString.js';
 
-export default new Shape( chessRookSolidString );
+export default new Shape( chessRookSolidString ).makeImmutable();

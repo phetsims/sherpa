@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import medrtString from './medrtString.js';
 
-export default new Shape( medrtString );
+export default new Shape( medrtString ).makeImmutable();

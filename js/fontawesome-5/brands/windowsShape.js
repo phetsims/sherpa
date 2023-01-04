@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import windowsString from './windowsString.js';
 
-export default new Shape( windowsString );
+export default new Shape( windowsString ).makeImmutable();

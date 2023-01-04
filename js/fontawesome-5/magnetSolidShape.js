@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import magnetSolidString from './magnetSolidString.js';
 
-export default new Shape( magnetSolidString );
+export default new Shape( magnetSolidString ).makeImmutable();

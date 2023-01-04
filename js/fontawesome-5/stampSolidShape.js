@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import stampSolidString from './stampSolidString.js';
 
-export default new Shape( stampSolidString );
+export default new Shape( stampSolidString ).makeImmutable();

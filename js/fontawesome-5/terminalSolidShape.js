@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import terminalSolidString from './terminalSolidString.js';
 
-export default new Shape( terminalSolidString );
+export default new Shape( terminalSolidString ).makeImmutable();

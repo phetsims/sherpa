@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import vestPatchesSolidString from './vestPatchesSolidString.js';
 
-export default new Shape( vestPatchesSolidString );
+export default new Shape( vestPatchesSolidString ).makeImmutable();

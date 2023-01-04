@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import mizuniString from './mizuniString.js';
 
-export default new Shape( mizuniString );
+export default new Shape( mizuniString ).makeImmutable();

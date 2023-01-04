@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import cloudsmithString from './cloudsmithString.js';
 
-export default new Shape( cloudsmithString );
+export default new Shape( cloudsmithString ).makeImmutable();

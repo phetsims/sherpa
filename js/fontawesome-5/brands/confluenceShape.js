@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import confluenceString from './confluenceString.js';
 
-export default new Shape( confluenceString );
+export default new Shape( confluenceString ).makeImmutable();

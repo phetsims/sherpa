@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import fileWordRegularString from './fileWordRegularString.js';
 
-export default new Shape( fileWordRegularString );
+export default new Shape( fileWordRegularString ).makeImmutable();

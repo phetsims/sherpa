@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import networkWiredSolidString from './networkWiredSolidString.js';
 
-export default new Shape( networkWiredSolidString );
+export default new Shape( networkWiredSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import oldRepublicString from './oldRepublicString.js';
 
-export default new Shape( oldRepublicString );
+export default new Shape( oldRepublicString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import cuttlefishString from './cuttlefishString.js';
 
-export default new Shape( cuttlefishString );
+export default new Shape( cuttlefishString ).makeImmutable();

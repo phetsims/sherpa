@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import compressArrowsAltSolidString from './compressArrowsAltSolidString.js';
 
-export default new Shape( compressArrowsAltSolidString );
+export default new Shape( compressArrowsAltSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import flushedRegularString from './flushedRegularString.js';
 
-export default new Shape( flushedRegularString );
+export default new Shape( flushedRegularString ).makeImmutable();

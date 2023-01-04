@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import gemSolidString from './gemSolidString.js';
 
-export default new Shape( gemSolidString );
+export default new Shape( gemSolidString ).makeImmutable();

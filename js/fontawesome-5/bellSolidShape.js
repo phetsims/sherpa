@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import bellSolidString from './bellSolidString.js';
 
-export default new Shape( bellSolidString );
+export default new Shape( bellSolidString ).makeImmutable();

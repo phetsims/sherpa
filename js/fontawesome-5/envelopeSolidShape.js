@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import envelopeSolidString from './envelopeSolidString.js';
 
-export default new Shape( envelopeSolidString );
+export default new Shape( envelopeSolidString ).makeImmutable();

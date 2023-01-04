@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import fulcrumString from './fulcrumString.js';
 
-export default new Shape( fulcrumString );
+export default new Shape( fulcrumString ).makeImmutable();

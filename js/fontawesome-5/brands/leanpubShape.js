@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import leanpubString from './leanpubString.js';
 
-export default new Shape( leanpubString );
+export default new Shape( leanpubString ).makeImmutable();

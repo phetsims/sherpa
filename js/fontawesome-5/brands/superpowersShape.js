@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import superpowersString from './superpowersString.js';
 
-export default new Shape( superpowersString );
+export default new Shape( superpowersString ).makeImmutable();

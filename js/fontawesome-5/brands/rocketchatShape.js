@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import rocketchatString from './rocketchatString.js';
 
-export default new Shape( rocketchatString );
+export default new Shape( rocketchatString ).makeImmutable();

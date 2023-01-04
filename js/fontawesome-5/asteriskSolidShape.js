@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import asteriskSolidString from './asteriskSolidString.js';
 
-export default new Shape( asteriskSolidString );
+export default new Shape( asteriskSolidString ).makeImmutable();

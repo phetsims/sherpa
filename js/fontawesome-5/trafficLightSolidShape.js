@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import trafficLightSolidString from './trafficLightSolidString.js';
 
-export default new Shape( trafficLightSolidString );
+export default new Shape( trafficLightSolidString ).makeImmutable();

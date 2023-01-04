@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import frownRegularString from './frownRegularString.js';
 
-export default new Shape( frownRegularString );
+export default new Shape( frownRegularString ).makeImmutable();

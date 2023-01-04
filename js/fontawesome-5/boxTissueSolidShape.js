@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import boxTissueSolidString from './boxTissueSolidString.js';
 
-export default new Shape( boxTissueSolidString );
+export default new Shape( boxTissueSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import glassCheersSolidString from './glassCheersSolidString.js';
 
-export default new Shape( glassCheersSolidString );
+export default new Shape( glassCheersSolidString ).makeImmutable();

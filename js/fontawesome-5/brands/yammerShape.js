@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import yammerString from './yammerString.js';
 
-export default new Shape( yammerString );
+export default new Shape( yammerString ).makeImmutable();

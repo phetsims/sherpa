@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import lemonRegularString from './lemonRegularString.js';
 
-export default new Shape( lemonRegularString );
+export default new Shape( lemonRegularString ).makeImmutable();

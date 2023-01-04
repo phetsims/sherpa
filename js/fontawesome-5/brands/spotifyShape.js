@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import spotifyString from './spotifyString.js';
 
-export default new Shape( spotifyString );
+export default new Shape( spotifyString ).makeImmutable();

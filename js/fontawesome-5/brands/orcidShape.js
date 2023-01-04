@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import orcidString from './orcidString.js';
 
-export default new Shape( orcidString );
+export default new Shape( orcidString ).makeImmutable();

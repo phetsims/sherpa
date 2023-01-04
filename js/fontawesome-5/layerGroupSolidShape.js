@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import layerGroupSolidString from './layerGroupSolidString.js';
 
-export default new Shape( layerGroupSolidString );
+export default new Shape( layerGroupSolidString ).makeImmutable();

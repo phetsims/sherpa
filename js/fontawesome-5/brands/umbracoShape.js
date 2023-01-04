@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import umbracoString from './umbracoString.js';
 
-export default new Shape( umbracoString );
+export default new Shape( umbracoString ).makeImmutable();

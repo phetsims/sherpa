@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import yahooString from './yahooString.js';
 
-export default new Shape( yahooString );
+export default new Shape( yahooString ).makeImmutable();

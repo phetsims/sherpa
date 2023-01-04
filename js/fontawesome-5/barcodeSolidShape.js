@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import barcodeSolidString from './barcodeSolidString.js';
 
-export default new Shape( barcodeSolidString );
+export default new Shape( barcodeSolidString ).makeImmutable();

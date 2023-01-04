@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import qrcodeSolidString from './qrcodeSolidString.js';
 
-export default new Shape( qrcodeSolidString );
+export default new Shape( qrcodeSolidString ).makeImmutable();

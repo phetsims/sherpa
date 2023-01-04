@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import hSquareSolidString from './hSquareSolidString.js';
 
-export default new Shape( hSquareSolidString );
+export default new Shape( hSquareSolidString ).makeImmutable();

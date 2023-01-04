@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import textHeightSolidString from './textHeightSolidString.js';
 
-export default new Shape( textHeightSolidString );
+export default new Shape( textHeightSolidString ).makeImmutable();

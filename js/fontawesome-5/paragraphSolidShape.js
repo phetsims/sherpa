@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import paragraphSolidString from './paragraphSolidString.js';
 
-export default new Shape( paragraphSolidString );
+export default new Shape( paragraphSolidString ).makeImmutable();

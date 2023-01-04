@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import closedCaptioningSolidString from './closedCaptioningSolidString.js';
 
-export default new Shape( closedCaptioningSolidString );
+export default new Shape( closedCaptioningSolidString ).makeImmutable();

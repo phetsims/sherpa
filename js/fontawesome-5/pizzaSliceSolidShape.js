@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import pizzaSliceSolidString from './pizzaSliceSolidString.js';
 
-export default new Shape( pizzaSliceSolidString );
+export default new Shape( pizzaSliceSolidString ).makeImmutable();

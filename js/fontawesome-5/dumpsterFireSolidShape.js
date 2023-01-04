@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import dumpsterFireSolidString from './dumpsterFireSolidString.js';
 
-export default new Shape( dumpsterFireSolidString );
+export default new Shape( dumpsterFireSolidString ).makeImmutable();

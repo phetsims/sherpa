@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import phoenixSquadronString from './phoenixSquadronString.js';
 
-export default new Shape( phoenixSquadronString );
+export default new Shape( phoenixSquadronString ).makeImmutable();

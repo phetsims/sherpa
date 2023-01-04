@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import ribbonSolidString from './ribbonSolidString.js';
 
-export default new Shape( ribbonSolidString );
+export default new Shape( ribbonSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import praySolidString from './praySolidString.js';
 
-export default new Shape( praySolidString );
+export default new Shape( praySolidString ).makeImmutable();

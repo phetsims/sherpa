@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import rulerHorizontalSolidString from './rulerHorizontalSolidString.js';
 
-export default new Shape( rulerHorizontalSolidString );
+export default new Shape( rulerHorizontalSolidString ).makeImmutable();

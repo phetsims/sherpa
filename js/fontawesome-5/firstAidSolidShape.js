@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import firstAidSolidString from './firstAidSolidString.js';
 
-export default new Shape( firstAidSolidString );
+export default new Shape( firstAidSolidString ).makeImmutable();

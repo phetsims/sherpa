@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import kissWinkHeartRegularString from './kissWinkHeartRegularString.js';
 
-export default new Shape( kissWinkHeartRegularString );
+export default new Shape( kissWinkHeartRegularString ).makeImmutable();

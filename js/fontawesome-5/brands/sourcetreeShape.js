@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import sourcetreeString from './sourcetreeString.js';
 
-export default new Shape( sourcetreeString );
+export default new Shape( sourcetreeString ).makeImmutable();

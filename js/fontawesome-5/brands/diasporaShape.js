@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import diasporaString from './diasporaString.js';
 
-export default new Shape( diasporaString );
+export default new Shape( diasporaString ).makeImmutable();

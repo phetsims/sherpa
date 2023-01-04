@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import expeditedsslString from './expeditedsslString.js';
 
-export default new Shape( expeditedsslString );
+export default new Shape( expeditedsslString ).makeImmutable();

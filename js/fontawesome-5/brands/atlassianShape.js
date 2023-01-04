@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import atlassianString from './atlassianString.js';
 
-export default new Shape( atlassianString );
+export default new Shape( atlassianString ).makeImmutable();

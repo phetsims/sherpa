@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import volumeMuteSolidString from './volumeMuteSolidString.js';
 
-export default new Shape( volumeMuteSolidString );
+export default new Shape( volumeMuteSolidString ).makeImmutable();

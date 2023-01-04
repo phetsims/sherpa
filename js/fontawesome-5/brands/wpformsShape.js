@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import wpformsString from './wpformsString.js';
 
-export default new Shape( wpformsString );
+export default new Shape( wpformsString ).makeImmutable();

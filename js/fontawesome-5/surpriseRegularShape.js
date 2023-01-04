@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import surpriseRegularString from './surpriseRegularString.js';
 
-export default new Shape( surpriseRegularString );
+export default new Shape( surpriseRegularString ).makeImmutable();

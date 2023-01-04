@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import pagelinesString from './pagelinesString.js';
 
-export default new Shape( pagelinesString );
+export default new Shape( pagelinesString ).makeImmutable();

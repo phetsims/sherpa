@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import fortAwesomeAltString from './fortAwesomeAltString.js';
 
-export default new Shape( fortAwesomeAltString );
+export default new Shape( fortAwesomeAltString ).makeImmutable();

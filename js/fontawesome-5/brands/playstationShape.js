@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import playstationString from './playstationString.js';
 
-export default new Shape( playstationString );
+export default new Shape( playstationString ).makeImmutable();

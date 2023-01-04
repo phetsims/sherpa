@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import bezierCurveSolidString from './bezierCurveSolidString.js';
 
-export default new Shape( bezierCurveSolidString );
+export default new Shape( bezierCurveSolidString ).makeImmutable();

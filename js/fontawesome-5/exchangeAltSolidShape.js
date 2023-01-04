@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import exchangeAltSolidString from './exchangeAltSolidString.js';
 
-export default new Shape( exchangeAltSolidString );
+export default new Shape( exchangeAltSolidString ).makeImmutable();

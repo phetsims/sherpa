@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import anchorSolidString from './anchorSolidString.js';
 
-export default new Shape( anchorSolidString );
+export default new Shape( anchorSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import elloString from './elloString.js';
 
-export default new Shape( elloString );
+export default new Shape( elloString ).makeImmutable();

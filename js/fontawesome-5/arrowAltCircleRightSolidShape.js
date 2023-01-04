@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import arrowAltCircleRightSolidString from './arrowAltCircleRightSolidString.js';
 
-export default new Shape( arrowAltCircleRightSolidString );
+export default new Shape( arrowAltCircleRightSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import dotCircleSolidString from './dotCircleSolidString.js';
 
-export default new Shape( dotCircleSolidString );
+export default new Shape( dotCircleSolidString ).makeImmutable();

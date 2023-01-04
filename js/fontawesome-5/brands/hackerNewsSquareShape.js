@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import hackerNewsSquareString from './hackerNewsSquareString.js';
 
-export default new Shape( hackerNewsSquareString );
+export default new Shape( hackerNewsSquareString ).makeImmutable();

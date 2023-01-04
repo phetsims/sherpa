@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import timesCircleRegularString from './timesCircleRegularString.js';
 
-export default new Shape( timesCircleRegularString );
+export default new Shape( timesCircleRegularString ).makeImmutable();

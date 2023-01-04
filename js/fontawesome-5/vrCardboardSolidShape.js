@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import vrCardboardSolidString from './vrCardboardSolidString.js';
 
-export default new Shape( vrCardboardSolidString );
+export default new Shape( vrCardboardSolidString ).makeImmutable();

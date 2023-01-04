@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import uspsString from './uspsString.js';
 
-export default new Shape( uspsString );
+export default new Shape( uspsString ).makeImmutable();

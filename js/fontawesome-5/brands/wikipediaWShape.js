@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import wikipediaWString from './wikipediaWString.js';
 
-export default new Shape( wikipediaWString );
+export default new Shape( wikipediaWString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import greaterThanEqualSolidString from './greaterThanEqualSolidString.js';
 
-export default new Shape( greaterThanEqualSolidString );
+export default new Shape( greaterThanEqualSolidString ).makeImmutable();

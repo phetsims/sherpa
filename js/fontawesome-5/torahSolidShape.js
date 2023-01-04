@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import torahSolidString from './torahSolidString.js';
 
-export default new Shape( torahSolidString );
+export default new Shape( torahSolidString ).makeImmutable();

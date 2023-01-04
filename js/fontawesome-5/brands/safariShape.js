@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import safariString from './safariString.js';
 
-export default new Shape( safariString );
+export default new Shape( safariString ).makeImmutable();

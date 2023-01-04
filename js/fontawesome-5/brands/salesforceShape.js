@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import salesforceString from './salesforceString.js';
 
-export default new Shape( salesforceString );
+export default new Shape( salesforceString ).makeImmutable();

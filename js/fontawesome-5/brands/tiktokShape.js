@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import tiktokString from './tiktokString.js';
 
-export default new Shape( tiktokString );
+export default new Shape( tiktokString ).makeImmutable();

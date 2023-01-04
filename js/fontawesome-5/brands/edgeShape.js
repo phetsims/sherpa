@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import edgeString from './edgeString.js';
 
-export default new Shape( edgeString );
+export default new Shape( edgeString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import aviatoString from './aviatoString.js';
 
-export default new Shape( aviatoString );
+export default new Shape( aviatoString ).makeImmutable();

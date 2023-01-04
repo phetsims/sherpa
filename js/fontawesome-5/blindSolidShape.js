@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import blindSolidString from './blindSolidString.js';
 
-export default new Shape( blindSolidString );
+export default new Shape( blindSolidString ).makeImmutable();

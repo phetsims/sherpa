@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import untappdString from './untappdString.js';
 
-export default new Shape( untappdString );
+export default new Shape( untappdString ).makeImmutable();

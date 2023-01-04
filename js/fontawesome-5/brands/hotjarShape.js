@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import hotjarString from './hotjarString.js';
 
-export default new Shape( hotjarString );
+export default new Shape( hotjarString ).makeImmutable();

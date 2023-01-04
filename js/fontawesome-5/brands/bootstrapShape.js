@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import bootstrapString from './bootstrapString.js';
 
-export default new Shape( bootstrapString );
+export default new Shape( bootstrapString ).makeImmutable();

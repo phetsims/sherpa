@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import connectdevelopString from './connectdevelopString.js';
 
-export default new Shape( connectdevelopString );
+export default new Shape( connectdevelopString ).makeImmutable();

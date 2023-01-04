@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import androidString from './androidString.js';
 
-export default new Shape( androidString );
+export default new Shape( androidString ).makeImmutable();

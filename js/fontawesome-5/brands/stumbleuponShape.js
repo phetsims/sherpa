@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import stumbleuponString from './stumbleuponString.js';
 
-export default new Shape( stumbleuponString );
+export default new Shape( stumbleuponString ).makeImmutable();

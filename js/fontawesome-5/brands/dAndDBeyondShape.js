@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import dAndDBeyondString from './dAndDBeyondString.js';
 
-export default new Shape( dAndDBeyondString );
+export default new Shape( dAndDBeyondString ).makeImmutable();

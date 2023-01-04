@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import hamsaSolidString from './hamsaSolidString.js';
 
-export default new Shape( hamsaSolidString );
+export default new Shape( hamsaSolidString ).makeImmutable();

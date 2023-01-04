@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import swimmerSolidString from './swimmerSolidString.js';
 
-export default new Shape( swimmerSolidString );
+export default new Shape( swimmerSolidString ).makeImmutable();

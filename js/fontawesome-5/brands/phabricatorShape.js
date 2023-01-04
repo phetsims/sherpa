@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import phabricatorString from './phabricatorString.js';
 
-export default new Shape( phabricatorString );
+export default new Shape( phabricatorString ).makeImmutable();

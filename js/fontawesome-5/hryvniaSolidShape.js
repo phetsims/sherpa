@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import hryvniaSolidString from './hryvniaSolidString.js';
 
-export default new Shape( hryvniaSolidString );
+export default new Shape( hryvniaSolidString ).makeImmutable();

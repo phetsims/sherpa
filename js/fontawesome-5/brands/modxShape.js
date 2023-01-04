@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import modxString from './modxString.js';
 
-export default new Shape( modxString );
+export default new Shape( modxString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import itchIoString from './itchIoString.js';
 
-export default new Shape( itchIoString );
+export default new Shape( itchIoString ).makeImmutable();

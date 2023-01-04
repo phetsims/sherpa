@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import backspaceSolidString from './backspaceSolidString.js';
 
-export default new Shape( backspaceSolidString );
+export default new Shape( backspaceSolidString ).makeImmutable();

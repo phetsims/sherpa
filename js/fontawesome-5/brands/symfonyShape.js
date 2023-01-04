@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import symfonyString from './symfonyString.js';
 
-export default new Shape( symfonyString );
+export default new Shape( symfonyString ).makeImmutable();

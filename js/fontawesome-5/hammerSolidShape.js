@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import hammerSolidString from './hammerSolidString.js';
 
-export default new Shape( hammerSolidString );
+export default new Shape( hammerSolidString ).makeImmutable();

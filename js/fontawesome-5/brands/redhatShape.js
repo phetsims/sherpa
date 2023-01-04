@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import redhatString from './redhatString.js';
 
-export default new Shape( redhatString );
+export default new Shape( redhatString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import acquisitionsIncorporatedString from './acquisitionsIncorporatedString.js';
 
-export default new Shape( acquisitionsIncorporatedString );
+export default new Shape( acquisitionsIncorporatedString ).makeImmutable();

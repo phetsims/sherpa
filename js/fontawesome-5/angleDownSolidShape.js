@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import angleDownSolidString from './angleDownSolidString.js';
 
-export default new Shape( angleDownSolidString );
+export default new Shape( angleDownSolidString ).makeImmutable();

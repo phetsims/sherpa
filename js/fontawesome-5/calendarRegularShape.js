@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import calendarRegularString from './calendarRegularString.js';
 
-export default new Shape( calendarRegularString );
+export default new Shape( calendarRegularString ).makeImmutable();

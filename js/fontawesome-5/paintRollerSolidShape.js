@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import paintRollerSolidString from './paintRollerSolidString.js';
 
-export default new Shape( paintRollerSolidString );
+export default new Shape( paintRollerSolidString ).makeImmutable();

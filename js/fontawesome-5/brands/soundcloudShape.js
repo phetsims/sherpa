@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import soundcloudString from './soundcloudString.js';
 
-export default new Shape( soundcloudString );
+export default new Shape( soundcloudString ).makeImmutable();

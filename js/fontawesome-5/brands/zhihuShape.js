@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import zhihuString from './zhihuString.js';
 
-export default new Shape( zhihuString );
+export default new Shape( zhihuString ).makeImmutable();

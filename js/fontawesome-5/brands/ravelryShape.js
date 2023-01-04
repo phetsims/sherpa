@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import ravelryString from './ravelryString.js';
 
-export default new Shape( ravelryString );
+export default new Shape( ravelryString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import skiingSolidString from './skiingSolidString.js';
 
-export default new Shape( skiingSolidString );
+export default new Shape( skiingSolidString ).makeImmutable();

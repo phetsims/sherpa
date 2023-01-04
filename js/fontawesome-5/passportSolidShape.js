@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import passportSolidString from './passportSolidString.js';
 
-export default new Shape( passportSolidString );
+export default new Shape( passportSolidString ).makeImmutable();

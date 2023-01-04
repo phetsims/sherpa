@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import otterSolidString from './otterSolidString.js';
 
-export default new Shape( otterSolidString );
+export default new Shape( otterSolidString ).makeImmutable();

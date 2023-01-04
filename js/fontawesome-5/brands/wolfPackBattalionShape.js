@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import wolfPackBattalionString from './wolfPackBattalionString.js';
 
-export default new Shape( wolfPackBattalionString );
+export default new Shape( wolfPackBattalionString ).makeImmutable();

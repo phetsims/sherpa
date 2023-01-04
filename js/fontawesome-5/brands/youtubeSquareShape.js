@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import youtubeSquareString from './youtubeSquareString.js';
 
-export default new Shape( youtubeSquareString );
+export default new Shape( youtubeSquareString ).makeImmutable();

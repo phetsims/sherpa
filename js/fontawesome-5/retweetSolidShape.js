@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import retweetSolidString from './retweetSolidString.js';
 
-export default new Shape( retweetSolidString );
+export default new Shape( retweetSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import bitbucketString from './bitbucketString.js';
 
-export default new Shape( bitbucketString );
+export default new Shape( bitbucketString ).makeImmutable();

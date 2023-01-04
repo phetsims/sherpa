@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import ussunnahString from './ussunnahString.js';
 
-export default new Shape( ussunnahString );
+export default new Shape( ussunnahString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import commentAltSolidString from './commentAltSolidString.js';
 
-export default new Shape( commentAltSolidString );
+export default new Shape( commentAltSolidString ).makeImmutable();

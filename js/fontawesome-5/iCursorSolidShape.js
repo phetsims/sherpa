@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import iCursorSolidString from './iCursorSolidString.js';
 
-export default new Shape( iCursorSolidString );
+export default new Shape( iCursorSolidString ).makeImmutable();

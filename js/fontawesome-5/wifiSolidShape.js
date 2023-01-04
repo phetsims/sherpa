@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import wifiSolidString from './wifiSolidString.js';
 
-export default new Shape( wifiSolidString );
+export default new Shape( wifiSolidString ).makeImmutable();

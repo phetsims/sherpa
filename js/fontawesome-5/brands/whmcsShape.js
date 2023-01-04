@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import whmcsString from './whmcsString.js';
 
-export default new Shape( whmcsString );
+export default new Shape( whmcsString ).makeImmutable();

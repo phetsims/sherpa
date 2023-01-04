@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import gamepadSolidString from './gamepadSolidString.js';
 
-export default new Shape( gamepadSolidString );
+export default new Shape( gamepadSolidString ).makeImmutable();

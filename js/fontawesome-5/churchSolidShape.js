@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import churchSolidString from './churchSolidString.js';
 
-export default new Shape( churchSolidString );
+export default new Shape( churchSolidString ).makeImmutable();

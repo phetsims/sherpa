@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import cartPlusSolidString from './cartPlusSolidString.js';
 
-export default new Shape( cartPlusSolidString );
+export default new Shape( cartPlusSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import khandaSolidString from './khandaSolidString.js';
 
-export default new Shape( khandaSolidString );
+export default new Shape( khandaSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import houzzString from './houzzString.js';
 
-export default new Shape( houzzString );
+export default new Shape( houzzString ).makeImmutable();

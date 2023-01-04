@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import vimeoVString from './vimeoVString.js';
 
-export default new Shape( vimeoVString );
+export default new Shape( vimeoVString ).makeImmutable();

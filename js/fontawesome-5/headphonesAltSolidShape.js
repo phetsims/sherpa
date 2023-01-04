@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import headphonesAltSolidString from './headphonesAltSolidString.js';
 
-export default new Shape( headphonesAltSolidString );
+export default new Shape( headphonesAltSolidString ).makeImmutable();

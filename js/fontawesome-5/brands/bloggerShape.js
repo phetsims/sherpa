@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import bloggerString from './bloggerString.js';
 
-export default new Shape( bloggerString );
+export default new Shape( bloggerString ).makeImmutable();

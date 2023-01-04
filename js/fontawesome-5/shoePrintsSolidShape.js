@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import shoePrintsSolidString from './shoePrintsSolidString.js';
 
-export default new Shape( shoePrintsSolidString );
+export default new Shape( shoePrintsSolidString ).makeImmutable();

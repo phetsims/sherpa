@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import highlighterSolidString from './highlighterSolidString.js';
 
-export default new Shape( highlighterSolidString );
+export default new Shape( highlighterSolidString ).makeImmutable();

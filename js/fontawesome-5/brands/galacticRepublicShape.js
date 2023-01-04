@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import galacticRepublicString from './galacticRepublicString.js';
 
-export default new Shape( galacticRepublicString );
+export default new Shape( galacticRepublicString ).makeImmutable();

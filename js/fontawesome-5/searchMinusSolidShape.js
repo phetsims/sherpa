@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import searchMinusSolidString from './searchMinusSolidString.js';
 
-export default new Shape( searchMinusSolidString );
+export default new Shape( searchMinusSolidString ).makeImmutable();

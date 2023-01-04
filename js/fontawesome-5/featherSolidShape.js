@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import featherSolidString from './featherSolidString.js';
 
-export default new Shape( featherSolidString );
+export default new Shape( featherSolidString ).makeImmutable();

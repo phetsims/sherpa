@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import handHoldingWaterSolidString from './handHoldingWaterSolidString.js';
 
-export default new Shape( handHoldingWaterSolidString );
+export default new Shape( handHoldingWaterSolidString ).makeImmutable();

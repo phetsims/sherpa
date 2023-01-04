@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import mapRegularString from './mapRegularString.js';
 
-export default new Shape( mapRegularString );
+export default new Shape( mapRegularString ).makeImmutable();

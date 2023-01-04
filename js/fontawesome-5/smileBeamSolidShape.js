@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import smileBeamSolidString from './smileBeamSolidString.js';
 
-export default new Shape( smileBeamSolidString );
+export default new Shape( smileBeamSolidString ).makeImmutable();

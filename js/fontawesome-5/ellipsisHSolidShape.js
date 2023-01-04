@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import ellipsisHSolidString from './ellipsisHSolidString.js';
 
-export default new Shape( ellipsisHSolidString );
+export default new Shape( ellipsisHSolidString ).makeImmutable();

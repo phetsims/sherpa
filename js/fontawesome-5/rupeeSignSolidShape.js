@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import rupeeSignSolidString from './rupeeSignSolidString.js';
 
-export default new Shape( rupeeSignSolidString );
+export default new Shape( rupeeSignSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import commentRegularString from './commentRegularString.js';
 
-export default new Shape( commentRegularString );
+export default new Shape( commentRegularString ).makeImmutable();

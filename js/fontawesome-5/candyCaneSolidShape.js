@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import candyCaneSolidString from './candyCaneSolidString.js';
 
-export default new Shape( candyCaneSolidString );
+export default new Shape( candyCaneSolidString ).makeImmutable();

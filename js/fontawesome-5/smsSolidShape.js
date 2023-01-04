@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import smsSolidString from './smsSolidString.js';
 
-export default new Shape( smsSolidString );
+export default new Shape( smsSolidString ).makeImmutable();

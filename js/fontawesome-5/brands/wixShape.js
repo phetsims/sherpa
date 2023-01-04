@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import wixString from './wixString.js';
 
-export default new Shape( wixString );
+export default new Shape( wixString ).makeImmutable();

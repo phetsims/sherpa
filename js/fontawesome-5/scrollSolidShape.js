@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import scrollSolidString from './scrollSolidString.js';
 
-export default new Shape( scrollSolidString );
+export default new Shape( scrollSolidString ).makeImmutable();

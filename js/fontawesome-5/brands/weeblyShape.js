@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import weeblyString from './weeblyString.js';
 
-export default new Shape( weeblyString );
+export default new Shape( weeblyString ).makeImmutable();

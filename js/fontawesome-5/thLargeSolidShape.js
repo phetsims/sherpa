@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import thLargeSolidString from './thLargeSolidString.js';
 
-export default new Shape( thLargeSolidString );
+export default new Shape( thLargeSolidString ).makeImmutable();

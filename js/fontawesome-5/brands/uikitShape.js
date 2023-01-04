@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import uikitString from './uikitString.js';
 
-export default new Shape( uikitString );
+export default new Shape( uikitString ).makeImmutable();

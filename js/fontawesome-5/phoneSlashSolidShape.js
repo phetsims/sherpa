@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import phoneSlashSolidString from './phoneSlashSolidString.js';
 
-export default new Shape( phoneSlashSolidString );
+export default new Shape( phoneSlashSolidString ).makeImmutable();

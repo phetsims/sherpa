@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import faxSolidString from './faxSolidString.js';
 
-export default new Shape( faxSolidString );
+export default new Shape( faxSolidString ).makeImmutable();

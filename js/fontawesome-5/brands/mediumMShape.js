@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import mediumMString from './mediumMString.js';
 
-export default new Shape( mediumMString );
+export default new Shape( mediumMString ).makeImmutable();

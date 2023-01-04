@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import hubspotString from './hubspotString.js';
 
-export default new Shape( hubspotString );
+export default new Shape( hubspotString ).makeImmutable();

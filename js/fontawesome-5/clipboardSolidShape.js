@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import clipboardSolidString from './clipboardSolidString.js';
 
-export default new Shape( clipboardSolidString );
+export default new Shape( clipboardSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import chartAreaSolidString from './chartAreaSolidString.js';
 
-export default new Shape( chartAreaSolidString );
+export default new Shape( chartAreaSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import cloudversifyString from './cloudversifyString.js';
 
-export default new Shape( cloudversifyString );
+export default new Shape( cloudversifyString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import bluetoothString from './bluetoothString.js';
 
-export default new Shape( bluetoothString );
+export default new Shape( bluetoothString ).makeImmutable();

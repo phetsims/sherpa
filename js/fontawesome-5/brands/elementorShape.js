@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import elementorString from './elementorString.js';
 
-export default new Shape( elementorString );
+export default new Shape( elementorString ).makeImmutable();

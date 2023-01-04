@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import mapMarkerAltSolidString from './mapMarkerAltSolidString.js';
 
-export default new Shape( mapMarkerAltSolidString );
+export default new Shape( mapMarkerAltSolidString ).makeImmutable();

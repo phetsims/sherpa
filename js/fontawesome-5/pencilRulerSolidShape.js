@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import pencilRulerSolidString from './pencilRulerSolidString.js';
 
-export default new Shape( pencilRulerSolidString );
+export default new Shape( pencilRulerSolidString ).makeImmutable();

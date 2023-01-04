@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import sellsyString from './sellsyString.js';
 
-export default new Shape( sellsyString );
+export default new Shape( sellsyString ).makeImmutable();

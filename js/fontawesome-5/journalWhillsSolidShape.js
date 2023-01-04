@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import journalWhillsSolidString from './journalWhillsSolidString.js';
 
-export default new Shape( journalWhillsSolidString );
+export default new Shape( journalWhillsSolidString ).makeImmutable();

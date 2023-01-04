@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import behanceString from './behanceString.js';
 
-export default new Shape( behanceString );
+export default new Shape( behanceString ).makeImmutable();

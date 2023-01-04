@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import stroopwafelSolidString from './stroopwafelSolidString.js';
 
-export default new Shape( stroopwafelSolidString );
+export default new Shape( stroopwafelSolidString ).makeImmutable();

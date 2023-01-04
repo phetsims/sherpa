@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import trelloString from './trelloString.js';
 
-export default new Shape( trelloString );
+export default new Shape( trelloString ).makeImmutable();

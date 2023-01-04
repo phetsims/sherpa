@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import hippoSolidString from './hippoSolidString.js';
 
-export default new Shape( hippoSolidString );
+export default new Shape( hippoSolidString ).makeImmutable();

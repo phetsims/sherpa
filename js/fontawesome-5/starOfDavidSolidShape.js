@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import starOfDavidSolidString from './starOfDavidSolidString.js';
 
-export default new Shape( starOfDavidSolidString );
+export default new Shape( starOfDavidSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import funnelDollarSolidString from './funnelDollarSolidString.js';
 
-export default new Shape( funnelDollarSolidString );
+export default new Shape( funnelDollarSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import sortAlphaUpAltSolidString from './sortAlphaUpAltSolidString.js';
 
-export default new Shape( sortAlphaUpAltSolidString );
+export default new Shape( sortAlphaUpAltSolidString ).makeImmutable();

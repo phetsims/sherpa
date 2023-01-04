@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import earlybirdsString from './earlybirdsString.js';
 
-export default new Shape( earlybirdsString );
+export default new Shape( earlybirdsString ).makeImmutable();

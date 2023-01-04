@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import fingerprintSolidString from './fingerprintSolidString.js';
 
-export default new Shape( fingerprintSolidString );
+export default new Shape( fingerprintSolidString ).makeImmutable();

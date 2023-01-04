@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import hackerrankString from './hackerrankString.js';
 
-export default new Shape( hackerrankString );
+export default new Shape( hackerrankString ).makeImmutable();

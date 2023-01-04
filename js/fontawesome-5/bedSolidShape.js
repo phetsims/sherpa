@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import bedSolidString from './bedSolidString.js';
 
-export default new Shape( bedSolidString );
+export default new Shape( bedSolidString ).makeImmutable();

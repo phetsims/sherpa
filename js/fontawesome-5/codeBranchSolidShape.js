@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import codeBranchSolidString from './codeBranchSolidString.js';
 
-export default new Shape( codeBranchSolidString );
+export default new Shape( codeBranchSolidString ).makeImmutable();

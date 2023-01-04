@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import suppleString from './suppleString.js';
 
-export default new Shape( suppleString );
+export default new Shape( suppleString ).makeImmutable();

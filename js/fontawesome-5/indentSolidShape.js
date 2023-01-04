@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import indentSolidString from './indentSolidString.js';
 
-export default new Shape( indentSolidString );
+export default new Shape( indentSolidString ).makeImmutable();

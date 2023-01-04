@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import yinYangSolidString from './yinYangSolidString.js';
 
-export default new Shape( yinYangSolidString );
+export default new Shape( yinYangSolidString ).makeImmutable();

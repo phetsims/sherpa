@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import rebelString from './rebelString.js';
 
-export default new Shape( rebelString );
+export default new Shape( rebelString ).makeImmutable();

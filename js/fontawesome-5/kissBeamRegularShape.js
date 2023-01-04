@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import kissBeamRegularString from './kissBeamRegularString.js';
 
-export default new Shape( kissBeamRegularString );
+export default new Shape( kissBeamRegularString ).makeImmutable();

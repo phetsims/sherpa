@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import quoteRightSolidString from './quoteRightSolidString.js';
 
-export default new Shape( quoteRightSolidString );
+export default new Shape( quoteRightSolidString ).makeImmutable();

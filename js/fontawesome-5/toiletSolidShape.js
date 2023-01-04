@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import toiletSolidString from './toiletSolidString.js';
 
-export default new Shape( toiletSolidString );
+export default new Shape( toiletSolidString ).makeImmutable();

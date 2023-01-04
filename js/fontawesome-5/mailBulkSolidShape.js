@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import mailBulkSolidString from './mailBulkSolidString.js';
 
-export default new Shape( mailBulkSolidString );
+export default new Shape( mailBulkSolidString ).makeImmutable();

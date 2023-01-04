@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import unlinkSolidString from './unlinkSolidString.js';
 
-export default new Shape( unlinkSolidString );
+export default new Shape( unlinkSolidString ).makeImmutable();

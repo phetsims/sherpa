@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import firstOrderAltString from './firstOrderAltString.js';
 
-export default new Shape( firstOrderAltString );
+export default new Shape( firstOrderAltString ).makeImmutable();

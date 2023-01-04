@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import busAltSolidString from './busAltSolidString.js';
 
-export default new Shape( busAltSolidString );
+export default new Shape( busAltSolidString ).makeImmutable();

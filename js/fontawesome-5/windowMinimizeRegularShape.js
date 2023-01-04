@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import windowMinimizeRegularString from './windowMinimizeRegularString.js';
 
-export default new Shape( windowMinimizeRegularString );
+export default new Shape( windowMinimizeRegularString ).makeImmutable();

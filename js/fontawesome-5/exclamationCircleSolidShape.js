@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import exclamationCircleSolidString from './exclamationCircleSolidString.js';
 
-export default new Shape( exclamationCircleSolidString );
+export default new Shape( exclamationCircleSolidString ).makeImmutable();

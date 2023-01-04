@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import puzzlePieceSolidString from './puzzlePieceSolidString.js';
 
-export default new Shape( puzzlePieceSolidString );
+export default new Shape( puzzlePieceSolidString ).makeImmutable();

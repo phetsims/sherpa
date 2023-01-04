@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import lifeRingRegularString from './lifeRingRegularString.js';
 
-export default new Shape( lifeRingRegularString );
+export default new Shape( lifeRingRegularString ).makeImmutable();

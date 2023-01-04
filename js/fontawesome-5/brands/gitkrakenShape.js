@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import gitkrakenString from './gitkrakenString.js';
 
-export default new Shape( gitkrakenString );
+export default new Shape( gitkrakenString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import splotchSolidString from './splotchSolidString.js';
 
-export default new Shape( splotchSolidString );
+export default new Shape( splotchSolidString ).makeImmutable();

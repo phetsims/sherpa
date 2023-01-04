@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import pumpMedicalSolidString from './pumpMedicalSolidString.js';
 
-export default new Shape( pumpMedicalSolidString );
+export default new Shape( pumpMedicalSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import fedexString from './fedexString.js';
 
-export default new Shape( fedexString );
+export default new Shape( fedexString ).makeImmutable();

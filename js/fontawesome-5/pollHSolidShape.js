@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import pollHSolidString from './pollHSolidString.js';
 
-export default new Shape( pollHSolidString );
+export default new Shape( pollHSolidString ).makeImmutable();

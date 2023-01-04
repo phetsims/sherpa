@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import hollyBerrySolidString from './hollyBerrySolidString.js';
 
-export default new Shape( hollyBerrySolidString );
+export default new Shape( hollyBerrySolidString ).makeImmutable();

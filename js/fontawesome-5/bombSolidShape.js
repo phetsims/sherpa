@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import bombSolidString from './bombSolidString.js';
 
-export default new Shape( bombSolidString );
+export default new Shape( bombSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import hireAHelperString from './hireAHelperString.js';
 
-export default new Shape( hireAHelperString );
+export default new Shape( hireAHelperString ).makeImmutable();

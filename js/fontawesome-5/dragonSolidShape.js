@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import dragonSolidString from './dragonSolidString.js';
 
-export default new Shape( dragonSolidString );
+export default new Shape( dragonSolidString ).makeImmutable();

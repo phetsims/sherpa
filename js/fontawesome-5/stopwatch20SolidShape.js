@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import stopwatch20SolidString from './stopwatch20SolidString.js';
 
-export default new Shape( stopwatch20SolidString );
+export default new Shape( stopwatch20SolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import lowVisionSolidString from './lowVisionSolidString.js';
 
-export default new Shape( lowVisionSolidString );
+export default new Shape( lowVisionSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import fontAwesomeLogoFullRegularString from './fontAwesomeLogoFullRegularString.js';
 
-export default new Shape( fontAwesomeLogoFullRegularString );
+export default new Shape( fontAwesomeLogoFullRegularString ).makeImmutable();

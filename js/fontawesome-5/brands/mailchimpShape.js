@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import mailchimpString from './mailchimpString.js';
 
-export default new Shape( mailchimpString );
+export default new Shape( mailchimpString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import replySolidString from './replySolidString.js';
 
-export default new Shape( replySolidString );
+export default new Shape( replySolidString ).makeImmutable();

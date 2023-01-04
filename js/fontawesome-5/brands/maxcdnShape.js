@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import maxcdnString from './maxcdnString.js';
 
-export default new Shape( maxcdnString );
+export default new Shape( maxcdnString ).makeImmutable();

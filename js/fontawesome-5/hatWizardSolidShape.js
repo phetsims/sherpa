@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import hatWizardSolidString from './hatWizardSolidString.js';
 
-export default new Shape( hatWizardSolidString );
+export default new Shape( hatWizardSolidString ).makeImmutable();

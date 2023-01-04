@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import theaterMasksSolidString from './theaterMasksSolidString.js';
 
-export default new Shape( theaterMasksSolidString );
+export default new Shape( theaterMasksSolidString ).makeImmutable();

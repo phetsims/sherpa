@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import grinTongueSquintSolidString from './grinTongueSquintSolidString.js';
 
-export default new Shape( grinTongueSquintSolidString );
+export default new Shape( grinTongueSquintSolidString ).makeImmutable();

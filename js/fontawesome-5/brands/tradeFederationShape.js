@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import tradeFederationString from './tradeFederationString.js';
 
-export default new Shape( tradeFederationString );
+export default new Shape( tradeFederationString ).makeImmutable();

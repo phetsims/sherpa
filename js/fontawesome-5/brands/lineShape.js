@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import lineString from './lineString.js';
 
-export default new Shape( lineString );
+export default new Shape( lineString ).makeImmutable();

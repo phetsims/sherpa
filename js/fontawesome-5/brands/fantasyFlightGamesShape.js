@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import fantasyFlightGamesString from './fantasyFlightGamesString.js';
 
-export default new Shape( fantasyFlightGamesString );
+export default new Shape( fantasyFlightGamesString ).makeImmutable();

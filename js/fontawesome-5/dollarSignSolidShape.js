@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import dollarSignSolidString from './dollarSignSolidString.js';
 
-export default new Shape( dollarSignSolidString );
+export default new Shape( dollarSignSolidString ).makeImmutable();

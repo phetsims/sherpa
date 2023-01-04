@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import crowSolidString from './crowSolidString.js';
 
-export default new Shape( crowSolidString );
+export default new Shape( crowSolidString ).makeImmutable();

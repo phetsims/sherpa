@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import hamburgerSolidString from './hamburgerSolidString.js';
 
-export default new Shape( hamburgerSolidString );
+export default new Shape( hamburgerSolidString ).makeImmutable();

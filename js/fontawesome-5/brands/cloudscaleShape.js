@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import cloudscaleString from './cloudscaleString.js';
 
-export default new Shape( cloudscaleString );
+export default new Shape( cloudscaleString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import googleWalletString from './googleWalletString.js';
 
-export default new Shape( googleWalletString );
+export default new Shape( googleWalletString ).makeImmutable();

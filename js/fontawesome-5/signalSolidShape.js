@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import signalSolidString from './signalSolidString.js';
 
-export default new Shape( signalSolidString );
+export default new Shape( signalSolidString ).makeImmutable();

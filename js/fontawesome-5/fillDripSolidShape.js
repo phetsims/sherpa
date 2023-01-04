@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import fillDripSolidString from './fillDripSolidString.js';
 
-export default new Shape( fillDripSolidString );
+export default new Shape( fillDripSolidString ).makeImmutable();

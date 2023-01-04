@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import xRaySolidString from './xRaySolidString.js';
 
-export default new Shape( xRaySolidString );
+export default new Shape( xRaySolidString ).makeImmutable();

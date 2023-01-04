@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import dropboxString from './dropboxString.js';
 
-export default new Shape( dropboxString );
+export default new Shape( dropboxString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import caretSquareUpRegularString from './caretSquareUpRegularString.js';
 
-export default new Shape( caretSquareUpRegularString );
+export default new Shape( caretSquareUpRegularString ).makeImmutable();

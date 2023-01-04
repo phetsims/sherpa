@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import airFreshenerSolidString from './airFreshenerSolidString.js';
 
-export default new Shape( airFreshenerSolidString );
+export default new Shape( airFreshenerSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import pinterestPString from './pinterestPString.js';
 
-export default new Shape( pinterestPString );
+export default new Shape( pinterestPString ).makeImmutable();

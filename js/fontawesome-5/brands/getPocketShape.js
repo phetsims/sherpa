@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import getPocketString from './getPocketString.js';
 
-export default new Shape( getPocketString );
+export default new Shape( getPocketString ).makeImmutable();

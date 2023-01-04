@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import cloneRegularString from './cloneRegularString.js';
 
-export default new Shape( cloneRegularString );
+export default new Shape( cloneRegularString ).makeImmutable();

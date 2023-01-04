@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import moneroString from './moneroString.js';
 
-export default new Shape( moneroString );
+export default new Shape( moneroString ).makeImmutable();

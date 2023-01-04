@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import creativeCommonsRemixString from './creativeCommonsRemixString.js';
 
-export default new Shape( creativeCommonsRemixString );
+export default new Shape( creativeCommonsRemixString ).makeImmutable();

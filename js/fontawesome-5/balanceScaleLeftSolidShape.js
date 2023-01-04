@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import balanceScaleLeftSolidString from './balanceScaleLeftSolidString.js';
 
-export default new Shape( balanceScaleLeftSolidString );
+export default new Shape( balanceScaleLeftSolidString ).makeImmutable();

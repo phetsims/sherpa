@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import bitcoinString from './bitcoinString.js';
 
-export default new Shape( bitcoinString );
+export default new Shape( bitcoinString ).makeImmutable();

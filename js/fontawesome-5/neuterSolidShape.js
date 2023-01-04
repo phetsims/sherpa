@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import neuterSolidString from './neuterSolidString.js';
 
-export default new Shape( neuterSolidString );
+export default new Shape( neuterSolidString ).makeImmutable();

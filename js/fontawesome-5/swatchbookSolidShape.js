@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import swatchbookSolidString from './swatchbookSolidString.js';
 
-export default new Shape( swatchbookSolidString );
+export default new Shape( swatchbookSolidString ).makeImmutable();

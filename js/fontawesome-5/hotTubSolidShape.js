@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import hotTubSolidString from './hotTubSolidString.js';
 
-export default new Shape( hotTubSolidString );
+export default new Shape( hotTubSolidString ).makeImmutable();

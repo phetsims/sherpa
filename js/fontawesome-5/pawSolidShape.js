@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import pawSolidString from './pawSolidString.js';
 
-export default new Shape( pawSolidString );
+export default new Shape( pawSolidString ).makeImmutable();

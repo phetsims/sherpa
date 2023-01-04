@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import mdbString from './mdbString.js';
 
-export default new Shape( mdbString );
+export default new Shape( mdbString ).makeImmutable();

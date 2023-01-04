@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import quranSolidString from './quranSolidString.js';
 
-export default new Shape( quranSolidString );
+export default new Shape( quranSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import birthdayCakeSolidString from './birthdayCakeSolidString.js';
 
-export default new Shape( birthdayCakeSolidString );
+export default new Shape( birthdayCakeSolidString ).makeImmutable();

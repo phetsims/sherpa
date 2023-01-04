@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import iglooSolidString from './iglooSolidString.js';
 
-export default new Shape( iglooSolidString );
+export default new Shape( iglooSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import mehBlankRegularString from './mehBlankRegularString.js';
 
-export default new Shape( mehBlankRegularString );
+export default new Shape( mehBlankRegularString ).makeImmutable();

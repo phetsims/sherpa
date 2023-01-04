@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import forumbeeString from './forumbeeString.js';
 
-export default new Shape( forumbeeString );
+export default new Shape( forumbeeString ).makeImmutable();

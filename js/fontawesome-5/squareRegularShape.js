@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import squareRegularString from './squareRegularString.js';
 
-export default new Shape( squareRegularString );
+export default new Shape( squareRegularString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import utensilsSolidString from './utensilsSolidString.js';
 
-export default new Shape( utensilsSolidString );
+export default new Shape( utensilsSolidString ).makeImmutable();

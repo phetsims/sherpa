@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import pastafarianismSolidString from './pastafarianismSolidString.js';
 
-export default new Shape( pastafarianismSolidString );
+export default new Shape( pastafarianismSolidString ).makeImmutable();

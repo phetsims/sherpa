@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import restroomSolidString from './restroomSolidString.js';
 
-export default new Shape( restroomSolidString );
+export default new Shape( restroomSolidString ).makeImmutable();

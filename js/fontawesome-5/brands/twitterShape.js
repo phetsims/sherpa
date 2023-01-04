@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import twitterString from './twitterString.js';
 
-export default new Shape( twitterString );
+export default new Shape( twitterString ).makeImmutable();

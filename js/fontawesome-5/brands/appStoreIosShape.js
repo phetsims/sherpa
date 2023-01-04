@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import appStoreIosString from './appStoreIosString.js';
 
-export default new Shape( appStoreIosString );
+export default new Shape( appStoreIosString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import houseDamageSolidString from './houseDamageSolidString.js';
 
-export default new Shape( houseDamageSolidString );
+export default new Shape( houseDamageSolidString ).makeImmutable();

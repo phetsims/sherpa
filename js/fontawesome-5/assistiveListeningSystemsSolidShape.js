@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import assistiveListeningSystemsSolidString from './assistiveListeningSystemsSolidString.js';
 
-export default new Shape( assistiveListeningSystemsSolidString );
+export default new Shape( assistiveListeningSystemsSolidString ).makeImmutable();

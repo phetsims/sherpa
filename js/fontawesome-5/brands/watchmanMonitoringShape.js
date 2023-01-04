@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import watchmanMonitoringString from './watchmanMonitoringString.js';
 
-export default new Shape( watchmanMonitoringString );
+export default new Shape( watchmanMonitoringString ).makeImmutable();

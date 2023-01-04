@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import cloudRainSolidString from './cloudRainSolidString.js';
 
-export default new Shape( cloudRainSolidString );
+export default new Shape( cloudRainSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import optinMonsterString from './optinMonsterString.js';
 
-export default new Shape( optinMonsterString );
+export default new Shape( optinMonsterString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import broomSolidString from './broomSolidString.js';
 
-export default new Shape( broomSolidString );
+export default new Shape( broomSolidString ).makeImmutable();

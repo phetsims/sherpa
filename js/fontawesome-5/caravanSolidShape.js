@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import caravanSolidString from './caravanSolidString.js';
 
-export default new Shape( caravanSolidString );
+export default new Shape( caravanSolidString ).makeImmutable();

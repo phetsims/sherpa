@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import amazonString from './amazonString.js';
 
-export default new Shape( amazonString );
+export default new Shape( amazonString ).makeImmutable();

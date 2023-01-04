@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import kaabaSolidString from './kaabaSolidString.js';
 
-export default new Shape( kaabaSolidString );
+export default new Shape( kaabaSolidString ).makeImmutable();

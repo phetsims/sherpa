@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import outdentSolidString from './outdentSolidString.js';
 
-export default new Shape( outdentSolidString );
+export default new Shape( outdentSolidString ).makeImmutable();

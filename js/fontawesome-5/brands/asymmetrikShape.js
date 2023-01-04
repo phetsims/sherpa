@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import asymmetrikString from './asymmetrikString.js';
 
-export default new Shape( asymmetrikString );
+export default new Shape( asymmetrikString ).makeImmutable();

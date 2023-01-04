@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import typo3String from './typo3String.js';
 
-export default new Shape( typo3String );
+export default new Shape( typo3String ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import bugSolidString from './bugSolidString.js';
 
-export default new Shape( bugSolidString );
+export default new Shape( bugSolidString ).makeImmutable();

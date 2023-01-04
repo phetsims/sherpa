@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import voicemailSolidString from './voicemailSolidString.js';
 
-export default new Shape( voicemailSolidString );
+export default new Shape( voicemailSolidString ).makeImmutable();

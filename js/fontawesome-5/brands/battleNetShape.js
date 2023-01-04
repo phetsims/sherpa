@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import battleNetString from './battleNetString.js';
 
-export default new Shape( battleNetString );
+export default new Shape( battleNetString ).makeImmutable();

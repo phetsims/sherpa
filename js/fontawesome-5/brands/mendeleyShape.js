@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import mendeleyString from './mendeleyString.js';
 
-export default new Shape( mendeleyString );
+export default new Shape( mendeleyString ).makeImmutable();

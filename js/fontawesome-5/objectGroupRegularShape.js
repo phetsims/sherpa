@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import objectGroupRegularString from './objectGroupRegularString.js';
 
-export default new Shape( objectGroupRegularString );
+export default new Shape( objectGroupRegularString ).makeImmutable();

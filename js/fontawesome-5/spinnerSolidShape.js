@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import spinnerSolidString from './spinnerSolidString.js';
 
-export default new Shape( spinnerSolidString );
+export default new Shape( spinnerSolidString ).makeImmutable();

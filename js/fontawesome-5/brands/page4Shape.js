@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import page4String from './page4String.js';
 
-export default new Shape( page4String );
+export default new Shape( page4String ).makeImmutable();

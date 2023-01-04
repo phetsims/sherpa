@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import paperclipSolidString from './paperclipSolidString.js';
 
-export default new Shape( paperclipSolidString );
+export default new Shape( paperclipSolidString ).makeImmutable();

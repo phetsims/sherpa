@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import bufferString from './bufferString.js';
 
-export default new Shape( bufferString );
+export default new Shape( bufferString ).makeImmutable();

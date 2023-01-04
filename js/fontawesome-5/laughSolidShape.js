@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import laughSolidString from './laughSolidString.js';
 
-export default new Shape( laughSolidString );
+export default new Shape( laughSolidString ).makeImmutable();

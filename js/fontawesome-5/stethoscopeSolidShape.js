@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import stethoscopeSolidString from './stethoscopeSolidString.js';
 
-export default new Shape( stethoscopeSolidString );
+export default new Shape( stethoscopeSolidString ).makeImmutable();

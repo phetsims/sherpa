@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import chromecastString from './chromecastString.js';
 
-export default new Shape( chromecastString );
+export default new Shape( chromecastString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import jiraString from './jiraString.js';
 
-export default new Shape( jiraString );
+export default new Shape( jiraString ).makeImmutable();

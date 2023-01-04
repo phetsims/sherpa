@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import tiredRegularString from './tiredRegularString.js';
 
-export default new Shape( tiredRegularString );
+export default new Shape( tiredRegularString ).makeImmutable();

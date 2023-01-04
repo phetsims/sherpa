@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import screwdriverSolidString from './screwdriverSolidString.js';
 
-export default new Shape( screwdriverSolidString );
+export default new Shape( screwdriverSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import vnvString from './vnvString.js';
 
-export default new Shape( vnvString );
+export default new Shape( vnvString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import adnString from './adnString.js';
 
-export default new Shape( adnString );
+export default new Shape( adnString ).makeImmutable();

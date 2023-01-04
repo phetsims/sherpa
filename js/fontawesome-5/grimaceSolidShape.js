@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import grimaceSolidString from './grimaceSolidString.js';
 
-export default new Shape( grimaceSolidString );
+export default new Shape( grimaceSolidString ).makeImmutable();

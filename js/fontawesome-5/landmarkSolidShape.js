@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import landmarkSolidString from './landmarkSolidString.js';
 
-export default new Shape( landmarkSolidString );
+export default new Shape( landmarkSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import thumbsUpRegularString from './thumbsUpRegularString.js';
 
-export default new Shape( thumbsUpRegularString );
+export default new Shape( thumbsUpRegularString ).makeImmutable();

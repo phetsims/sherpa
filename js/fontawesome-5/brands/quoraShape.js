@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import quoraString from './quoraString.js';
 
-export default new Shape( quoraString );
+export default new Shape( quoraString ).makeImmutable();

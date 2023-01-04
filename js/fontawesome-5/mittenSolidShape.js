@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import mittenSolidString from './mittenSolidString.js';
 
-export default new Shape( mittenSolidString );
+export default new Shape( mittenSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import spaSolidString from './spaSolidString.js';
 
-export default new Shape( spaSolidString );
+export default new Shape( spaSolidString ).makeImmutable();

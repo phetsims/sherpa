@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import longArrowAltDownSolidString from './longArrowAltDownSolidString.js';
 
-export default new Shape( longArrowAltDownSolidString );
+export default new Shape( longArrowAltDownSolidString ).makeImmutable();

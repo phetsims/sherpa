@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import fireAltSolidString from './fireAltSolidString.js';
 
-export default new Shape( fireAltSolidString );
+export default new Shape( fireAltSolidString ).makeImmutable();

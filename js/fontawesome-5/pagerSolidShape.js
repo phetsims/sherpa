@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import pagerSolidString from './pagerSolidString.js';
 
-export default new Shape( pagerSolidString );
+export default new Shape( pagerSolidString ).makeImmutable();

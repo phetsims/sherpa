@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import ubuntuString from './ubuntuString.js';
 
-export default new Shape( ubuntuString );
+export default new Shape( ubuntuString ).makeImmutable();

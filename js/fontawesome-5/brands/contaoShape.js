@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import contaoString from './contaoString.js';
 
-export default new Shape( contaoString );
+export default new Shape( contaoString ).makeImmutable();

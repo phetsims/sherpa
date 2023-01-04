@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import yCombinatorString from './yCombinatorString.js';
 
-export default new Shape( yCombinatorString );
+export default new Shape( yCombinatorString ).makeImmutable();

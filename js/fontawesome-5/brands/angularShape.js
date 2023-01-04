@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import angularString from './angularString.js';
 
-export default new Shape( angularString );
+export default new Shape( angularString ).makeImmutable();

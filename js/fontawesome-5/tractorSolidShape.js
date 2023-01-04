@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import tractorSolidString from './tractorSolidString.js';
 
-export default new Shape( tractorSolidString );
+export default new Shape( tractorSolidString ).makeImmutable();

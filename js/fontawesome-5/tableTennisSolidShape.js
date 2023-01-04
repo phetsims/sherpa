@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import tableTennisSolidString from './tableTennisSolidString.js';
 
-export default new Shape( tableTennisSolidString );
+export default new Shape( tableTennisSolidString ).makeImmutable();

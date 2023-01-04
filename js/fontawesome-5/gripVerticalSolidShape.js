@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import gripVerticalSolidString from './gripVerticalSolidString.js';
 
-export default new Shape( gripVerticalSolidString );
+export default new Shape( gripVerticalSolidString ).makeImmutable();

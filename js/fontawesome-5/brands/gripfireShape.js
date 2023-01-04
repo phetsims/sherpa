@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import gripfireString from './gripfireString.js';
 
-export default new Shape( gripfireString );
+export default new Shape( gripfireString ).makeImmutable();

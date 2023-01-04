@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import instagramString from './instagramString.js';
 
-export default new Shape( instagramString );
+export default new Shape( instagramString ).makeImmutable();

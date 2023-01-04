@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import css3AltString from './css3AltString.js';
 
-export default new Shape( css3AltString );
+export default new Shape( css3AltString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import binocularsSolidString from './binocularsSolidString.js';
 
-export default new Shape( binocularsSolidString );
+export default new Shape( binocularsSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import jogetString from './jogetString.js';
 
-export default new Shape( jogetString );
+export default new Shape( jogetString ).makeImmutable();

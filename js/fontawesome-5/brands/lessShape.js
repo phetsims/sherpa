@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import lessString from './lessString.js';
 
-export default new Shape( lessString );
+export default new Shape( lessString ).makeImmutable();

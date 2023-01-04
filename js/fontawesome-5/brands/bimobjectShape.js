@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import bimobjectString from './bimobjectString.js';
 
-export default new Shape( bimobjectString );
+export default new Shape( bimobjectString ).makeImmutable();

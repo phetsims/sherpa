@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import frogSolidString from './frogSolidString.js';
 
-export default new Shape( frogSolidString );
+export default new Shape( frogSolidString ).makeImmutable();

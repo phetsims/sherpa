@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import bongSolidString from './bongSolidString.js';
 
-export default new Shape( bongSolidString );
+export default new Shape( bongSolidString ).makeImmutable();

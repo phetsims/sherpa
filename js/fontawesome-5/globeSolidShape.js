@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import globeSolidString from './globeSolidString.js';
 
-export default new Shape( globeSolidString );
+export default new Shape( globeSolidString ).makeImmutable();

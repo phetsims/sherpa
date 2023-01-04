@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import deploydogString from './deploydogString.js';
 
-export default new Shape( deploydogString );
+export default new Shape( deploydogString ).makeImmutable();

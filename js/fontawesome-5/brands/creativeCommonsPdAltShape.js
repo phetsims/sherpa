@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import creativeCommonsPdAltString from './creativeCommonsPdAltString.js';
 
-export default new Shape( creativeCommonsPdAltString );
+export default new Shape( creativeCommonsPdAltString ).makeImmutable();

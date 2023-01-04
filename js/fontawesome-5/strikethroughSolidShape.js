@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import strikethroughSolidString from './strikethroughSolidString.js';
 
-export default new Shape( strikethroughSolidString );
+export default new Shape( strikethroughSolidString ).makeImmutable();

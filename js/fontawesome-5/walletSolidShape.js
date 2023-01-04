@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import walletSolidString from './walletSolidString.js';
 
-export default new Shape( walletSolidString );
+export default new Shape( walletSolidString ).makeImmutable();

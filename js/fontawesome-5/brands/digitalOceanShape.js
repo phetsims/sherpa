@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import digitalOceanString from './digitalOceanString.js';
 
-export default new Shape( digitalOceanString );
+export default new Shape( digitalOceanString ).makeImmutable();

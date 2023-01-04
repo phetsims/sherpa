@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import centosString from './centosString.js';
 
-export default new Shape( centosString );
+export default new Shape( centosString ).makeImmutable();

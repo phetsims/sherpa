@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import ggCircleString from './ggCircleString.js';
 
-export default new Shape( ggCircleString );
+export default new Shape( ggCircleString ).makeImmutable();

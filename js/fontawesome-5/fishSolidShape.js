@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import fishSolidString from './fishSolidString.js';
 
-export default new Shape( fishSolidString );
+export default new Shape( fishSolidString ).makeImmutable();

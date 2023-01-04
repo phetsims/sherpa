@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import bibleSolidString from './bibleSolidString.js';
 
-export default new Shape( bibleSolidString );
+export default new Shape( bibleSolidString ).makeImmutable();

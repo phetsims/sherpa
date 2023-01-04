@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import dockerString from './dockerString.js';
 
-export default new Shape( dockerString );
+export default new Shape( dockerString ).makeImmutable();

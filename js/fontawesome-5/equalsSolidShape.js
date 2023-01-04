@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import equalsSolidString from './equalsSolidString.js';
 
-export default new Shape( equalsSolidString );
+export default new Shape( equalsSolidString ).makeImmutable();

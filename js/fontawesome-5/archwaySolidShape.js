@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import archwaySolidString from './archwaySolidString.js';
 
-export default new Shape( archwaySolidString );
+export default new Shape( archwaySolidString ).makeImmutable();

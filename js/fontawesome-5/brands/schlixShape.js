@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import schlixString from './schlixString.js';
 
-export default new Shape( schlixString );
+export default new Shape( schlixString ).makeImmutable();

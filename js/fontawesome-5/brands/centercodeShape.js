@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import centercodeString from './centercodeString.js';
 
-export default new Shape( centercodeString );
+export default new Shape( centercodeString ).makeImmutable();

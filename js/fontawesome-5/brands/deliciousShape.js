@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import deliciousString from './deliciousString.js';
 
-export default new Shape( deliciousString );
+export default new Shape( deliciousString ).makeImmutable();

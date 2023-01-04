@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import satelliteDishSolidString from './satelliteDishSolidString.js';
 
-export default new Shape( satelliteDishSolidString );
+export default new Shape( satelliteDishSolidString ).makeImmutable();

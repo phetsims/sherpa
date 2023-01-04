@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import teethOpenSolidString from './teethOpenSolidString.js';
 
-export default new Shape( teethOpenSolidString );
+export default new Shape( teethOpenSolidString ).makeImmutable();

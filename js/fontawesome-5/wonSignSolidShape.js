@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import wonSignSolidString from './wonSignSolidString.js';
 
-export default new Shape( wonSignSolidString );
+export default new Shape( wonSignSolidString ).makeImmutable();

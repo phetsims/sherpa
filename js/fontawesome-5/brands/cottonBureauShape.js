@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import cottonBureauString from './cottonBureauString.js';
 
-export default new Shape( cottonBureauString );
+export default new Shape( cottonBureauString ).makeImmutable();

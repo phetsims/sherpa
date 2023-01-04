@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import themecoString from './themecoString.js';
 
-export default new Shape( themecoString );
+export default new Shape( themecoString ).makeImmutable();

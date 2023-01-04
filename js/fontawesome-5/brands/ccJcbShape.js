@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import ccJcbString from './ccJcbString.js';
 
-export default new Shape( ccJcbString );
+export default new Shape( ccJcbString ).makeImmutable();

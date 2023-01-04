@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import bandcampString from './bandcampString.js';
 
-export default new Shape( bandcampString );
+export default new Shape( bandcampString ).makeImmutable();

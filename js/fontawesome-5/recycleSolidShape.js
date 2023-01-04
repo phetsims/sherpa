@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import recycleSolidString from './recycleSolidString.js';
 
-export default new Shape( recycleSolidString );
+export default new Shape( recycleSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import drumSteelpanSolidString from './drumSteelpanSolidString.js';
 
-export default new Shape( drumSteelpanSolidString );
+export default new Shape( drumSteelpanSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import wazeString from './wazeString.js';
 
-export default new Shape( wazeString );
+export default new Shape( wazeString ).makeImmutable();

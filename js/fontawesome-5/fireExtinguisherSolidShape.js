@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import fireExtinguisherSolidString from './fireExtinguisherSolidString.js';
 
-export default new Shape( fireExtinguisherSolidString );
+export default new Shape( fireExtinguisherSolidString ).makeImmutable();

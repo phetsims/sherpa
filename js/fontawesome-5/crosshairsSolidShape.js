@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import crosshairsSolidString from './crosshairsSolidString.js';
 
-export default new Shape( crosshairsSolidString );
+export default new Shape( crosshairsSolidString ).makeImmutable();

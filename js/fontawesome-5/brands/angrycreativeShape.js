@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import angrycreativeString from './angrycreativeString.js';
 
-export default new Shape( angrycreativeString );
+export default new Shape( angrycreativeString ).makeImmutable();

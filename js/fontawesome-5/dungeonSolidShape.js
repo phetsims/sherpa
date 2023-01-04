@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import dungeonSolidString from './dungeonSolidString.js';
 
-export default new Shape( dungeonSolidString );
+export default new Shape( dungeonSolidString ).makeImmutable();

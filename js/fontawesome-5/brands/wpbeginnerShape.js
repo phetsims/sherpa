@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import wpbeginnerString from './wpbeginnerString.js';
 
-export default new Shape( wpbeginnerString );
+export default new Shape( wpbeginnerString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import flyString from './flyString.js';
 
-export default new Shape( flyString );
+export default new Shape( flyString ).makeImmutable();

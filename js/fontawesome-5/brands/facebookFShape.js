@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import facebookFString from './facebookFString.js';
 
-export default new Shape( facebookFString );
+export default new Shape( facebookFString ).makeImmutable();

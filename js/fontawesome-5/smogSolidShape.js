@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import smogSolidString from './smogSolidString.js';
 
-export default new Shape( smogSolidString );
+export default new Shape( smogSolidString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import periscopeString from './periscopeString.js';
 
-export default new Shape( periscopeString );
+export default new Shape( periscopeString ).makeImmutable();

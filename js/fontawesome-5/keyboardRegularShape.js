@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import keyboardRegularString from './keyboardRegularString.js';
 
-export default new Shape( keyboardRegularString );
+export default new Shape( keyboardRegularString ).makeImmutable();

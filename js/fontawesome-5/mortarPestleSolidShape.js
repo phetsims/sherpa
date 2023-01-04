@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import mortarPestleSolidString from './mortarPestleSolidString.js';
 
-export default new Shape( mortarPestleSolidString );
+export default new Shape( mortarPestleSolidString ).makeImmutable();

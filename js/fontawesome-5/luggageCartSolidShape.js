@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import luggageCartSolidString from './luggageCartSolidString.js';
 
-export default new Shape( luggageCartSolidString );
+export default new Shape( luggageCartSolidString ).makeImmutable();

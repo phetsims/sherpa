@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import teamspeakString from './teamspeakString.js';
 
-export default new Shape( teamspeakString );
+export default new Shape( teamspeakString ).makeImmutable();

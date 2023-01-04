@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import woduString from './woduString.js';
 
-export default new Shape( woduString );
+export default new Shape( woduString ).makeImmutable();

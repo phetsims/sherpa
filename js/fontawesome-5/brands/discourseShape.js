@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import discourseString from './discourseString.js';
 
-export default new Shape( discourseString );
+export default new Shape( discourseString ).makeImmutable();

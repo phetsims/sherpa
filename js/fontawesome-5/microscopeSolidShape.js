@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import microscopeSolidString from './microscopeSolidString.js';
 
-export default new Shape( microscopeSolidString );
+export default new Shape( microscopeSolidString ).makeImmutable();

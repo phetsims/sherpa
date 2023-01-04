@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import buyNLargeString from './buyNLargeString.js';
 
-export default new Shape( buyNLargeString );
+export default new Shape( buyNLargeString ).makeImmutable();

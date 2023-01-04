@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import odnoklassnikiString from './odnoklassnikiString.js';
 
-export default new Shape( odnoklassnikiString );
+export default new Shape( odnoklassnikiString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import wheelchairSolidString from './wheelchairSolidString.js';
 
-export default new Shape( wheelchairSolidString );
+export default new Shape( wheelchairSolidString ).makeImmutable();

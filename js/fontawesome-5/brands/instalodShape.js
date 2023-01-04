@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import instalodString from './instalodString.js';
 
-export default new Shape( instalodString );
+export default new Shape( instalodString ).makeImmutable();

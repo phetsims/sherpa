@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import pushedString from './pushedString.js';
 
-export default new Shape( pushedString );
+export default new Shape( pushedString ).makeImmutable();

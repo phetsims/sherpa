@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import linuxString from './linuxString.js';
 
-export default new Shape( linuxString );
+export default new Shape( linuxString ).makeImmutable();

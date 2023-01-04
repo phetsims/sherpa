@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import joomlaString from './joomlaString.js';
 
-export default new Shape( joomlaString );
+export default new Shape( joomlaString ).makeImmutable();

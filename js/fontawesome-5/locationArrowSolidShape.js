@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import locationArrowSolidString from './locationArrowSolidString.js';
 
-export default new Shape( locationArrowSolidString );
+export default new Shape( locationArrowSolidString ).makeImmutable();

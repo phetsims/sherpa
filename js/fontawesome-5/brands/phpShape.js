@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import phpString from './phpString.js';
 
-export default new Shape( phpString );
+export default new Shape( phpString ).makeImmutable();

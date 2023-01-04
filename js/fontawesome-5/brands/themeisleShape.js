@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import themeisleString from './themeisleString.js';
 
-export default new Shape( themeisleString );
+export default new Shape( themeisleString ).makeImmutable();

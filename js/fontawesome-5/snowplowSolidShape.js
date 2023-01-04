@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import snowplowSolidString from './snowplowSolidString.js';
 
-export default new Shape( snowplowSolidString );
+export default new Shape( snowplowSolidString ).makeImmutable();

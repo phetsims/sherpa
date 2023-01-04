@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import gratipayString from './gratipayString.js';
 
-export default new Shape( gratipayString );
+export default new Shape( gratipayString ).makeImmutable();

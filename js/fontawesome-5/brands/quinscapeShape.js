@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import quinscapeString from './quinscapeString.js';
 
-export default new Shape( quinscapeString );
+export default new Shape( quinscapeString ).makeImmutable();

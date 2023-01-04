@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import maskSolidString from './maskSolidString.js';
 
-export default new Shape( maskSolidString );
+export default new Shape( maskSolidString ).makeImmutable();

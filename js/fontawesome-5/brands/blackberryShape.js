@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import blackberryString from './blackberryString.js';
 
-export default new Shape( blackberryString );
+export default new Shape( blackberryString ).makeImmutable();

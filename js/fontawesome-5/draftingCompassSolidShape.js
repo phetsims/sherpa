@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import draftingCompassSolidString from './draftingCompassSolidString.js';
 
-export default new Shape( draftingCompassSolidString );
+export default new Shape( draftingCompassSolidString ).makeImmutable();

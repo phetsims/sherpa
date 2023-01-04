@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import deviantartString from './deviantartString.js';
 
-export default new Shape( deviantartString );
+export default new Shape( deviantartString ).makeImmutable();

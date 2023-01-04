@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import mandalorianString from './mandalorianString.js';
 
-export default new Shape( mandalorianString );
+export default new Shape( mandalorianString ).makeImmutable();

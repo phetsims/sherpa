@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import microchipSolidString from './microchipSolidString.js';
 
-export default new Shape( microchipSolidString );
+export default new Shape( microchipSolidString ).makeImmutable();

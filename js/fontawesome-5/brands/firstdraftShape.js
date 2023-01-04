@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import firstdraftString from './firstdraftString.js';
 
-export default new Shape( firstdraftString );
+export default new Shape( firstdraftString ).makeImmutable();

@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import yoastString from './yoastString.js';
 
-export default new Shape( yoastString );
+export default new Shape( yoastString ).makeImmutable();

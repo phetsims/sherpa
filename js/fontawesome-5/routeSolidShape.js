@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import routeSolidString from './routeSolidString.js';
 
-export default new Shape( routeSolidString );
+export default new Shape( routeSolidString ).makeImmutable();

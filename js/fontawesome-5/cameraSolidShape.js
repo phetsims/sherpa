@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import cameraSolidString from './cameraSolidString.js';
 
-export default new Shape( cameraSolidString );
+export default new Shape( cameraSolidString ).makeImmutable();

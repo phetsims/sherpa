@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import socksSolidString from './socksSolidString.js';
 
-export default new Shape( socksSolidString );
+export default new Shape( socksSolidString ).makeImmutable();

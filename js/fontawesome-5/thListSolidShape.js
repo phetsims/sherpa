@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import thListSolidString from './thListSolidString.js';
 
-export default new Shape( thListSolidString );
+export default new Shape( thListSolidString ).makeImmutable();

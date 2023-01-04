@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import waveSquareSolidString from './waveSquareSolidString.js';
 
-export default new Shape( waveSquareSolidString );
+export default new Shape( waveSquareSolidString ).makeImmutable();

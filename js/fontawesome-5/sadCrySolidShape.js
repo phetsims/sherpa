@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import sadCrySolidString from './sadCrySolidString.js';
 
-export default new Shape( sadCrySolidString );
+export default new Shape( sadCrySolidString ).makeImmutable();

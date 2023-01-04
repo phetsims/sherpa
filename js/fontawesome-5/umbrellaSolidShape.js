@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import umbrellaSolidString from './umbrellaSolidString.js';
 
-export default new Shape( umbrellaSolidString );
+export default new Shape( umbrellaSolidString ).makeImmutable();

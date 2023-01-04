@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import objectUngroupRegularString from './objectUngroupRegularString.js';
 
-export default new Shape( objectUngroupRegularString );
+export default new Shape( objectUngroupRegularString ).makeImmutable();

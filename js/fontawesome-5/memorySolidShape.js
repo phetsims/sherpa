@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import memorySolidString from './memorySolidString.js';
 
-export default new Shape( memorySolidString );
+export default new Shape( memorySolidString ).makeImmutable();

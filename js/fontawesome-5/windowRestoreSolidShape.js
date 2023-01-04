@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import windowRestoreSolidString from './windowRestoreSolidString.js';
 
-export default new Shape( windowRestoreSolidString );
+export default new Shape( windowRestoreSolidString ).makeImmutable();

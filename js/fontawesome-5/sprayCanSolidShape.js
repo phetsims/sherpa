@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import sprayCanSolidString from './sprayCanSolidString.js';
 
-export default new Shape( sprayCanSolidString );
+export default new Shape( sprayCanSolidString ).makeImmutable();

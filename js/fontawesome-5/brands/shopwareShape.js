@@ -5,4 +5,4 @@
 import { Shape } from '../../../../kite/js/imports.js';
 import shopwareString from './shopwareString.js';
 
-export default new Shape( shopwareString );
+export default new Shape( shopwareString ).makeImmutable();

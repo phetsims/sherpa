@@ -5,4 +5,4 @@
 import { Shape } from '../../../kite/js/imports.js';
 import grinStarsRegularString from './grinStarsRegularString.js';
 
-export default new Shape( grinStarsRegularString );
+export default new Shape( grinStarsRegularString ).makeImmutable();
