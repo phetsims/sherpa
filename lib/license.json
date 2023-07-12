@@ -494,6 +494,22 @@
     "projectURL": "https://github.com/nodeca/pako",
     "notes": "high speed zlib port to javascript, works in browser & node.js"
   },
+  "paper-js-0.12.17.js": {
+    "text": [
+      "Copyright (c) 2011 - 2020, Jürg Lehni & Jonathan Puckey, http://juerglehni.com/ & https://puckey.studio/"
+    ],
+    "license": "The MIT License",
+    "projectURL": "https://github.com/paperjs/paper.js",
+    "notes": "curve-based mathematical operations, used in kite"
+  },
+  "paper-js-0.12.17.min.js": {
+    "text": [
+      "Copyright (c) 2011 - 2020, Jürg Lehni & Jonathan Puckey, http://juerglehni.com/ & https://puckey.studio/"
+    ],
+    "license": "The MIT License",
+    "projectURL": "https://github.com/paperjs/paper.js",
+    "notes": "curve-based mathematical operations, used in kite"
+  },
   "pegjs-0.7.0.js": {
     "text": [
       "Copyright (c) 2010-2012 David Majda"
