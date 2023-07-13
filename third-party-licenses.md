@@ -238,6 +238,10 @@ Full Font Awesome Free license: https://fontawesome.com/license/free.<br>https:/
 
 **pako-2.0.3.min.js**<br>Copyright (C) 2014-2017 by Vitaly Puzrin and Andrei Tuputcyn<br>https://github.com/nodeca/pako<br>License: [The MIT License](licenses/pako-2.0.3.min.js.txt)<br>Notes: high speed zlib port to javascript, works in browser & node.js
 
+**paper-js-0.12.17.js**<br>Copyright (c) 2011 - 2020, Jürg Lehni & Jonathan Puckey, http://juerglehni.com/ & https://puckey.studio/<br>https://github.com/paperjs/paper.js<br>License: [The MIT License](licenses/paper-js-0.12.17.js.txt)<br>Notes: curve-based mathematical operations, used in kite
+
+**paper-js-0.12.17.min.js**<br>Copyright (c) 2011 - 2020, Jürg Lehni & Jonathan Puckey, http://juerglehni.com/ & https://puckey.studio/<br>https://github.com/paperjs/paper.js<br>License: [The MIT License](licenses/paper-js-0.12.17.min.js.txt)<br>Notes: curve-based mathematical operations, used in kite
+
 **pegjs-0.7.0.js**<br>Copyright (c) 2010-2012 David Majda<br>http://pegjs.majda.cz<br>License: [The MIT License](licenses/pegjs-0.7.0.js.txt)<br>Notes: Parser Generator for JavaScript. SVG path parsing in Kite
 
 **pixelmatch@5.1.0.js**<br>Copyright (c) 2019, Mapbox<br>https://github.com/mapbox/pixelmatch<br>License: [The ISC License](licenses/pixelmatch@5.1.0.js.txt)<br>Notes: The smallest, simplest and fastest JavaScript pixel-level image comparison library
