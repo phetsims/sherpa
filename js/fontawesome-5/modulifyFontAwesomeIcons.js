@@ -20,7 +20,7 @@ const root = JSON.parse( json );
 const keys = Object.keys( root );
 const directory = 'js/fontawesome-5';
 
-// These icons fail during Shape assembly, so are left off the master list for now.  The icon module files
+// These icons fail during Shape assembly, so are left off the main list for now.  The icon module files
 // are still created, but they are omitted from iconList.js
 const failures = `Amazon
 Aviato

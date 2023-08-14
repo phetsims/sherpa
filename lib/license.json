@@ -194,7 +194,7 @@
       "Copyright (c) BrainPOP"
     ],
     "license": "MIT",
-    "projectURL": "https://github.com/phetsims/sherpa/blob/master/lib/game-up-camera-1.0.0.js",
+    "projectURL": "https://github.com/phetsims/sherpa/blob/main/lib/game-up-camera-1.0.0.js",
     "notes": "Allows a simulation to return a snapshot to BrainPOP/GameUp/SnapThought"
   },
   "he-1.1.1.js": {
