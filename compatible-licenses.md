@@ -1,5 +1,5 @@
-To help PhET Developers know which 3rd-party software can be used for building PhET simulations,
-here is a list of licenses compatible to be included in PhET simulations,
+To help PhET Developers know which 3rd-party software can be used for building PhET simulations, here is a list of
+licenses compatible to be included in PhET simulations,
 from https://github.com/phetsims/sherpa/issues/81#issuecomment-767676479
 
 ### Code
