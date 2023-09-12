@@ -1,3 +1,4 @@
+<!--@formatter:off-->
 This report enumerates the third-party resources (code, images, sounds, etc) used in a set of simulations.
 * [Third-party Code](#third-party-code)
 * [Third-party Code License Summary](#third-party-code-license-summary)
@@ -350,3 +351,4 @@ The MIT License<br>Public Domain<br>Apache 2.0<br>Use it if you like it<br>The B
 # <a name="third-party-media-license-summary"></a>Third-party Media License Summary:<br>
 Public Domain<br>Unlicensed<br>Public Domain Creative Commons
 
+<!--@formatter:on-->\n
