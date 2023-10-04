@@ -518,6 +518,14 @@
     "projectURL": "http://pegjs.majda.cz",
     "notes": "Parser Generator for JavaScript. SVG path parsing in Kite"
   },
+  "peggy-3.0.2.js": {
+    "text": [
+      "Copyright (c) 2010-2022 The Peggy AUTHORS"
+    ],
+    "license": "The MIT License",
+    "projectURL": "https://peggyjs.org/",
+    "notes": "Peggy is a simple parser generator for JavaScript that produces fast parsers with excellent error reporting."
+  },
   "planck-0.3.0-rc.2.js": {
     "text": [
       "Copyright (c) 2016-2018 Ali Shakiba http://shakiba.me/planck.js",
