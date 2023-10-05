@@ -240,9 +240,11 @@ Full Font Awesome Free license: https://fontawesome.com/license/free.<br>https:/
 
 **pako-2.0.3.min.js**<br>Copyright (C) 2014-2017 by Vitaly Puzrin and Andrei Tuputcyn<br>https://github.com/nodeca/pako<br>License: [The MIT License](licenses/pako-2.0.3.min.js.txt)<br>Notes: high speed zlib port to javascript, works in browser & node.js
 
-**paper-js-0.12.17.js**<br>Copyright (c) 2011 - 2020, Jürg Lehni & Jonathan Puckey, http://juerglehni.com/ & https://puckey.studio/<br>https://github.com/paperjs/paper.js<br>License: [The MIT License](licenses/paper-js-0.12.17.js.txt)<br>Notes: curve-based mathematical operations, used in kite<br>Used by: &#8234;Acid-Base Solutions&#8236;, &#8234;Greenhouse Effect&#8236;, &#8234;Natural Selection&#8236;, &#8234;Sound Waves&#8236;
+**paper-js-0.12.17.js**<br>Copyright (c) 2011 - 2020, Jürg Lehni & Jonathan Puckey, http://juerglehni.com/ & https://puckey.studio/<br>https://github.com/paperjs/paper.js<br>License: [The MIT License](licenses/paper-js-0.12.17.js.txt)<br>Notes: curve-based mathematical operations, used in kite<br>Used by: &#8234;Acid-Base Solutions&#8236;, &#8234;Greenhouse Effect&#8236;, &#8234;Kepler&#39;s Laws&#8236;, &#8234;Natural Selection&#8236;, &#8234;Sound Waves&#8236;
 
 **paper-js-0.12.17.min.js**<br>Copyright (c) 2011 - 2020, Jürg Lehni & Jonathan Puckey, http://juerglehni.com/ & https://puckey.studio/<br>https://github.com/paperjs/paper.js<br>License: [The MIT License](licenses/paper-js-0.12.17.min.js.txt)<br>Notes: curve-based mathematical operations, used in kite
+
+**peggy-3.0.2.js**<br>Copyright (c) 2010-2022 The Peggy AUTHORS<br>https://peggyjs.org/<br>License: [The MIT License](licenses/peggy-3.0.2.js.txt)<br>Notes: Peggy is a simple parser generator for JavaScript that produces fast parsers with excellent error reporting.
 
 **pegjs-0.7.0.js**<br>Copyright (c) 2010-2012 David Majda<br>http://pegjs.majda.cz<br>License: [The MIT License](licenses/pegjs-0.7.0.js.txt)<br>Notes: Parser Generator for JavaScript. SVG path parsing in Kite
 
