@@ -302,6 +302,8 @@ Full Font Awesome Free license: https://fontawesome.com/license/free.<br>https:/
 
 **ua-parser-0.7.21.min.js**<br>Copyright © 2012-2019 Faisal Salman <f@faisalman.com><br>https://github.com/faisalman/ua-parser-js<br>License: [The MIT License](licenses/ua-parser-0.7.21.min.js.txt)<br>Notes: Parse User Agents strings to make them human readable
 
+**webgpu_recorder.js**<br>Copyright (c) 2021 Brendan Duncan<br>https://github.com/brendan-duncan/webgpu_recorder<br>License: [The MIT License](licenses/webgpu_recorder.js.txt)<br>Notes: Recording and playback of WebGPU commands, used in some Alpenglow testing
+
 ---
 # <a name="third-party-code-and-license-summary"></a>Third-party Code License Summary:<br>
 The MIT License<br>Public Domain<br>Apache 2.0<br>Use it if you like it<br>The BSD License (2-clause)<br>the Apache License, Version 2.0<br>Revised BSD License<br>ISC License<br>Font Awesome licensed under SIL OFL 1.1 · Code licensed under MIT License · Documentation licensed under CC BY 3.0<br>CC BY 4.0 License (https://creativecommons.org/licenses/by/4.0/)<br>MIT<br>SIL Open Font License, Version 1.1<br>The WTFPL<br>Mozilla Public License, version 2.0<br>The ISC License<br>zlib License<br>BSD
