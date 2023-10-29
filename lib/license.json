@@ -745,5 +745,13 @@
     "license": "The MIT License",
     "projectURL": "https://github.com/faisalman/ua-parser-js",
     "notes": "Parse User Agents strings to make them human readable"
+  },
+  "webgpu_recorder.js": {
+    "text": [
+      "Copyright (c) 2021 Brendan Duncan"
+    ],
+    "license": "The MIT License",
+    "projectURL": "https://github.com/brendan-duncan/webgpu_recorder",
+    "notes": "Recording and playback of WebGPU commands, used in some Alpenglow testing"
   }
 }
