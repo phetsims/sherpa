@@ -9,5 +9,18 @@
   },
   "phet": {
     "supportsOutputJS": true
+  },
+  "eslintConfig": {
+    "extends": "../chipper/eslint/.eslintrc.js",
+    "ignorePatterns": [
+      "lib/",
+      "katex/",
+      "licenses/",
+      "mathjax/",
+      "mermaid/",
+      "js/fontawesome-4/",
+      "js/fontawesome-5/",
+      "js/fontawesome-5/brands/"
+    ]
   }
 }
