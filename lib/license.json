@@ -27,6 +27,14 @@
     "license": "The MIT License",
     "notes": "Used in isolated non-sim-included benchmarking tests"
   },
+  "big-6.2.1.mjs": {
+    "text": [
+      "Copyright © `<2022>` `Michael Mclaughlin`"
+    ],
+    "projectURL": "https://github.com/MikeMcl/big.js",
+    "license": "MIT",
+    "notes": "A small, fast JavaScript library for arbitrary-precision decimal arithmetic."
+  },
   "BigInteger-cda5bcc.js": {
     "text": [
       "Developed by Peter Olson, https://github.com/peterolson"
