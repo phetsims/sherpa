@@ -128,6 +128,8 @@ To see the third party resources used in a particular published simulation, insp
 
 **benchmark-2.1.4.js**<br>Copyright 2010-2016 Mathias Bynens<br>Based on JSLitmus.js, copyright Robert Kieffer<br>Modified by John-David Dalton<br>http://benchmarkjs.com<br>License: [The MIT License](licenses/benchmark-2.1.4.js.txt)<br>Notes: Used in isolated non-sim-included benchmarking tests
 
+**big-6.2.1.mjs**<br>Copyright © `<2022>` `Michael Mclaughlin`<br>https://github.com/MikeMcl/big.js<br>License: [MIT](licenses/big-6.2.1.mjs.txt)<br>Notes: A small, fast JavaScript library for arbitrary-precision decimal arithmetic.
+
 **BigInteger-cda5bcc.js**<br>Developed by Peter Olson, https://github.com/peterolson<br>https://github.com/peterolson/BigInteger.js<br>License: [Public Domain](licenses/BigInteger-cda5bcc.js.txt)<br>Notes: An arbitrary length integer library for Javascript<br>Used by: &#8234;Function Builder&#8236;, &#8234;Function Builder: Basics&#8236;
 
 **BigRational-8f8c2fa.js**<br>Developed by Peter Olson, https://github.com/peterolson<br>https://github.com/peterolson/BigInteger.js<br>License: [Public Domain](licenses/BigRational-8f8c2fa.js.txt)<br>Notes: An arbitrary length rational number library for Javascript<br>Dependencies: **BigInteger-cda5bcc.js**<br>Used by: &#8234;Function Builder&#8236;, &#8234;Function Builder: Basics&#8236;
@@ -306,7 +308,7 @@ Full Font Awesome Free license: https://fontawesome.com/license/free.<br>https:/
 
 ---
 # <a name="third-party-code-and-license-summary"></a>Third-party Code License Summary:<br>
-The MIT License<br>Public Domain<br>Apache 2.0<br>Use it if you like it<br>The BSD License (2-clause)<br>the Apache License, Version 2.0<br>Revised BSD License<br>ISC License<br>Font Awesome licensed under SIL OFL 1.1 · Code licensed under MIT License · Documentation licensed under CC BY 3.0<br>CC BY 4.0 License (https://creativecommons.org/licenses/by/4.0/)<br>MIT<br>SIL Open Font License, Version 1.1<br>The WTFPL<br>Mozilla Public License, version 2.0<br>The ISC License<br>zlib License<br>BSD
+The MIT License<br>MIT<br>Public Domain<br>Apache 2.0<br>Use it if you like it<br>The BSD License (2-clause)<br>the Apache License, Version 2.0<br>Revised BSD License<br>ISC License<br>Font Awesome licensed under SIL OFL 1.1 · Code licensed under MIT License · Documentation licensed under CC BY 3.0<br>CC BY 4.0 License (https://creativecommons.org/licenses/by/4.0/)<br>SIL Open Font License, Version 1.1<br>The WTFPL<br>Mozilla Public License, version 2.0<br>The ISC License<br>zlib License<br>BSD
 
 ---
 # <a name="third-party-media"></a>Third-party Media:<br>
