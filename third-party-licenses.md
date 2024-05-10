@@ -256,6 +256,10 @@ Full Font Awesome Free license: https://fontawesome.com/license/free.<br>https:/
 
 **planck-0.3.0-rc.2.js**<br>Copyright (c) 2016-2018 Ali Shakiba http://shakiba.me/planck.js<br>Copyright (c) 2006-2013 Erin Catto  http://www.gphysics.com<br>https://github.com/shakiba/planck.js<br>License: [zlib License](licenses/planck-0.3.0-rc.2.js.txt)<br>Notes: 2d physics engine for density/buoyancy
 
+**poly-decomp-0.3.0.js**<br>Copyright (c) 2013 Stefan Hedman<br>https://github.com/schteppe/poly-decomp.js/<br>License: [The MIT License](licenses/poly-decomp-0.3.0.js.txt)<br>Notes: Polygon decomposition, required by Matter.js for a few operations<br>Used by: &#8234;Density&#8236;
+
+**poly-decomp-0.3.0.min.js**<br>Copyright (c) 2013 Stefan Hedman<br>https://github.com/schteppe/poly-decomp.js/<br>License: [The MIT License](licenses/poly-decomp-0.3.0.min.js.txt)<br>Notes: Polygon decomposition, required by Matter.js for a few operations
+
 **poly2tri-1.3.5.min.js**<br>Copyright (c) 2009-2014, Poly2Tri Contributors<br>https://github.com/r3mi/poly2tri.js<br>License: [Revised BSD License](licenses/poly2tri-1.3.5.min.js.txt)<br>Notes: Used for rendering in Scenery's WebGL renderer
 
 **prism-1.23.0.js**<br>Copyright (c) 2012 Lea Verou<br>https://prismjs.com/<br>License: [The MIT License](licenses/prism-1.23.0.js.txt)<br>Notes: Used for displayed code syntax highlighting
