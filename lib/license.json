@@ -1,4 +1,12 @@
 {
+  "acorn-8.12.1.js": {
+    "text": [
+      "Copyright (C) 2012-2022 by various contributors (see AUTHORS)"
+    ],
+    "license": "The MIT License",
+    "projectURL": "https://github.com/acornjs/acorn",
+    "notes": "For quick parsing of JavaScript code (initially used in description project editor)"
+  },
   "base64-js-1.2.0.js": {
     "text": [
       "Copyright (c) 2014"
