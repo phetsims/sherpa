@@ -21,6 +21,18 @@
       "js/fontawesome-4/",
       "js/fontawesome-5/",
       "js/fontawesome-5/brands/"
+    ],
+    "overrides": [
+      {
+        "files": [
+          "**/*.ts"
+        ],
+        "parserOptions": {
+          "project": [
+            "../sherpa/tsconfig.json"
+          ]
+        }
+      }
     ]
   }
 }
