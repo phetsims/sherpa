@@ -136,7 +136,7 @@ To see the third party resources used in a particular published simulation, insp
 
 **benchmark-2.1.4.js**<br>Copyright 2010-2016 Mathias Bynens<br>Based on JSLitmus.js, copyright Robert Kieffer<br>Modified by John-David Dalton<br>http://benchmarkjs.com<br>License: [The MIT License](licenses/benchmark-2.1.4.js.txt)<br>Notes: Used in isolated non-sim-included benchmarking tests
 
-**big-6.2.1.mjs**<br>Copyright © `<2022>` `Michael Mclaughlin`<br>https://github.com/MikeMcl/big.js<br>License: [MIT](licenses/big-6.2.1.mjs.txt)<br>Notes: A small, fast JavaScript library for arbitrary-precision decimal arithmetic.
+**big-6.2.1.js**<br>Copyright © `<2022>` `Michael Mclaughlin`<br>https://github.com/MikeMcl/big.js<br>License: [MIT](licenses/big-6.2.1.js.txt)<br>Notes: A small, fast JavaScript library for arbitrary-precision decimal arithmetic.
 
 **BigInteger-cda5bcc.js**<br>Developed by Peter Olson, https://github.com/peterolson<br>https://github.com/peterolson/BigInteger.js<br>License: [Public Domain](licenses/BigInteger-cda5bcc.js.txt)<br>Notes: An arbitrary length integer library for Javascript<br>Used by: &#8234;Function Builder&#8236;, &#8234;Function Builder: Basics&#8236;
 
