@@ -7,7 +7,7 @@
  * @author Michael Kauzmann (PhET Interactive Simulations)
  */
 
-import browserEslintConfig from '../chipper/eslint/browser.eslint.config.mjs';
+import browserEslintConfig from '../perennial-alias/js/eslint/browser.eslint.config.mjs';
 
 export default [
   ...browserEslintConfig,
