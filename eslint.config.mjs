@@ -7,7 +7,7 @@
  * @author Michael Kauzmann (PhET Interactive Simulations)
  */
 
-import browserEslintConfig from '../perennial-alias/js/eslint/browser.eslint.config.mjs';
+import browserEslintConfig from '../perennial-alias/js/eslint/config/browser.eslint.config.mjs';
 
 export default [
   ...browserEslintConfig,
