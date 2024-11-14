@@ -189,6 +189,14 @@
     "projectURL": "https://github.com/mourner/flatqueue",
     "notes": "Used for accelerated shape computation"
   },
+  "fluent-0.13.0.min.js": {
+    "text": [
+      "Copyright 2013 Mozilla Foundation and others"
+    ],
+    "license": "Apache 2.0",
+    "projectURL": "https://projectfluent.org/",
+    "notes": "Used for formatting complex string patterns and supporting translations."
+  },
   "font-awesome-4.5.0": {
     "text": [
       "Created by Dave Gandy"
