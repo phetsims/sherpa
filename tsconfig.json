@@ -9,6 +9,9 @@
   "references": [
     {
       "path": "../perennial-alias/tsconfig/buildjson/tsconfig.json"
+    },
+    {
+      "path": "./tsconfig-lodash.json"
     }
   ]
 }
