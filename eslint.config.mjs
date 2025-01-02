@@ -20,7 +20,8 @@ export default [
       'mermaid/',
       'js/fontawesome-4/',
       'js/fontawesome-5/',
-      'js/fontawesome-5/brands/'
+      'js/fontawesome-5/brands/',
+      'lodash-es/'
     ]
   }
 ];
