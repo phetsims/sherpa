@@ -189,7 +189,7 @@
     "projectURL": "https://github.com/mourner/flatqueue",
     "notes": "Used for accelerated shape computation"
   },
-  "fluent-0.13.0.min.js": {
+  "fluent-bundle-0.18.0": {
     "text": [
       "Copyright 2013 Mozilla Foundation and others"
     ],
