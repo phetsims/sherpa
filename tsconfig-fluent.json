@@ -1,7 +1,7 @@
 {
   "extends": "../perennial-alias/tsconfig/tsconfig-browser.json",
   "include": [
-    "lib/fluent-bundle/**/*"
+    "lib/fluent/**/*"
   ],
   "compilerOptions": {
     "isolatedModules": false
