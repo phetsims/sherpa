@@ -12,6 +12,9 @@
     },
     {
       "path": "./tsconfig-lodash.json"
+    },
+    {
+      "path": "./tsconfig-fluent.json"
     }
   ]
 }
