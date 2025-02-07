@@ -6,7 +6,7 @@
  This license is copied below, and is also available with a FAQ at:
  http://scripts.sil.org/OFL
  */
-import { Shape } from '../../../kite/js/imports.js';
+import Shape from '../../../kite/js/Shape.js';
 
 // TODO: This is deprecated, use sun/js/shapes/scissorsShape instead
 
