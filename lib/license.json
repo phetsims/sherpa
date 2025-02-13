@@ -157,6 +157,14 @@
     "projectURL": "https://github.com/d3/d3",
     "notes": "Used by metrics-graphics for Yotta graphs"
   },
+  "d3-interpolate-path-2.3.0.js": {
+    "text": [
+      "Copyright 2016, Peter Beshai"
+    ],
+    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+    "projectURL": "https://github.com/pbeshai/d3-interpolate-path",
+    "notes": "Interpolates path `d` attribute smoothly when A and B have different number of points."
+  },
   "decimal-10.3.1.js": {
     "text": [
       "Copyright (c) 2021 Michael Mclaughlin"
