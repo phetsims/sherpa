@@ -166,6 +166,8 @@ To see the third party resources used in a particular published simulation, insp
 
 **d3-4.7.1.min.js**<br>Copyright 2010-2016 Mike Bostock<br>https://github.com/d3/d3<br>License: [The MIT License](licenses/d3-4.7.1.min.js.txt)<br>Notes: Used by metrics-graphics for Yotta graphs
 
+**d3-interpolate-path-2.3.0.js**<br>Copyright 2016, Peter Beshai<br>https://github.com/pbeshai/d3-interpolate-path<br>License: [BSD 3-Clause "New" or "Revised" License](licenses/d3-interpolate-path-2.3.0.js.txt)<br>Notes: Interpolates path `d` attribute smoothly when A and B have different number of points.
+
 **decimal-10.3.1.js**<br>Copyright (c) 2021 Michael Mclaughlin<br>https://github.com/MikeMcl/decimal.js/<br>License: [The MIT License](licenses/decimal-10.3.1.js.txt)<br>Notes: An arbitrary-precision Decimal type for JavaScript
 
 **diff-match-patch-1.0.0.js**<br>Copyright 2018 The diff-match-patch Authors.<br>https://github.com/google/diff-match-patch<br>License: [the Apache License, Version 2.0](licenses/diff-match-patch-1.0.0.js.txt)<br>Notes: Used by metrics-graphics for Yotta graphs
@@ -320,7 +322,7 @@ Full Font Awesome Free license: https://fontawesome.com/license/free.<br>https:/
 
 ---
 # <a name="third-party-code-and-license-summary"></a>Third-party Code License Summary:<br>
-The MIT License<br>MIT<br>Public Domain<br>Apache 2.0<br>Use it if you like it<br>The BSD License (2-clause)<br>the Apache License, Version 2.0<br>Revised BSD License<br>ISC License<br>Font Awesome licensed under SIL OFL 1.1 · Code licensed under MIT License · Documentation licensed under CC BY 3.0<br>CC BY 4.0 License (https://creativecommons.org/licenses/by/4.0/)<br>SIL Open Font License, Version 1.1<br>The WTFPL<br>Mozilla Public License, version 2.0<br>The ISC License<br>zlib License<br>BSD
+The MIT License<br>MIT<br>Public Domain<br>Apache 2.0<br>Use it if you like it<br>The BSD License (2-clause)<br>BSD 3-Clause "New" or "Revised" License<br>the Apache License, Version 2.0<br>Revised BSD License<br>ISC License<br>Font Awesome licensed under SIL OFL 1.1 · Code licensed under MIT License · Documentation licensed under CC BY 3.0<br>CC BY 4.0 License (https://creativecommons.org/licenses/by/4.0/)<br>SIL Open Font License, Version 1.1<br>The WTFPL<br>Mozilla Public License, version 2.0<br>The ISC License<br>zlib License<br>BSD
 
 ---
 # <a name="third-party-media"></a>Third-party Media:<br>
