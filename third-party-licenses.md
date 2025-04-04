@@ -166,8 +166,6 @@ To see the third party resources used in a particular published simulation, insp
 
 **d3-4.7.1.min.js**<br>Copyright 2010-2016 Mike Bostock<br>https://github.com/d3/d3<br>License: [The MIT License](licenses/d3-4.7.1.min.js.txt)<br>Notes: Used by metrics-graphics for Yotta graphs
 
-**d3-interpolate-path-2.3.0.js**<br>Copyright 2016, Peter Beshai<br>https://github.com/pbeshai/d3-interpolate-path<br>License: [BSD 3-Clause "New" or "Revised" License](licenses/d3-interpolate-path-2.3.0.js.txt)<br>Notes: Interpolates path `d` attribute smoothly when A and B have different number of points.
-
 **decimal-10.3.1.js**<br>Copyright (c) 2021 Michael Mclaughlin<br>https://github.com/MikeMcl/decimal.js/<br>License: [The MIT License](licenses/decimal-10.3.1.js.txt)<br>Notes: An arbitrary-precision Decimal type for JavaScript
 
 **diff-match-patch-1.0.0.js**<br>Copyright 2018 The diff-match-patch Authors.<br>https://github.com/google/diff-match-patch<br>License: [the Apache License, Version 2.0](licenses/diff-match-patch-1.0.0.js.txt)<br>Notes: Used by metrics-graphics for Yotta graphs
