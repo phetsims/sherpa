@@ -320,7 +320,7 @@ Full Font Awesome Free license: https://fontawesome.com/license/free.<br>https:/
 
 ---
 # <a name="third-party-code-and-license-summary"></a>Third-party Code License Summary:<br>
-The MIT License<br>MIT<br>Public Domain<br>Apache 2.0<br>Use it if you like it<br>The BSD License (2-clause)<br>BSD 3-Clause "New" or "Revised" License<br>the Apache License, Version 2.0<br>Revised BSD License<br>ISC License<br>Font Awesome licensed under SIL OFL 1.1 · Code licensed under MIT License · Documentation licensed under CC BY 3.0<br>CC BY 4.0 License (https://creativecommons.org/licenses/by/4.0/)<br>SIL Open Font License, Version 1.1<br>The WTFPL<br>Mozilla Public License, version 2.0<br>The ISC License<br>zlib License<br>BSD
+The MIT License<br>MIT<br>Public Domain<br>Apache 2.0<br>Use it if you like it<br>The BSD License (2-clause)<br>the Apache License, Version 2.0<br>Revised BSD License<br>ISC License<br>Font Awesome licensed under SIL OFL 1.1 · Code licensed under MIT License · Documentation licensed under CC BY 3.0<br>CC BY 4.0 License (https://creativecommons.org/licenses/by/4.0/)<br>SIL Open Font License, Version 1.1<br>The WTFPL<br>Mozilla Public License, version 2.0<br>The ISC License<br>zlib License<br>BSD
 
 ---
 # <a name="third-party-media"></a>Third-party Media:<br>
