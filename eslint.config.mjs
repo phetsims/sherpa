@@ -7,10 +7,12 @@
  * @author Michael Kauzmann (PhET Interactive Simulations)
  */
 
+import strictBooleanExpressionsConfig from '../perennial-alias/js/eslint/config/util/strictBooleanExpressionsConfig.mjs';
 import browserEslintConfig from '../perennial-alias/js/eslint/config/browser.eslint.config.mjs';
 
 export default [
   ...browserEslintConfig,
+  ...strictBooleanExpressionsConfig,
   {
     ignores: [
       'lib/',
