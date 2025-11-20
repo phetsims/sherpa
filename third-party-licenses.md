@@ -315,6 +315,8 @@ Full Font Awesome Free license: https://fontawesome.com/license/free.<br>https:/
 
 **three-r71.js**<br>Copyright (c) 2010-2014 three.js authors<br>http://threejs.org<br>License: [The MIT License](licenses/three-r71.js.txt)<br>Notes: For the 3D view (WebGL and Canvas), modified with commenting out startup console.log<br>Used by: &#8234;Molecule Shapes&#8236;, &#8234;Molecule Shapes: Basics&#8236;
 
+**three-subdivide-1.1.3.js**<br>Copyright (c) 2022-2023 Stephens Nunnally <@stevinz><br>https://github.com/stevinz/three-subdivide<br>License: [The MIT License](licenses/three-subdivide-1.1.3.js.txt)<br>Notes: For 3D subdivision usage with three.js
+
 **Tween-r12.js**<br>Copyright (c) 2010-2012 Tween.js authors.<br>https://github.com/tweenjs/tween.js/<br>License: [The MIT License](licenses/Tween-r12.js.txt)<br>Notes: Used to animate some graphics<br>Dependencies: **easing-equations-r12**<br>Used by: &#8234;Area Builder&#8236; 1.1.36, &#8234;Capacitor Lab: Basics&#8236;, &#8234;Charges and Fields&#8236; 1.0.65, &#8234;Expression Exchange&#8236;, &#8234;Forces and Motion: Basics&#8236;, &#8234;Fractions: Intro&#8236;, &#8234;Gene Expression Essentials&#8236;, &#8234;Least-Squares Regression&#8236;, &#8234;Make a Ten&#8236;, &#8234;Projectile Motion&#8236;
 
 **typedarray-44f09cf.js**<br>Copyright (c) 2010 Linden Research, Inc., Copyright (c) 2014 Joshua Bell<br>https://github.com/substack/typedarray<br>License: [The MIT License](licenses/typedarray-44f09cf.js.txt)<br>Notes: Typed array polyfill for optimization in matrices and/or 3D applications<br>Used by: &#8234;Molecule Shapes&#8236;, &#8234;Molecule Shapes: Basics&#8236;
