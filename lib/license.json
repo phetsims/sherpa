@@ -735,6 +735,14 @@
     "projectURL": "http://threejs.org",
     "notes": "For the 3D view (WebGL and Canvas), modified with commenting out startup console.log"
   },
+  "three-subdivide-1.1.3.js": {
+    "text": [
+      "Copyright (c) 2022-2023 Stephens Nunnally <@stevinz>"
+    ],
+    "license": "The MIT License",
+    "projectURL": "https://github.com/stevinz/three-subdivide",
+    "notes": "For 3D subdivision usage with three.js"
+  },
   "Tween-r12.js": {
     "text": [
       "Copyright (c) 2010-2012 Tween.js authors."
