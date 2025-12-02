@@ -309,6 +309,8 @@ Full Font Awesome Free license: https://fontawesome.com/license/free.<br>https:/
 
 **three-r104.min.js**<br>Copyright © 2010-2019 three.js authors<br>http://threejs.org<br>License: [The MIT License](licenses/three-r104.min.js.txt)<br>Notes: For the 3D view (WebGL and Canvas), modified with commenting out startup console.log
 
+**three-r160.js**<br>Copyright © 2010-2025 three.js authors<br>http://threejs.org<br>License: [The MIT License](licenses/three-r160.js.txt)<br>Notes: For the 3D view (WebGL and Canvas), modified with commenting out startup console.log
+
 **three-r71-CanvasRenderer.js**<br>Copyright (c) 2010-2014 three.js authors<br>http://threejs.org<br>License: [The MIT License](licenses/three-r71-CanvasRenderer.js.txt)<br>Notes: For the 3D view (WebGL and Canvas) Canvas fall-back<br>Used by: &#8234;Molecule Shapes&#8236;, &#8234;Molecule Shapes: Basics&#8236;
 
 **three-r71-Projector.js**<br>Copyright (c) 2010-2014 three.js authors<br>http://threejs.org<br>License: [The MIT License](licenses/three-r71-Projector.js.txt)<br>Notes: For the 3D view (WebGL and Canvas) Canvas fall-back<br>Used by: &#8234;Molecule Shapes&#8236;, &#8234;Molecule Shapes: Basics&#8236;
