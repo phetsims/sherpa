@@ -735,7 +735,7 @@
     "projectURL": "http://threejs.org",
     "notes": "For the 3D view (WebGL and Canvas), modified with commenting out startup console.log"
   },
-  "three-r160.min.js": {
+  "three-r160.js": {
     "text": [
       "Copyright © 2010-2025 three.js authors"
     ],
