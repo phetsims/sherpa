@@ -173,6 +173,14 @@
     "projectURL": "https://github.com/google/diff-match-patch",
     "notes": "Used by metrics-graphics for Yotta graphs"
   },
+  "eecircuit-engine-1.5.6.js": {
+    "text": [
+      "Copyright (c) 2020 Danial Chitnis"
+    ],
+    "license": "The MIT License",
+    "projectURL": "https://github.com/eelab-dev/EEcircuit",
+    "notes": "A browser-based SPICE circuit simulator"
+  },
   "FileSaver-b8054a2.js": {
     "text": [
       "Copyright (c) 2015 Eli Grey. (http://eligrey.com)"
