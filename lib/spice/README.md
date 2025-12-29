@@ -4,7 +4,7 @@ Self-contained ngspice WASM build for Circuit Construction Kit.
 
 ## Contents
 
-- `phet-spice-bundle.js` (7.6 MB) - ngspice compiled to WebAssembly with base64-encoded binary
+- `phet-spice-bundle.js` (2.6 MB) - ngspice compiled to WebAssembly with base64-encoded binary
 
 ## Licenses
 
@@ -65,9 +65,14 @@ Emscripten flags: `-g0 -Os` (no debug info, size-optimized)
 
 | Stage | Size |
 |-------|------|
-| Raw WASM | 5.7 MB |
-| Base64 encoded | 7.6 MB |
+| Raw WASM (stripped) | 1.9 MB |
+| Base64 encoded bundle | 2.6 MB |
+| Previous raw WASM (unstripped) | 5.7 MB |
 | Previous eecircuit-engine package | 19 MB |
+
+### Device Stripping
+
+The build uses `phet_strip_devices.sh` to remove IC design and RF device models not needed for educational circuits. This removes registrations for ~35 device types (BSIM, SOI, HiSIM, transmission lines, etc.) from `dev.c`, reducing WASM size by 67%.
 
 ### API
 

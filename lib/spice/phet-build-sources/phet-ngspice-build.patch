@@ -1,0 +1,843 @@
+diff --git a/Docker/Dockerfile b/Docker/Dockerfile
+index d3aa148..0aad901 100644
+--- a/Docker/Dockerfile
++++ b/Docker/Dockerfile
+@@ -28,9 +28,11 @@ RUN apt-get -y install libtool which
+ 
+ COPY ./run.sh /
+ COPY ./hicum2_patch.sh /
++COPY ./phet_strip_devices.sh /
+ 
+ RUN chmod +x /run.sh
+ RUN chmod +x /hicum2_patch.sh
++RUN chmod +x /phet_strip_devices.sh
+ 
+ 
+ ENTRYPOINT ["/run.sh"]
+diff --git a/Docker/run.sh b/Docker/run.sh
+index b27b402..5f2fe2f 100644
+--- a/Docker/run.sh
++++ b/Docker/run.sh
+@@ -76,6 +76,12 @@ echo "build: Applying hicum2 removal patch"
+ cp /hicum2_patch.sh ./hicum2_patch.sh
+ ./hicum2_patch.sh || { echo "build: hicum2 patch failed, stopping execution"; exit 1; }
+ 
++# PhET device stripping - removes ~35 IC/RF device models to reduce WASM size
++echo "build: Applying PhET device stripping patch"
++cp /phet_strip_devices.sh ./phet_strip_devices.sh
++chmod +x ./phet_strip_devices.sh
++./phet_strip_devices.sh || { echo "build: PhET strip patch failed, stopping execution"; exit 1; }
++
+ ############################################
+ 
+ echo -e "\n"
+@@ -100,11 +106,12 @@ echo "build: Building ngspice..."
+ mkdir release
+ cd release
+ 
+-emconfigure ../configure --disable-debug --disable-openmp --disable-xspice -with-readline=no
++emconfigure ../configure --disable-debug --disable-openmp --disable-xspice \
++  --disable-osdi --disable-sp --disable-utf8 --with-readline=no
+ wait
+ 
+ # ngspice$(EXEEXT)
+-sed -i 's|$(ngspice_LDADD) $(LIBS)|$(ngspice_LDADD) $(LIBS) -g1 -s ASYNCIFY=1 -s ASYNCIFY_ADVISE=0 -s ASYNCIFY_IGNORE_INDIRECT=0 -s ENVIRONMENT="web,worker" -s ALLOW_MEMORY_GROWTH=1 -s MODULARIZE=1 -s EXPORT_ES6=1 -s EXPORTED_RUNTIME_METHODS=["FS","Asyncify"] -o spice.mjs|g' ./src/Makefile
++sed -i 's|$(ngspice_LDADD) $(LIBS)|$(ngspice_LDADD) $(LIBS) -g0 -Os -s ASYNCIFY=1 -s ASYNCIFY_ADVISE=0 -s ASYNCIFY_IGNORE_INDIRECT=0 -s ENVIRONMENT="web,worker" -s ALLOW_MEMORY_GROWTH=1 -s MODULARIZE=1 -s EXPORT_ES6=1 -s EXPORTED_RUNTIME_METHODS=["FS","Asyncify"] -o spice.mjs|g' ./src/Makefile
+ 
+ 
+ 
+
+diff --git a/Docker/phet_strip_devices.sh b/Docker/phet_strip_devices.sh
+new file mode 100755
+--- /dev/null
++++ b/Docker/phet_strip_devices.sh
+@@ -0,0 +1,      77 @@
++#!/bin/bash
++# PhET Device Stripping Script - MINIMAL VERSION
++# Removes IC design, RF, and non-educational device models from ngspice
++# to reduce WASM binary size.
++#
++# KEEPS: res, cap, ind, mut, vsrc, isrc, dio, sw, csw, vcvs, vccs, ccvs, cccs, asrc, bjt, mos1, jfet
++# REMOVES: All BSIM models, SOI, HiSIM, transmission lines, etc.
++#
++# This version ONLY modifies dev.c to remove device registrations.
++# The unused device code will still be compiled but won't be linked if not referenced.
++
++echo "PhET: Stripping non-educational device models from ngspice..."
++echo "PhET: (Minimal approach - only modifying dev.c)"
++
++# Device info names to remove from dev.c
++# These are the get_*_info function names, not directory names
++DEV_INFO_TO_REMOVE=(
++    # BSIM family
++    "bsim1"
++    "bsim2"
++    "bsim3"
++    "bsim3v0"
++    "bsim3v1"
++    "bsim3v32"
++    "bsim4"
++    "bsim4v5"
++    "bsim4v6"
++    "bsim4v7"
++    # SOI - note the naming convention differences
++    "b4soi"
++    "b3soipd"
++    "b3soifd"
++    "b3soidd"
++    "soi3"
++    # HiSIM
++    "hsm2"
++    "hsmhv"
++    "hsmhv2"
++    # Advanced bipolar
++    "vbic"
++    # Heterostructure FETs
++    "hfeta"
++    "hfet2"
++    # GaAs MESFETs
++    "mes"
++    "mesa"
++    # Obsolete MOSFETs
++    "mos2"
++    "mos3"
++    "mos6"
++    "mos9"
++    # Duplicate JFET
++    "jfet2"
++    # Transmission lines
++    "txl"
++    "tra"
++    "ltra"
++    "cpl"
++    # Uniform RC
++    "urc"
++    # Power electronics
++    "vdmos"
++)
++
++# Remove device registrations from dev.c
++echo "  Removing device registrations from dev.c..."
++for info in "${DEV_INFO_TO_REMOVE[@]}"; do
++    if grep -q "get_${info}_info" src/spicelib/devices/dev.c; then
++        echo "    - ${info}"
++        sed -i "/get_${info}_info/d" src/spicelib/devices/dev.c
++    fi
++done
++
++echo ""
++echo "PhET: Device stripping complete!"
++echo "PhET: Removed ${#DEV_INFO_TO_REMOVE[@]} device registrations from dev.c"
++echo "PhET: Note: Device code still compiles but won't be included in final binary"
+
+diff --git a/phet-build/bundle.mjs b/phet-build/bundle.mjs
+new file mode 100644
+--- /dev/null
++++ b/phet-build/bundle.mjs
+@@ -0,0 +1,     197 @@
++// Bundle phet-spice into a single ES module with inline WASM
++// This creates a self-contained module similar to eecircuit-engine
++
++import fs from 'fs';
++
++const wasmPath = './spice.wasm';
++const gluePath = './spice-patched.js';
++const adapterPath = './phet-spice.js';
++const outputPath = './phet-spice-bundle.js';
++
++console.log('Reading files...');
++
++const wasmBinary = fs.readFileSync(wasmPath);
++const glueCode = fs.readFileSync(gluePath, 'utf8');
++const adapterCode = fs.readFileSync(adapterPath, 'utf8');
++
++console.log(`WASM size: ${(wasmBinary.length / 1024 / 1024).toFixed(2)} MB`);
++console.log(`Glue code: ${(glueCode.length / 1024).toFixed(1)} KB`);
++console.log(`Adapter: ${(adapterCode.length / 1024).toFixed(1)} KB`);
++
++// Base64 encode WASM
++const wasmBase64 = wasmBinary.toString('base64');
++console.log(`WASM base64: ${(wasmBase64.length / 1024 / 1024).toFixed(2)} MB`);
++
++// Modify glue code to use inline WASM instead of fetch
++// The Emscripten code fetches spice.wasm - we need to override this
++let modifiedGlue = glueCode;
++
++// CRITICAL: Remove the `new URL("spice.wasm", import.meta.url)` pattern that webpack tries to resolve
++// The original function is: function findWasmBinary(){if(Module["locateFile"]){return locateFile("spice.wasm")}return new URL("spice.wasm",import.meta.url).href}
++// Replace the entire function with one that always uses locateFile
++modifiedGlue = modifiedGlue.replace(
++  /function findWasmBinary\(\)\{if\(Module\["locateFile"\]\)\{return locateFile\("spice\.wasm"\)\}return new URL\("spice\.wasm",import\.meta\.url\)\.href\}/,
++  'function findWasmBinary(){return Module["locateFile"]("spice.wasm","")}'
++);
++
++// Remove the external import and make it self-contained
++// The glue code has: export default Module
++// We'll wrap everything and inject the WASM
++
++const bundle = `// Copyright 2025, University of Colorado Boulder
++
++// PhET SPICE Bundle - Self-contained ngspice WASM for Circuit Construction Kit
++// Generated: ${new Date().toISOString()}
++//
++// This bundle contains:
++// - ngspice compiled to WebAssembly (base64 encoded)
++// - Emscripten glue code (patched for PhET)
++// - PhET adapter matching EEcircuit API
++
++// @ts-nocheck
++/* eslint-disable */
++
++const WASM_BASE64 = "${wasmBase64}";
++
++// Decode base64 to binary
++function base64ToArrayBuffer(base64) {
++  const binaryString = atob(base64);
++  const bytes = new Uint8Array(binaryString.length);
++  for (let i = 0; i < binaryString.length; i++) {
++    bytes[i] = binaryString.charCodeAt(i);
++  }
++  return bytes;
++}
++
++// Create a blob URL for the WASM
++const wasmBytes = base64ToArrayBuffer(WASM_BASE64);
++const wasmBlob = new Blob([wasmBytes], { type: 'application/wasm' });
++const wasmUrl = URL.createObjectURL(wasmBlob);
++
++// Patch the glue code to use our blob URL
++${modifiedGlue.replace(
++  'export default Module',
++  `
++// Override WASM loading to use inline base64
++const originalModule = Module;
++const PatchedModule = async function(moduleArg = {}) {
++  // Set locateFile to return our blob URL for the wasm
++  moduleArg.locateFile = (path, prefix) => {
++    if (path.endsWith('.wasm')) {
++      return wasmUrl;
++    }
++    return prefix + path;
++  };
++  return originalModule(moduleArg);
++};
++export { PatchedModule as Module };
++`
++)}
++
++// PhET Adapter (internal, not exported directly)
++${adapterCode
++  .replace("import Module from './spice-patched.js';", "// Module imported from above")
++  .replace("export class Simulation", "class Simulation")
++  .replace(/\/\/ Global export[\s\S]*$/, "// Global export handled below")}
++
++// Override the Simulation class to use PatchedModule
++const OriginalSimulation = Simulation;
++class PatchedSimulation extends OriginalSimulation {
++  async _startInternal() {
++    const self = this;
++
++    const moduleOptions = {
++      noInitialRun: true,
++      locateFile: (path, prefix) => {
++        if (path.endsWith('.wasm')) {
++          return wasmUrl;
++        }
++        return prefix + path;
++      },
++      print: (msg = '') => {
++        self._info += msg + '\\n';
++      },
++      printErr: (msg = '') => {
++        if (msg !== "Warning: can't find the initialization file spinit." &&
++            msg !== "Using SPARSE 1.3 as Direct Linear Solver") {
++          console.warn('ngspice:', msg);
++          self._errors.push(msg);
++        }
++      },
++      setGetInput: () => ' ',
++      setHandleThings: () => {},
++      runThings: () => {}
++    };
++
++    // Use PatchedModule instead of Module
++    const ModuleFactory = PatchedModule || Module;
++    this._module = await ModuleFactory(moduleOptions);
++
++    this._module.FS.writeFile('/spinit', '* PhET ngspice init\\n');
++    this._module.FS.writeFile('/proc/meminfo', '');
++    this._module.FS.writeFile('/circuit.cir', \`Dummy Init Circuit
++V1 1 0 DC 1
++R1 1 0 1
++.tran 1m 1m
++.END\`);
++
++    this._module.setGetInput(() => {
++      if (self._cmdIndex < self._commands.length) {
++        const cmd = self._commands[self._cmdIndex++];
++        return cmd;
++      }
++      return ' ';
++    });
++
++    this._module.setHandleThings(() => {
++      self._module.Asyncify.handleAsync(async () => {
++        if (self._cmdIndex >= self._commands.length) {
++          try {
++            const rawData = self._module.FS.readFile('/out.raw');
++            const result = self._parseOutput(rawData);
++            if (self._runResolve) {
++              self._runResolve(result);
++              self._runResolve = null;
++            }
++          } catch (e) {
++            console.error('Failed to read results:', e);
++            if (self._runResolve) {
++              self._runResolve({ error: e.message, data: [] });
++              self._runResolve = null;
++            }
++          }
++
++          if (!self._initialized) {
++            self._initialized = true;
++            if (self._initResolve) {
++              self._initResolve();
++              self._initResolve = null;
++            }
++          }
++
++          await new Promise(resolve => {
++            self._waitResolve = resolve;
++          });
++
++          self._module.FS.writeFile('/circuit.cir', self._netlist);
++          self._cmdIndex = 0;
++        }
++      });
++    });
++
++    this._module.runThings();
++  }
++}
++
++export { PatchedSimulation as Simulation };
++
++if (typeof window !== 'undefined') {
++  window.PhetSpice = { Simulation: PatchedSimulation };
++}
++`;
++
++fs.writeFileSync(outputPath, bundle, 'utf8');
++
++const stats = fs.statSync(outputPath);
++console.log(`\nBundle created: ${outputPath}`);
++console.log(`Total size: ${(stats.size / 1024 / 1024).toFixed(2)} MB`);
+
+diff --git a/phet-build/patch-spice.mjs b/phet-build/patch-spice.mjs
+new file mode 100644
+--- /dev/null
++++ b/phet-build/patch-spice.mjs
+@@ -0,0 +1,      49 @@
++// Patch spice.js to add PhET/EEsim hooks
++// Works with minified Emscripten output
++
++import fs from 'fs';
++
++const inputFile = './spice.js';
++const outputFile = './spice-patched.js';
++
++let code = fs.readFileSync(inputFile, 'utf8');
++
++// 1. Replace window.prompt input with custom getInput function
++code = code.replace(
++  'result=window.prompt("Input: ")',
++  'result=getInput()'
++);
++
++// 2. Replace _emscripten_sleep with handleThings call
++code = code.replace(
++  /var _emscripten_sleep=ms=>Asyncify\.handleSleep\(wakeUp=>safeSetTimeout\(wakeUp,ms\)\)/,
++  'var _emscripten_sleep=ms=>handleThings()'
++);
++
++// 3. Bypass the window.prompt check (make it always use our getInput)
++code = code.replace(
++  'if(globalThis.window?.prompt){',
++  'if(true){'
++);
++
++// 4. Add the hook functions before the final export
++// Find the end of the module and insert our hooks
++const exportMatch = code.match(/return moduleRtn\s*}\s*export default Module/);
++if (exportMatch) {
++  const insertPoint = code.indexOf(exportMatch[0]);
++  const hooks = `
++// PhET/EEsim hooks
++var getInput = () => ' ';
++Module["setGetInput"] = function(f) { getInput = f; };
++
++var handleThings = () => {};
++Module["setHandleThings"] = function(f) { handleThings = f; };
++
++Module["runThings"] = function() { callMain(arguments_); };
++
++`;
++  code = code.slice(0, insertPoint) + hooks + code.slice(insertPoint);
++}
++
++fs.writeFileSync(outputFile, code, 'utf8');
++console.log(`Patched ${inputFile} -> ${outputFile}`);
+
+diff --git a/phet-build/phet-spice.js b/phet-build/phet-spice.js
+new file mode 100644
+--- /dev/null
++++ b/phet-build/phet-spice.js
+@@ -0,0 +1,     285 @@
++/**
++ * PhET Minimal SPICE Engine
++ * A focused wrapper around ngspice WASM for Circuit Construction Kit.
++ *
++ * Provides the same interface as EEcircuit's Simulation class:
++ *   - start() -> Promise<void>
++ *   - setNetList(string) -> void
++ *   - runSim() -> Promise<Result>
++ *   - getError() -> string[]
++ *
++ * @author Sam Reid (PhET Interactive Simulations)
++ */
++
++import Module from './spice-patched.js';
++
++export class Simulation {
++  constructor() {
++    this._module = null;
++    this._initialized = false;
++    this._netlist = '';
++    this._errors = [];
++    this._info = '';
++
++    // Command sequence for running a simulation
++    this._commands = [' ', 'source /circuit.cir', 'run', 'write /out.raw'];
++    this._cmdIndex = 0;
++
++    // Promise resolvers
++    this._initResolve = null;
++    this._runResolve = null;
++    this._waitResolve = null;
++  }
++
++  /**
++   * Initialize the WASM module. Must be called once before solving.
++   * @returns {Promise<void>}
++   */
++  async start() {
++    const self = this;
++
++    return new Promise((resolve) => {
++      self._initResolve = resolve;
++      self._startInternal();
++    });
++  }
++
++  async _startInternal() {
++    const self = this;
++
++    const moduleOptions = {
++      noInitialRun: true,
++
++      print: (msg = '') => {
++        self._info += msg + '\n';
++      },
++
++      printErr: (msg = '') => {
++        // Filter expected warnings
++        if (msg !== "Warning: can't find the initialization file spinit." &&
++            msg !== "Using SPARSE 1.3 as Direct Linear Solver") {
++          console.warn('ngspice:', msg);
++          self._errors.push(msg);
++        }
++      },
++
++      setGetInput: () => ' ',
++      setHandleThings: () => {},
++      runThings: () => {}
++    };
++
++    this._module = await Module(moduleOptions);
++
++    // Set up minimal virtual filesystem
++    this._module.FS.writeFile('/spinit', '* PhET ngspice init\n');
++    this._module.FS.writeFile('/proc/meminfo', '');
++
++    // Write a dummy circuit for the initial cycle (avoids "no circuits loaded" error)
++    this._module.FS.writeFile('/circuit.cir', `Dummy Init Circuit
++V1 1 0 DC 1
++R1 1 0 1
++.tran 1m 1m
++.END`);
++
++    // Set up command input handler
++    this._module.setGetInput(() => {
++      if (self._cmdIndex < self._commands.length) {
++        const cmd = self._commands[self._cmdIndex++];
++        return cmd;
++      }
++      return ' ';
++    });
++
++    // Set up the async handler for simulation cycles
++    this._module.setHandleThings(() => {
++      self._module.Asyncify.handleAsync(async () => {
++        // Check if command sequence is complete
++        if (self._cmdIndex >= self._commands.length) {
++          // Read and parse results
++          try {
++            const rawData = self._module.FS.readFile('/out.raw');
++            const result = self._parseOutput(rawData);
++
++            if (self._runResolve) {
++              self._runResolve(result);
++              self._runResolve = null;
++            }
++          } catch (e) {
++            console.error('Failed to read results:', e);
++            if (self._runResolve) {
++              self._runResolve({ error: e.message, data: [] });
++              self._runResolve = null;
++            }
++          }
++
++          // Signal initialization complete on first run
++          if (!self._initialized) {
++            self._initialized = true;
++            if (self._initResolve) {
++              self._initResolve();
++              self._initResolve = null;
++            }
++          }
++
++          // Wait for next runSim() call
++          await new Promise(resolve => {
++            self._waitResolve = resolve;
++          });
++
++          // Write new netlist for next run
++          self._module.FS.writeFile('/circuit.cir', self._netlist);
++          self._cmdIndex = 0;
++        }
++      });
++    });
++
++    // Start ngspice main loop
++    this._module.runThings();
++  }
++
++  /**
++   * Set the netlist for the next simulation.
++   * @param {string} netlist - SPICE netlist
++   */
++  setNetList(netlist) {
++    this._netlist = netlist;
++  }
++
++  /**
++   * Run the simulation and return results.
++   * @returns {Promise<Object>} - Parsed results
++   */
++  async runSim() {
++    if (!this._initialized) {
++      throw new Error('Call start() first');
++    }
++
++    // Clear errors for this run
++    this._errors = [];
++    this._info = '';
++
++    // Write netlist
++    this._module.FS.writeFile('/circuit.cir', this._netlist);
++    this._cmdIndex = 0;
++
++    return new Promise((resolve) => {
++      this._runResolve = resolve;
++      // Continue the simulation loop
++      if (this._waitResolve) {
++        this._waitResolve();
++        this._waitResolve = null;
++      }
++    });
++  }
++
++  /**
++   * Get errors from the last simulation.
++   * @returns {string[]}
++   */
++  getError() {
++    return this._errors;
++  }
++
++  /**
++   * Get info/output from the last simulation.
++   * @returns {string}
++   */
++  getInfo() {
++    return this._info;
++  }
++
++  /**
++   * Check if initialized.
++   * @returns {boolean}
++   */
++  isInitialized() {
++    return this._initialized;
++  }
++
++  /**
++   * Parse ngspice binary output format.
++   * @param {Uint8Array} rawData
++   * @returns {Object}
++   */
++  _parseOutput(rawData) {
++    const text = new TextDecoder().decode(rawData);
++    const binaryOffset = text.indexOf('Binary:');
++
++    if (binaryOffset === -1) {
++      return { error: 'No binary data found', header: text, data: [] };
++    }
++
++    const header = text.substring(0, binaryOffset);
++    const lines = header.split('\n');
++
++    // Parse header
++    const numVarsLine = lines.find(l => l.startsWith('No. Variables'));
++    const numPointsLine = lines.find(l => l.startsWith('No. Points'));
++    const flagsLine = lines.find(l => l.startsWith('Flags'));
++
++    const numVars = parseInt(numVarsLine?.split(':')[1] || '0');
++    const numPoints = parseInt(numPointsLine?.split(':')[1] || '0');
++    const isComplex = flagsLine?.includes('complex') || false;
++
++    // Parse variable names
++    const varStartIdx = lines.indexOf('Variables:') + 1;
++    const variables = [];
++    for (let i = 0; i < numVars; i++) {
++      const line = lines[varStartIdx + i];
++      if (line) {
++        const parts = line.trim().split(/\s+/);
++        variables.push({
++          name: parts[1] || '',
++          type: parts[2] || 'notype'
++        });
++      }
++    }
++
++    // Parse binary data
++    const view = new DataView(rawData.buffer, binaryOffset + 8);
++    const values = [];
++
++    if (isComplex) {
++      for (let i = 0; i < view.byteLength - 15; i += 16) {
++        values.push({
++          real: view.getFloat64(i, true),
++          img: view.getFloat64(i + 8, true)
++        });
++      }
++    } else {
++      for (let i = 0; i < view.byteLength - 7; i += 8) {
++        values.push(view.getFloat64(i, true));
++      }
++    }
++
++    // Reshape into per-variable arrays
++    const data = variables.map((v, idx) => ({
++      name: v.name,
++      type: v.type,
++      values: []
++    }));
++
++    for (let pt = 0; pt < numPoints; pt++) {
++      for (let v = 0; v < numVars; v++) {
++        const idx = pt * numVars + v;
++        if (idx < values.length) {
++          data[v].values.push(values[idx]);
++        }
++      }
++    }
++
++    return {
++      header: header,
++      numVariables: numVars,
++      variableNames: variables.map(v => v.name),
++      numPoints: numPoints,
++      dataType: isComplex ? 'complex' : 'real',
++      data: data.filter(d => d.type !== 'notype')
++    };
++  }
++}
++
++// Global export for non-module usage (matches existing EEcircuit pattern)
++if (typeof window !== 'undefined') {
++  window.PhetSpice = { Simulation };
++}
+
+diff --git a/phet-build/README.md b/phet-build/README.md
+new file mode 100644
+--- /dev/null
++++ b/phet-build/README.md
+@@ -0,0 +1,     157 @@
++# PhET SPICE Engine Build
++
++Custom minimal ngspice WASM build for PhET's Circuit Construction Kit.
++
++## Status: Testing Phase
++
++**Date**: 2024-12-29
++**WASM Size**: 5.7 MB (down from 18 MB original eecircuit-engine package)
++
++## What We've Built
++
++| File | Size | Description |
++|------|------|-------------|
++| `spice.wasm` | 5.7 MB | ngspice compiled to WebAssembly |
++| `spice.js` | 76 KB | Emscripten glue code |
++| `phet-spice.js` | 7 KB | PhET adapter (matches EEcircuit API) |
++| `test.html` | 7 KB | Browser test harness |
++
++## Build Process
++
++### Prerequisites
++- Docker Desktop installed and running
++- macOS or Linux
++
++### Steps to Rebuild
++
++```bash
++cd /Users/reids/phet/eecircuit-engine
++
++# Clean Docker cache (optional, for fresh build)
++docker rmi eecircuit 2>/dev/null || true
++
++# Build ngspice WASM (~15-20 minutes)
++./build-ngspice.sh
++
++# Copy artifacts to phet-build
++cp Docker/build/spice.js Docker/build/spice.wasm phet-build/
++```
++
++### Testing
++
++```bash
++cd phet-build
++python3 -m http.server 8080
++# Open http://localhost:8080/test.html
++```
++
++## Build Configuration
++
++### Configure Flags (`Docker/run.sh` line 103-104)
++```bash
++emconfigure ../configure --disable-debug --disable-openmp --disable-xspice \
++  --disable-osdi --disable-sp --disable-utf8 --with-readline=no
++```
++
++| Flag | Effect |
++|------|--------|
++| `--disable-debug` | No debug symbols |
++| `--disable-openmp` | No parallel processing (not needed in browser) |
++| `--disable-xspice` | No XSPICE extensions |
++| `--disable-osdi` | No Open Source Device Interface |
++| `--disable-sp` | No S-parameter analysis |
++| `--disable-utf8` | No Unicode support |
++
++### Emscripten Flags (`Docker/run.sh` line 108)
++- `-g0` - No debug info
++- `-Os` - Size optimization
++- `ASYNCIFY=1` - Enable async/await for simulation loop
++- `MODULARIZE=1` - ES6 module output
++- `ALLOW_MEMORY_GROWTH=1` - Dynamic memory
++
++## API Usage
++
++```javascript
++import { Simulation } from './phet-spice.js';
++
++const sim = new Simulation();
++await sim.start();
++
++sim.setNetList(`My Circuit
++V1 1 0 DC 5
++R1 1 0 100
++.tran 1m 10m
++.END`);
++
++const result = await sim.runSim();
++// result.data contains voltage/current arrays
++```
++
++## Circuit Components Supported
++
++### Confirmed Working
++- Resistors (R)
++- Capacitors (C)
++- Inductors (L)
++- DC voltage sources (V ... DC)
++- Transient analysis (.tran)
++
++### Should Work (untested)
++- AC sources (V ... SIN)
++- Current sources (I)
++- Diodes (D)
++- Switches (S)
++- BJT transistors (Q)
++- Basic MOSFET (M with mos1 model)
++- JFET (J)
++- Dependent sources (E, F, G, H)
++
++## Future Optimization (TODO)
++
++### Device Stripping (disabled, needs debugging)
++The `Docker/phet_strip_devices.sh` script can remove ~30 IC/RF device models to further reduce WASM size. Currently disabled due to sed pattern issues with configure.ac.
++
++Target devices to remove:
++- BSIM MOSFET models (bsim1-4, variants)
++- SOI devices
++- HiSIM models
++- Transmission lines
++- Advanced bipolar models
++
++Potential size reduction: 5.7 MB → ~2-3 MB (estimated)
++
++### To Re-enable Device Stripping
++1. Debug sed patterns in `Docker/phet_strip_devices.sh`
++2. Uncomment lines 79-86 in `Docker/run.sh`
++3. Rebuild
++
++## Integration with PhET CCK
++
++The `phet-spice.js` API matches what `EECircuitAdapter.ts` expects:
++- `start()` → `Promise<void>`
++- `setNetList(string)` → `void`
++- `runSim()` → `Promise<Result>`
++- `getError()` → `string[]`
++
++## Files Modified from Upstream
++
++### `Docker/run.sh`
++- Added configure flags for size reduction
++- Changed `-g1` to `-g0 -Os` for smaller output
++- Commented out `inject.mjs` call (not needed with our wrapper)
++- Added (disabled) call to `phet_strip_devices.sh`
++
++### `Docker/Dockerfile`
++- Added `COPY ./phet_strip_devices.sh /`
++
++### New Files
++- `Docker/phet_strip_devices.sh` - Device removal script (disabled)
++- `phet-build/phet-spice.js` - PhET adapter
++- `phet-build/test.html` - Test harness
++- `phet-build/README.md` - This file
++
++## Upstream Repository
++
++Source: https://github.com/eelab-dev/eecircuit-engine
++
++We are not forking; instead using patch scripts applied during Docker build.
