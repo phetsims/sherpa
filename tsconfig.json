@@ -15,6 +15,9 @@
     },
     {
       "path": "./tsconfig-fluent.json"
+    },
+    {
+      "path": "./tsconfig-spice.json"
     }
   ]
 }
