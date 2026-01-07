@@ -467,6 +467,22 @@
     "projectURL": "https://github.com/xavi-/node-properties-parser",
     "notes": "A parser for .properties files written in javascript."
   },
+  "ngspice-emscripten-glue-2025.js": {
+    "text": [
+      "Copyright (c) 2010-2014 Emscripten authors, see AUTHORS file."
+    ],
+    "license": "The MIT License",
+    "projectURL": "https://emscripten.org/",
+    "notes": "Emscripten-generated JavaScript glue code for ngspice WASM, used in Circuit Construction Kit"
+  },
+  "ngspice-wasm-2025.js": {
+    "text": [
+      "Copyright 1985 - 2018, Regents of the University of California and others"
+    ],
+    "license": "BSD",
+    "projectURL": "https://ngspice.sourceforge.io/",
+    "notes": "ngspice circuit simulator compiled to WebAssembly for Circuit Construction Kit. See https://sourceforge.net/p/ngspice/ngspice/ci/pre-master-46/tree/COPYING"
+  },
   "numeric-1.2.6.js": {
     "text": [
       "Copyright (c) 2011 by Sébastien Loisel"
