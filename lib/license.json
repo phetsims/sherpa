@@ -767,13 +767,13 @@
     "projectURL": "http://threejs.org",
     "notes": "For the 3D view (WebGL and Canvas), modified with commenting out startup console.log"
   },
-  "three-r160-addon-outlinepass.js": {
+  "three-r160-addons.js": {
     "text": [
       "Copyright © 2010-2025 three.js authors"
     ],
     "license": "The MIT License",
     "projectURL": "http://threejs.org",
-    "notes": "For adding outline passes to three.js views"
+    "notes": "For adding assorted passes to three.js views, currently used for molecule-polarity"
   },
   "three-subdivide-1.1.3.js": {
     "text": [
