@@ -315,7 +315,7 @@ Full Font Awesome Free license: https://fontawesome.com/license/free.<br>https:/
 
 **three-r104.min.js**<br>Copyright © 2010-2019 three.js authors<br>http://threejs.org<br>License: [The MIT License](licenses/three-r104.min.js.txt)<br>Notes: For the 3D view (WebGL and Canvas), modified with commenting out startup console.log
 
-**three-r160-addon-outlinepass.js**<br>Copyright © 2010-2025 three.js authors<br>http://threejs.org<br>License: [The MIT License](licenses/three-r160-addon-outlinepass.js.txt)<br>Notes: For adding outline passes to three.js views
+**three-r160-addons.js**<br>Copyright © 2010-2025 three.js authors<br>http://threejs.org<br>License: [The MIT License](licenses/three-r160-addons.js.txt)<br>Notes: For adding assorted passes to three.js views, currently used for molecule-polarity
 
 **three-r160.js**<br>Copyright © 2010-2025 three.js authors<br>http://threejs.org<br>License: [The MIT License](licenses/three-r160.js.txt)<br>Notes: For the 3D view (WebGL and Canvas), modified with commenting out startup console.log
 
