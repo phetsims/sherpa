@@ -22,7 +22,7 @@
  *
  * See https://github.com/phetsims/scenery/issues/457 for more information.
  *
- * @author Jonathan Olson <jonathan.olson@colorado.edu>
+ * @author Jonathan Olson (PhET Interactive Simulations)
  * @author Saurabh Totey
  */
 
