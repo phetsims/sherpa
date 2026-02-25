@@ -389,6 +389,16 @@
     "projectURL": "https://github.com/foliojs/linebreak",
     "notes": "Ability to find linebreak opportunities in unicode strings: Unicode Line Breaking Algorithm (UAX #14)"
   },
+  "lit-core-3.3.1": {
+    "text": [
+      "Copyright 2017 Google LLC",
+      "Copyright 2019 Google LLC",
+      "Copyright 2022 Google LLC"
+    ],
+    "license": "BSD-3-Clause",
+    "projectURL": "https://lit.dev/",
+    "notes": "Web components and utilities for rendering HTML from templates."
+  },
   "lodash-4.17.4.js": {
     "text": [
       "Lodash <https://lodash.com/>",
