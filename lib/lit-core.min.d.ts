@@ -12,6 +12,6 @@ type TemplateResult = {
   readonly values: readonly unknown[];
 };
 export function html( strings: TemplateStringsArray, ...values: unknown[] ): TemplateResult;
-export function render( value: TemplateResult, container: HTMLElement | DocumentFragment ): void;
+export function render( value: TemplateResult | null, container: HTMLElement | DocumentFragment ): void;
 export const nothing: symbol;
 export type { TemplateResult };
