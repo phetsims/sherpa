@@ -7,6 +7,14 @@
     "projectURL": "https://github.com/acornjs/acorn",
     "notes": "For quick parsing of JavaScript code (initially used in description project editor)"
   },
+  "axe-4.11.1.min.js": {
+    "text": [
+      "Mozilla Public License, version 2.0"
+    ],
+    "license": "Mozilla Public License, version 2.0",
+    "projectURL": "https://github.com/dequelabs/axe-core",
+    "notes": "Accessibility testing engine. Used by CT, not used in any simulation code."
+  },
   "base64-js-1.2.0.js": {
     "text": [
       "Copyright (c) 2014"
