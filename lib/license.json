@@ -195,7 +195,7 @@
     ],
     "license": "The MIT License",
     "projectURL": "https://github.com/eligrey/FileSaver.js",
-    "notes": "Used for saving screenshot images"
+    "notes": "Used for saving screenshot images. Source modified for https://github.com/phetsims/sherpa/issues/101."
   },
   "flatqueue-1.2.1.js": {
     "text": [
