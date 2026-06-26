@@ -4,6 +4,7 @@ This report enumerates the third-party resources (code, images, sounds, etc) use
 * [Third-party Code License Summary](#third-party-code-license-summary)
 * [Third-party Media](#third-party-media)
 * [Third-party Media License Summary](#third-party-media-license-summary)
+* [PhET Tools](#phet-tools)
 
 This report is for the following simulations: 
 
@@ -381,4 +382,30 @@ The MIT License<br>Mozilla Public License, version 2.0<br>MIT<br>Public Domain<b
 # <a name="third-party-media-license-summary"></a>Third-party Media License Summary:<br>
 Public Domain<br>Unlicensed<br>Public Domain Creative Commons
 
-<!--@formatter:on-->\n
+---
+# <a name="phet-tools"></a>PhET Tools:<br>
+## PhET-iO Studio
+**react** 18.1.0<br>License: The MIT License
+
+**react-dom** 18.1.0<br>License: The MIT License
+
+**pako** 2.0.3<br>License: The MIT License
+
+**lodash** 4.17.4<br>License: The MIT License
+
+## PhET Studio
+**react** ^18.3.1<br>License: The MIT License
+
+**react-dom** ^18.3.1<br>License: The MIT License
+
+**lodash** ^4.17.21<br>License: The MIT License
+
+**react-router** ^6.30.4<br>License: The MIT License
+
+**react-router-dom** ^6.30.4<br>License: The MIT License
+
+**pg** ^8.21.0<br>License: The MIT License
+
+**query-string** ^7.1.3<br>License: The MIT License
+
+<!--@formatter:on-->
